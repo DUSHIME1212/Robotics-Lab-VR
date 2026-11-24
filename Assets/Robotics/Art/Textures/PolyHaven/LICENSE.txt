@@ -1,0 +1,3 @@
+Assets in this folder are from Poly Haven (https://polyhaven.com) and are licensed CC0 (public domain).
+- HDRI: aircraft_workshop_01
+- Textures: hangar_concrete_floor, grey_plaster, metal_plate_02

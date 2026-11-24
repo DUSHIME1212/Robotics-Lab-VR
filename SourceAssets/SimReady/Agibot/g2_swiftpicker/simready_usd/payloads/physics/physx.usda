@@ -1,0 +1,340 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.1.3"
+    }
+    defaultPrim = "g2_swiftpicker"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @./physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "g2_swiftpicker"
+{
+    over "Physics"
+    {
+        over "idx01_body_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 69.327896
+        }
+
+        over "idx02_body_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 69.327896
+        }
+
+        over "idx03_body_joint3" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 69.327896
+        }
+
+        over "idx04_body_joint4" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 69.327896
+        }
+
+        over "idx05_body_joint5" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 69.327896
+        }
+
+        over "idx11_head_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 143.23946
+        }
+
+        over "idx12_head_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 143.23946
+        }
+
+        over "idx13_head_joint3" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 143.23946
+        }
+
+        over "idx111_chassis_lwheel_front_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 233.76678
+        }
+
+        over "idx112_chassis_lwheel_front_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 1197.4818
+        }
+
+        over "idx131_chassis_rwheel_front_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 233.76678
+        }
+
+        over "idx132_chassis_rwheel_front_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 1197.4818
+        }
+
+        over "idx141_chassis_rwheel_rear_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 233.76678
+        }
+
+        over "idx142_chassis_rwheel_rear_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 1197.4818
+        }
+
+        over "idx121_chassis_lwheel_rear_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 233.76678
+        }
+
+        over "idx122_chassis_lwheel_rear_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:maxJointVelocity = 1197.4818
+        }
+
+        over "idx21_arm_l_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 1
+            float physxJoint:maxJointVelocity = 174.75212
+        }
+
+        over "idx22_arm_l_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 1
+            float physxJoint:maxJointVelocity = 174.75212
+        }
+
+        over "idx23_arm_l_joint3" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.5
+            float physxJoint:maxJointVelocity = 215.43213
+        }
+
+        over "idx24_arm_l_joint4" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.5
+            float physxJoint:maxJointVelocity = 215.43213
+        }
+
+        over "idx25_arm_l_joint5" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.5
+            float physxJoint:maxJointVelocity = 191.94086
+        }
+
+        over "idx26_arm_l_joint6" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.2
+            float physxJoint:maxJointVelocity = 191.94086
+        }
+
+        over "idx27_arm_l_joint7" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.2
+            float physxJoint:maxJointVelocity = 191.94086
+        }
+
+        over "idx61_arm_r_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 1
+            float physxJoint:maxJointVelocity = 174.75212
+        }
+
+        over "idx62_arm_r_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 1
+            float physxJoint:maxJointVelocity = 174.75212
+        }
+
+        over "idx63_arm_r_joint3" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.5
+            float physxJoint:maxJointVelocity = 215.43213
+        }
+
+        over "idx64_arm_r_joint4" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.5
+            float physxJoint:maxJointVelocity = 215.43213
+        }
+
+        over "idx65_arm_r_joint5" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.5
+            float physxJoint:maxJointVelocity = 191.94086
+        }
+
+        over "idx66_arm_r_joint6" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.2
+            float physxJoint:maxJointVelocity = 191.94086
+        }
+
+        over "idx67_arm_r_joint7" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.2
+            float physxJoint:maxJointVelocity = 191.94086
+        }
+
+        over "idx31_gripper_l_inner_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx32_gripper_l_outer_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx33_gripper_l_left_support_joint" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx34_gripper_l_inner_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx35_gripper_l_outer_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx36_gripper_l_right_support_joint" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx71_gripper_r_inner_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx72_gripper_r_outer_joint1" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx73_gripper_r_left_support_joint" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx74_gripper_r_inner_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx75_gripper_r_outer_joint2" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+
+        over "idx76_gripper_r_right_support_joint" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+            float physxJoint:jointFriction = 0.01
+            float physxJoint:maxJointVelocity = 114.59156
+        }
+    }
+}
+

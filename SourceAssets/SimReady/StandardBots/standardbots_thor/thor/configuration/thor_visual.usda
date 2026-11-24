@@ -1,0 +1,779 @@
+#usda 1.0
+(
+    """Visual-appearance layer for thor, built by tools/texture_nvidia_asset.py on 2026-09-29.
+Replaces the STL visual meshes NVIDIA's URDF import made with the textured meshes the
+web visualizer renders (../meshes/visual/<link>.usd, converted from its GLBs), each
+rotated into its link frame by the measured rotation, and sets metallic_factor to the
+visualizer's runtime value (0.5; the GLBs leave it unset = glTF 1.0).
+Geometry, collision and physics layers are untouched; removing this layer from
+thor_physics.usd's subLayers restores NVIDIA's plain STL look."""
+    defaultPrim = "thor"
+    subLayers = [
+        @./thor_base.usd@
+    ]
+)
+
+over "visuals"
+{
+    over "base_link"
+    {
+        over "base_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "base_link_textured" (
+            "from base_link.glb (sha256 5e60a221dfc8)"
+            prepend references = @../meshes/visual/base_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Looks"
+            {
+                over "New_Arm_Hard_Anodise_Black__1_004"
+                {
+                    token outputs:surface.connect = </visuals/base_link/base_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_004/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_004"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Aluminum_Rough___1__1_002"
+                {
+                    token outputs:surface.connect = </visuals/base_link/base_link_textured/Looks/Aluminum_Rough___1__1_002/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Rough___1__1_002"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Hard_Rough_Plastic_Grey__1_002"
+                {
+                    token outputs:surface.connect = </visuals/base_link/base_link_textured/Looks/Hard_Rough_Plastic_Grey__1_002/PreviewSurface.outputs:surface>
+
+                    over "Hard_Rough_Plastic_Grey__1_002"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.515023, 0.515023, 0.515023)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "New_Arm_Hard_Anodise_Black__1_005"
+                {
+                    token outputs:surface.connect = </visuals/base_link/base_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_005/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_005"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+            }
+        }
+    }
+
+    over "shoulder_link"
+    {
+        over "shoulder_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "shoulder_link_textured" (
+            "from shoulder_link.glb (sha256 0061c6b5fb60)"
+            prepend references = @../meshes/visual/shoulder_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Looks"
+            {
+                over "New_Arm_Hard_Anodise_Black__1_011"
+                {
+                    token outputs:surface.connect = </visuals/shoulder_link/shoulder_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_011/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_011"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Hard_Rough_Plastic_Orange___1_007"
+                {
+                    token outputs:surface.connect = </visuals/shoulder_link/shoulder_link_textured/Looks/Hard_Rough_Plastic_Orange___1_007/PreviewSurface.outputs:surface>
+
+                    over "Hard_Rough_Plastic_Orange___1_007"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (1, 0.235031, 0.00221455)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Aluminum_Brushed_90___1__1_008"
+                {
+                    token outputs:surface.connect = </visuals/shoulder_link/shoulder_link_textured/Looks/Aluminum_Brushed_90___1__1_008/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Brushed_90___1__1_008"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+            }
+        }
+    }
+
+    over "upper_arm_link"
+    {
+        over "upper_arm_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "upper_arm_link_textured" (
+            "from upper_arm_link.glb (sha256 c37cc333493e)"
+            prepend references = @../meshes/visual/upper_arm_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Looks"
+            {
+                over "New_Arm_Hard_Anodise_Black__1_006"
+                {
+                    token outputs:surface.connect = </visuals/upper_arm_link/upper_arm_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_006/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_006"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Hard_Rough_Plastic_Orange___1_004"
+                {
+                    token outputs:surface.connect = </visuals/upper_arm_link/upper_arm_link_textured/Looks/Hard_Rough_Plastic_Orange___1_004/PreviewSurface.outputs:surface>
+
+                    over "Hard_Rough_Plastic_Orange___1_004"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (1, 0.235031, 0.00221455)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Rubber__1__1___1_003"
+                {
+                    token outputs:surface.connect = </visuals/upper_arm_link/upper_arm_link_textured/Looks/Rubber__1__1___1_003/PreviewSurface.outputs:surface>
+
+                    over "Rubber__1__1___1_003"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0004, 0.0004, 0.0004)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "URDF_THOR_GEN3___J1___upper_arm_link_color_128_128_128_001"
+                {
+                    token outputs:surface.connect = </visuals/upper_arm_link/upper_arm_link_textured/Looks/URDF_THOR_GEN3___J1___upper_arm_link_color_128_128_128_001/PreviewSurface.outputs:surface>
+
+                    over "URDF_THOR_GEN3___J1___upper_arm_link_color_128_128_128_001"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.501961, 0.501961, 0.501961)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Aluminum_Brushed_90___1__1_004"
+                {
+                    token outputs:surface.connect = </visuals/upper_arm_link/upper_arm_link_textured/Looks/Aluminum_Brushed_90___1__1_004/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Brushed_90___1__1_004"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+            }
+        }
+    }
+
+    over "forearm_link"
+    {
+        over "forearm_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "forearm_link_textured" (
+            "from forearm_link.glb (sha256 cce525d8a7ed)"
+            prepend references = @../meshes/visual/forearm_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Looks"
+            {
+                over "New_Arm_Hard_Anodise_Black__1_003"
+                {
+                    token outputs:surface.connect = </visuals/forearm_link/forearm_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_003/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_003"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Hard_Rough_Plastic_Orange___1_003"
+                {
+                    token outputs:surface.connect = </visuals/forearm_link/forearm_link_textured/Looks/Hard_Rough_Plastic_Orange___1_003/PreviewSurface.outputs:surface>
+
+                    over "Hard_Rough_Plastic_Orange___1_003"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (1, 0.235031, 0.00221455)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Rubber__1__1___1_004"
+                {
+                    token outputs:surface.connect = </visuals/forearm_link/forearm_link_textured/Looks/Rubber__1__1___1_004/PreviewSurface.outputs:surface>
+
+                    over "Rubber__1__1___1_004"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0004, 0.0004, 0.0004)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Aluminum_Brushed_90___1__1_003"
+                {
+                    token outputs:surface.connect = </visuals/forearm_link/forearm_link_textured/Looks/Aluminum_Brushed_90___1__1_003/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Brushed_90___1__1_003"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "URDF_THOR_GEN3___J2___forearm_link_color_255_255_255_001"
+                {
+                    token outputs:surface.connect = </visuals/forearm_link/forearm_link_textured/Looks/URDF_THOR_GEN3___J2___forearm_link_color_255_255_255_001/PreviewSurface.outputs:surface>
+
+                    over "URDF_THOR_GEN3___J2___forearm_link_color_255_255_255_001"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (1, 1, 1)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+            }
+        }
+    }
+
+    over "wrist_1_link"
+    {
+        over "wrist_1_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "wrist_1_link_textured" (
+            "from wrist_1_link.glb (sha256 f61d92649e89)"
+            prepend references = @../meshes/visual/wrist_1_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Looks"
+            {
+                over "Rubber__1__1___1_018"
+                {
+                    token outputs:surface.connect = </visuals/wrist_1_link/wrist_1_link_textured/Looks/Rubber__1__1___1_018/PreviewSurface.outputs:surface>
+
+                    over "Rubber__1__1___1_018"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0004, 0.0004, 0.0004)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Hard_Rough_Plastic_Orange___1_021"
+                {
+                    token outputs:surface.connect = </visuals/wrist_1_link/wrist_1_link_textured/Looks/Hard_Rough_Plastic_Orange___1_021/PreviewSurface.outputs:surface>
+
+                    over "Hard_Rough_Plastic_Orange___1_021"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (1, 0.235031, 0.00221455)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "New_Arm_Hard_Anodise_Black__1_035"
+                {
+                    token outputs:surface.connect = </visuals/wrist_1_link/wrist_1_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_035/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_035"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Aluminum_Brushed_90___1__1_023"
+                {
+                    token outputs:surface.connect = </visuals/wrist_1_link/wrist_1_link_textured/Looks/Aluminum_Brushed_90___1__1_023/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Brushed_90___1__1_023"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+            }
+        }
+    }
+
+    over "wrist_2_link"
+    {
+        over "wrist_2_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "wrist_2_link_textured" (
+            "from wrist_2_link.glb (sha256 ab9b5e6647d3)"
+            prepend references = @../meshes/visual/wrist_2_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Looks"
+            {
+                over "Rubber__1__1___1_016"
+                {
+                    token outputs:surface.connect = </visuals/wrist_2_link/wrist_2_link_textured/Looks/Rubber__1__1___1_016/PreviewSurface.outputs:surface>
+
+                    over "Rubber__1__1___1_016"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0004, 0.0004, 0.0004)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Hard_Rough_Plastic_Orange___1_019"
+                {
+                    token outputs:surface.connect = </visuals/wrist_2_link/wrist_2_link_textured/Looks/Hard_Rough_Plastic_Orange___1_019/PreviewSurface.outputs:surface>
+
+                    over "Hard_Rough_Plastic_Orange___1_019"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (1, 0.235031, 0.00221455)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "New_Arm_Hard_Anodise_Black__1_033"
+                {
+                    token outputs:surface.connect = </visuals/wrist_2_link/wrist_2_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_033/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_033"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Aluminum_Brushed_90___1__1_021"
+                {
+                    token outputs:surface.connect = </visuals/wrist_2_link/wrist_2_link_textured/Looks/Aluminum_Brushed_90___1__1_021/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Brushed_90___1__1_021"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+            }
+        }
+    }
+
+    over "wrist_3_link"
+    {
+        over "wrist_3_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "wrist_3_link_textured" (
+            "from wrist_3_link.glb (sha256 86e657b86d4e)"
+            prepend references = @../meshes/visual/wrist_3_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.5, 0.5, 0.5, 0.5)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Looks"
+            {
+                over "Aluminum_Rough___1__1"
+                {
+                    token outputs:surface.connect = </visuals/wrist_3_link/wrist_3_link_textured/Looks/Aluminum_Rough___1__1/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Rough___1__1"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "New_Arm_Hard_Anodise_Black__1_005"
+                {
+                    token outputs:surface.connect = </visuals/wrist_3_link/wrist_3_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_005/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_005"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Hard_Rough_Plastic_White__1"
+                {
+                    token outputs:surface.connect = </visuals/wrist_3_link/wrist_3_link_textured/Looks/Hard_Rough_Plastic_White__1/PreviewSurface.outputs:surface>
+
+                    over "Hard_Rough_Plastic_White__1"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (1, 1, 1)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "New_Arm_Hard_Anodise_Black__1_006"
+                {
+                    token outputs:surface.connect = </visuals/wrist_3_link/wrist_3_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_006/PreviewSurface.outputs:surface>
+
+                    over "New_Arm_Hard_Anodise_Black__1_006"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.0117647, 0.0117647, 0.0117647)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+
+                over "Aluminum_Brushed_90___1__1_005"
+                {
+                    token outputs:surface.connect = </visuals/wrist_3_link/wrist_3_link_textured/Looks/Aluminum_Brushed_90___1__1_005/PreviewSurface.outputs:surface>
+
+                    over "Aluminum_Brushed_90___1__1_005"
+                    {
+                        float inputs:metallic_factor = 0.5
+                    }
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.792157, 0.819608, 0.933333)
+                        float inputs:ior = 1.45
+                        float inputs:metallic = 0.5
+                        float inputs:roughness = 0.5527864
+                        token outputs:surface
+                    }
+                }
+            }
+        }
+    }
+}
+

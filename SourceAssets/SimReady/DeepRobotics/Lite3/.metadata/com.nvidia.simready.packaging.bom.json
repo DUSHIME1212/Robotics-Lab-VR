@@ -1,0 +1,79 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Lite3.usd.png",
+      "size": 505559,
+      "hash": {
+        "sha256-flat-1mb": "36e45ac7fb51e4852d363fbdad71862e6bf1f5d001a7ad65d965a7cdf4bc6fab",
+        "sha256": "e11534ea486da0c43df076f2e413b3d86465c2424309ad5bd6f7a1c3a371ba5b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Lite3.usd_light.png",
+      "size": 413753,
+      "hash": {
+        "sha256-flat-1mb": "d7fcfe05e4a471b41cb72129c1701801c4c2de82ccd7b13a8a56edd4e636b10f",
+        "sha256": "3dbcd823e481cedeaa7c4bd12be936d0558b9b6d111adebc498572e9cf436b4c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Lite3.usd_transparent.png",
+      "size": 280163,
+      "hash": {
+        "sha256-flat-1mb": "75d72a0d48063afbbbb94c67e0b1a7faae3d183e52c9e22d35eb311cd29dd215",
+        "sha256": "eb235753caa906cb38e7f116e8c58a4f1172f2d700ae0675bb2d74ed64fef2a6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Lite3.usd",
+      "size": 30523572,
+      "hash": {
+        "sha256-flat-1mb": "2fe163ce4d022768c8aa52c2986f7a65ac02d55dfbaff64fc36e1de8fc8ff006",
+        "sha256": "fc0ccb253ea6d4a96e0594d1a834d5173a2faff48990a3037ddfb3135c2b51a4",
+        "sha256-first1m": "b26ba97d689d12edbdfa25d829867a4e2a591e750adc434e0b849c2a4a953f97"
+      }
+    },
+    {
+      "relative_path": "simready_usd/SOURCE_LICENSE.txt",
+      "size": 1502,
+      "hash": {
+        "sha256-flat-1mb": "b9676f32a7def4d4c4d9ec4b7ad54197fcbb63bfdd9c28575d0132abaeb0250f",
+        "sha256": "6bc5967b1cfbdb83b0798942a5f11d4e0555ad8de17697bd4d7eaab6e22f9be5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Lite3_base.usd",
+      "size": 5044639,
+      "hash": {
+        "sha256-flat-1mb": "395d4239b6b0a2d4db09e9f9fbb871d82a4211d98a776a93716fcc875354c3ca",
+        "sha256": "d81ce01067fdbb3c160a6e21945aafce6994252e5a44f92639128adc4c18010f",
+        "sha256-first1m": "d5e03ab00c32c8330e37c46107d06da13707f277111b56f1f204e8d37e755826"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Lite3_physics.usd",
+      "size": 7055,
+      "hash": {
+        "sha256-flat-1mb": "2a8a889dd6504342247a4511f9b7ef6bde230c39f524f575a5118ca56d0cd24f",
+        "sha256": "8a5ddbfefbfc6b7440555404151a5e65668a80fe9de3328e762c056269842d72"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Lite3_robot.usd",
+      "size": 2042,
+      "hash": {
+        "sha256-flat-1mb": "950f3abd900d54cbe496505d20850a86b70ec4c493cbb71b846ae640a4f70917",
+        "sha256": "f6184cfbcf736e48d91ae4a0bc436b6e1152d1599ae23875c8a522b86b3cbe52"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Lite3_sensor.usd",
+      "size": 2015,
+      "hash": {
+        "sha256-flat-1mb": "dd5b6b4ca5b52ec1f69507b5efc2667d2cd4266766d838c5602fafb62a01908a",
+        "sha256": "cc38a6fc59d73f564417b9ff883c5176d2b2a47ca9402631bfdd91d0e1b03f75"
+      }
+    }
+  ]
+}

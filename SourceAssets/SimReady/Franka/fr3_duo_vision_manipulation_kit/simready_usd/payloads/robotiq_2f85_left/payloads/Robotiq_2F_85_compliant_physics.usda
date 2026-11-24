@@ -1,0 +1,183 @@
+#usda 1.0
+(
+    defaultPrim = "Robotiq_2F_85"
+    metersPerUnit = 1
+    subLayers = [
+        @./Robotiq_2F_85_physx_common_physics.usda@,
+        @./Robotiq_2F_85_body_mass_physics.usda@,
+        @./Robotiq_2F_85_fingertip_physics.usda@,
+        @./Robotiq_2F_85_kinematics_physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+def Xform "Robotiq_2F_85" (
+    kind = "assembly"
+)
+{
+    over Xform "Robotiq_2F_85" (
+        kind = "assembly"
+    )
+    {
+        over "Joints"
+        {
+            over "left_robotiq_finger_joint" (
+                prepend apiSchemas = ["PhysxJointAPI", "PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0.0002
+                float drive:angular:physics:maxForce = 16.5
+                float drive:angular:physics:stiffness = 0.17
+                float drive:angular:physics:targetPosition = 0
+                float drive:angular:physics:targetVelocity = 0
+            }
+
+            over "left_robotiq_right_outer_knuckle_joint" (
+                delete apiSchemas = ["PhysicsDriveAPI:angular"]
+                prepend apiSchemas = ["PhysxJointAPI", "PhysxMimicJointAPI:rotZ"]
+            )
+            {
+                float drive:angular:physics:damping = 5000
+                float drive:angular:physics:maxForce = 5
+                float drive:angular:physics:stiffness = 0
+                float physxJoint:maxJointVelocity = 10000
+                float physxMimicJoint:rotZ:dampingRatio = 0.01
+                float physxMimicJoint:rotZ:gearing = -1
+                float physxMimicJoint:rotZ:naturalFrequency = 5000
+                rel physxMimicJoint:rotZ:referenceJoint = </Robotiq_2F_85/Robotiq_2F_85/Joints/left_robotiq_finger_joint>
+            }
+
+            over "left_robotiq_right_outer_finger_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+            }
+
+            over "left_robotiq_right_inner_finger_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0.00001
+                float drive:angular:physics:maxForce = 0.5
+                float drive:angular:physics:stiffness = 0.0004
+                float drive:angular:physics:targetPosition = -92
+                uniform bool physics:excludeFromArticulation = 1
+            }
+
+            over "left_robotiq_right_inner_knuckle_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+                uniform bool physics:excludeFromArticulation = 0
+            }
+
+            over "left_robotiq_right_inner_finger_knuckle_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+            }
+
+            over "left_robotiq_left_outer_finger_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+            }
+
+            over "left_robotiq_left_inner_finger_knuckle_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+            }
+
+            over "left_robotiq_left_inner_finger_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0.00001
+                float drive:angular:physics:maxForce = 0.5
+                float drive:angular:physics:stiffness = 0.0004
+                float drive:angular:physics:targetPosition = 92
+                uniform bool physics:excludeFromArticulation = 1
+            }
+
+            over "left_robotiq_left_inner_knuckle_joint" (
+                prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+                uniform bool physics:excludeFromArticulation = 0
+            }
+        }
+
+        over "left_robotiq_base_link" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+            kind = "group"
+        )
+        {
+        }
+
+        over "left_robotiq_left_outer_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+        }
+
+        over "left_robotiq_left_outer_finger" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+            kind = "group"
+        )
+        {
+        }
+
+        over "left_robotiq_left_inner_finger" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+        }
+
+        over "left_robotiq_left_inner_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+        }
+
+        over "left_robotiq_right_outer_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+        }
+
+        over "left_robotiq_right_outer_finger" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+            kind = "group"
+        )
+        {
+        }
+
+        over "left_robotiq_right_inner_finger" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+            kind = "group"
+        )
+        {
+        }
+
+        over "left_robotiq_right_inner_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+            kind = "group"
+        )
+        {
+        }
+    }
+}
+

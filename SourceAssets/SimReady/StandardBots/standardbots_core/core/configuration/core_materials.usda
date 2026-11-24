@@ -1,0 +1,199 @@
+#usda 1.0
+(
+    """UV-free PBR finish for the link-colour materials the URDF importer created. Every
+link now renders with the material assignments baked into its GLB-derived mesh, so
+no visual binds these any more (DefaultMaterial is still what the collision meshes
+and grasp_identifier_01 bind). Kept as the importer made them.
+Neutral dielectric (metallic 0.0, roughness 0.32),
+except material_wrist_3_link_color: its URDF colour is exactly the pack's
+'Aluminum Rough' / 'Aluminum Brushed 90' value (202, 209, 238), so it gets metal
+values - as a dielectric it reads as white plastic."""
+    defaultPrim = "core"
+)
+
+over "core"
+{
+    over "Looks"
+    {
+        over "material_base_link_color"
+        {
+            token outputs:surface.connect = </core/Looks/material_base_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86667, 0.86667, 0.8902)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_forearm_link_color"
+        {
+            token outputs:surface.connect = </core/Looks/material_forearm_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_shoulder_link_color"
+        {
+            token outputs:surface.connect = </core/Looks/material_shoulder_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_upper_arm_link_color"
+        {
+            token outputs:surface.connect = </core/Looks/material_upper_arm_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86667, 0.86667, 0.8902)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_wrist_1_link_color"
+        {
+            token outputs:surface.connect = </core/Looks/material_wrist_1_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_wrist_2_link_color"
+        {
+            token outputs:surface.connect = </core/Looks/material_wrist_2_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_wrist_3_link_color"
+        {
+            token outputs:surface.connect = </core/Looks/material_wrist_3_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 1
+                float inputs:reflection_roughness_constant = 0.4
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.7921569, 0.81960785, 0.93333334)
+                float inputs:metallic = 1
+                float inputs:roughness = 0.4
+                token outputs:surface
+            }
+        }
+
+        over "DefaultMaterial"
+        {
+            token outputs:surface.connect = </core/Looks/DefaultMaterial/PreviewSurface.outputs:surface>
+
+            over "DefaultMaterial"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "DefaultMaterial_0"
+        {
+            token outputs:surface.connect = </core/Looks/DefaultMaterial_0/PreviewSurface.outputs:surface>
+
+            over "DefaultMaterial"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.49803925, 0.49803925, 0.49803925)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+    }
+}
+

@@ -1,0 +1,510 @@
+{
+  "robot": "Agibot_A3_Ultra",
+  "source": "interface.usda",
+  "joints": [
+    {
+      "name": "left_hip_pitch_joint",
+      "type": "revolute",
+      "lower": -144.0,
+      "upper": 168.0,
+      "parent": "root",
+      "childLink": "left_hip_pitch_Link"
+    },
+    {
+      "name": "right_hip_pitch_joint",
+      "type": "revolute",
+      "lower": -144.0,
+      "upper": 168.0,
+      "parent": "root",
+      "childLink": "right_hip_pitch_Link"
+    },
+    {
+      "name": "waist_yaw_joint",
+      "type": "revolute",
+      "lower": -149.99998474121094,
+      "upper": 149.99998474121094,
+      "parent": "root",
+      "childLink": "waist_yaw_Link"
+    },
+    {
+      "name": "left_hip_roll_joint",
+      "type": "revolute",
+      "lower": -30.0,
+      "upper": 84.99999237060547,
+      "parent": "left_hip_pitch_joint",
+      "childLink": "left_hip_roll_Link"
+    },
+    {
+      "name": "left_hip_yaw_joint",
+      "type": "revolute",
+      "lower": -156.0,
+      "upper": 156.0,
+      "parent": "left_hip_roll_joint",
+      "childLink": "left_hip_yaw_Link"
+    },
+    {
+      "name": "left_knee_joint",
+      "type": "revolute",
+      "lower": -6.999999523162842,
+      "upper": 144.99998474121094,
+      "parent": "left_hip_yaw_joint",
+      "childLink": "left_knee_Link"
+    },
+    {
+      "name": "left_ankle_pitch_joint",
+      "type": "revolute",
+      "lower": -51.999996185302734,
+      "upper": 30.0,
+      "parent": "left_knee_joint",
+      "childLink": "left_ankle_pitch_Link"
+    },
+    {
+      "name": "left_ankle_roll_joint",
+      "type": "revolute",
+      "lower": -19.999998092651367,
+      "upper": 19.999998092651367,
+      "parent": "left_ankle_pitch_joint",
+      "childLink": "left_ankle_roll_Link"
+    },
+    {
+      "name": "right_hip_roll_joint",
+      "type": "revolute",
+      "lower": -84.99999237060547,
+      "upper": 30.0,
+      "parent": "right_hip_pitch_joint",
+      "childLink": "right_hip_roll_Link"
+    },
+    {
+      "name": "right_hip_yaw_joint",
+      "type": "revolute",
+      "lower": -156.0,
+      "upper": 156.0,
+      "parent": "right_hip_roll_joint",
+      "childLink": "right_hip_yaw_Link"
+    },
+    {
+      "name": "right_knee_joint",
+      "type": "revolute",
+      "lower": -6.999999523162842,
+      "upper": 144.99998474121094,
+      "parent": "right_hip_yaw_joint",
+      "childLink": "right_knee_Link"
+    },
+    {
+      "name": "right_ankle_pitch_joint",
+      "type": "revolute",
+      "lower": -51.999996185302734,
+      "upper": 30.0,
+      "parent": "right_knee_joint",
+      "childLink": "right_ankle_pitch_Link"
+    },
+    {
+      "name": "right_ankle_roll_joint",
+      "type": "revolute",
+      "lower": -19.999998092651367,
+      "upper": 19.999998092651367,
+      "parent": "right_ankle_pitch_joint",
+      "childLink": "right_ankle_roll_Link"
+    },
+    {
+      "name": "waist_roll_joint",
+      "type": "revolute",
+      "lower": -19.999998092651367,
+      "upper": 19.999998092651367,
+      "parent": "waist_yaw_joint",
+      "childLink": "waist_roll_Link"
+    },
+    {
+      "name": "waist_pitch_joint",
+      "type": "revolute",
+      "lower": -27.999998092651367,
+      "upper": 24.0,
+      "parent": "waist_roll_joint",
+      "childLink": "torso_Link"
+    },
+    {
+      "name": "head_yaw_joint",
+      "type": "revolute",
+      "lower": -60.0,
+      "upper": 60.0,
+      "parent": "waist_pitch_joint",
+      "childLink": "head_yaw_Link"
+    },
+    {
+      "name": "left_shoulder_pitch_joint",
+      "type": "revolute",
+      "lower": -164.99998474121094,
+      "upper": 164.99998474121094,
+      "parent": "waist_pitch_joint",
+      "childLink": "left_shoulder_pitch_Link"
+    },
+    {
+      "name": "right_shoulder_pitch_joint",
+      "type": "revolute",
+      "lower": -164.99998474121094,
+      "upper": 164.99998474121094,
+      "parent": "waist_pitch_joint",
+      "childLink": "right_shoulder_pitch_Link"
+    },
+    {
+      "name": "head_pitch_joint",
+      "type": "revolute",
+      "lower": -24.999998092651367,
+      "upper": 15.0,
+      "parent": "head_yaw_joint",
+      "childLink": "head_pitch_Link"
+    },
+    {
+      "name": "left_shoulder_roll_joint",
+      "type": "revolute",
+      "lower": -4.999999523162842,
+      "upper": 149.99998474121094,
+      "parent": "left_shoulder_pitch_joint",
+      "childLink": "left_shoulder_roll_Link"
+    },
+    {
+      "name": "left_shoulder_yaw_joint",
+      "type": "revolute",
+      "lower": -159.99998474121094,
+      "upper": 159.99998474121094,
+      "parent": "left_shoulder_roll_joint",
+      "childLink": "left_shoulder_yaw_Link"
+    },
+    {
+      "name": "left_elbow_joint",
+      "type": "revolute",
+      "lower": -54.999996185302734,
+      "upper": 99.99999237060547,
+      "parent": "left_shoulder_yaw_joint",
+      "childLink": "left_elbow_Link"
+    },
+    {
+      "name": "left_wrist_roll_joint",
+      "type": "revolute",
+      "lower": -159.99998474121094,
+      "upper": 159.99998474121094,
+      "parent": "left_elbow_joint",
+      "childLink": "left_wrist_roll_Link"
+    },
+    {
+      "name": "left_wrist_pitch_joint",
+      "type": "revolute",
+      "lower": -92.99999237060547,
+      "upper": 92.99999237060547,
+      "parent": "left_wrist_roll_joint",
+      "childLink": "left_wrist_pitch_Link"
+    },
+    {
+      "name": "left_wrist_yaw_joint",
+      "type": "revolute",
+      "lower": -92.99999237060547,
+      "upper": 92.99999237060547,
+      "parent": "left_wrist_pitch_joint",
+      "childLink": "left_wrist_yaw_Link"
+    },
+    {
+      "name": "right_shoulder_roll_joint",
+      "type": "revolute",
+      "lower": -149.99998474121094,
+      "upper": 4.999999523162842,
+      "parent": "right_shoulder_pitch_joint",
+      "childLink": "right_shoulder_roll_Link"
+    },
+    {
+      "name": "right_shoulder_yaw_joint",
+      "type": "revolute",
+      "lower": -159.99998474121094,
+      "upper": 159.99998474121094,
+      "parent": "right_shoulder_roll_joint",
+      "childLink": "right_shoulder_yaw_Link"
+    },
+    {
+      "name": "right_elbow_joint",
+      "type": "revolute",
+      "lower": -54.999996185302734,
+      "upper": 99.99999237060547,
+      "parent": "right_shoulder_yaw_joint",
+      "childLink": "right_elbow_Link"
+    },
+    {
+      "name": "right_wrist_roll_joint",
+      "type": "revolute",
+      "lower": -159.99998474121094,
+      "upper": 159.99998474121094,
+      "parent": "right_elbow_joint",
+      "childLink": "right_wrist_roll_Link"
+    },
+    {
+      "name": "right_wrist_pitch_joint",
+      "type": "revolute",
+      "lower": -92.99999237060547,
+      "upper": 92.99999237060547,
+      "parent": "right_wrist_roll_joint",
+      "childLink": "right_wrist_pitch_Link"
+    },
+    {
+      "name": "right_wrist_yaw_joint",
+      "type": "revolute",
+      "lower": -92.99999237060547,
+      "upper": 92.99999237060547,
+      "parent": "right_wrist_pitch_joint",
+      "childLink": "right_wrist_yaw_Link"
+    },
+    {
+      "name": "R_index_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "R_index_abad_joint",
+      "childLink": "R_index_pip_link"
+    },
+    {
+      "name": "R_index_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "R_index_pip_joint",
+      "childLink": "R_index_dip_link"
+    },
+    {
+      "name": "R_middle_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "root",
+      "childLink": "R_middle_pip_link"
+    },
+    {
+      "name": "R_middle_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "R_middle_pip_joint",
+      "childLink": "R_middle_dip_link"
+    },
+    {
+      "name": "R_index_abad_joint",
+      "type": "revolute",
+      "lower": -9.399999618530273,
+      "upper": 0.0,
+      "parent": "root",
+      "childLink": "R_index_abad_link"
+    },
+    {
+      "name": "R_pinky_abad_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 10.59999942779541,
+      "parent": "root",
+      "childLink": "R_pinky_abad_link"
+    },
+    {
+      "name": "R_ring_abad_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 9.699999809265137,
+      "parent": "root",
+      "childLink": "R_ring_abad_link"
+    },
+    {
+      "name": "R_thumb_roll_joint",
+      "type": "revolute",
+      "lower": -1.6999999284744263,
+      "upper": 64.24999237060547,
+      "parent": "root",
+      "childLink": "R_thumb_roll_link"
+    },
+    {
+      "name": "R_pinky_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "R_pinky_abad_joint",
+      "childLink": "R_pinky_pip_link"
+    },
+    {
+      "name": "R_pinky_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "R_pinky_pip_joint",
+      "childLink": "R_pinky_dip_link"
+    },
+    {
+      "name": "R_ring_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "R_ring_abad_joint",
+      "childLink": "R_ring_pip_link"
+    },
+    {
+      "name": "R_ring_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "R_ring_pip_joint",
+      "childLink": "R_ring_dip_link"
+    },
+    {
+      "name": "R_thumb_mcp_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 48.21999740600586,
+      "parent": "R_thumb_abad_joint",
+      "childLink": "R_thumb_mcp_link"
+    },
+    {
+      "name": "R_thumb_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 65.0,
+      "parent": "R_thumb_mcp_joint",
+      "childLink": "R_thumb_pip_link"
+    },
+    {
+      "name": "R_thumb_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 65.0,
+      "parent": "R_thumb_pip_joint",
+      "childLink": "R_thumb_dip_link"
+    },
+    {
+      "name": "R_thumb_abad_joint",
+      "type": "revolute",
+      "lower": -94.0999984741211,
+      "upper": 2.5999999046325684,
+      "parent": "R_thumb_roll_joint",
+      "childLink": "R_thumb_abad_link"
+    },
+    {
+      "name": "L_index_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "L_index_abad_joint",
+      "childLink": "L_index_pip_link"
+    },
+    {
+      "name": "L_index_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "L_index_pip_joint",
+      "childLink": "L_index_dip_link"
+    },
+    {
+      "name": "L_middle_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "root",
+      "childLink": "L_middle_pip_link"
+    },
+    {
+      "name": "L_middle_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "L_middle_pip_joint",
+      "childLink": "L_middle_dip_link"
+    },
+    {
+      "name": "L_index_abad_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 9.399999618530273,
+      "parent": "root",
+      "childLink": "L_index_abad_link"
+    },
+    {
+      "name": "L_pinky_abad_joint",
+      "type": "revolute",
+      "lower": -10.59999942779541,
+      "upper": 0.0,
+      "parent": "root",
+      "childLink": "L_pinky_abad_link"
+    },
+    {
+      "name": "L_ring_abad_joint",
+      "type": "revolute",
+      "lower": -9.699999809265137,
+      "upper": 0.0,
+      "parent": "root",
+      "childLink": "L_ring_abad_link"
+    },
+    {
+      "name": "L_thumb_roll_joint",
+      "type": "revolute",
+      "lower": -64.24999237060547,
+      "upper": 1.6999999284744263,
+      "parent": "root",
+      "childLink": "L_thumb_roll_link"
+    },
+    {
+      "name": "L_pinky_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "L_pinky_abad_joint",
+      "childLink": "L_pinky_pip_link"
+    },
+    {
+      "name": "L_pinky_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "L_pinky_pip_joint",
+      "childLink": "L_pinky_dip_link"
+    },
+    {
+      "name": "L_ring_pip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 84.99999237060547,
+      "parent": "L_ring_abad_joint",
+      "childLink": "L_ring_pip_link"
+    },
+    {
+      "name": "L_ring_dip_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 100.49999237060547,
+      "parent": "L_ring_pip_joint",
+      "childLink": "L_ring_dip_link"
+    },
+    {
+      "name": "L_thumb_mcp_joint",
+      "type": "revolute",
+      "lower": -48.21999740600586,
+      "upper": 0.0,
+      "parent": "L_thumb_abad_joint",
+      "childLink": "L_thumb_mcp_link"
+    },
+    {
+      "name": "L_thumb_pip_joint",
+      "type": "revolute",
+      "lower": -65.0,
+      "upper": 0.0,
+      "parent": "L_thumb_mcp_joint",
+      "childLink": "L_thumb_pip_link"
+    },
+    {
+      "name": "L_thumb_dip_joint",
+      "type": "revolute",
+      "lower": -65.0,
+      "upper": 0.0,
+      "parent": "L_thumb_pip_joint",
+      "childLink": "L_thumb_dip_link"
+    },
+    {
+      "name": "L_thumb_abad_joint",
+      "type": "revolute",
+      "lower": -2.5999999046325684,
+      "upper": 94.0999984741211,
+      "parent": "L_thumb_roll_joint",
+      "childLink": "L_thumb_abad_link"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+#usda 1.0
+(
+    "Universal Robots UR17g-1300. Kinematic, joint-limit, inertial and structural data derived from Universal Robots' Universal_Robots_ROS2_Description (ur_description), licensed under the BSD 3-Clause License. See LICENSE-BSD-3-Clause.txt."
+    customLayerData = {
+        string license = "BSD-3-Clause"
+        string license_files = "LICENSE-BSD-3-Clause.txt"
+        string license_notice = "Kinematic, joint-limit, inertial and structural data derived from Universal Robots' Universal_Robots_ROS2_Description (ur_description), licensed under the BSD 3-Clause License. See LICENSE-BSD-3-Clause.txt."
+    }
+    defaultPrim = "ur17g_1300"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "ur17g_1300"
+{
+    over "Physics"
+    {
+        over "shoulder_pan_joint" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:velocityLimit = 180
+        }
+
+        over "shoulder_lift_joint" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:velocityLimit = 180
+        }
+
+        over "elbow_joint" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:velocityLimit = 240
+        }
+
+        over "wrist_1_joint" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:velocityLimit = 300
+        }
+
+        over "wrist_2_joint" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:velocityLimit = 300
+        }
+
+        over "wrist_3_joint" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:velocityLimit = 300
+        }
+
+        over "root_joint" (
+            prepend apiSchemas = ["NewtonArticulationRootAPI"]
+        )
+        {
+            bool newton:selfCollisionEnabled = 0
+        }
+    }
+}
+

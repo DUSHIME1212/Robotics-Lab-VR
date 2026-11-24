@@ -1,0 +1,22 @@
+UR17g-1300 SimReady asset - licensing
+=====================================
+
+This package is derived from Universal Robots' robot descriptions
+(https://github.com/UniversalRobots/Universal_Robots_ROS2_Description). Two licences apply,
+by content:
+
+* Visual geometry and appearance - mesh data and materials (simready_usd/payloads/geometries.usd,
+  instances.usda and materials.usda, plus any simready_usd/Textures/) and images rendered
+  from them (simready_usd/.thumbs/) - derive from Universal Robots' meshes, constitutes “Graphical Documentation” 
+  the use of which is subject to and governed by our “Terms and Conditions for use of Graphical Documentation”, 
+  which can be found here: 
+  https://www.universal-robots.com/legal/terms-and-conditions/terms_and_conditions_for_use_of_graphical_documentation.txt. 
+  By accessing, storing, copying, sharing, opening, or otherwise using or disposing of this file, you accept and acknowledge 
+  that you are bound by the “Terms and Conditions for use of Graphical Documentation”.
+
+  (c) 2026 Universal Robots A/S. Use hereof is subject to Universal Robots A/S' Terms and
+  Conditions for Use of Graphical Documentation.
+
+* Everything else - kinematics, joint limits, inertial parameters, joint/articulation structure
+  and the USD composition - derives from the description package's configuration and is
+  licensed under the BSD 3-Clause License: LICENSE-BSD-3-Clause.txt

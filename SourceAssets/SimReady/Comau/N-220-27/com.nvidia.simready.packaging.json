@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.Comau.N220-27.N-220-27.2026.10.20_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "4db134ac74774fbb2b2168277d9ffb4b563391d1168494b6e0b76e863768f47f"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "9ef1cfd677dcba973a6826508829701bde52c2bf3b09ac9cc1bf95e93084f61b"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "b4f15d4a3aa8d0afc5f3215ec0b0f46ffa1bd92ef6060702f081583ffc8c0d5e"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "eddb8384b9a3f1826dc068dbbe8e7883f80c87530cd294339bdf7039a38ee18d"
+  },
+  "package_hash": {
+    "sha256": "e492ddf13b758c19bfbf930208d8fe3847c7f4097b05daab54f68907f59595fe"
+  }
+}

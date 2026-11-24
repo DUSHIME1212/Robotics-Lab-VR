@@ -1,0 +1,96 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary SimReady_Metadata = {
+            dictionary Variants = {
+                dictionary Physics = {
+                    dictionary MuJoCo = {
+                        string activateOption = "Enabled"
+                        string prim = "/fr3_duo"
+                        string variantSetName = "MuJoCo"
+                    }
+                    dictionary Newton = {
+                        string activateOption = "Enabled"
+                        string prim = "/fr3_duo"
+                        string variantSetName = "Newton"
+                    }
+                    dictionary PhysX = {
+                        string activateOption = "Enabled"
+                        string prim = "/fr3_duo"
+                        string variantSetName = "PhysX"
+                    }
+                }
+            }
+            float3 asset_extents = (0.7011223, 1.5001253, 0.70962656)
+            string asset_license = "CC-BY-4.0"
+            string author = "Franka Robotics GmbH"
+            string category = "robotic_arm"
+            double mass = 35.94915819168091
+            string qcode = "Q40687"
+            int rigid_body_count = 17
+        }
+        string asset_name = "fr3_duo"
+        string asset_type = "robot"
+        string creator = "URDF USD Converter v0.1.2"
+        string source_file = "franka_simulation v0.1.0 fr3_duo-isaacsim6.tar.gz (generated from franka_description URDF)"
+        string usd_date_generated = "2026-08-07"
+    }
+    defaultPrim = "fr3_duo"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "fr3_duo" (
+    prepend references = @./payloads/base.usda@
+    variants = {
+        string ControlMode = "position"
+        string MuJoCo = "Disabled"
+        string Newton = "Disabled"
+        string PhysX = "Disabled"
+    }
+    prepend variantSets = ["ControlMode", "PhysX", "Newton", "MuJoCo"]
+)
+{
+    variantSet "ControlMode" = {
+        "effort" {
+
+        }
+        "position" (
+            prepend payload = @./payloads/Physics/position_physics.usda@
+        ) {
+
+        }
+    }
+    variantSet "PhysX" = {
+        "Disabled" {
+
+        }
+        "Enabled" (
+            prepend payload = @./runnables/physics/physx.usda@
+        ) {
+
+        }
+    }
+    variantSet "Newton" = {
+        "Disabled" {
+
+        }
+        "Enabled" (
+            prepend payload = @./runnables/physics/newton.usda@
+        ) {
+
+        }
+    }
+    variantSet "MuJoCo" = {
+        "Disabled" {
+
+        }
+        "Enabled" (
+            prepend payload = @./runnables/physics/mujoco.usda@
+        ) {
+
+        }
+    }
+}
+

@@ -1,0 +1,343 @@
+#usda 1.0
+(
+    defaultPrim = "n_220_27"
+    metersPerUnit = 1
+    subLayers = [
+        @./geometries.usd@
+    ]
+    upAxis = "Z"
+)
+
+def Scope "visuals"
+{
+    token visibility = "invisible"
+
+    def Xform "base_link"
+    {
+        def Xform "base_link" (
+            references = </meshes/base_link>
+        )
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_1"
+    {
+        def Xform "Link1" (
+            references = </meshes/Link1>
+        )
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_2"
+    {
+        def Xform "Link2" (
+            references = </meshes/Link2>
+        )
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_3"
+    {
+        def Xform "Link3" (
+            references = </meshes/Link3>
+        )
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_4"
+    {
+        def Xform "Link4" (
+            references = </meshes/Link4>
+        )
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_5"
+    {
+        def Xform "Link5" (
+            references = </meshes/Link5>
+        )
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_6"
+    {
+        def Xform "Link6" (
+            references = </meshes/Link6>
+        )
+        {
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+}
+
+def Scope "colliders"
+{
+    token visibility = "invisible"
+
+    def Xform "base_link"
+    {
+        def Xform "base_link" (
+            references = </meshes/base_link>
+        )
+        {
+            uniform token purpose = "guide"
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_1"
+    {
+        def Xform "Link1" (
+            references = </meshes/Link1>
+        )
+        {
+            uniform token purpose = "guide"
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_2"
+    {
+        def Xform "Link2" (
+            references = </meshes/Link2>
+        )
+        {
+            uniform token purpose = "guide"
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_3"
+    {
+        def Xform "Link3" (
+            references = </meshes/Link3>
+        )
+        {
+            uniform token purpose = "guide"
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_4"
+    {
+        def Xform "Link4" (
+            references = </meshes/Link4>
+        )
+        {
+            uniform token purpose = "guide"
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_5"
+    {
+        def Xform "Link5" (
+            references = </meshes/Link5>
+        )
+        {
+            uniform token purpose = "guide"
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "link_6"
+    {
+        def Xform "Link6" (
+            references = </meshes/Link6>
+        )
+        {
+            uniform token purpose = "guide"
+            quatd xformOp:orient = (1, 0, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+}
+
+over "meshes"
+{
+    over "base_link"
+    {
+        over "mesh" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </n_220_27/Looks/Finish_Comau_Red__SatinPaint>
+
+            over "Rear_Connector_Hardware" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/S18_Connector_SatinMetal>
+            }
+        }
+    }
+
+    over "Link1"
+    {
+        over "mesh"
+        {
+            over "Comau_Red_001" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Red__SatinPaint>
+            }
+
+            over "Comau_Black_006" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Black_006__Polymer>
+            }
+
+            over "Comau_Black_001" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Black_001__SatinPaint>
+            }
+        }
+    }
+
+    over "Link2"
+    {
+        over "mesh" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </n_220_27/Looks/Finish_Comau_Red__SatinPaint>
+        }
+    }
+
+    over "Link3"
+    {
+        over "mesh"
+        {
+            over "Comau_Red_001" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Red__SatinPaint>
+            }
+
+            over "Material_002" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Black_001__SatinPaint>
+            }
+        }
+    }
+
+    over "Link4"
+    {
+        over "mesh"
+        {
+            over "Comau_Red_001" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Red__SatinPaint>
+            }
+
+            over "Comau_Black_001" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Black_001__Polymer>
+            }
+
+            over "COMAU_Lettering" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/COMAU_Black_Paint>
+            }
+        }
+    }
+
+    over "Link5"
+    {
+        over "mesh"
+        {
+            over "Material_001" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Red__SatinPaint>
+            }
+
+            over "Comau_black" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </n_220_27/Looks/Finish_Comau_Black_001__Polymer>
+            }
+        }
+    }
+
+    over "Link6"
+    {
+        over "mesh" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </n_220_27/Looks/Finish_Comau_Gray__MachinedMetal>
+        }
+    }
+}
+

@@ -1,0 +1,3303 @@
+{
+  "schema_version": "1.0",
+  "asset": "X30",
+  "run_timestamp": "2026-10-23T03:25:05Z",
+  "passed": false,
+  "results": [
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 6.657,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.019,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 126.18,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.161,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 0.00159,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 0.000244,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 90.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.043,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.07,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 129.39,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.121,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 0.001283,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 0.000206,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 90.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "drive_gain_validation",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 131.335,
+      "message": "",
+      "metrics": {
+        "dgv_joints_tested": {
+          "value": 12,
+          "unit": null
+        },
+        "dgv_passive_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_mimic_follower_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 43.944,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 204,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 215.41,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 6.736,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_joints_passed": {
+          "value": 5,
+          "unit": null
+        },
+        "dgv_joints_failed": {
+          "value": 7,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "drive_gain_validation",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.322,
+      "message": "DGV: no actively-driven joints found under /World/AssetRoot/Asset.\n  DOFs discovered:           12\n  Excluded as passive:       12 (no DriveAPI / stiffness <= 0)\n  Excluded as mimic follower:0 (driven by PhysxMimicJointAPI)\n  Drivable after filter:     0\n\nDGV runs a per-joint step input and measures overshoot, settling\ntime, and oscillation count. It needs at least one joint that has\nBOTH (i) UsdPhysicsDriveAPI applied with positive stiffness, and\n(ii) authored joint limits with non-zero range. Without that, the\ncontroller has nothing to drive.\n\nFIX (most common cause: missing PhysicsDriveAPI). On each actuated\nrevolute joint, apply DriveAPI and author stiffness / damping /\nmaxForce. Edit the prim in your USD file:\n\n    def PhysicsRevoluteJoint \"shoulder_pan_joint\" (\n        prepend apiSchemas = [\"PhysicsDriveAPI:angular\"]\n    )\n    {\n        rel physics:body0 = </Base>\n        rel physics:body1 = </ShoulderLink>\n        uniform token physics:axis = \"Z\"\n\n        # Joint limits (REQUIRED -- DGV skips joints with zero range)\n        float physics:lowerLimit = -180.0\n        float physics:upperLimit =  180.0\n\n        # Drive gains. Tune per-joint -- heavier proximal links\n        # need higher stiffness/damping than distal wrists.\n        # Starting envelope (DJ.006): stiffness ~100-10000,\n        # damping ~1-100; the UR10 reference asset uses values\n        # from ~7 (wrist 3) up to ~360000 (shoulder lift).\n        float drive:angular:physics:stiffness = 1000.0\n        float drive:angular:physics:damping   = 50.0\n        float drive:angular:physics:maxForce  = 1000.0\n        float drive:angular:physics:targetPosition = 0.0\n    }\n\nFor PRISMATIC joints use drive:linear:* (same scheme). For mimic\nfollowers leave drive stiffness/damping at 0.0 -- they get their\nposition from the reference joint via PhysxMimicJointAPI and are\nEXPECTED to be excluded from DGV.\n\nREFERENCE:\n  Spec:     nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/drive-joint-value-reasonable.md\n            (DJ.006: stiffness ~100-10000, damping ~1-100 as a\n             starting envelope; heavier links typically need higher\n             stiffness and proportionally higher damping.)\n  Schema:   UsdPhysicsDriveAPI on each actuated joint\n            (drive:angular:* for revolute, drive:linear:* for prismatic)\n  Example:  sample_content/common_assets/robots_general/ur10/simready_isaac_usd/payloads/Physics/physics.usda\n            (per-joint drive:angular:physics:stiffness / :damping /\n             :maxForce authored on each PhysicsRevoluteJoint)",
+      "metrics": {
+        "dgv_joints_tested": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_passive_joints_skipped": {
+          "value": 12,
+          "unit": null
+        },
+        "dgv_mimic_follower_joints_skipped": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "effort_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 213.877,
+      "message": "",
+      "metrics": {
+        "eff_joints_with_candidates": {
+          "value": 12,
+          "unit": null
+        },
+        "eff_joints_skipped_passive": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 54.269,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 288,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 188.43,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 9.963,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_tested": {
+          "value": 12,
+          "unit": null
+        },
+        "eff_joints_passed": {
+          "value": 12,
+          "unit": null
+        },
+        "eff_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "effort_limit",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.366,
+      "message": "EFF: No joints with authored position or effort limits to test under external force.\n  Asset:               /World/AssetRoot/Asset\n  Passive joints excluded:        12\n  Mimic-follower joints excluded: 0\n\nWHAT THE TEST NEEDS: at least one revolute or prismatic joint that has EITHER\n  - finite physics:lowerLimit + physics:upperLimit with (upper - lower) > 1e-6, OR\n  - a finite, positive drive:<linear|angular>:physics:maxForce.\n\nFIX: open each driven joint prim under /World/AssetRoot/Asset and ensure the drive + limits are authored.\nExample -- paste/edit on a revolute joint (values in newtons, radians):\n\n    def PhysicsRevoluteJoint \"joint_1\" (\n        prepend apiSchemas = [\"PhysxJointAPI\", \"PhysicsDriveAPI:angular\", \"PhysicsJointStateAPI:angular\"]\n    )\n    {\n        rel physics:body0 = </link_0>\n        rel physics:body1 = </link_1>\n        uniform token physics:axis = \"Y\"\n\n        # Required for EFF: positive maxForce so the controller can hold against pushes.\n        # Typical revolute arm joints: 50-300 N\u00b7m; base/shoulder larger, wrist smaller.\n        float drive:angular:physics:maxForce = 87.0\n        float drive:angular:physics:stiffness = 1000.0\n        float drive:angular:physics:damping   = 100.0\n\n        # Required for EFF break detection: real motion limits (radians for revolute,\n        # meters for prismatic). EFF flags a 'break' when the joint exceeds these by\n        # more than break_tolerance * range (default 10%).\n        float physics:lowerLimit = -2.8973\n        float physics:upperLimit =  2.8973\n    }\n\nIf every joint is genuinely fixed/passive (e.g., a static fixture), EFF is not\napplicable to this asset -- exclude it from the EFF profile in your test plan.\n\nREFERENCE:\n  Feature:   nv_core/sr_specs/docs/shared/features/FET_022-driven_joints.md\n  Drive:     nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/\n             physics-drive-and-joint-state.md (DJ.001 -- maxForce > 0)\n             drive-joint-value-reasonable.md  (DJ.006 -- stiffness/damping ranges)\n  Joints:    nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_joints/requirements/\n             joint-body-target-exists.md\n  Example:   sample_content/common_assets/robots_general/Franka/FrankaResearch3/\n             simready_isaac_usd/FrankaResearch3.usda\n             (search for: drive:angular:physics:maxForce)",
+      "metrics": {
+        "eff_joints_with_candidates": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_skipped_passive": {
+          "value": 12,
+          "unit": null
+        },
+        "eff_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "full_range_sweep",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 384.461,
+      "message": "",
+      "metrics": {
+        "frs_total_dofs": {
+          "value": 12,
+          "unit": null
+        },
+        "frs_joints_tested": {
+          "value": 12,
+          "unit": null
+        },
+        "frs_passive_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_bbox_baseline_volume": {
+          "value": 0.08159975928491883,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 79.497,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 360,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 220.83,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 12.085,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_joints_passed": {
+          "value": 12,
+          "unit": null
+        },
+        "frs_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "full_range_sweep",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.447,
+      "message": "FRS: No joints have valid position limits; the full-range sweep test cannot run.\n  Total DOF on articulation:      12\n  Passive joints excluded:        12\n\nWHAT THE TEST NEEDS: at least one active (non-passive) revolute or prismatic\njoint that declares finite, distinct position limits with (upper - lower) > 1e-3.\nJoints with missing, infinite, equal, or zero-width limits are silently skipped --\nif EVERY joint is in that state, FRS has nothing to sweep.\n\nFIX: open each driven joint prim under the articulation and author physics:lowerLimit\nand physics:upperLimit (radians for revolute, meters for prismatic). Units must\nmatch the joint type. Example -- paste/edit on a revolute joint:\n\n    def PhysicsRevoluteJoint \"joint_1\" (\n        prepend apiSchemas = [\"PhysxJointAPI\", \"PhysicsDriveAPI:angular\", \"PhysicsJointStateAPI:angular\"]\n    )\n    {\n        rel physics:body0 = </link_0>\n        rel physics:body1 = </link_1>\n        uniform token physics:axis = \"Y\"\n\n        # Required for FRS: finite, distinct limits with (upper - lower) > 1e-3.\n        # Typical revolute arm joints (radians): +/- 2.9 rad (~+/- 165 deg)\n        # Typical prismatic gripper finger (meters): 0.0 .. 0.04\n        float physics:lowerLimit = -2.8973\n        float physics:upperLimit =  2.8973\n\n        # FRS only sweeps joints with a working drive (so the commanded\n        # target actually moves the link). Author drive gains too:\n        float drive:angular:physics:stiffness = 1000.0\n        float drive:angular:physics:damping   = 100.0\n        float drive:angular:physics:maxForce  = 87.0\n        float physxJoint:maxJointVelocity     = 2.6\n    }\n\nIf every joint on this articulation is genuinely passive (e.g., a static fixture\nor a passive mimic-follower chain), FRS is not applicable -- exclude the asset from\nthe FRS profile in your test plan.\n\nREFERENCE:\n  Feature:   nv_core/sr_specs/docs/shared/features/FET_022-driven_joints.md\n  Drive:     nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/\n             physics-drive-and-joint-state.md (DJ.001 -- maxForce > 0)\n             drive-joint-value-reasonable.md  (DJ.006 -- stiffness/damping ranges)\n             physics-joint-max-velocity.md    (DJ.005 -- maxJointVelocity > 0)\n  Joints:    nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_joints/requirements/\n             joint-body-target-exists.md\n  Example:   sample_content/common_assets/robots_general/Franka/FrankaResearch3/\n             simready_isaac_usd/FrankaResearch3.usda\n             (search for: physics:lowerLimit, physics:upperLimit,\n              drive:angular:physics:stiffness)",
+      "metrics": {
+        "frs_total_dofs": {
+          "value": 12,
+          "unit": null
+        },
+        "frs_joints_tested": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_passive_joints_skipped": {
+          "value": 12,
+          "unit": null
+        },
+        "frs_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 68.853,
+      "message": "",
+      "metrics": {
+        "ground_drop_initial_z_min": {
+          "value": 1.1766,
+          "unit": null
+        },
+        "ground_drop_bbox_height": {
+          "value": 0.7844,
+          "unit": null
+        },
+        "ground_drop_effective_fall": {
+          "value": 1.0766,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 21.786,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 100,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 217.86,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 3.53,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "ground_drop_touched": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "ground_drop_stable": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_touch_time": {
+          "value": 0.454,
+          "unit": null
+        },
+        "ground_drop_rest_time": {
+          "value": 6.138,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 69.967,
+      "message": "",
+      "metrics": {
+        "ground_drop_initial_z_min": {
+          "value": 1.1571,
+          "unit": null
+        },
+        "ground_drop_bbox_height": {
+          "value": 0.7861,
+          "unit": null
+        },
+        "ground_drop_effective_fall": {
+          "value": 1.0571,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 12.673,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 60,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 211.21,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.19,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "ground_drop_touched": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "ground_drop_stable": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "ground_drop_touch_time": {
+          "value": 0.517,
+          "unit": null
+        },
+        "ground_drop_rest_time": {
+          "value": 3.433,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "ik_target_reach",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 1.611,
+      "message": "IK Target Reach phase cannot run: no Lula kinematics descriptor matched this asset.\n\n  Found:    asset_path='<home>/nvidia-submission/simready-tools/assets/X30/simready_usd/X30.usd'\n            isaac:robotType='LEGGED'\n  Expected: the asset's path OR its IsaacRobotAPI.isaac:robotType\n            value contains one of the canonical Lula-supported\n            robot keys (case-insensitive substring match):\n              Franka, UR3, UR5, UR10, UR16e, Kinova_Gen3, Cobotta_Pro_900, Cobotta_Pro_1300, Denso_Cobotta, Festo_Cobot, Rethink_Sawyer, Rizon4\n\nFIX (asset-authoring): the Lula IK solver needs a descriptor YAML +\nURDF pair to know your robot's kinematic chain. Two ways to satisfy\nthis test:\n\n  1. RENAME / RETAG to a supported model. If your robot IS one of the\n     supported models above, ensure the asset folder name (or the\n     default prim's isaac:robotType token) contains the canonical\n     key. For example, place the asset under a folder containing\n     'Franka' or set:\n         token isaac:robotType = \"Manipulator\"\n         string isaac:robotName = \"Franka\"\n     on the default prim.\n\n  2. PROVIDE an explicit Lula descriptor. Set the phase config in\n     your test profile:\n         lula_robot_name: \"<canonical-name>\"\n         lula_yaml_path:  \"./abs/path/to/robot_descriptor.yaml\"\n         lula_urdf_path:  \"./abs/path/to/robot.urdf\"\n     The YAML must list the kinematic chain (base_link, cspace,\n     active joints, default_q) per Isaac Sim's Lula descriptor\n     format. See any policy in the policy_map directory cited below\n     for a working template.\n\nREFERENCE:\n  Spec:      nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/isaac_sim/robot_core/requirements/robot-type.md (RC.008)\n             nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/isaac_sim/robot_core/requirements/robot-schema.md (RC.007)\n  Feature:   nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/features/FET_021_ISAAC.md\n  Lula descriptors: Isaac Sim ships YAML+URDF pairs under\n             isaacsim.robot_motion.motion_generation/policies/\n             policy_map.json -- keyed by canonical robot name\n             (Franka, UR3, UR5, UR10, UR16e, Kinova_Gen3,\n              Cobotta_Pro_900, Cobotta_Pro_1300, Denso_Cobotta,\n              Festo_Cobot, Rethink_Sawyer, Rizon4).\n  Example:   Any Franka_*.usd or UR10_*.usd asset under\n             sample_content/common_assets/robots_general/ -- the\n             asset folder name contains the canonical robot key\n             and the default prim sets isaac:robotType=\"Manipulator\".",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "ik_target_reach",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 8.364,
+      "message": "IK Target Reach is not applicable to standalone grippers: their articulation DOFs open and close the fingers but do not provide an arm-like Cartesian workspace for inverse kinematics.",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "jacobian_ik",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 149.419,
+      "message": "JIK: in-reach pass rate 0.00 below minimum 0.40 -- the asset's\narticulation could not reach enough generated targets to pass.\n\nWhat the test found:\n  - 0 / 5 in-reach targets passed.\n  - 0 failed because the DLS solver could not find a joint\n    solution (red sphere in the captured video).\n  - 5 failed because the solver succeeded but the PD drives did\n    not track the precomputed solution to within tolerance\n    (orange sphere).\n  - Worst position error: 2.1992 m (tolerance 0.050 m).\n  - Worst orientation error: 92.34 deg (tolerance 10.00 deg).\n  - End-effector under test: /World/AssetRoot/Asset/Geometry/HR_FOOT.\n  - Failed targets: target_0, target_1, target_2, target_3, target_4.\n\nFIX -- triage in this order:\n\n  1) Open the captured video. Targets coloured RED never had a\n     joint solution. Targets coloured ORANGE had a solution but\n     the robot did not get there -- a drive-tuning problem.\n\n  2) For ORANGE (motion failed) on a `PhysicsRevoluteJoint`,\n     inspect drive stiffness / damping on each joint. Industrial\n     arms typically need:\n\n         def PhysicsRevoluteJoint \"joint_3\" (\n             prepend apiSchemas = [\"PhysicsDriveAPI:angular\"]\n         )\n         {\n             # Example values for a 25 kg-link arm; scale with\n             # link inertia. Stiffness too low -> drift; too\n             # high -> oscillation.\n             float drive:angular:physics:stiffness = 10000.0\n             float drive:angular:physics:damping   = 1000.0\n             float drive:angular:physics:maxForce  = 1000.0\n         }\n\n  3) For RED (solver failed), the Jacobian is singular or the\n     joint limits are too tight. Verify each joint declares\n     non-zero limits:\n\n         float physics:lowerLimit = -180.0\n         float physics:upperLimit =  180.0\n\n     and that the EE link (/World/AssetRoot/Asset/Geometry/HR_FOOT) is the LAST link in the chain --\n     a tip link with no preceding revolute joint cannot be\n     reached by a Jacobian solver.\n\n  4) Asset fix: Tune drive stiffness/damping so each joint can hold its\n     commanded position under JIK's smoothstep motion -- start\n     by doubling stiffness on the joint(s) showing the largest\n     tracking error in the video.\n\n  5) Engine note: JIK uses a damped least-squares Jacobian solver with USD\n     forward kinematics; ensure the asset's joints are exposed\n     in the SingleArticulation's `dof_names`.\n\n  6) TEST-CONFIG escape hatches (use only when the asset is\n     genuinely correct but the defaults are wrong for it):\n     - Reduce `target_radius_factors` (default (0.5, 0.7, 0.9))\n       when the bbox-based reach estimate overshoots the actual\n       workspace (common on non-extended / folded arms).\n     - Loosen `position_tolerance` / `orientation_tolerance_deg`\n       (defaults 0.05 m / 10 deg) when the asset's PD drive has\n       intentional steady-state error.\n     - Increase `max_solver_iterations` (default 50) when DLS\n       convergence is slow on long-armed or heavily damped\n       robots.\n\nREFERENCE:\n  Spec:      nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_joints/requirements/articulation.md\n             nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_joints/requirements/joint-body-target-exists.md\n             nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/hierarchy/requirements/kinematic-chain-hierarchy.md\n  Example:   sample_content/common_assets/robots_general/Franka/Franka.usda\n             (search for: PhysicsArticulationRootAPI, PhysicsRevoluteJoint)",
+      "metrics": {
+        "jik_robot_reach": {
+          "value": 0.6701,
+          "unit": null
+        },
+        "jik_target_radius": {
+          "value": 0.6031,
+          "unit": null
+        },
+        "jik_base_position_x": {
+          "value": 1.286,
+          "unit": null
+        },
+        "jik_base_position_y": {
+          "value": 0.0212,
+          "unit": null
+        },
+        "jik_base_position_z": {
+          "value": 0.1304,
+          "unit": null
+        },
+        "jik_max_observed_reach": {
+          "value": 0.6541,
+          "unit": null
+        },
+        "jik_distinct_reachable_targets": {
+          "value": 5,
+          "unit": null
+        },
+        "jik_bbox_baseline_volume": {
+          "value": 0.081596,
+          "unit": null
+        },
+        "jik_total_iterations": {
+          "value": 310,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 16.396,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 75,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 218.61,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.727,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_targets_generated": {
+          "value": 7,
+          "unit": null
+        },
+        "jik_targets_reached": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_targets_total_passed": {
+          "value": 2,
+          "unit": null
+        },
+        "jik_targets_in_reach": {
+          "value": 5,
+          "unit": null
+        },
+        "jik_targets_out_of_reach": {
+          "value": 2,
+          "unit": null
+        },
+        "jik_in_reach_failed": {
+          "value": 5,
+          "unit": null
+        },
+        "jik_in_reach_passed_green": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_in_reach_solver_failed_red": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_in_reach_motion_failed_orange": {
+          "value": 5,
+          "unit": null
+        },
+        "jik_out_of_reach_correctly_failed_magenta": {
+          "value": 2,
+          "unit": null
+        },
+        "jik_out_of_reach_false_positive_yellow": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_max_position_error_m": {
+          "value": 2.199208,
+          "unit": null
+        },
+        "jik_max_orientation_error_deg": {
+          "value": 92.3398,
+          "unit": null
+        },
+        "jik_pass_rate": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jik_ee_link": {
+          "value": "/World/AssetRoot/Asset/Geometry/HR_FOOT",
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "jacobian_ik",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.251,
+      "message": "JIK is not applicable to standalone grippers: their articulation DOFs open and close the fingers but do not provide an arm-like Cartesian workspace for inverse kinematics.",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 60.788,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 10.384,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 230.76,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.692,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_rot_deg": {
+          "value": 33.518,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_trans_pct": {
+          "value": 49.24,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_bbox_m": {
+          "value": 0.1851,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_rot_deg": {
+          "value": 169.999,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_trans_pct": {
+          "value": 142.0,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_bbox_m": {
+          "value": 0.4378,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_rot_deg": {
+          "value": 128.549,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_trans_pct": {
+          "value": 186.67,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_bbox_m": {
+          "value": 0.478,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_pct_of_travel": {
+          "value": 88.6,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_rot_deg": {
+          "value": 33.519,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_trans_pct": {
+          "value": 49.24,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_bbox_m": {
+          "value": 0.1851,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_rot_deg": {
+          "value": 170.0,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_trans_pct": {
+          "value": 142.0,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_bbox_m": {
+          "value": 0.4378,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_rot_deg": {
+          "value": 128.548,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_trans_pct": {
+          "value": 186.68,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_bbox_m": {
+          "value": 0.478,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_pct_of_travel": {
+          "value": 88.6,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_rot_deg": {
+          "value": 33.519,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_trans_pct": {
+          "value": 40.13,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_bbox_m": {
+          "value": 0.1851,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_rot_deg": {
+          "value": 169.997,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_trans_pct": {
+          "value": 128.19,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_bbox_m": {
+          "value": 0.4378,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_rot_deg": {
+          "value": 128.549,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_trans_pct": {
+          "value": 194.15,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_bbox_m": {
+          "value": 0.478,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_pct_of_travel": {
+          "value": 88.6,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_rot_deg": {
+          "value": 33.52,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_trans_pct": {
+          "value": 40.13,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_bbox_m": {
+          "value": 0.1851,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_rot_deg": {
+          "value": 169.997,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_trans_pct": {
+          "value": 128.19,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_bbox_m": {
+          "value": 0.4378,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_rot_deg": {
+          "value": 128.548,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_trans_pct": {
+          "value": 194.15,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_bbox_m": {
+          "value": 0.478,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_pct_of_travel": {
+          "value": 88.6,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 12,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 12,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 55.409,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 9.45,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 210.0,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.732,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_rot_deg": {
+          "value": 33.006,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_trans_pct": {
+          "value": 53.59,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_bbox_m": {
+          "value": 0.182,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_rot_deg": {
+          "value": 167.4,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_trans_pct": {
+          "value": 144.82,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_bbox_m": {
+          "value": 0.4321,
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_rot_deg": {
+          "value": 153.606,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_trans_pct": {
+          "value": 277.88,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_bbox_m": {
+          "value": 0.4232,
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_rot_deg": {
+          "value": 33.006,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_trans_pct": {
+          "value": 53.59,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_bbox_m": {
+          "value": 0.182,
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_rot_deg": {
+          "value": 167.4,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_trans_pct": {
+          "value": 144.82,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_bbox_m": {
+          "value": 0.4321,
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_rot_deg": {
+          "value": 153.607,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_trans_pct": {
+          "value": 277.88,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_bbox_m": {
+          "value": 0.4232,
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_rot_deg": {
+          "value": 33.006,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_trans_pct": {
+          "value": 50.55,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_bbox_m": {
+          "value": 0.182,
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_rot_deg": {
+          "value": 167.4,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_trans_pct": {
+          "value": 124.2,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_bbox_m": {
+          "value": 0.4321,
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_rot_deg": {
+          "value": 153.605,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_trans_pct": {
+          "value": 154.21,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_bbox_m": {
+          "value": 0.4232,
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_rot_deg": {
+          "value": 33.006,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_trans_pct": {
+          "value": 50.55,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_bbox_m": {
+          "value": 0.182,
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_rot_deg": {
+          "value": 167.4,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_trans_pct": {
+          "value": 124.2,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_bbox_m": {
+          "value": 0.4321,
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_rot_deg": {
+          "value": 153.606,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_trans_pct": {
+          "value": 154.21,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_bbox_m": {
+          "value": 0.4232,
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 12,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 12,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_FL_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FL_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FL_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FR_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FR_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_FR_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HL_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HL_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HL_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HR_HipX_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HR_HipY_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_HR_Knee_joint_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 12.25,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 3.983,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 132.77,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.207,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.62069,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 18,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.738973,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.024065,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 11.826,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 3.933,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 131.11,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.143,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.655172,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 19,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.739356,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.025037,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "mimic_joint",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 1.572,
+      "message": "MIM: no PhysxMimicJointAPI found on any joint under the asset prim.\n\n  Found:    0 joints with PhysxMimicJointAPI applied\n  Expected: at least one revolute or prismatic joint with\n            PhysxMimicJointAPI:<axisToken> applied (rotX/rotY/rotZ\n            or transX/transY/transZ)\n\nFIX (if your asset has coupled joints, e.g. a parallel-jaw gripper\nwhere the two finger joints must move together):\n  1. Pick the driven joint and call it the REFERENCE joint. Leave\n     it with a normal drive (PhysicsDriveAPI or JointStateAPI).\n  2. On each FOLLOWER joint, apply PhysxMimicJointAPI keyed to that\n     joint's physics:axis instance token (e.g. \"rotX\" for a\n     revolute joint with physics:axis = \"X\").\n  3. Set physxMimicJoint:<axis>:gearing (non-zero) and\n     physxMimicJoint:<axis>:referenceJoint pointing at the\n     reference joint's prim path.\n  4. Both follower AND reference joints must have physics:lowerLimit\n     and physics:upperLimit authored, and neither may have\n     physics:excludeFromArticulation = true.\n\nPaste-ready USDA snippet (adapt paths, axis token, gearing sign,\nand limits to your asset):\n\n    # The follower joint: applies PhysxMimicJointAPI keyed to the axis\n    # token of the joint (rotX/rotY/rotZ for revolute, transX/transY/\n    # transZ for prismatic). The instance name MUST match physics:axis.\n    def PhysicsRevoluteJoint \"follower_joint\" (\n        prepend apiSchemas = [\"PhysxMimicJointAPI:rotX\"]\n    )\n    {\n        uniform token physics:axis = \"X\"\n        rel physics:body0 = <./path/to/parent_link>\n        rel physics:body1 = <./path/to/follower_link>\n        float physics:lowerLimit = -45.0   # required: limits must be authored\n        float physics:upperLimit =  45.0\n\n        # ---- PhysxMimicJointAPI:rotX attributes ----\n        # gearing: \u0394q_follower = gearing * \u0394q_reference + offset\n        # Must be a non-zero real number. Sign encodes direction:\n        # -1 = follower moves opposite the reference (typical for\n        # parallel-jaw grippers where one jaw mirrors the other).\n        float physxMimicJoint:rotX:gearing = -1.0\n        float physxMimicJoint:rotX:offset = 0.0\n        float physxMimicJoint:rotX:naturalFrequency = 100.0\n        float physxMimicJoint:rotX:dampingRatio = 0.0\n        # referenceJoint must point at a joint that does NOT itself\n        # carry PhysxMimicJointAPI (no chains/cycles).\n        rel physxMimicJoint:rotX:referenceJoint = <./path/to/reference_joint>\n    }\n\nREFERENCE:\n  Spec:      nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/mimic-api-check.md (DJ.007)\n  Example:   sample_content/common_assets/robots_general/Robotiq/ezu_35/simready_isaac_usd/payloads/Physics/physx.usda\n             (search for: PhysxMimicJointAPI:rotX on GBA2_TRANS_2 / GBA3_TRANS_3 referencing Jaw_Drive with gearing = -1)\n\nNote: this test is SKIPPED (not failed) because mimic joints are\noptional. If your asset truly has no coupled joints, this skip is\nexpected and benign.",
+      "metrics": {
+        "mim_mimic_pairs_detected": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "mimic_joint",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.299,
+      "message": "MIM: no NewtonMimicAPI found on any joint under the asset prim.\n\nThis test is not applicable when the mechanism has no coupled joints. For a Newton follower joint, apply NewtonMimicAPI, set newton:mimicJoint to the reference joint, and author finite newton:mimicCoef0/newton:mimicCoef1 values. The test is skipped, not failed, for an uncoupled articulation.",
+      "metrics": {
+        "mim_mimic_pairs_detected": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "multi_joint_coordination",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 57.969,
+      "message": "",
+      "metrics": {
+        "mjc_total_joints": {
+          "value": 12,
+          "unit": null
+        },
+        "mjc_valid_joints": {
+          "value": 12,
+          "unit": null
+        },
+        "mjc_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 18.481,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 83,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 222.66,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.977,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "mjc_iterations_passed": {
+          "value": 3,
+          "unit": null
+        },
+        "mjc_iterations_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "multi_joint_coordination",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.366,
+      "message": "MJC skipped: asset has only 0/12 joints with finite position limits; MJC needs at least 2.\n\nWHAT THE TEST FOUND:\n  - Articulation DOFs reported by Isaac: 12\n  - DOFs with finite (lower, upper) and upper-lower > 1e-6: 0\n  - Required by MJC: >= 2 (each driven independently to a mid-range\n    target chosen by target_factors x [lower+margin, upper-margin]).\n\nWHY IT MATTERS:\n  MJC validates simultaneous multi-joint convergence under the PD\n  drive controller. A revolute joint authored without limits (or\n  with type='none', or as a continuous joint) has no mid-range\n  target the test can pick, so it cannot participate.\n\nFIX: On every joint you intend MJC to exercise, author finite\nposition limits on the matching axis. For PhysicsRevoluteJoint use\nlowerLimit/upperLimit in DEGREES; for PhysicsPrismaticJoint use\nlowerLimit/upperLimit in the stage's linear unit (typically meters).\nBoth must be finite and upperLimit > lowerLimit.\n\nTEMPLATE -- paste/edit on each joint prim. Pick limits that match\nthe real mechanical travel of the joint; do NOT use +-inf:\n\n    def PhysicsRevoluteJoint \"joint_1\"\n    {\n        uniform token physics:axis = \"Z\"\n        float physics:lowerLimit = -170.0   # degrees\n        float physics:upperLimit =  170.0   # degrees\n        # ... body0 / body1 / localPos0 / localPos1 ...\n    }\n\n    def PhysicsPrismaticJoint \"slider_1\"\n    {\n        uniform token physics:axis = \"X\"\n        float physics:lowerLimit = 0.0      # meters\n        float physics:upperLimit = 0.085    # meters\n        # ... body0 / body1 / localPos0 / localPos1 ...\n    }\n\nCHECKLIST per joint you expect MJC to drive:\n  - physics:axis is set (X / Y / Z).\n  - physics:lowerLimit and physics:upperLimit are BOTH finite.\n  - physics:upperLimit - physics:lowerLimit > 1e-6 (non-degenerate).\n  - Joint is reachable from the articulation root (otherwise Isaac\n    will not expose it as a DOF; see FET_024 for articulation\n    topology requirements).\n\nIf the joint is intentionally free-running (e.g. a passive wheel),\nexclude it from your articulation rather than leaving it limit-less.\n\nREFERENCE:\n  Spec (driven joints):  nv_core/sr_specs/docs/shared/features/FET_022-driven_joints.md\n  Spec (articulation):   nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/features/FET_024-base_articulation.md\n  Example: sample_content/common_assets/robots_general/Robotiq/2F-85/simready_isaac_usd/Robotiq_2F_85.usda\n           (search for: prepend apiSchemas = [\"PhysicsDriveAPI:angular\"])",
+      "metrics": {
+        "mjc_total_joints": {
+          "value": 12,
+          "unit": null
+        },
+        "mjc_valid_joints": {
+          "value": 0,
+          "unit": null
+        },
+        "mjc_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 4.109,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.962,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 120.21,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.54,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.008143,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.017808,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 4.154,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.953,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 119.13,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.52,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.007881,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.016214,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.935,
+      "message": "Pivot/origin check did not meet the recommended score (score=0.20, recommended >=0.70). Reported as SKIPPED, not a failure: the correct pivot location depends on the object type, so a sub-threshold result is advisory and does not fail FET001. The tilt and spin videos are kept below so the pivot can be judged visually.\nPivot is 82.7% from base (should be <10%).\nX-axis tilt causes ground penetration (min_z=-0.687).\n\nHow to fix:\n- Move the asset pivot to the bottom-center of the bounding box.\n- The pivot should be at Z=0 (ground level) and centered in XY.\n- In your DCC tool, set the pivot/origin to the base of the object.\n- Check the X-tilt and Z-spin videos for visual reference.\n\nWhen this can be ignored: this check validates ground-placeable\nprops. If your object is a rotating/hinged type (e.g., door, robot\njoint), the pivot should be at the rotation center -- not the base;\nthose are validated under FET021/FET022. Attached objects (cameras,\nwheels) should have their pivot at the attachment point.\n\nINTERIM: pivot/origin (VG.025) is treated as advisory and does not\nfail the feature, pending spec clarification on whether VG.025 is a\nmandatory or optional requirement (refer to docs/spec-clarifications-needed.md).",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.804,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 140.22,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.271,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.2,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 82.7,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 8.443,
+      "message": "Pivot/origin check did not meet the recommended score (score=0.20, recommended >=0.70). Reported as SKIPPED, not a failure: the correct pivot location depends on the object type, so a sub-threshold result is advisory and does not fail FET001. The tilt and spin videos are kept below so the pivot can be judged visually.\nPivot is 82.7% from base (should be <10%).\nX-axis tilt causes ground penetration (min_z=-0.687).\n\nHow to fix:\n- Move the asset pivot to the bottom-center of the bounding box.\n- The pivot should be at Z=0 (ground level) and centered in XY.\n- In your DCC tool, set the pivot/origin to the base of the object.\n- Check the X-tilt and Z-spin videos for visual reference.\n\nWhen this can be ignored: this check validates ground-placeable\nprops. If your object is a rotating/hinged type (e.g., door, robot\njoint), the pivot should be at the rotation center -- not the base;\nthose are validated under FET021/FET022. Attached objects (cameras,\nwheels) should have their pivot at the attachment point.\n\nINTERIM: pivot/origin (VG.025) is treated as advisory and does not\nfail the feature, pending spec clarification on whether VG.025 is a\nmandatory or optional requirement (refer to docs/spec-clarifications-needed.md).",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.68,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 133.98,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.252,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.2,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 82.7,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.454,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.215,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 107.59,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.137934,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.73,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.228,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 113.81,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.137938,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 3.868,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.876,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 219.09,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 9,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 9,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 139584,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 4.112,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.905,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 226.3,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 9,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 9,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 139574,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 35.937,
+      "message": "",
+      "metrics": {
+        "slope_drop_initial_cx": {
+          "value": 0.0,
+          "unit": null
+        },
+        "slope_drop_initial_cy": {
+          "value": -3.88,
+          "unit": null
+        },
+        "slope_drop_initial_z_min": {
+          "value": 10.6697,
+          "unit": null
+        },
+        "slope_drop_bbox_height": {
+          "value": 0.7844,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 9.959,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 53,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 187.91,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.114,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_contact_detected": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_horiz_detected": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_slope_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_excessive_separation": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_uphill_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_max_clearance": {
+          "value": 0.014,
+          "unit": "m"
+        },
+        "slope_drop_separation_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_left_slope_frame": {
+          "value": 677,
+          "unit": null
+        },
+        "slope_drop_horiz_time": {
+          "value": 0.529,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 40.182,
+      "message": "Slope drop FAILED: The asset remained too far from the ramp after contact for 24 consecutive frame(s); peak clearance 0.3401m at frame 457. Review collision contact gaps, restitution, and the video for an upward launch.",
+      "metrics": {
+        "slope_drop_initial_cx": {
+          "value": 0.0006,
+          "unit": null
+        },
+        "slope_drop_initial_cy": {
+          "value": -3.88,
+          "unit": null
+        },
+        "slope_drop_initial_z_min": {
+          "value": 10.6502,
+          "unit": null
+        },
+        "slope_drop_bbox_height": {
+          "value": 0.7861,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 5.912,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 29,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 203.88,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.259,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_contact_detected": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_horiz_detected": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_slope_penetrated": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_excessive_separation": {
+          "value": 1,
+          "unit": null
+        },
+        "slope_drop_uphill_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_passed": {
+          "value": 0,
+          "unit": null
+        },
+        "slope_drop_max_clearance": {
+          "value": 0.3401,
+          "unit": "m"
+        },
+        "slope_drop_separation_frames": {
+          "value": 24,
+          "unit": null
+        },
+        "slope_drop_separation_frame": {
+          "value": 457,
+          "unit": null
+        },
+        "slope_drop_horiz_time": {
+          "value": 0.567,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "state_accuracy",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 157.162,
+      "message": "STA: 4/12 joints failed state accuracy.\n\nFAILING JOINTS: FL_Knee_joint, FR_Knee_joint, HL_Knee_joint, HR_Knee_joint\n\nWHAT WE FOUND:\n  At least one joint could not hold its commanded position within\n  the tolerance during the 5-waypoint test. Per-joint detail (max\n  position error in degrees, failed targets) is in the warnings\n  above and recorded as `sta_max_position_error_deg` in\n  result.json.\n\nFIX (in priority order):\n  1. Raise drive stiffness/damping on the failing joint(s). On\n     each joint prim, edit:\n         float drive:angular:physics:stiffness = <larger value>\n         float drive:angular:physics:damping   = <larger value>\n     For ARM/SCARA robots FET022 disables robot gravity per-body\n     during STA, so the drive only needs to overcome link inertia;\n     a few hundred N-m/rad is usually enough. If you see large\n     steady-state errors specifically on horizontal-axis joints,\n     the per-body gravity disable may have failed -- check the\n     `articulation.disable_gravity()` and `per-body\n     disable_gravity` events from RobotHandle.initialize in the\n     log.\n  2. If the joint oscillates instead of settling, raise damping\n     by 2-5x before raising stiffness further.\n  3. Verify authored position limits include the test waypoints.\n     The test commands joints to small +/-step targets around 0\n     by default; if 0 is outside your authored range, the test\n     cannot reach it. Edit `physics:lowerLimit` /\n     `physics:upperLimit` on the joint prim.\n  4. Inspect downstream mass. A heavy distal link causes upstream\n     joints to undershoot under default gains. Re-check\n     `physxRigidBody:mass` and `physxRigidBody:diagonalInertia`\n     on each downstream link.\n  5. Increase `test_duration_seconds` (default 3.0) only if the\n     joint is slow but does reach the target eventually.\n  6. Loosen `position_tolerance_deg` (default 5.0) only when\n     intentional steady-state error is acceptable for the asset.\n\nREFERENCE:\n  Spec:      nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/\n               drive-joint-value-reasonable.md\n               physics-drive-and-joint-state.md\n               joint-has-joint-state-api.md\n  Example:   sample_content/common_assets/robots_general/ur10/simready_isaac_usd/payloads/Physics/physx.usda\n             (search for: drive:angular:physics:stiffness)",
+      "metrics": {
+        "sta_joints_with_limits": {
+          "value": 12,
+          "unit": null
+        },
+        "sta_joints_skipped_passive": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_skipped_loop": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 62.817,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 315,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 199.42,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 9.56,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_tested": {
+          "value": 12,
+          "unit": null
+        },
+        "sta_joints_passed": {
+          "value": 8,
+          "unit": null
+        },
+        "sta_joints_failed": {
+          "value": 4,
+          "unit": null
+        },
+        "sta_max_position_error_deg": {
+          "value": 19.996229153763995,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "state_accuracy",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.307,
+      "message": "STA cannot run: no testable joints after filtering.\n\nWHAT WE FOUND:\n  - passive joints (no UsdPhysics:DriveAPI authored): 12\n      FL_HipX_joint, FL_HipY_joint, FL_Knee_joint, FR_HipX_joint, FR_HipY_joint, FR_Knee_joint, HL_HipX_joint, HL_HipY_joint, HL_Knee_joint, HR_HipX_joint, HR_HipY_joint, HR_Knee_joint\n  - mimic-follower joints (PhysxMimicJointAPI -> reference): 0\n      (none)\n  - articulated joints with finite, non-degenerate limits and a\n    drive authored: 0\n\nWHAT WE EXPECTED:\n  At least one revolute or prismatic joint with:\n    1. finite lower/upper position limits where |hi - lo| >= 0.01 rad,\n    2. UsdPhysics:DriveAPI applied (angular for revolute,\n       linear for prismatic), and\n    3. no PhysxMimicJointAPI making it a follower of another joint.\n\nFIX: Apply DriveAPI on the joint(s) that should be actuated, with\nnon-zero stiffness and a reasonable target (typically 0 rad at\nrest pose). On the joint prim in your USD, paste:\n\n    over \"<joint_prim_name>\" (\n        prepend apiSchemas = [\"PhysicsDriveAPI:angular\",\n                              \"PhysicsJointStateAPI:angular\"]\n    )\n    {\n        # Position-control drive. Stiffness in N-m/rad for angular,\n        # N/m for linear. UR10 uses ~5,729,578 (1e8 deg/rad-ish);\n        # most arms want 1e4 to 1e6 N-m/rad.\n        float drive:angular:physics:stiffness = 100000.0\n        float drive:angular:physics:damping   = 10000.0\n        float drive:angular:physics:maxForce  = inf\n        float drive:angular:physics:targetPosition = 0.0\n\n        # Position limits in RADIANS for revolute, METERS for\n        # prismatic. Must be finite and span the test waypoints\n        # (default test commands +/-15 deg around 0).\n        float physics:lowerLimit = -3.14159\n        float physics:upperLimit =  3.14159\n\n        # JointStateAPI -- required for STA to read back the\n        # commanded position during the test.\n        float state:angular:physics:position = 0.0\n        float state:angular:physics:velocity = 0.0\n    }\n\nIf a joint is INTENTIONALLY passive (e.g. a free-spinning caster),\ntag it with `simready:joint:passive = true` so STA skips it without\ncounting it against the asset. If the asset is a pure-mimic\ngripper (every DOF is a follower), STA does not apply -- mark the\nreference joint with DriveAPI as above and let the followers be\ndriven by mimic.\n\nREFERENCE:\n  Spec:      nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/\n               drive-joint-value-reasonable.md\n               physics-drive-and-joint-state.md\n               joint-has-joint-state-api.md\n  Example:   sample_content/common_assets/robots_general/ur10/simready_isaac_usd/payloads/Physics/physx.usda\n             (search for: drive:angular:physics:stiffness)",
+      "metrics": {
+        "sta_joints_with_limits": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_skipped_passive": {
+          "value": 12,
+          "unit": null
+        },
+        "sta_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_skipped_loop": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "velocity_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 33.93,
+      "message": "",
+      "metrics": {
+        "vel_joints_with_limits": {
+          "value": 12,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 11.297,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 53,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 213.15,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.046,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "vel_joints_passed": {
+          "value": 12,
+          "unit": null
+        },
+        "vel_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<home>/nvidia-submission/simready-tools/.venv-isaac/lib/python3.12/site-packages/isaacsim/extscache/omni.kit.widget.viewport-110.0.0+00c488ae/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "velocity_limit",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 7.273,
+      "message": "VEL: No joints carry an authored velocity limit; the velocity-limit test cannot run.\n\nWhat the test looked for (EITHER authoring form is accepted):\n  - `physxJoint:maxJointVelocity` on a PhysxJointAPI, OR\n  - `physxDrivePerformanceEnvelope:angular:maxActuatorVelocity`\n    (or `:linear:`) on a PhysxDrivePerformanceEnvelopeAPI,\n  set to a positive finite value on each driven (revolute /\n  prismatic) joint.\n  - At least one such joint that is NOT a passive or mimic-\n    follower joint (those are excluded -- their velocity is not\n    independently commandable).\n\n  UNITS: USD authors these in DEGREES/second for revolute joints\n  and distance/second for prismatic joints. (PhysX consumes\n  radians/second internally; the test converts deg->rad for you.)\n\nWhat was found:\n  - No joint carried either authored velocity limit, or every\n    joint that did is passive / mimic-followed.\n\nFIX: On every driven revolute/prismatic joint, author a positive\nfinite velocity limit matching the mechanism's datasheet rated\nspeed, in DEGREES/second (revolute) or distance/second\n(prismatic).\n\nPaste-ready USDA -- adjust the value to your joint's datasheet:\n\n    def PhysicsRevoluteJoint \"shoulder_pan_joint\" (\n        prepend apiSchemas = [\"PhysicsDriveAPI:angular\",\n                              \"PhysxJointAPI\"]\n    )\n    {\n        rel physics:body0 = </base_link>\n        rel physics:body1 = </shoulder_link>\n        uniform token physics:axis = \"Z\"\n        # Rated max speed in DEGREES/s (UR10 shoulder = 120 deg/s\n        # = ~2.09 rad/s).\n        float physxJoint:maxJointVelocity = 120\n    }\n\n    def PhysicsPrismaticJoint \"slide_joint\" (\n        prepend apiSchemas = [\"PhysicsDriveAPI:linear\",\n                              \"PhysxJointAPI\"]\n    )\n    {\n        rel physics:body0 = </base_link>\n        rel physics:body1 = </slide_link>\n        uniform token physics:axis = \"X\"\n        # Rated max speed, distance/s.\n        float physxJoint:maxJointVelocity = 1.0\n    }\n\nNotes:\n  - The same limit can also (or instead) be authored on the\n    actuator side as\n    `physxDrivePerformanceEnvelope:angular:maxActuatorVelocity`\n    (or `:linear:`), also in DEGREES/second for revolute; the\n    test takes the MIN of the two when both are present, so\n    author both consistently.\n  - If every joint in the articulation is passive or a mimic\n    follower, this phase has nothing to test -- add a velocity\n    limit on the master joint that drives the followers.\n\nREFERENCE:\n  Spec:    nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/physics-joint-max-velocity.md\n           (DJ.005 -- physxJoint:maxJointVelocity > 0 required on\n            every revolute/prismatic PhysX driven joint)\n  Example: sample_content/common_assets/robots_general/ur10/simready_isaac_usd/payloads/Physics/physx.usda\n           (search for: float physxJoint:maxJointVelocity = 120)",
+      "metrics": {
+        "vel_joints_skipped_passive": {
+          "value": 12,
+          "unit": null
+        },
+        "vel_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "vel_joints_skipped_loop": {
+          "value": 0,
+          "unit": null
+        },
+        "vel_joints_with_limits": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    }
+  ]
+}

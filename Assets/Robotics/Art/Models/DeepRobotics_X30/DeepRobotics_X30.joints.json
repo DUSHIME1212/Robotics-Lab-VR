@@ -1,0 +1,102 @@
+{
+  "robot": "DeepRobotics_X30",
+  "source": "X30.usd",
+  "joints": [
+    {
+      "name": "FL_HipX_joint",
+      "type": "revolute",
+      "lower": -18.50653648376465,
+      "upper": 33.51803207397461,
+      "parent": "root",
+      "childLink": "FL_HIP"
+    },
+    {
+      "name": "FL_HipY_joint",
+      "type": "revolute",
+      "lower": -169.99658203125,
+      "upper": 15.011494636535645,
+      "parent": "FL_HipX_joint",
+      "childLink": "FL_THIGH"
+    },
+    {
+      "name": "FL_Knee_joint",
+      "type": "revolute",
+      "lower": 19.996227264404297,
+      "upper": 145.015625,
+      "parent": "FL_HipY_joint",
+      "childLink": "FL_SHANK"
+    },
+    {
+      "name": "FR_HipX_joint",
+      "type": "revolute",
+      "lower": -33.51803207397461,
+      "upper": 18.50653648376465,
+      "parent": "root",
+      "childLink": "FR_HIP"
+    },
+    {
+      "name": "FR_HipY_joint",
+      "type": "revolute",
+      "lower": -169.99658203125,
+      "upper": 15.011494636535645,
+      "parent": "FR_HipX_joint",
+      "childLink": "FR_THIGH"
+    },
+    {
+      "name": "FR_Knee_joint",
+      "type": "revolute",
+      "lower": 19.996227264404297,
+      "upper": 145.015625,
+      "parent": "FR_HipY_joint",
+      "childLink": "FR_SHANK"
+    },
+    {
+      "name": "HL_HipX_joint",
+      "type": "revolute",
+      "lower": -18.50653648376465,
+      "upper": 33.51803207397461,
+      "parent": "root",
+      "childLink": "HL_HIP"
+    },
+    {
+      "name": "HL_HipY_joint",
+      "type": "revolute",
+      "lower": -169.99658203125,
+      "upper": 15.011494636535645,
+      "parent": "HL_HipX_joint",
+      "childLink": "HL_THIGH"
+    },
+    {
+      "name": "HL_Knee_joint",
+      "type": "revolute",
+      "lower": 19.996227264404297,
+      "upper": 145.015625,
+      "parent": "HL_HipY_joint",
+      "childLink": "HL_SHANK"
+    },
+    {
+      "name": "HR_HipX_joint",
+      "type": "revolute",
+      "lower": -33.51803207397461,
+      "upper": 18.50653648376465,
+      "parent": "root",
+      "childLink": "HR_HIP"
+    },
+    {
+      "name": "HR_HipY_joint",
+      "type": "revolute",
+      "lower": -169.99658203125,
+      "upper": 15.011494636535645,
+      "parent": "HR_HipX_joint",
+      "childLink": "HR_THIGH"
+    },
+    {
+      "name": "HR_Knee_joint",
+      "type": "revolute",
+      "lower": 19.996227264404297,
+      "upper": 145.015625,
+      "parent": "HR_HipY_joint",
+      "childLink": "HR_SHANK"
+    }
+  ]
+}

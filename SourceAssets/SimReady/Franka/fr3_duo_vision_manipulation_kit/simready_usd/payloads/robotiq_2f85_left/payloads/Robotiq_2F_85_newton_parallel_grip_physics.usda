@@ -1,0 +1,82 @@
+#usda 1.0
+(
+    defaultPrim = "Robotiq_2F_85"
+    doc = """Newton (MuJoCo-Warp) parallel-grip physics for the Robotiq 2F-85.
+
+Thin overlay on the shared Newton finger linkage (./Robotiq_2F_85_newton_fourbar_physics.usda:
+loop_closure spherical equalities, inner_finger pad springs, right_outer_knuckle NewtonMimic,
+finger_joint drive, Mjc tuning) over the shared Newton-pure
+bodies/colliders (./Robotiq_2F_85_newton_common_physics.usda) and the neutral joint frames
+(./Robotiq_2F_85_kinematics_physics.usda).
+
+This variant's ONLY delta is removing the five-bar's distal coupler DOF, which leaves a
+four-bar forced PARALLEL instead of encompassing:
+  * left/right_outer_finger_joint are SUPPRESSED (active=false), and
+  * outer_finger is rigidly WELDED to outer_knuckle (FixedJoint).
+
+outer_finger stays in the articulation (the inner_finger pad joint hangs off it); locking its DOF constrains the four-bar to parallel motion. This closed-loop
+formulation is rigid (no oscillation), unlike an open tree coupled by independent mimic
+constraints. VERIFIED live in Isaac+Newton (standalone and full UR5e teleop): drives 0..0.80
+rad and back, settling with zero joint velocity (rigid) at every commanded position.
+
+RV.011: shared Newton+MuJoCo tuning (same as newton_compliant, from the newton_fourbar layer) --
+the mjc:* params tune the MuJoCo-Warp (Newton) solver; no Physx* runtime data here."""
+    metersPerUnit = 1
+    subLayers = [
+        @./Robotiq_2F_85_newton_fourbar_physics.usda@,
+        @./Robotiq_2F_85_newton_common_physics.usda@,
+        @./Robotiq_2F_85_body_mass_physics.usda@,
+        @./Robotiq_2F_85_fingertip_physics.usda@,
+        @./Robotiq_2F_85_kinematics_physics.usda@,
+        @./base.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "Robotiq_2F_85"
+{
+    over "Robotiq_2F_85"
+    {
+        over "Joints"
+        {
+            over "left_robotiq_left_outer_finger_joint" (
+                active = false
+            )
+            {
+            }
+
+            over "left_robotiq_right_outer_finger_joint" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "left_robotiq_left_outer_finger"
+        {
+            def PhysicsFixedJoint "left_robotiq_left_outer_finger_fixed_joint"
+            {
+                rel physics:body0 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>
+                rel physics:body1 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_left_outer_finger>
+                point3f physics:localPos0 = (0, 0, 0)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (1, 0, 0, 0)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+        }
+
+        over "left_robotiq_right_outer_finger"
+        {
+            def PhysicsFixedJoint "left_robotiq_right_outer_finger_fixed_joint"
+            {
+                rel physics:body0 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>
+                rel physics:body1 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_right_outer_finger>
+                point3f physics:localPos0 = (0, 0, 0)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (1, 0, 0, 0)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+        }
+    }
+}
+

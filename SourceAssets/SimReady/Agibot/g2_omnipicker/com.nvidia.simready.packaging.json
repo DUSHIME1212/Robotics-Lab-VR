@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.agibot-assets.simready-assets.g2_omnipicker.2026.10.15_00",
+  "license": "Apache-2.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "e4656507c32284375b377b4920e8c4a8c907b6d1b7dfa51cb37f127acd2fab71"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "1e104376ac1c06390958285fd81d55e868f27ca7daec4a1c262559069ac97ae2"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "3e2dada1a7de86aa2cc814c05e2859499eafa72239118ae5344bf45a0d9acb1f"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "17036c66e24f8b54d3ab9282a3e75f5c373fff7c812bfc52fc3c76b7ceb76969"
+  },
+  "package_hash": {
+    "sha256": "5d2669e6e1e14441934204fd6fbf103546c59b363e87a799db739ed7cc4f393a"
+  }
+}

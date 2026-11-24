@@ -1,0 +1,197 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    upAxis = "Z"
+)
+
+def Scope "Instances"
+{
+    def Xform "torso" (
+        prepend references = @./geometries.usd@</Geometries/torso>
+    )
+    {
+        over "torso"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/torso/VisualMaterials/white>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/torso/VisualMaterials/black>
+            }
+
+            over "GeomSubset_003" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/torso/VisualMaterials/lidar_blue>
+            }
+
+            over "GeomSubset_004" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/torso/VisualMaterials/blue>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "white" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/white>
+            )
+            {
+            }
+
+            def Material "black" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/black>
+            )
+            {
+            }
+
+            def Material "lidar_blue" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/lidar_blue>
+            )
+            {
+            }
+
+            def Material "blue" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/blue>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "hip" (
+        prepend references = @./geometries.usd@</Geometries/hip>
+    )
+    {
+        over "hip" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/hip/VisualMaterials/white_1>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "white_1" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/white>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "thigh" (
+        prepend references = @./geometries.usd@</Geometries/thigh>
+    )
+    {
+        over "thigh"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/thigh/VisualMaterials/white_2>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/thigh/VisualMaterials/blue_1>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "white_2" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/white>
+            )
+            {
+            }
+
+            def Material "blue_1" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/blue>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "shank" (
+        prepend references = @./geometries.usd@</Geometries/shank>
+    )
+    {
+        over "shank"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/shank/VisualMaterials/silver>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/shank/VisualMaterials/rubber>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "silver" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/silver>
+            )
+            {
+            }
+
+            def Material "rubber" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/blue>
+            )
+            {
+            }
+        }
+    }
+}
+

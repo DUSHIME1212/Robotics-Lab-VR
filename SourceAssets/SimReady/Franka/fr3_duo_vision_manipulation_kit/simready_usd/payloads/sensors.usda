@@ -1,0 +1,386 @@
+#usda 1.0
+(
+    defaultPrim = "fr3_duo_vision_manipulation_kit"
+    doc = """Sensors of fr3_duo_vision_manipulation_kit.usda: cameras, lidars and IMU as native Isaac Sim sensor prims,
+with one render product each. Poses and camera intrinsics come from Franka's sensor
+profile 'franka_vision_and_manipulation_kit' (synthetic_simulation calibration).
+"""
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "fr3_duo_vision_manipulation_kit"
+{
+    over "Geometry"
+    {
+        over "base"
+        {
+            over "fr3_duo_mount_mounting_point"
+            {
+                over "fr3_duo_mount_origin"
+                {
+                    over "fr3_duo_mount_left"
+                    {
+                        over "left_base"
+                        {
+                            over "left_fr3v2_1_link0"
+                            {
+                                over "left_fr3v2_1_link1"
+                                {
+                                    over "left_fr3v2_1_link2"
+                                    {
+                                        over "left_fr3v2_1_link3"
+                                        {
+                                            over "left_fr3v2_1_link4"
+                                            {
+                                                over "left_fr3v2_1_link5"
+                                                {
+                                                    over "left_fr3v2_1_link6"
+                                                    {
+                                                        over "left_fr3v2_1_link7"
+                                                        {
+                                                            over "left_fr3v2_1_link8"
+                                                            {
+                                                                over "left_ur_to_robotiq_link"
+                                                                {
+                                                                    over "left_gripper_mount_link"
+                                                                    {
+                                                                        over "left_robotiq_85_base_link"
+                                                                        {
+                                                                            over "left__wrist_camera_mount_casing_link"
+                                                                            {
+                                                                                over "left__wrist_camera_mount_link"
+                                                                                {
+                                                                                    over "left__wrist_camera_bottom_screw_frame"
+                                                                                    {
+                                                                                        over "left__wrist_camera_link"
+                                                                                        {
+                                                                                            over "left__wrist_camera_color_frame"
+                                                                                            {
+                                                                                                over "left__wrist_camera_color_optical_frame"
+                                                                                                {
+                                                                                                    def Camera "NativeSensor__left_wrist_d405_rgb" (
+                                                                                                        prepend apiSchemas = ["OmniSensorAPI"]
+                                                                                                    )
+                                                                                                    {
+                                                                                                        float2 clippingRange = (0.04, 10)
+                                                                                                        float focalLength = 2.52907
+                                                                                                        float focusDistance = 0.35
+                                                                                                        float fStop = 0
+                                                                                                        float horizontalAperture = 4.8
+                                                                                                        float verticalAperture = 2.71698
+                                                                                                        float omni:sensor:tickRate = 24
+                                                                                                        quatd xformOp:orient = (-1.4332476316880616e-9, 1, -2.487917427629327e-9, -6.017332854213464e-9)
+                                                                                                        double3 xformOp:scale = (1, 1, 1)
+                                                                                                        double3 xformOp:translate = (-1.4901161193847656e-8, 0, 0)
+                                                                                                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+
+                                                                                            over "left__wrist_camera_depth_frame"
+                                                                                            {
+                                                                                                over "left__wrist_camera_depth_optical_frame"
+                                                                                                {
+                                                                                                    def Camera "NativeSensor__left_wrist_d405_depth" (
+                                                                                                        active = false
+                                                                                                        prepend apiSchemas = ["OmniSensorAPI"]
+                                                                                                    )
+                                                                                                    {
+                                                                                                        float2 clippingRange = (0.07, 1000000)
+                                                                                                        float focalLength = 106.25767
+                                                                                                        float omni:sensor:tickRate = 30
+                                                                                                        quatd xformOp:orient = (-1.4332476316880616e-9, 1, -2.487917427629327e-9, -6.017332854213464e-9)
+                                                                                                        double3 xformOp:scale = (1, 1, 1)
+                                                                                                        double3 xformOp:translate = (-1.4901161193847656e-8, 0, 0)
+                                                                                                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    over "fr3_duo_mount_right"
+                    {
+                        over "right_base"
+                        {
+                            over "right_fr3v2_1_link0"
+                            {
+                                over "right_fr3v2_1_link1"
+                                {
+                                    over "right_fr3v2_1_link2"
+                                    {
+                                        over "right_fr3v2_1_link3"
+                                        {
+                                            over "right_fr3v2_1_link4"
+                                            {
+                                                over "right_fr3v2_1_link5"
+                                                {
+                                                    over "right_fr3v2_1_link6"
+                                                    {
+                                                        over "right_fr3v2_1_link7"
+                                                        {
+                                                            over "right_fr3v2_1_link8"
+                                                            {
+                                                                over "right_ur_to_robotiq_link"
+                                                                {
+                                                                    over "right_gripper_mount_link"
+                                                                    {
+                                                                        over "right_robotiq_85_base_link"
+                                                                        {
+                                                                            over "right__wrist_camera_mount_casing_link"
+                                                                            {
+                                                                                over "right__wrist_camera_mount_link"
+                                                                                {
+                                                                                    over "right__wrist_camera_bottom_screw_frame"
+                                                                                    {
+                                                                                        over "right__wrist_camera_link"
+                                                                                        {
+                                                                                            over "right__wrist_camera_color_frame"
+                                                                                            {
+                                                                                                over "right__wrist_camera_color_optical_frame"
+                                                                                                {
+                                                                                                    def Camera "NativeSensor__right_wrist_d405_rgb" (
+                                                                                                        prepend apiSchemas = ["OmniSensorAPI"]
+                                                                                                    )
+                                                                                                    {
+                                                                                                        float2 clippingRange = (0.04, 10)
+                                                                                                        float focalLength = 2.52907
+                                                                                                        float focusDistance = 0.35
+                                                                                                        float fStop = 0
+                                                                                                        float horizontalAperture = 4.8
+                                                                                                        float verticalAperture = 2.71698
+                                                                                                        float omni:sensor:tickRate = 24
+                                                                                                        quatd xformOp:orient = (2.2978602132184278e-8, 1, 2.4816303678676377e-8, 3.2266886051957044e-8)
+                                                                                                        double3 xformOp:scale = (1, 1, 1)
+                                                                                                        double3 xformOp:translate = (-1.4901161193847656e-8, -2.2351741790771484e-8, 0)
+                                                                                                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+
+                                                                                            over "right__wrist_camera_depth_frame"
+                                                                                            {
+                                                                                                over "right__wrist_camera_depth_optical_frame"
+                                                                                                {
+                                                                                                    def Camera "NativeSensor__right_wrist_d405_depth" (
+                                                                                                        active = false
+                                                                                                        prepend apiSchemas = ["OmniSensorAPI"]
+                                                                                                    )
+                                                                                                    {
+                                                                                                        float2 clippingRange = (0.07, 1000000)
+                                                                                                        float focalLength = 106.25767
+                                                                                                        float omni:sensor:tickRate = 30
+                                                                                                        quatd xformOp:orient = (2.2978602132184278e-8, 1, 2.4816303678676377e-8, 3.2266886051957044e-8)
+                                                                                                        double3 xformOp:scale = (1, 1, 1)
+                                                                                                        double3 xformOp:translate = (-1.4901161193847656e-8, -2.2351741790771484e-8, 0)
+                                                                                                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                over "head_link"
+                {
+                    over "head_camera_mounting_point"
+                    {
+                        over "head_camera_link"
+                        {
+                            over "head_camera_center"
+                            {
+                                over "head_left_camera_frame"
+                                {
+                                    over "head_left_camera_frame_optical"
+                                    {
+                                        def Camera "NativeSensor__head_zed_depth" (
+                                            active = false
+                                            prepend apiSchemas = ["OmniSensorAPI"]
+                                        )
+                                        {
+                                            float2 clippingRange = (0.1, 1000000)
+                                            float focalLength = 114.59766
+                                            float omni:sensor:tickRate = 30
+                                            quatd xformOp:orient = (2.6147064957626753e-8, 1, -5.551115123125783e-17, -5.551115784870273e-17)
+                                            double3 xformOp:scale = (1, 1, 1)
+                                            double3 xformOp:translate = (0, 2.9802322387695312e-8, 1.4901161193847656e-8)
+                                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                        }
+
+                                        def Camera "NativeSensor__head_zed_left_rgb" (
+                                            prepend apiSchemas = ["OmniSensorAPI"]
+                                        )
+                                        {
+                                            float2 clippingRange = (0.1, 20)
+                                            float focalLength = 2.40000
+                                            float focusDistance = 1
+                                            float fStop = 0
+                                            float horizontalAperture = 4.8
+                                            float verticalAperture = 2.70000
+                                            float omni:sensor:tickRate = 24
+                                            quatd xformOp:orient = (2.6147064957626753e-8, 1, -5.551115123125783e-17, -5.551115784870273e-17)
+                                            double3 xformOp:scale = (1, 1, 1)
+                                            double3 xformOp:translate = (0, 2.9802322387695312e-8, 1.4901161193847656e-8)
+                                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                        }
+                                    }
+                                }
+
+                                over "head_right_camera_frame"
+                                {
+                                    over "head_right_camera_frame_optical"
+                                    {
+                                        def Camera "NativeSensor__head_zed_right_rgb" (
+                                            prepend apiSchemas = ["OmniSensorAPI"]
+                                        )
+                                        {
+                                            float2 clippingRange = (0.1, 20)
+                                            float focalLength = 2.40000
+                                            float focusDistance = 1
+                                            float fStop = 0
+                                            float horizontalAperture = 4.8
+                                            float verticalAperture = 2.70000
+                                            float omni:sensor:tickRate = 24
+                                            quatd xformOp:orient = (2.6147064957626753e-8, 1, -5.551115123125783e-17, -5.551115784870273e-17)
+                                            double3 xformOp:scale = (1, 1, 1)
+                                            double3 xformOp:translate = (0, 2.9802322387695312e-8, 1.4901161193847656e-8)
+                                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    def Scope "Render"
+    {
+        def RenderVar "left_wrist_d405_rgb_var"
+        {
+            uniform string sourceName = "LdrColor"
+        }
+
+        def RenderProduct "left_wrist_d405_rgb"
+        {
+            rel camera = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link/left__wrist_camera_color_frame/left__wrist_camera_color_optical_frame/NativeSensor__left_wrist_d405_rgb>
+            rel orderedVars = </fr3_duo_vision_manipulation_kit/Render/left_wrist_d405_rgb_var>
+            uniform int2 resolution = (848, 480)
+        }
+
+        def RenderVar "left_wrist_d405_depth_var"
+        {
+            uniform string sourceName = "DepthLinearized"
+        }
+
+        def RenderProduct "left_wrist_d405_depth" (
+            active = false
+        )
+        {
+            rel camera = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link/left__wrist_camera_depth_frame/left__wrist_camera_depth_optical_frame/NativeSensor__left_wrist_d405_depth>
+            rel orderedVars = </fr3_duo_vision_manipulation_kit/Render/left_wrist_d405_depth_var>
+            uniform int2 resolution = (848, 480)
+        }
+
+        def RenderVar "right_wrist_d405_rgb_var"
+        {
+            uniform string sourceName = "LdrColor"
+        }
+
+        def RenderProduct "right_wrist_d405_rgb"
+        {
+            rel camera = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link/right__wrist_camera_color_frame/right__wrist_camera_color_optical_frame/NativeSensor__right_wrist_d405_rgb>
+            rel orderedVars = </fr3_duo_vision_manipulation_kit/Render/right_wrist_d405_rgb_var>
+            uniform int2 resolution = (848, 480)
+        }
+
+        def RenderVar "right_wrist_d405_depth_var"
+        {
+            uniform string sourceName = "DepthLinearized"
+        }
+
+        def RenderProduct "right_wrist_d405_depth" (
+            active = false
+        )
+        {
+            rel camera = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link/right__wrist_camera_depth_frame/right__wrist_camera_depth_optical_frame/NativeSensor__right_wrist_d405_depth>
+            rel orderedVars = </fr3_duo_vision_manipulation_kit/Render/right_wrist_d405_depth_var>
+            uniform int2 resolution = (848, 480)
+        }
+
+        def RenderVar "head_zed_depth_var"
+        {
+            uniform string sourceName = "DepthLinearized"
+        }
+
+        def RenderProduct "head_zed_depth" (
+            active = false
+        )
+        {
+            rel camera = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/head_link/head_camera_mounting_point/head_camera_link/head_camera_center/head_left_camera_frame/head_left_camera_frame_optical/NativeSensor__head_zed_depth>
+            rel orderedVars = </fr3_duo_vision_manipulation_kit/Render/head_zed_depth_var>
+            uniform int2 resolution = (1280, 720)
+        }
+
+        def RenderVar "head_zed_left_rgb_var"
+        {
+            uniform string sourceName = "LdrColor"
+        }
+
+        def RenderProduct "head_zed_left_rgb"
+        {
+            rel camera = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/head_link/head_camera_mounting_point/head_camera_link/head_camera_center/head_left_camera_frame/head_left_camera_frame_optical/NativeSensor__head_zed_left_rgb>
+            rel orderedVars = </fr3_duo_vision_manipulation_kit/Render/head_zed_left_rgb_var>
+            uniform int2 resolution = (1280, 720)
+        }
+
+        def RenderVar "head_zed_right_rgb_var"
+        {
+            uniform string sourceName = "LdrColor"
+        }
+
+        def RenderProduct "head_zed_right_rgb"
+        {
+            rel camera = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/head_link/head_camera_mounting_point/head_camera_link/head_camera_center/head_right_camera_frame/head_right_camera_frame_optical/NativeSensor__head_zed_right_rgb>
+            rel orderedVars = </fr3_duo_vision_manipulation_kit/Render/head_zed_right_rgb_var>
+            uniform int2 resolution = (1280, 720)
+        }
+    }
+}
+

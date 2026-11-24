@@ -1,0 +1,171 @@
+#usda 1.0
+(
+    defaultPrim = "thor"
+)
+
+over "thor"
+{
+    over "Looks"
+    {
+        over "material_base_link_color"
+        {
+            token outputs:surface.connect = </thor/Looks/material_base_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86667, 0.86667, 0.8902)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_forearm_link_color"
+        {
+            token outputs:surface.connect = </thor/Looks/material_forearm_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_shoulder_link_color"
+        {
+            token outputs:surface.connect = </thor/Looks/material_shoulder_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_upper_arm_link_color"
+        {
+            token outputs:surface.connect = </thor/Looks/material_upper_arm_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86667, 0.86667, 0.8902)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_wrist_1_link_color"
+        {
+            token outputs:surface.connect = </thor/Looks/material_wrist_1_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_wrist_2_link_color"
+        {
+            token outputs:surface.connect = </thor/Looks/material_wrist_2_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8666667, 0.8666667, 0.8901961)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "material_wrist_3_link_color"
+        {
+            token outputs:surface.connect = </thor/Looks/material_wrist_3_link_color/PreviewSurface.outputs:surface>
+
+            over "Shader"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8902, 0.8902, 0.91373)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+
+        over "DefaultMaterial"
+        {
+            token outputs:surface.connect = </thor/Looks/DefaultMaterial/PreviewSurface.outputs:surface>
+
+            over "DefaultMaterial"
+            {
+                float inputs:metallic_constant = 0
+                float inputs:reflection_roughness_constant = 0.32
+            }
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.32
+                token outputs:surface
+            }
+        }
+    }
+}
+

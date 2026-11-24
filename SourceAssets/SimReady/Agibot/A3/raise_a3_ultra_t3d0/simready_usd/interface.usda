@@ -1,0 +1,65 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary SimReady_Metadata = {
+            float3 asset_extents = (0.60283303, 0.53567237, 1.7223258)
+            string asset_license = "cc-by-4.0"
+            string asset_name = "raise_a3_ultra_t3d0"
+            string asset_type = "robot"
+            string author = "AgiBot"
+            string category = "humanoid"
+            double mass = 57.95847690423784
+            string qcode = "Q1324254"
+            int rigid_body_count = 83
+            string source_file = "isaac_simulator/usd6.0.1/raise_a3_ultra_t3d0"
+            string usd_date_generated = "2026-10-20"
+            dictionary validation = {
+                string profile = "Robot-Body"
+                string profile_version = "3.0.0"
+            }
+        }
+    }
+    defaultPrim = "agibot_a3"
+    doc = """Raise A3 Ultra T3D0 — Isaac Sim 6.0.1 Asset Structure 3.0 interface.
+
+Composition (matches official Structure 3.0 example layout):
+  - references payloads/base.usda (hierarchy + visual/collider instances)
+  - sublayers payloads/robot.usda (Isaac Robot Schema)
+  - Physics variant payloads: none | physics | physx | mujoco
+      physics -> payloads/Physics/physics.usda (engine-neutral)
+      physx   -> payloads/Physics/physx.usda (sublayers physics.usda)
+      mujoco  -> payloads/Physics/mujoco.usda (sublayers physics.usda)
+  - geometries remain binary under payloads/geometries.usd
+"""
+    metersPerUnit = 1
+    upAxis = "Z"
+    subLayers = [
+        @./payloads/robot.usda@
+    ]
+)
+
+def Xform "agibot_a3" (
+    prepend references = @./payloads/base.usda@</agibot_a3>
+    append variantSets = "Physics"
+    variants = {
+        string Physics = "physx"
+    }
+)
+{
+    variantSet "Physics" = {
+        "none" {
+        }
+        "physics" (
+            prepend payload = @./payloads/Physics/physics.usda@
+        ) {
+        }
+        "physx" (
+            prepend payload = @./payloads/Physics/physx.usda@
+        ) {
+        }
+        "mujoco" (
+            prepend payload = @./payloads/Physics/mujoco.usda@
+        ) {
+        }
+    }
+}

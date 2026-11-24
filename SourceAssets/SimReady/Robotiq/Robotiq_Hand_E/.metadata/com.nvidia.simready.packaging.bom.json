@@ -1,0 +1,471 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Robotiq_Hand_E.usda.png",
+      "size": 15151,
+      "hash": {
+        "sha256-flat-1mb": "9296c6f13258f5a8794456f7d1cce8ac2fd38ad9334359e1e85936bfb2d89037",
+        "sha256": "e76636f0a6f8c362e6de0e97c3173cc0722a1f199871b494f70d99a168cc65ba"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Robotiq_Hand_E.usda_light.png",
+      "size": 14617,
+      "hash": {
+        "sha256-flat-1mb": "1024383a7bf20c49ef60f7871ba62c5d7f307c0ffe41b727ee75534ab7f79902",
+        "sha256": "95d271fda86846c184efda87903aed8bb01f4addf3ef87976f483bad755067dc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Robotiq_Hand_E.usda_transparent.png",
+      "size": 18618,
+      "hash": {
+        "sha256-flat-1mb": "a0304e41a8587f6e76662b35ebd638f6c2ea5d5091a83d79b4af3a033693adc6",
+        "sha256": "7844c2f2249270169d1dbac2b4d43dd0d6eb4d3bc25780744cfe7b46941bd14a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Robotiq_Hand_E.usda",
+      "size": 5780,
+      "hash": {
+        "sha256-flat-1mb": "a63abd19d65cd83d4b77f6a9d07619e2bbc374ce44f9bb0fa76a40ede577cde3",
+        "sha256": "8fe14a13c45bdbc1720bc7204eab7cfd63518e5c619f33387e81a730a4a72857"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Robotiq_Hand_E_config_physics_physx.usda",
+      "size": 201,
+      "hash": {
+        "sha256-flat-1mb": "c8a492f225f667e1668bba303a44a4b21f5124753caa000c4744ef5d363226ba",
+        "sha256": "058e4f6d7067f97c4709c238105015dbb34dc33a6247feb7e06e85bb83984316"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Robotiq_Hand_E_robot.usda",
+      "size": 3984,
+      "hash": {
+        "sha256-flat-1mb": "77a93030d252c2dcc6c96b000235fcceaad477163b93a022779c341bd0f4dffd",
+        "sha256": "d2b5979b8d0ee1a1b042ed58982944eed7cb4651f2fc1179b8dddaaef897dfd4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/docs/Hand-E_max_payload_vs_z_offset.png",
+      "size": 124445,
+      "hash": {
+        "sha256-flat-1mb": "0cf6982421680a4dedcf25fb323b25f6391a5ec02d7275fecd06fbe30c542659",
+        "sha256": "f1a17b73dee8c47be5f8e20c35ca2ac0100fd1fe3237f416f46e3955245f957d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/materials.usda",
+      "size": 8377,
+      "hash": {
+        "sha256-flat-1mb": "6f133e334813ce030c06c3c534f5007f7b7fe52a947573c83dfc30e7f7706294",
+        "sha256": "48eca813596e78486469edc70f825c9bb9913836f63e4007559920820e8e9d9d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_base.usd",
+      "size": 1850583,
+      "hash": {
+        "sha256-flat-1mb": "a40ef7989950ed6e3c22218df2faaf827b565653e2fb404807acff4ae42d40b6",
+        "sha256": "51ecd37d7cfbee7e7ff600de460060edb2d8b1f5bb72e4970861d916491306f2",
+        "sha256-first1m": "5811ec5e04a2e549299ceb7dfa25c2f04a3c003660d13d3c274d9188bffb48be"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_finger_left.usd",
+      "size": 84351,
+      "hash": {
+        "sha256-flat-1mb": "0cf0baa53e9afb704fb8a5ee4b8b70795c90b843170571587f13c50b6699e5a9",
+        "sha256": "11f5e76036d36382303691b7033a91e9a984232379fcc390aeb04ba24924d983"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_finger_right.usd",
+      "size": 84449,
+      "hash": {
+        "sha256-flat-1mb": "2e4ec0342704a815cabab5e6e226ba91f808ee959a73a82239896ff7fe0cb930",
+        "sha256": "31692e5dd6728172c5ba54bc422c9c21bfdfd059f50ea2d56cd25d86700a26f2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_binpick_left.usd",
+      "size": 122682,
+      "hash": {
+        "sha256-flat-1mb": "1c73ee573c1c1ba2d258d7904a0a34327de5dcb084a3598358cee918eb293168",
+        "sha256": "88a57839e092efabdee8755f2b727ce381afbadba656f8dc06b020549e9ef37b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_binpick_left_collision.usd",
+      "size": 158932,
+      "hash": {
+        "sha256-flat-1mb": "45d6baa2851a5ee226f34480655facc4055f7694330a9f094285aded5f32e423",
+        "sha256": "4e3bd652b180eab3b3b14844de55fb73f07080d4919a9d13727dbe60d334b3f2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_binpick_right.usd",
+      "size": 122418,
+      "hash": {
+        "sha256-flat-1mb": "5a2372fe3ce54f13213990fb243b38659dfd543230b65f76f1989d68f7a92c76",
+        "sha256": "f4f78d40addcc2dd5882c9a61893d330224e65045a909bd7f8ad5a7f46eee6e7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_binpick_right_collision.usd",
+      "size": 159394,
+      "hash": {
+        "sha256-flat-1mb": "dbf8a146c4bd8fa2ae3267de00277610c6a1b35ac0be138658014306688d9890",
+        "sha256": "a57c7456ca2bed82a5305efbca5e1638c6620f7953d90744121852f5de1ed106"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_extender_left.usd",
+      "size": 100092,
+      "hash": {
+        "sha256-flat-1mb": "a27a6db0cdf96a19cd5098a1d6c67f1145ca5eede4aeeacfe9f8599de6c72c51",
+        "sha256": "9112b432688f7e3929e65edf455020be8a1dd8cc94e2adb4b10d122e1ffc166e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_extender_left_collision.usd",
+      "size": 118973,
+      "hash": {
+        "sha256-flat-1mb": "0aa9acbdafe3666aaaf12a4f99ab98703141452889921cbe6efcd1cfc8e37d94",
+        "sha256": "4ef1add07386dd1b8730c549f4e49c5adb68169711c39ec99a22e325bc88b753"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_extender_right.usd",
+      "size": 100092,
+      "hash": {
+        "sha256-flat-1mb": "48fe513981d9938bda3b700fe8533e057dd2b573176f6c69e7f712d750656d5b",
+        "sha256": "e498f79ad88ff4104445c7287d6a7b747fad34bce210fdde5d30cae2fcf0544a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_extender_right_collision.usd",
+      "size": 118853,
+      "hash": {
+        "sha256-flat-1mb": "12961460ad618bba4910d1d2f03b9f8579b5966935ba3d7ae7d1d5bcb19df13b",
+        "sha256": "98b0594b0f4d0c9cb6466d7964dd3dca1669ad5055f67752b52a37ce2c6da5f3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_flat_overmolded_left.usd",
+      "size": 380745,
+      "hash": {
+        "sha256-flat-1mb": "c35481e71f259298eb568b71c5413ae4e6c965f8f134b42ca46222ab8dacebdc",
+        "sha256": "f522cc5333c883d1fd7bd224a0d9bb16175dd18d6a8b413144b9f7011ffd31a4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_flat_overmolded_left_collision.usd",
+      "size": 146458,
+      "hash": {
+        "sha256-flat-1mb": "92a48d1eafbd906db7639e390f4576e04c0fa1f0ac93230b87e90b7dd54dabe6",
+        "sha256": "56114f21045cc27f85c01b534b874ee3d3e96fe47e80c3945488a4746d3f6e68"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_flat_overmolded_right.usd",
+      "size": 380745,
+      "hash": {
+        "sha256-flat-1mb": "59def55de46c01e497fc5fe521ac12494e25a0c931136fb414819541f56af431",
+        "sha256": "38e947d78fe164a6bd2c229e0916744328f3efd9fa824f6c0f53ba2721189bf7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_flat_overmolded_right_collision.usd",
+      "size": 146522,
+      "hash": {
+        "sha256-flat-1mb": "c51c81977af1ed7590c753eba34de0c19c53ff80dcab68da74da1ee7d9d69131",
+        "sha256": "cb31e459f7dec491d4d6c1443e2a001ba066e92e89698e1c12b30592ef8f3e31"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_std_left.usd",
+      "size": 48745,
+      "hash": {
+        "sha256-flat-1mb": "860c1c14d4f28a956bb53ffbb3b49c945675adcb2bb416e75edace5fb4350514",
+        "sha256": "b6852aeb73d86aa382d98e54f021f4a5d0db4ea23f34f49dc91aab4f4a094989"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_std_left_collision.usd",
+      "size": 105228,
+      "hash": {
+        "sha256-flat-1mb": "a1749c94487b676c735fac030da4c467d63e14a6eaca857a2c1012fc012aa27f",
+        "sha256": "835ee033d8840211795b38013dfad60fc38f9852b7d082a43c2ec637df3af54b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_std_right.usd",
+      "size": 48745,
+      "hash": {
+        "sha256-flat-1mb": "8a6c62625e396719bcb117068d2e8d3da9d4583609a202a58b0a129bd98df571",
+        "sha256": "e538330854ac5460678a68d246363b7484a7689f536f7683694673065b6d37b0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_std_right_collision.usd",
+      "size": 105236,
+      "hash": {
+        "sha256-flat-1mb": "255c4dca0cbce5b0be52b94e54a9c4c03f059753c3e6f4df852d88b900d2b46d",
+        "sha256": "cdc8d6020401c870163c9484531047ff00d5588e0354aab99acf880709c94fbd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_support_left.usd",
+      "size": 101539,
+      "hash": {
+        "sha256-flat-1mb": "bec34ba91133892d52447fd5716ddae2f90226c5ec47154d2f55f542174b9fa9",
+        "sha256": "cd81979033691a04ad8b5d3565415421c57579e0cbcbf5b1376293027569bc1a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_support_left_collision.usd",
+      "size": 50179,
+      "hash": {
+        "sha256-flat-1mb": "d9eae93bb1978e1b50b94ac14a38b5e9ed57f7960e53bbf31d7c7d3577156cbd",
+        "sha256": "3c1e4afbccc3c2cc4f23b63387ac2710fdcb7ffb29ba53370138d0e110f04d49"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_support_right.usd",
+      "size": 101539,
+      "hash": {
+        "sha256-flat-1mb": "8db7872d62a9903e724b3a9519bb5b146aee6a9627714fc889447985eaf225ad",
+        "sha256": "9ccffb78b0d7960e40cca0b2f75d99123b898b609449239bd3239b174446ce29"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_fingertip_support_right_collision.usd",
+      "size": 50163,
+      "hash": {
+        "sha256-flat-1mb": "b1fedfeb701e740707d2ee21e6558cd3b4086a29feea4f06e50f3b4fc52f7a9d",
+        "sha256": "b80f71eca276c1a4fef1470b17e0677b38d6ef49dcfaf6d66d51d9d9781582f6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_s100_base.usd",
+      "size": 3790134,
+      "hash": {
+        "sha256-flat-1mb": "dede6e8599c30cef901b5f9f6e79f326c60b0837a5c71627459ecb81772f54a0",
+        "sha256": "412cbda6befe40e20fdc2b44d4e82688b8ac93441f623b4f8e99a0823c86eb89",
+        "sha256-first1m": "aba226e04cc2c4921d074a950bf073a32bb3a56e8eb99904038761d834e9c9c6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_s100_finger_left.usd",
+      "size": 200777,
+      "hash": {
+        "sha256-flat-1mb": "4b321a0d0f374790594bdd93f6bfe43bda27441f37176dbc4d15c13ad917cdb2",
+        "sha256": "ac91fcfd70108e60942afa17d82252b58cf0ab716c0e6210be6a24dbbdec8d83"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_Hand_E_s100_finger_right.usd",
+      "size": 200777,
+      "hash": {
+        "sha256-flat-1mb": "747e828ab9f438b45e19dfcae97f18514c0507e32294aac08f9ad225e242adfb",
+        "sha256": "316e8f6ae7d150fe3e4169088aec5326ae11e0ddbfb607bbe796f00ed6f0e8fd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_body_mass_physics.usda",
+      "size": 2065,
+      "hash": {
+        "sha256-flat-1mb": "431a3a12b4c79efe0b92b551a608f0a7a9ca65bb2e1a1d5404d45095ab3ab219",
+        "sha256": "c5100eb3debd3e9a46b3908f8a9447f0ba58eb39e595c7470da6d7d0d6e7b319"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_fingertip_binpick.usda",
+      "size": 2016,
+      "hash": {
+        "sha256-flat-1mb": "3156c60a2216993bd5d13137719ff806d0c8fe278569a246901079416f5a378b",
+        "sha256": "2c5e0356e4d8951e298f9142669ec22fd0ae04eb8206fa436ee51f643ec8aa80"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_fingertip_extender.usda",
+      "size": 2013,
+      "hash": {
+        "sha256-flat-1mb": "4a5cc0438cb2f320cb4657a05fef59b621a85fa3b0a6720a8c26d483493744f3",
+        "sha256": "8595efebb2539ee0bdbdfd8765d6826611169593d2232ced84730f77d917d597"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_fingertip_flat_overmolded.usda",
+      "size": 2079,
+      "hash": {
+        "sha256-flat-1mb": "9da9390f13415eb06a56ce55b0289e242e54e60d7fa46e649448646c31c9e2dd",
+        "sha256": "d3484a30b9674feb05f643824ffa8c53e8a5982cdf35a132e2d8e7028e6ec5fb"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_fingertip_mount_inside.usda",
+      "size": 820,
+      "hash": {
+        "sha256-flat-1mb": "3921a34590941f2b22efa164c234ab3633bbf2af3da38a59f2003674b945080f",
+        "sha256": "11851f567dccebf9073a345d2c4fd6e7de64145ae3329580f6e2e9624bcfb69e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_fingertip_physics.usda",
+      "size": 2952,
+      "hash": {
+        "sha256-flat-1mb": "a207b524ba21ce2f92a1f2bf6705af920ccd913613b2f938b9d69b14473a1bc9",
+        "sha256": "ca4e075cc82ef2680bc1e734cd4740629e6cb7abe3a7b05906d87056ef78834e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_fingertip_support.usda",
+      "size": 2071,
+      "hash": {
+        "sha256-flat-1mb": "7fd0382785d6cc0bc8dd629445149fde766c4e648e3335a80ec16c6f62e4e26d",
+        "sha256": "956ec9a5e72cefcf6aa635991a8bbe38d34227cd57742c869eb35acb8367b467"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_kinematics_physics.usda",
+      "size": 2507,
+      "hash": {
+        "sha256-flat-1mb": "aac60ae624c06fc4b3fe2a2e89fe642c2d30010f44e88368e3aa24ae10320f3f",
+        "sha256": "1803207f0f84ebf9b4bf0405a19e26d20d55c5a3a5825a5bb453d7a946347758"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_newton_common_physics.usda",
+      "size": 23191,
+      "hash": {
+        "sha256-flat-1mb": "0c2ae932f99ff5984c80ceadeea96bded4dd464b856dcbbb3632751cb300284c",
+        "sha256": "fa2ae2bc601a9b485e989c3a27cfd5eef4e8af86856a44fffb22408e19dd466d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_newton_physics.usda",
+      "size": 20285,
+      "hash": {
+        "sha256-flat-1mb": "937a4d1b257169b87ab21352c099260396d614583294a234c760b1de637608d3",
+        "sha256": "dd62daf1da85e039b060868fd65580055261104c1d1f8c191d293c9df3e2995c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_physx_common_physics.usda",
+      "size": 22288,
+      "hash": {
+        "sha256-flat-1mb": "b591cf84c32576bd4dea3eefeceabbb8d3df8ed03f6d226f20af1bbccff4e357",
+        "sha256": "61c96292895a0d15d42ee6261fce9b8acf075978e6b8051d2f833ba23048bda4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_physx_physics.usda",
+      "size": 2397,
+      "hash": {
+        "sha256-flat-1mb": "3412e16ac8cc5f70d6b0d2c727780ad240b964dbf26cb9fdbfb5b4ca680ed250",
+        "sha256": "a8ae1fac9c093595aab162c11d6e08855f32c8fcbd660e21c55370299f4dd714"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100.usda",
+      "size": 3709,
+      "hash": {
+        "sha256-flat-1mb": "902a85c39ea7fde8c874288a90b6e4872ed82afcdc16a6f99a567c94d768f2c5",
+        "sha256": "6d1252568529f5c8e7b96f65f683592be2b26b5abca8895eec6a79b78a71b716"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100_fingertip_binpick.usda",
+      "size": 666,
+      "hash": {
+        "sha256-flat-1mb": "110f5ab8e63c2de0138b9b2031f1746d41ebbe993f0509022377fec486ffe62b",
+        "sha256": "573868fe639755151468e631be880bf252159531d75f0b8722327e495dbc9397"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100_fingertip_extender.usda",
+      "size": 664,
+      "hash": {
+        "sha256-flat-1mb": "1cf490b45ca01e97ebb13eebb266251c3f043446162e26f0d11acaae35757886",
+        "sha256": "b6deee5c8877257954a14b2264a8593640178d20921d4bcb3bb6fc115bac132a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100_fingertip_flat_overmolded.usda",
+      "size": 678,
+      "hash": {
+        "sha256-flat-1mb": "ed02649b02ac230d0f89ea7d1c11f33f67f38705b487281258a8c13fab7a6b38",
+        "sha256": "776d672cd9e440e35d5f95144586d18ddd74b5fe23f001711ff53c90e804946b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100_fingertip_support.usda",
+      "size": 662,
+      "hash": {
+        "sha256-flat-1mb": "cf7b526a6efd76796cd20e39c760145888fad3a059af6aa4d163894943d4b591",
+        "sha256": "89c6843802aa8c2e7d4bf58a7aeb2d4bc616dbe3d8528751abf88471322fa10b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100_neutral_physics.usda",
+      "size": 2057,
+      "hash": {
+        "sha256-flat-1mb": "c4a894d3b8314170f7c7ee120050b56660006b6973c8c037f2fd9f6978e08939",
+        "sha256": "9e13fb6f88a20e7c75f603bd48e69537a9c46c3799f5f2c5f836fe3f7c91a8ac"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100_newton_physics.usda",
+      "size": 2849,
+      "hash": {
+        "sha256-flat-1mb": "3559467730b04b3a7947ccb4c02262092436eb52087ac2bee60fc52a6b19d3b3",
+        "sha256": "016af3d9b1988815de22d42fe1c19600f8a49499d3fe64d58505214205c510d3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_Hand_E_s100_physx_physics.usda",
+      "size": 2091,
+      "hash": {
+        "sha256-flat-1mb": "8cf0ca570d7898702055c22b7fbe2404ab6cb70991136bc3d82e1707f8bbfe8d",
+        "sha256": "93c41b8a1377be677fc9200528468d22b55cb0f5a7309d002ab73c00fb8b2478"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/base.usda",
+      "size": 6265,
+      "hash": {
+        "sha256-flat-1mb": "6bea32b649a73efcebd20c086c0ad612f7548c3f60ca69a59eef8fda46828748",
+        "sha256": "c0d8a33a1db851d595ff917535bd3075da4c362b7cb974cec6ffbcfc03ed7349"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/geometries.usda",
+      "size": 286,
+      "hash": {
+        "sha256-flat-1mb": "48fd5749a772464d8f02d38ec80460962c2e2631baa1a9f2ff3eaa2de6ac9904",
+        "sha256": "5035249b72518392e93c441581083931104323dbe1eb42582366e52157f5725a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances.usda",
+      "size": 259,
+      "hash": {
+        "sha256-flat-1mb": "da93de2e99b34a0bab99f23847e551ed6b0936e7cf30e0fd17169d21e3d2864d",
+        "sha256": "eb273e37c75961eb29537402db5d7a0fa818791a8f97498c55b0f22bb329fdfb"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/materials.usda",
+      "size": 228,
+      "hash": {
+        "sha256-flat-1mb": "e4448c4705f174e3f6bf86a59413f110c50e82161658070165417b788dccd244",
+        "sha256": "d46ce9b8c3ba6ebf7d8d7e7c716a454313192836bc9e3e9122c047ff3ac55c9c"
+      }
+    }
+  ]
+}

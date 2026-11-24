@@ -1,0 +1,111 @@
+Asimov 1 — Humanoid Robot USD Asset
+==================================
+
+Asimov 1 is an open-source humanoid robot, approximately 1.2 m tall with a
+nominal mass of 35 kg and 25 actuated degrees of freedom. This package provides
+its USD representation for visualization and simulation in NVIDIA Isaac Sim
+and compatible Omniverse applications.
+
+The package includes geometry, materials, collision and joint definitions,
+robot configuration, and validation/benchmark metadata. It is not a complete
+robotics application: it does not include a trained locomotion policy, balance
+controller, or a guarantee of stable behavior in every simulation engine.
+Validate the behaviour you need in your own engine and scene before using it
+for control or policy training.
+
+Full engineering source
+------------------------
+https://github.com/menloresearch/asimov-1
+
+Refer to the upstream project for mechanical and electrical designs, URDF
+source, onboard software, engineering bills of materials, documentation, and
+applicable hardware/software licenses. Those engineering sources are not
+bundled in this USD package.
+
+Package contents
+-----------------
+All paths below are relative to the asset package directory.
+
+| File or directory | Purpose |
+| --- | --- |
+| simready_usd/asimov_1.usd | Root USD entry point. Open or reference this file to load the assembled robot. |
+| simready_usd/configuration/asimov_1_base.usd | Geometry and shared material definitions. |
+| simready_usd/configuration/asimov_1_physics.usd | Physics configuration, including collision and joint/drive properties. |
+| simready_usd/configuration/asimov_1_robot.usd | Robot configuration and humanoid classification. |
+| simready_usd/configuration/asimov_1_sensor.usd | Sensor configuration layer used by the root asset. |
+| simready_usd/asimov_1.json | Asset metadata accompanying the USD. |
+| simready_usd/.thumbs/256x256/asimov_1.usd.png | Thumbnail rendered from the robot in Isaac Sim. |
+| .metadata/asimov_1_validation.json | Robot-Body profile validation results. |
+| .metadata/asimov_1_benchmark.json | Per-test runtime benchmark results, including failures and skips. |
+
+A SimReady-packaged distribution also includes com.nvidia.simready.packaging.json
+and packaging metadata under .metadata/, including its bill of materials and
+conformance results. The bill of materials records package file hashes; it is
+not the robot's engineering bill of materials.
+
+Loading the robot
+------------------
+1. Download the complete asset directory, including hidden .metadata and
+   .thumbs directories. Preserve the directory structure: the USD entry point
+   composes the configuration layers using relative paths.
+2. Open simready_usd/asimov_1.usd in Isaac Sim, or reference it into your own
+   USD scene. Do not load a configuration layer as a substitute for the root.
+3. Add the environment, lighting, ground/contact surfaces, and physics scene
+   appropriate to your application. The robot asset does not author a
+   PhysicsScene or impose gravity or a physics integration rate.
+4. Supply and validate your own controller before attempting balance, walking,
+   or coordinated whole-body motion. Start with bounded tests of the joints
+   and engine you intend to use.
+
+The robot root /asimov_1 declares isaac:robotType = "Humanoid". This identifies
+the robot to Isaac consumers; it does not itself implement locomotion or
+balance. Physics integration, policy/control frequency, rendering frequency,
+and USD timecodes are distinct settings that applications must configure.
+
+Runtime compatibility and dependencies
+---------------------------------------
+Runtime testing used NVIDIA Isaac Sim 6.1.0.0 with the PhysX and Newton engine
+configurations supplied by SimReady benchmark 2026.8.0.post1. Results for other
+versions or applications have not been established by these tests.
+
+The MDL materials reference NVIDIA's built-in OmniPBR.mdl shader. This library
+is supplied by compatible Isaac Sim/Omniverse installations and is intentionally
+not redistributed in the package. If MDL materials do not resolve, check the
+application's NVIDIA material-library installation and asset resolver. An
+unresolved external OmniPBR reference in a standalone dependency scan does not
+mean the robot's geometry files are missing.
+
+The asset also provides UsdPreviewSurface material networks and generated
+display colors. These support alternate rendering contexts, but do not promise
+identical appearance in every USD viewer.
+
+Editing materials
+------------------
+The seven authoritative material networks are /Looks/Material_00 through
+/Looks/Material_06 in simready_usd/configuration/asimov_1_base.usd. They include
+MDL and UsdPreviewSurface render contexts. Local Looks materials reference
+these shared definitions to preserve bindings across USD reference boundaries;
+they are not independent copies of shader values.
+
+Material assignments use non-overlapping face subsets. Edit the shared material
+networks and the appropriate subset assignments rather than adding conflicting
+bindings at multiple hierarchy levels. If changing appearance, keep both
+render contexts consistent with your intended result.
+
+primvars:displayColor is a generated, face-uniform fallback derived from each
+face's bound UsdPreviewSurface diffuseColor. It is not a separate authoritative
+material palette. Regenerate it after changing material colors or assignments;
+USD does not synchronize it automatically.
+
+Native instanceability is disabled on 26 visual roots so live ancestor material
+overrides reach the Isaac renderer. The 15 collision instances remain enabled.
+This favors reliable runtime material editing; large multi-robot scenes may
+consume more memory than a native visually instanced configuration.
+
+Licensing and third-party components
+-------------------------------------
+Consult the distribution's package license and dataset card for the terms that
+apply to these asset files. Hardware, software, and other sources in the
+upstream Asimov repository have their own applicable licenses. NVIDIA runtime
+components, including OmniPBR.mdl, are external dependencies and are not
+relicensed or redistributed by this asset package.

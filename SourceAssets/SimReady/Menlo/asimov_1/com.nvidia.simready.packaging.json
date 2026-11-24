@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.Menlo.asimov-1-simready-usd.asimov_1.2026.10.20_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "4344a611f232de23660a06cc4a82ebc52aa3b9c7f14a0dd5c8611f8a5c82450f"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "faa802d5f7b36a0bcf5d4baaa644c64bf9008effc167d2414c9a52cc755663d1"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "b66fff67d3a62237d95f84e978c5d8a8049864e80a4de495450bf2498ff30bcf"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "ff4b5ebc3de2ec43ccec8adc1afdffcb3930270ccd6fe08e31e9d43756fd1370"
+  },
+  "package_hash": {
+    "sha256": "2739fff3a988871df237a0e2fe5877ec7de444561a29381aea26b866485245bd"
+  }
+}

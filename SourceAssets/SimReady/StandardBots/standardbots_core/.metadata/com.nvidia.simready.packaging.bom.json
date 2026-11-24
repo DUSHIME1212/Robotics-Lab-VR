@@ -1,0 +1,317 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "core/.thumbs/256x256/standardbots_core.usd.png",
+      "size": 14382,
+      "hash": {
+        "sha256-flat-1mb": "1fc8fd756ea6dca4886468a4e15a99171d217a1f070a1db945300a9ad21c4a70",
+        "sha256": "d95c02e91445edbf9e04bfe34b4b8a71a7933b78d33c96d045400bf943bb7fbe"
+      }
+    },
+    {
+      "relative_path": "core/.thumbs/256x256/standardbots_core.usd_light.png",
+      "size": 14316,
+      "hash": {
+        "sha256-flat-1mb": "a29a571869f8f8f2f848f8c431365a8392535d2219a3f3db3cf68bf1759ed359",
+        "sha256": "ed2dd6a16c68a2945f08ac288d4b85599080a7a174d846f239ab374c1504932c"
+      }
+    },
+    {
+      "relative_path": "core/.thumbs/256x256/standardbots_core.usd_transparent.png",
+      "size": 17986,
+      "hash": {
+        "sha256-flat-1mb": "e0caf6b16d94c008c063430ee0db7c1eec1aba9e7cee8cfe2b78a130a18f996d",
+        "sha256": "d2f4a5bc8f9df353fc2bb94de21d257677ff3b2c7d1205ecf4921eb6fd25e0c4"
+      }
+    },
+    {
+      "relative_path": "core/configuration/OmniPBR/OmniPBR.mdl",
+      "size": 13989,
+      "hash": {
+        "sha256-flat-1mb": "4d0f54d47017bfbe22cc483cb02c4fe7e2254ddd1119cd618cbaea553639d52c",
+        "sha256": "d384fc800f120e3cad1b7ca8837f9c554f9c34343d194813fca27caa493001f2"
+      }
+    },
+    {
+      "relative_path": "core/configuration/OmniPBR/OmniPBRBase.mdl",
+      "size": 17274,
+      "hash": {
+        "sha256-flat-1mb": "4b54e7fb8bc92191512851b3acc6fc6fa9863f80d98ffece8f0cb9b99f5f4535",
+        "sha256": "701f37299b44106842bdbe025de52eedec391e35b038f61c4ed4d25bd98e7db1"
+      }
+    },
+    {
+      "relative_path": "core/configuration/OmniPBR/OmniPBR_ClearCoat.mdl",
+      "size": 27453,
+      "hash": {
+        "sha256-flat-1mb": "0e35217542eb4ece0205fc09f74eb71aaa6bfb75b3b861d64693d317282df424",
+        "sha256": "687fce3f0693146b91495f04407a7c38c78f6b9262b63621f44b4b1f09110469"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_base.usd",
+      "size": 3124098,
+      "hash": {
+        "sha256-flat-1mb": "d932da3392057bd0c41cddf8c1845cf603064e3c772ca160d7e40eabc472b4f8",
+        "sha256": "a89b41500ff03fcd4051c85706ea8036c0a253f7aead1120e9e943419267f3a3",
+        "sha256-first1m": "3001e92b25667332136cfc8354cef872b311867f7a65d35e97cf303e7711e817"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_body_light.usda",
+      "size": 3846,
+      "hash": {
+        "sha256-flat-1mb": "91d2e87f47ae6b9b98ef6f58662b50b5612c5d4f03561955d807bae3e52843f3",
+        "sha256": "ceb6b7c007f2accee559b74f57fe0f8c8ceb47eac4c7ac3075e56505f15316ae"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_collision.usd",
+      "size": 35456,
+      "hash": {
+        "sha256-flat-1mb": "b7588d4749ae7ab600b64a3670419398fd567bfeda400e9ff732974c9ec2eb06",
+        "sha256": "fc6cf85186e7f08fd1edffbef88201595464ed0a79d026b83542e15b434f3e4e"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_materials.usda",
+      "size": 6795,
+      "hash": {
+        "sha256-flat-1mb": "ab40721a30000f2ecac9b3898a226a1620367d68d94f4ba6eb4cb434fc928293",
+        "sha256": "753f8943bf610da452b410617ce9c5df7e76f41349dc9299bfb4c7ec0d8e5b57"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_physics.usd",
+      "size": 4941,
+      "hash": {
+        "sha256-flat-1mb": "7d264c07537175ed30d8cb9ad7738a550d28afae24da70c02b46075a906e6897",
+        "sha256": "5ba0c3e58abf4fffafd21a9e5c89b21f0271a2aa10203f458b3a04f8621c0c7f"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_physics_light.usda",
+      "size": 301,
+      "hash": {
+        "sha256-flat-1mb": "d2f8b5d91deed8b6ef0542a33eed088a954748c6ecd3e890244fdc9c316f5352",
+        "sha256": "c2794c3ba53a8d2accabd3c2c241d706c452eade28162d5db3f67d10ab1ac5c1"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_sensor.usd",
+      "size": 644,
+      "hash": {
+        "sha256-flat-1mb": "3d288f3b49b3adc6b668ac9de8d1b05eb0bdc71dfb45c57d36240a3c26ad9d25",
+        "sha256": "e26dbebbdd08d0e7729ef65e0ae42468693d023fd57990278fc784af4d4d5b67"
+      }
+    },
+    {
+      "relative_path": "core/configuration/core_visual.usda",
+      "size": 4583,
+      "hash": {
+        "sha256-flat-1mb": "526b9e64375aeaf20fb89c96d94af5a5b6c6589a7dd00f9468044d56162bea36",
+        "sha256": "c77d79e384646f89df2c31a9121328d2d57103f0b127f6b23a49de1858942826"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/base_link.usd",
+      "size": 1354340,
+      "hash": {
+        "sha256-flat-1mb": "c3b346945bd6808839a618fa57b8d8606b3883628f5906724100134f0213d9f7",
+        "sha256": "78bd20a172f64f967412d8a3cbfb88d92a863475873b9b36da0a7e431d10558b",
+        "sha256-first1m": "190ff04d79ff03c10768052a83885dcb3a488c7cd4f2f09f52157148ee7b42e6"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/forearm_link.usd",
+      "size": 15018659,
+      "hash": {
+        "sha256-flat-1mb": "8b028d6a1c4b67563ca06e08d69cfc1c478b8ae025a8c8aa69824f9a51dc9b1e",
+        "sha256": "209d262f89dd58ed9b57389649cddab3cc40b450142228e6cd5e3caa2acf9fc9",
+        "sha256-first1m": "eb2c760fb0f142d929d81ea2413ceafb54e33882673493162196e074b4e69fea"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/gltf/pbr.mdl",
+      "size": 42240,
+      "hash": {
+        "sha256-flat-1mb": "0ea567c192a18e6835ba556207f797ebe90850414ac832952c61c571cff22a0d",
+        "sha256": "eeed10b53c18d789f94a24a3a6b996c49668ae2d5b6a909bae3420f2beb16fc8"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/shoulder_link.usd",
+      "size": 4513658,
+      "hash": {
+        "sha256-flat-1mb": "b242fdb1a073fe9ae5e057b55dfa160af0fa905c7c585f6543612de0692e6df9",
+        "sha256": "80d917007828570a321d465cbdd76f2a47d5782d44b2bbfda79650dec1e7d16e",
+        "sha256-first1m": "14b65310830e11545acef5ae5f3485a3fc76dcea3917c4280ae6357e8c80929f"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/Base_texture0.png",
+      "size": 4957,
+      "hash": {
+        "sha256-flat-1mb": "a83203e93034c202665d11d16b41aa0a0c8cdbf5424250cc19d0d9890fab166b",
+        "sha256": "10fa25aef51208ad2679296289d4a11142395dc0ef3a14a04a92a0b277ec72a4"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/Base_texture1.png",
+      "size": 5169,
+      "hash": {
+        "sha256-flat-1mb": "02a47f22848d71ba23e6b51bdb056b13b0b9fe94ddde49e49059b30fd517fb52",
+        "sha256": "b9e374cf0c3e88f0f8fe9a596f75d4d0b98860754da1666eb5069337dc6dde8f"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/J0_texture0.png",
+      "size": 5044,
+      "hash": {
+        "sha256-flat-1mb": "d65f1883ef01f676a302b501263c6c3652cd9fa52e735898f79309ce1521767b",
+        "sha256": "52a432b1531b44d466d783f8ccd780405141273624c75f19d086f143883b8f3f"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/J0_texture1.png",
+      "size": 5306,
+      "hash": {
+        "sha256-flat-1mb": "92c72532b9bb19eba837bc65f09d225058ea7a99430664e1150ef71463ea6457",
+        "sha256": "8867d379eb02ad4658cbd94e6fad51dcae6ef4942e2e65a45074850d7fb30ecd"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/J1-J2_texture0.png",
+      "size": 1902,
+      "hash": {
+        "sha256-flat-1mb": "157fe078c2cae2ec094eef84bf7be3acbabc9eb15690bfedb664b2224cb5ee5c",
+        "sha256": "3799ed538d9c6c9bf3d4d198e12500874c90a412210f956e92a89e9eedde9afa"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/J1-J2_texture1.png",
+      "size": 1902,
+      "hash": {
+        "sha256-flat-1mb": "deb95285a643e108e124792c69e130db0846670089aee547d1546a9bb5cb24ad",
+        "sha256": "33cfc14e8f9d540d67d1fbd413c1a90e55ed5d20beb6e67378a91d0b35a21196"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/J4_texture0.png",
+      "size": 690,
+      "hash": {
+        "sha256-flat-1mb": "92a2f550188a030b7c2545b6b772a651c22cdd8c117915e613c810516fbffd1f",
+        "sha256": "5a53f653698f7e500b0600f5788ed331934005b011785dc4a4e6f95258bbeb60"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/J5_texture0.png",
+      "size": 707,
+      "hash": {
+        "sha256-flat-1mb": "85bac69fda6c700ecd14e2f68f4b370560ea08c79d1a33f8a8000abc75e2aa9f",
+        "sha256": "230272ebdcda0ffd6c4d858744c7f12a79b753d80203c1aa06bc4caf6d1efc35"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/WL-J3_texture0.png",
+      "size": 3565,
+      "hash": {
+        "sha256-flat-1mb": "e78e2797312a459c24f698c3a9d398e44a471563fa7d255f91fcaf6d5d19342f",
+        "sha256": "7ecb62c5c3c582447f020f31582e9022ac67a1e6334315fcd9fc23c2a23a9a0c"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/textures/WL-J3_texture1.png",
+      "size": 3565,
+      "hash": {
+        "sha256-flat-1mb": "3c7d9d5acac16a1e48b5408dab2be0b7988c5f8a2e193657ddf4226a07056f4b",
+        "sha256": "69f2a1eb8e92e808b5f40b41eb3c02d85e5b39928ba16ca640a117788c7cec2c"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/upper_arm_link.usd",
+      "size": 9721038,
+      "hash": {
+        "sha256-flat-1mb": "b6137342513401979612321f28336d55c0d48e7184d98486c620107f4a1b29d3",
+        "sha256": "f1635159c18803118f24158dd217b135a03d9f6f568d873b66789782e1adb2ac",
+        "sha256-first1m": "f7f0434367f800653646c22f166db5fa2d09d8573d6492105e483c418f83a1eb"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/wrist_1_link.usd",
+      "size": 3696327,
+      "hash": {
+        "sha256-flat-1mb": "de73ca5468f20cda3845be96488aed6ea03b8b18872f1cb68ffdfe9d2f219f86",
+        "sha256": "e34d5ba68994cb4bfdab3ee430a860eab910c1a3b303ffa037bcb8125a3bc1ad",
+        "sha256-first1m": "041314a67023df99dff12fcde20c2f9836121dcaf98b7c6cf8a0ef20554d500e"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/wrist_2_link.usd",
+      "size": 3707739,
+      "hash": {
+        "sha256-flat-1mb": "37e89bc40e7c613f6e6bcb50fb7fdbdc71e3be85ea8b62db88d9dff5b3ab54bf",
+        "sha256": "a6d135c5742a7d8640bba640f8ff00a8894966dd3a6a02b10dca46ede14c2968",
+        "sha256-first1m": "b70cd69e26d889fb5afca80d32780d2f4893e2b80b8fb1ffa24556ee2f19b46f"
+      }
+    },
+    {
+      "relative_path": "core/meshes/visual/wrist_3_link.usd",
+      "size": 5122522,
+      "hash": {
+        "sha256-flat-1mb": "1a18ad429cb29390a06dd15ad9fa07c60f6ffc859bc476979044440049abc321",
+        "sha256": "7778882c12aff064fc05df84fffade50e4401ef1c882d86aba8ce85a44095c26",
+        "sha256-first1m": "35422d9613de2ca06cc36f66a1c50e5032db8b129f479f388a3b64be991a47c4"
+      }
+    },
+    {
+      "relative_path": "core/preview/core_front.png",
+      "size": 156700,
+      "hash": {
+        "sha256-flat-1mb": "aa60e41c508d3fbbac77793bd0319296ae848f0f6f079ad259e03c457fbc6e4b",
+        "sha256": "ba3536655c62d571adc3a6feaaf4067028887f520a7aa8a8799e82df3219ee38"
+      }
+    },
+    {
+      "relative_path": "core/preview/core_shoulder_detail.png",
+      "size": 231678,
+      "hash": {
+        "sha256-flat-1mb": "a0673a9c33695d837c69b79def1d9fd7861f3068536abce170bcd6fb60227146",
+        "sha256": "a03284532feed233f6671d044ceb037885be146edabb9dc371d746818f575f84"
+      }
+    },
+    {
+      "relative_path": "core/preview/core_side.png",
+      "size": 134233,
+      "hash": {
+        "sha256-flat-1mb": "bcff99f64374ba425c2781440fc677d3b563958c49160e82edd408d5a6e5b886",
+        "sha256": "408bb8112d41de3e398e198921473a4a723b6b652b5dd3859fc56cba04cbfe1e"
+      }
+    },
+    {
+      "relative_path": "core/preview/core_three_quarter.png",
+      "size": 240242,
+      "hash": {
+        "sha256-flat-1mb": "d71b4e88011e7b00d8ac058773106f5f979fb99a079003d0b7b593ab2d63b303",
+        "sha256": "c3a910bc8cd80cc3afcd41eb994f4712940191bd86e97e385e1571a628d3438b"
+      }
+    },
+    {
+      "relative_path": "core/preview/core_wrist_detail.png",
+      "size": 296561,
+      "hash": {
+        "sha256-flat-1mb": "8ecbbe07ce3d3ea280136db57373a2fb51920ad7f4bd6bf0463e67021578c607",
+        "sha256": "925a3cbcd6267f3263eb9369a5add38114462e903efc731bf3f13ec15fc203e1"
+      }
+    },
+    {
+      "relative_path": "core/standardbots_core.usd",
+      "size": 3598,
+      "hash": {
+        "sha256-flat-1mb": "756780f469ece4351129f7bb4f684ae4a03652a4924f9aab5fabe37f4fc86d88",
+        "sha256": "ed89bbf49ca42aaa84e1a83e240a4b3d50760b4b8aad950e31123634d85a953e"
+      }
+    }
+  ]
+}

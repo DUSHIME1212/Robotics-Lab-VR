@@ -1,0 +1,231 @@
+#usda 1.0
+(
+    defaultPrim = "Robotiq_2F_85"
+    metersPerUnit = 1
+    subLayers = [
+        @./Robotiq_2F_85_physx_common_physics.usda@,
+        @./Robotiq_2F_85_body_mass_physics.usda@,
+        @./Robotiq_2F_85_fingertip_physics.usda@,
+        @./Robotiq_2F_85_kinematics_physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+def Xform "Robotiq_2F_85" (
+    kind = "assembly"
+)
+{
+    over Xform "Robotiq_2F_85" (
+        kind = "assembly"
+    )
+    {
+        int physxArticulation:solverPositionIterationCount = 64
+
+        over "Joints"
+        {
+            over "right_robotiq_finger_joint" (
+                prepend apiSchemas = ["PhysxJointAPI", "PhysicsDriveAPI:angular"]
+            )
+            {
+                float drive:angular:physics:damping = 0.0002
+                float drive:angular:physics:maxForce = 26
+                float drive:angular:physics:stiffness = 3
+                float drive:angular:physics:targetPosition = 0
+                float drive:angular:physics:targetVelocity = 0
+                float physxJoint:armature = 0.0001
+            }
+
+            over "right_robotiq_right_outer_knuckle_joint" (
+                delete apiSchemas = ["PhysicsDriveAPI:angular"]
+                prepend apiSchemas = ["PhysxJointAPI", "PhysxMimicJointAPI:rotZ"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:maxForce = 0
+                float drive:angular:physics:stiffness = 0
+                float physxJoint:armature = 0.0001
+                float physxJoint:maxJointVelocity = 10000
+                float physxMimicJoint:rotZ:dampingRatio = 0
+                float physxMimicJoint:rotZ:gearing = -1
+                float physxMimicJoint:rotZ:naturalFrequency = 0
+                rel physxMimicJoint:rotZ:referenceJoint = </Robotiq_2F_85/Robotiq_2F_85/Joints/right_robotiq_finger_joint>
+            }
+
+            over "right_robotiq_right_inner_finger_joint" (
+                delete apiSchemas = ["PhysicsDriveAPI:angular"]
+                prepend apiSchemas = ["PhysxJointAPI", "PhysxMimicJointAPI:rotX"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:maxForce = 0
+                float drive:angular:physics:stiffness = 0
+                float drive:angular:physics:targetPosition = 0
+                float physxJoint:maxJointVelocity = 10000
+                float physxMimicJoint:rotX:dampingRatio = 0
+                float physxMimicJoint:rotX:gearing = 1
+                float physxMimicJoint:rotX:naturalFrequency = 0
+                rel physxMimicJoint:rotX:referenceJoint = </Robotiq_2F_85/Robotiq_2F_85/Joints/right_robotiq_finger_joint>
+            }
+
+            over "right_robotiq_right_inner_finger_knuckle_joint" (
+                delete apiSchemas = ["PhysicsDriveAPI:angular"]
+                prepend apiSchemas = ["PhysxJointAPI", "PhysxMimicJointAPI:rotX"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+                float drive:angular:physics:targetPosition = 0
+                float physxJoint:maxJointVelocity = 10000
+                float physxMimicJoint:rotX:dampingRatio = 0
+                float physxMimicJoint:rotX:gearing = -1
+                float physxMimicJoint:rotX:naturalFrequency = 0
+                rel physxMimicJoint:rotX:referenceJoint = </Robotiq_2F_85/Robotiq_2F_85/Joints/right_robotiq_finger_joint>
+            }
+
+            over "right_robotiq_left_inner_finger_knuckle_joint" (
+                delete apiSchemas = ["PhysicsDriveAPI:angular"]
+                prepend apiSchemas = ["PhysxJointAPI", "PhysxMimicJointAPI:rotX"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:stiffness = 0
+                float physxJoint:maxJointVelocity = 10000
+                float physxMimicJoint:rotX:dampingRatio = 0
+                float physxMimicJoint:rotX:gearing = 1
+                float physxMimicJoint:rotX:naturalFrequency = 0
+                rel physxMimicJoint:rotX:referenceJoint = </Robotiq_2F_85/Robotiq_2F_85/Joints/right_robotiq_finger_joint>
+            }
+
+            over "right_robotiq_left_inner_finger_joint" (
+                delete apiSchemas = ["PhysicsDriveAPI:angular"]
+                prepend apiSchemas = ["PhysxJointAPI", "PhysxMimicJointAPI:rotX"]
+            )
+            {
+                float drive:angular:physics:damping = 0
+                float drive:angular:physics:maxForce = 0
+                float drive:angular:physics:stiffness = 0
+                float drive:angular:physics:targetPosition = 0
+                float physxJoint:maxJointVelocity = 10000
+                float physxMimicJoint:rotX:dampingRatio = 0
+                float physxMimicJoint:rotX:gearing = -1
+                float physxMimicJoint:rotX:naturalFrequency = 0
+                rel physxMimicJoint:rotX:referenceJoint = </Robotiq_2F_85/Robotiq_2F_85/Joints/right_robotiq_finger_joint>
+            }
+
+            over "right_robotiq_left_outer_finger_joint" (
+                active = false
+            )
+            {
+            }
+
+            over "right_robotiq_right_outer_finger_joint" (
+                active = false
+            )
+            {
+            }
+
+            over "right_robotiq_left_inner_knuckle_joint" (
+                active = false
+            )
+            {
+            }
+
+            over "right_robotiq_right_inner_knuckle_joint" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "right_robotiq_left_outer_finger" (
+            delete apiSchemas = ["PhysicsMassAPI"]
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            kind = "group"
+        )
+        {
+            point3f physics:centerOfMass = (0.000005531254, -0.06595047, 0.06895309)
+            float3 physics:diagonalInertia = (0.0000132201985, 0.0000042931024, 0.000010880907)
+            float physics:mass = 0.039179202
+            quatf physics:principalAxes = (0.76604444, -0.64278764, 0, 0)
+
+            def PhysicsFixedJoint "right_robotiq_left_outer_finger_fixed_joint"
+            {
+                rel physics:body0 = </Robotiq_2F_85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>
+                rel physics:body1 = </Robotiq_2F_85/Robotiq_2F_85/right_robotiq_left_outer_finger>
+                float physics:breakForce = 3.4028235e38
+                float physics:breakTorque = 3.4028235e38
+                point3f physics:localPos0 = (7.4505797e-9, 7.45058e-9, 3.87445e-9)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (1, -5.531774e-8, -4.2146855e-8, 2.370759e-8)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+        }
+
+        over "right_robotiq_left_inner_finger" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (-0.00000139, -0.0594077, 0.10376717)
+            float3 physics:diagonalInertia = (8.9561127e-7, 0.0000012091606, 0.0000014406507)
+            float physics:mass = 0.01327301
+            quatf physics:principalAxes = (0.1989801, 0.6786246, -0.6783625, -0.1992485)
+        }
+
+        over "right_robotiq_left_inner_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (-2.005321e-10, -0.03222066, 0.083420366)
+            float3 physics:diagonalInertia = (0.000011838778, 0.0000044877793, 0.00000800488)
+            float physics:mass = 0.027306942
+            quatf physics:principalAxes = (0.9063078, -0.42261827, 0, 0)
+        }
+
+        over "right_robotiq_right_outer_finger" (
+            delete apiSchemas = ["PhysicsMassAPI"]
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            kind = "group"
+        )
+        {
+            point3f physics:centerOfMass = (-0.000005531254, 0.06595047, 0.06895309)
+            float3 physics:diagonalInertia = (0.0000132201985, 0.0000042931024, 0.000010880907)
+            float physics:mass = 0.039179202
+            quatf physics:principalAxes = (0.76604444, 0.64278764, 0, 0)
+
+            def PhysicsFixedJoint "right_robotiq_right_outer_finger_fixed_joint"
+            {
+                rel physics:body0 = </Robotiq_2F_85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>
+                rel physics:body1 = </Robotiq_2F_85/Robotiq_2F_85/right_robotiq_right_outer_finger>
+                float physics:breakForce = 3.4028235e38
+                float physics:breakTorque = 3.4028235e38
+                point3f physics:localPos0 = (3.725291e-9, -7.45058e-9, -3.4324326e-9)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (1, -5.5317734e-8, 4.2146844e-8, -2.634178e-9)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+        }
+
+        over "right_robotiq_right_inner_finger" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            kind = "group"
+        )
+        {
+            point3f physics:centerOfMass = (0.00000139, 0.0594077, 0.10376717)
+            float3 physics:diagonalInertia = (8.9561127e-7, 0.0000012091606, 0.0000014406507)
+            float physics:mass = 0.01327301
+            quatf physics:principalAxes = (-0.6783625, -0.1992485, 0.1989801, 0.6786246)
+        }
+
+        over "right_robotiq_right_inner_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            kind = "group"
+        )
+        {
+            point3f physics:centerOfMass = (2.005321e-10, 0.03222066, 0.083420366)
+            float3 physics:diagonalInertia = (0.000011838778, 0.0000044877793, 0.00000800488)
+            float physics:mass = 0.027306942
+            quatf physics:principalAxes = (0.9063078, 0.42261827, 0, 0)
+        }
+    }
+}
+

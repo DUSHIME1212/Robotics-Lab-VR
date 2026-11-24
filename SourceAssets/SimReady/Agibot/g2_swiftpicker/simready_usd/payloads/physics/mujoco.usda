@@ -1,0 +1,1550 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.1.3"
+    }
+    defaultPrim = "g2_swiftpicker"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @./physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "g2_swiftpicker"
+{
+    over "Physics"
+    {
+        def MjcActuator "idx01_body_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx01_body_joint1>
+        }
+
+        def MjcActuator "idx02_body_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx02_body_joint2>
+        }
+
+        def MjcActuator "idx03_body_joint3_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx03_body_joint3>
+        }
+
+        def MjcActuator "idx04_body_joint4_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx04_body_joint4>
+        }
+
+        def MjcActuator "idx05_body_joint5_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx05_body_joint5>
+        }
+
+        def MjcActuator "idx11_head_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx11_head_joint1>
+        }
+
+        def MjcActuator "idx12_head_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx12_head_joint2>
+        }
+
+        def MjcActuator "idx13_head_joint3_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx13_head_joint3>
+        }
+
+        def MjcActuator "idx111_chassis_lwheel_front_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 15
+            uniform double mjc:forceRange:min = -15
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx111_chassis_lwheel_front_joint1>
+        }
+
+        def MjcActuator "idx112_chassis_lwheel_front_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 8
+            uniform double mjc:forceRange:min = -8
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx112_chassis_lwheel_front_joint2>
+        }
+
+        def MjcActuator "idx131_chassis_rwheel_front_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 15
+            uniform double mjc:forceRange:min = -15
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx131_chassis_rwheel_front_joint1>
+        }
+
+        def MjcActuator "idx132_chassis_rwheel_front_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 8
+            uniform double mjc:forceRange:min = -8
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx132_chassis_rwheel_front_joint2>
+        }
+
+        def MjcActuator "idx141_chassis_rwheel_rear_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 15
+            uniform double mjc:forceRange:min = -15
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx141_chassis_rwheel_rear_joint1>
+        }
+
+        def MjcActuator "idx142_chassis_rwheel_rear_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 8
+            uniform double mjc:forceRange:min = -8
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx142_chassis_rwheel_rear_joint2>
+        }
+
+        def MjcActuator "idx121_chassis_lwheel_rear_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 15
+            uniform double mjc:forceRange:min = -15
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx121_chassis_lwheel_rear_joint1>
+        }
+
+        def MjcActuator "idx122_chassis_lwheel_rear_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 8
+            uniform double mjc:forceRange:min = -8
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx122_chassis_lwheel_rear_joint2>
+        }
+
+        def MjcActuator "idx21_arm_l_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 108
+            uniform double mjc:forceRange:min = -108
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx21_arm_l_joint1>
+        }
+
+        def MjcActuator "idx22_arm_l_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 108
+            uniform double mjc:forceRange:min = -108
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx22_arm_l_joint2>
+        }
+
+        def MjcActuator "idx23_arm_l_joint3_actuator"
+        {
+            uniform double mjc:forceRange:max = 35
+            uniform double mjc:forceRange:min = -35
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx23_arm_l_joint3>
+        }
+
+        def MjcActuator "idx24_arm_l_joint4_actuator"
+        {
+            uniform double mjc:forceRange:max = 35
+            uniform double mjc:forceRange:min = -35
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx24_arm_l_joint4>
+        }
+
+        def MjcActuator "idx25_arm_l_joint5_actuator"
+        {
+            uniform double mjc:forceRange:max = 35
+            uniform double mjc:forceRange:min = -35
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx25_arm_l_joint5>
+        }
+
+        def MjcActuator "idx26_arm_l_joint6_actuator"
+        {
+            uniform double mjc:forceRange:max = 18
+            uniform double mjc:forceRange:min = -18
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx26_arm_l_joint6>
+        }
+
+        def MjcActuator "idx27_arm_l_joint7_actuator"
+        {
+            uniform double mjc:forceRange:max = 18
+            uniform double mjc:forceRange:min = -18
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx27_arm_l_joint7>
+        }
+
+        def MjcActuator "idx61_arm_r_joint1_actuator"
+        {
+            uniform double mjc:forceRange:max = 108
+            uniform double mjc:forceRange:min = -108
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx61_arm_r_joint1>
+        }
+
+        def MjcActuator "idx62_arm_r_joint2_actuator"
+        {
+            uniform double mjc:forceRange:max = 108
+            uniform double mjc:forceRange:min = -108
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx62_arm_r_joint2>
+        }
+
+        def MjcActuator "idx63_arm_r_joint3_actuator"
+        {
+            uniform double mjc:forceRange:max = 35
+            uniform double mjc:forceRange:min = -35
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx63_arm_r_joint3>
+        }
+
+        def MjcActuator "idx64_arm_r_joint4_actuator"
+        {
+            uniform double mjc:forceRange:max = 35
+            uniform double mjc:forceRange:min = -35
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx64_arm_r_joint4>
+        }
+
+        def MjcActuator "idx65_arm_r_joint5_actuator"
+        {
+            uniform double mjc:forceRange:max = 35
+            uniform double mjc:forceRange:min = -35
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx65_arm_r_joint5>
+        }
+
+        def MjcActuator "idx66_arm_r_joint6_actuator"
+        {
+            uniform double mjc:forceRange:max = 18
+            uniform double mjc:forceRange:min = -18
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx66_arm_r_joint6>
+        }
+
+        def MjcActuator "idx67_arm_r_joint7_actuator"
+        {
+            uniform double mjc:forceRange:max = 18
+            uniform double mjc:forceRange:min = -18
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx67_arm_r_joint7>
+        }
+
+        def MjcActuator "idx31_gripper_l_inner_joint1_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx31_gripper_l_inner_joint1>
+        }
+
+        def MjcActuator "idx32_gripper_l_outer_joint1_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx32_gripper_l_outer_joint1>
+        }
+
+        def MjcActuator "idx33_gripper_l_left_support_joint_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx33_gripper_l_left_support_joint>
+        }
+
+        def MjcActuator "idx34_gripper_l_inner_joint2_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx34_gripper_l_inner_joint2>
+        }
+
+        def MjcActuator "idx35_gripper_l_outer_joint2_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx35_gripper_l_outer_joint2>
+        }
+
+        def MjcActuator "idx36_gripper_l_right_support_joint_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx36_gripper_l_right_support_joint>
+        }
+
+        def MjcActuator "idx71_gripper_r_inner_joint1_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx71_gripper_r_inner_joint1>
+        }
+
+        def MjcActuator "idx72_gripper_r_outer_joint1_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx72_gripper_r_outer_joint1>
+        }
+
+        def MjcActuator "idx73_gripper_r_left_support_joint_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx73_gripper_r_left_support_joint>
+        }
+
+        def MjcActuator "idx74_gripper_r_inner_joint2_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx74_gripper_r_inner_joint2>
+        }
+
+        def MjcActuator "idx75_gripper_r_outer_joint2_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx75_gripper_r_outer_joint2>
+        }
+
+        def MjcActuator "idx76_gripper_r_right_support_joint_actuator"
+        {
+            uniform double[] mjc:biasPrm = [0, 0, -0.5, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:biasType = "affine"
+            uniform double mjc:forceRange:max = 10
+            uniform double mjc:forceRange:min = -10
+            uniform double[] mjc:gainPrm = [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            uniform token mjc:gainType = "fixed"
+            custom rel mjc:target
+            prepend rel mjc:target = </g2_swiftpicker/Physics/idx76_gripper_r_right_support_joint>
+        }
+
+        over "idx21_arm_l_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 1
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx22_arm_l_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 1
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx23_arm_l_joint3" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.5
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx24_arm_l_joint4" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.5
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx25_arm_l_joint5" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.5
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx26_arm_l_joint6" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.2
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx27_arm_l_joint7" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.2
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx61_arm_r_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 1
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx62_arm_r_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 1
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx63_arm_r_joint3" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.5
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx64_arm_r_joint4" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.5
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx65_arm_r_joint5" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.5
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx66_arm_r_joint6" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.2
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx67_arm_r_joint7" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.2
+
+            over "drive"
+            {
+            }
+        }
+
+        over "idx31_gripper_l_inner_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx32_gripper_l_outer_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx33_gripper_l_left_support_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx34_gripper_l_inner_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx35_gripper_l_outer_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx36_gripper_l_right_support_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx71_gripper_r_inner_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx72_gripper_r_outer_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx73_gripper_r_left_support_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx74_gripper_r_inner_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx75_gripper_r_outer_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx76_gripper_r_right_support_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            custom float mjc:frictionloss = 0.01
+        }
+
+        over "idx01_body_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "root_joint"
+        {
+        }
+
+        over "idx100_chassis_base_joint"
+        {
+        }
+
+        over "idx02_body_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "idx03_body_joint3" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "idx04_body_joint4" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "idx05_body_joint5" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "idx11_head_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "idx20_arm_base_joint"
+        {
+        }
+
+        over "idx10_head_base_joint"
+        {
+        }
+
+        over "idx12_head_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "idx13_head_joint3" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            over "drive"
+            {
+            }
+        }
+
+        over "arm_l_end_joint"
+        {
+        }
+
+        over "idx30_gripper_l_camera_joint"
+        {
+        }
+
+        over "idx51_gripper_l_base_joint"
+        {
+        }
+
+        over "arm_r_end_joint"
+        {
+        }
+
+        over "idx70_gripper_r_camera_joint"
+        {
+        }
+
+        over "idx91_gripper_r_base_joint"
+        {
+        }
+
+        over "idx111_chassis_lwheel_front_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "idx131_chassis_rwheel_front_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "idx141_chassis_rwheel_rear_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "idx121_chassis_lwheel_rear_joint1" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "idx112_chassis_lwheel_front_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "idx132_chassis_rwheel_front_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "idx142_chassis_rwheel_rear_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "idx122_chassis_lwheel_rear_joint2" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+    }
+
+    over "Geometry"
+    {
+        over "base_link"
+        {
+            over "body_link1"
+            {
+                over "body_link2"
+                {
+                    over "body_link3"
+                    {
+                        over "body_link4"
+                        {
+                            over "body_link5"
+                            {
+                                over "head_link1"
+                                {
+                                    over "head_link2"
+                                    {
+                                        over "head_link3"
+                                        {
+                                            over "head_link3"
+                                            {
+                                                over "head_link3_1Mesh"
+                                                {
+                                                }
+
+                                                over "head_link3_4Mesh"
+                                                {
+                                                }
+
+                                                over "head_link3_5Mesh"
+                                                {
+                                                }
+
+                                                over "head_link3_2Mesh"
+                                                {
+                                                }
+
+                                                over "head_link3_3Mesh"
+                                                {
+                                                }
+                                            }
+
+                                            over "collision_checking"
+                                            {
+                                                over "convex"
+                                                {
+                                                }
+                                            }
+
+                                            over "head_link3_convex_0"
+                                            {
+                                            }
+                                        }
+
+                                        over "head_link2"
+                                        {
+                                        }
+                                    }
+
+                                    over "head_link1"
+                                    {
+                                    }
+                                }
+
+                                over "arm_base_link"
+                                {
+                                    over "arm_l_link1"
+                                    {
+                                        over "arm_l_link2"
+                                        {
+                                            over "arm_l_link3"
+                                            {
+                                                over "arm_l_link4"
+                                                {
+                                                    over "arm_l_link5"
+                                                    {
+                                                        over "arm_l_link6"
+                                                        {
+                                                            over "arm_l_link7"
+                                                            {
+                                                                over "arm_l_end_link"
+                                                                {
+                                                                    over "gripper_l_camera_link"
+                                                                    {
+                                                                        over "camera_link"
+                                                                        {
+                                                                        }
+
+                                                                        over "gripper_l_camera_link_collision_0"
+                                                                        {
+                                                                        }
+                                                                    }
+
+                                                                    over "gripper_l_base_link"
+                                                                    {
+                                                                        over "gripper_l_left_inner_link"
+                                                                        {
+                                                                            over "left_inner_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_l_left_inner_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "gripper_l_left_outer_link"
+                                                                        {
+                                                                            over "gripper_l_left_support_link"
+                                                                            {
+                                                                                over "left_support_link"
+                                                                                {
+                                                                                }
+
+                                                                                over "gripper_l_left_support_link_visual_0"
+                                                                                {
+                                                                                }
+                                                                            }
+
+                                                                            over "left_outer_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_l_left_outer_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "gripper_l_right_inner_link"
+                                                                        {
+                                                                            over "right_inner_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_l_right_inner_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "gripper_l_right_outer_link"
+                                                                        {
+                                                                            over "gripper_l_right_support_link"
+                                                                            {
+                                                                                over "right_support_link"
+                                                                                {
+                                                                                }
+
+                                                                                over "gripper_l_right_support_link_visual_0"
+                                                                                {
+                                                                                }
+                                                                            }
+
+                                                                            over "right_outer_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_l_right_outer_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "base_link"
+                                                                        {
+                                                                        }
+
+                                                                        over "gripper_l_base_link_visual_0"
+                                                                        {
+                                                                        }
+                                                                    }
+                                                                }
+
+                                                                over "default_visual"
+                                                                {
+                                                                }
+
+                                                                over "collision_checking"
+                                                                {
+                                                                    over "convex"
+                                                                    {
+                                                                    }
+                                                                }
+
+                                                                over "arm_l_link7_convex_0"
+                                                                {
+                                                                }
+                                                            }
+
+                                                            over "default_visual"
+                                                            {
+                                                            }
+
+                                                            over "collision_checking"
+                                                            {
+                                                                over "convex"
+                                                                {
+                                                                }
+                                                            }
+
+                                                            over "arm_l_link6_convex_0"
+                                                            {
+                                                            }
+                                                        }
+
+                                                        over "default_visual"
+                                                        {
+                                                        }
+
+                                                        over "collision_checking"
+                                                        {
+                                                            over "convex"
+                                                            {
+                                                            }
+                                                        }
+
+                                                        over "arm_l_link5_convex_0"
+                                                        {
+                                                        }
+                                                    }
+
+                                                    over "default_visual"
+                                                    {
+                                                    }
+
+                                                    over "collision_checking"
+                                                    {
+                                                        over "convex"
+                                                        {
+                                                        }
+                                                    }
+
+                                                    over "arm_l_link4_convex_0"
+                                                    {
+                                                    }
+                                                }
+
+                                                over "default_visual"
+                                                {
+                                                }
+
+                                                over "collision_checking"
+                                                {
+                                                    over "convex"
+                                                    {
+                                                    }
+                                                }
+
+                                                over "arm_l_link3_convex_0"
+                                                {
+                                                }
+                                            }
+
+                                            over "default_visual"
+                                            {
+                                            }
+
+                                            over "collision_checking"
+                                            {
+                                                over "convex"
+                                                {
+                                                }
+                                            }
+
+                                            over "arm_l_link2_convex_0"
+                                            {
+                                            }
+                                        }
+
+                                        over "default_visual"
+                                        {
+                                        }
+
+                                        over "collision_checking"
+                                        {
+                                            over "convex"
+                                            {
+                                            }
+                                        }
+
+                                        over "arm_l_link1_convex_0"
+                                        {
+                                        }
+                                    }
+
+                                    over "arm_r_link1"
+                                    {
+                                        over "arm_r_link2"
+                                        {
+                                            over "arm_r_link3"
+                                            {
+                                                over "arm_r_link4"
+                                                {
+                                                    over "arm_r_link5"
+                                                    {
+                                                        over "arm_r_link6"
+                                                        {
+                                                            over "arm_r_link7"
+                                                            {
+                                                                over "arm_r_end_link"
+                                                                {
+                                                                    over "gripper_r_camera_link"
+                                                                    {
+                                                                        over "camera_link"
+                                                                        {
+                                                                        }
+
+                                                                        over "gripper_r_camera_link_collision_0"
+                                                                        {
+                                                                        }
+                                                                    }
+
+                                                                    over "gripper_r_base_link"
+                                                                    {
+                                                                        over "gripper_r_left_inner_link"
+                                                                        {
+                                                                            over "left_inner_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_r_left_inner_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "gripper_r_left_outer_link"
+                                                                        {
+                                                                            over "gripper_r_left_support_link"
+                                                                            {
+                                                                                over "left_support_link"
+                                                                                {
+                                                                                }
+
+                                                                                over "gripper_r_left_support_link_visual_0"
+                                                                                {
+                                                                                }
+                                                                            }
+
+                                                                            over "left_outer_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_r_left_outer_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "gripper_r_right_inner_link"
+                                                                        {
+                                                                            over "right_inner_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_r_right_inner_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "gripper_r_right_outer_link"
+                                                                        {
+                                                                            over "gripper_r_right_support_link"
+                                                                            {
+                                                                                over "right_support_link"
+                                                                                {
+                                                                                }
+
+                                                                                over "gripper_r_right_support_link_visual_0"
+                                                                                {
+                                                                                }
+                                                                            }
+
+                                                                            over "right_outer_link"
+                                                                            {
+                                                                            }
+
+                                                                            over "gripper_r_right_outer_link_visual_0"
+                                                                            {
+                                                                            }
+                                                                        }
+
+                                                                        over "base_link"
+                                                                        {
+                                                                        }
+
+                                                                        over "gripper_r_base_link_visual_0"
+                                                                        {
+                                                                        }
+                                                                    }
+                                                                }
+
+                                                                over "default_visual"
+                                                                {
+                                                                }
+
+                                                                over "collision_checking"
+                                                                {
+                                                                    over "convex"
+                                                                    {
+                                                                    }
+                                                                }
+
+                                                                over "arm_r_link7_convex_0"
+                                                                {
+                                                                }
+                                                            }
+
+                                                            over "default_visual"
+                                                            {
+                                                            }
+
+                                                            over "collision_checking"
+                                                            {
+                                                                over "convex"
+                                                                {
+                                                                }
+                                                            }
+
+                                                            over "arm_r_link6_convex_0"
+                                                            {
+                                                            }
+                                                        }
+
+                                                        over "default_visual"
+                                                        {
+                                                        }
+
+                                                        over "collision_checking"
+                                                        {
+                                                            over "convex"
+                                                            {
+                                                            }
+                                                        }
+
+                                                        over "arm_r_link5_convex_0"
+                                                        {
+                                                        }
+                                                    }
+
+                                                    over "default_visual"
+                                                    {
+                                                    }
+
+                                                    over "collision_checking"
+                                                    {
+                                                        over "convex"
+                                                        {
+                                                        }
+                                                    }
+
+                                                    over "arm_r_link4_convex_0"
+                                                    {
+                                                    }
+                                                }
+
+                                                over "default_visual"
+                                                {
+                                                }
+
+                                                over "collision_checking"
+                                                {
+                                                    over "convex"
+                                                    {
+                                                    }
+                                                }
+
+                                                over "arm_r_link3_convex_0"
+                                                {
+                                                }
+                                            }
+
+                                            over "default_visual"
+                                            {
+                                            }
+
+                                            over "collision_checking"
+                                            {
+                                                over "convex"
+                                                {
+                                                }
+                                            }
+
+                                            over "arm_r_link2_convex_0"
+                                            {
+                                            }
+                                        }
+
+                                        over "default_visual"
+                                        {
+                                        }
+
+                                        over "collision_checking"
+                                        {
+                                            over "convex"
+                                            {
+                                            }
+                                        }
+
+                                        over "arm_r_link1_convex_0"
+                                        {
+                                        }
+                                    }
+                                }
+
+                                over "head_base_link"
+                                {
+                                }
+
+                                over "body_link5"
+                                {
+                                    over "body_link5_1Mesh"
+                                    {
+                                    }
+
+                                    over "body_link5_4Mesh"
+                                    {
+                                    }
+
+                                    over "body_link5_2Mesh"
+                                    {
+                                    }
+
+                                    over "body_link5_3Mesh"
+                                    {
+                                    }
+
+                                    over "body_link5_5Mesh"
+                                    {
+                                    }
+                                }
+
+                                over "collision_checking"
+                                {
+                                    over "convex"
+                                    {
+                                    }
+                                }
+
+                                over "body_link5_convex_0"
+                                {
+                                }
+                            }
+
+                            over "body_link4"
+                            {
+                                over "body_link4Mesh"
+                                {
+                                }
+
+                                over "tn__body_link4_1PivotMesh_fV0"
+                                {
+                                }
+                            }
+
+                            over "collision_checking"
+                            {
+                                over "convex"
+                                {
+                                }
+
+                                over "convex_1"
+                                {
+                                }
+
+                                over "convex_2"
+                                {
+                                }
+                            }
+
+                            over "body_link4_convex_1"
+                            {
+                            }
+
+                            over "body_link4_convex_2"
+                            {
+                            }
+
+                            over "body_link4_convex_3"
+                            {
+                            }
+                        }
+
+                        over "body_link3"
+                        {
+                        }
+
+                        over "collision_checking"
+                        {
+                            over "convex"
+                            {
+                            }
+                        }
+
+                        over "body_link3_convex_0"
+                        {
+                        }
+                    }
+
+                    over "body_link2"
+                    {
+                        over "body_link2_01Mesh"
+                        {
+                        }
+
+                        over "body_link2_02Mesh"
+                        {
+                        }
+                    }
+
+                    over "collision_checking"
+                    {
+                        over "convex"
+                        {
+                        }
+                    }
+
+                    over "body_link2_convex_0"
+                    {
+                    }
+                }
+
+                over "body_link1"
+                {
+                }
+
+                over "Cylinder"
+                {
+                }
+
+                over "tn__Cylinder001_XH"
+                {
+                }
+
+                over "Cube"
+                {
+                }
+
+                over "tn__Cube001_VB"
+                {
+                }
+
+                over "tn__Cube002_VB"
+                {
+                }
+            }
+
+            over "chassis_link"
+            {
+                over "chassis_lwheel_front_link1"
+                {
+                    over "chassis_lwheel_front_link2"
+                    {
+                        over "chassis_lwheel_front_link2"
+                        {
+                        }
+
+                        over "chassis_lwheel_front_link2_cylinder"
+                        {
+                        }
+                    }
+
+                    over "chassis_lwheel_front_link1"
+                    {
+                    }
+                }
+
+                over "chassis_rwheel_front_link1"
+                {
+                    over "chassis_rwheel_front_link2"
+                    {
+                        over "chassis_rwheel_front_link2"
+                        {
+                        }
+
+                        over "chassis_rwheel_front_link2_cylinder"
+                        {
+                        }
+                    }
+
+                    over "chassis_rwheel_front_link1"
+                    {
+                    }
+                }
+
+                over "chassis_rwheel_rear_link1"
+                {
+                    over "chassis_rwheel_rear_link2"
+                    {
+                        over "chassis_rwheel_rear_link2"
+                        {
+                        }
+
+                        over "chassis_rwheel_rear_link2_cylinder"
+                        {
+                        }
+                    }
+
+                    over "chassis_rwheel_rear_link1"
+                    {
+                    }
+                }
+
+                over "chassis_lwheel_rear_link1"
+                {
+                    over "chassis_lwheel_rear_link2"
+                    {
+                        over "chassis_lwheel_rear_link2"
+                        {
+                        }
+
+                        over "chassis_lwheel_rear_link2_cylinder"
+                        {
+                        }
+                    }
+
+                    over "chassis_lwheel_rear_link1"
+                    {
+                    }
+                }
+            }
+
+            over "base_link"
+            {
+                over "black_02Mesh"
+                {
+                }
+
+                over "whiteMesh"
+                {
+                }
+
+                over "black_01Mesh"
+                {
+                }
+
+                over "orangeMesh"
+                {
+                }
+            }
+        }
+    }
+
+    over "Materials"
+    {
+    }
+
+    over "VisualMaterials"
+    {
+    }
+}
+

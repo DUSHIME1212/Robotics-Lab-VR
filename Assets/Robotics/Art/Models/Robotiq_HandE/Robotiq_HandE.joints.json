@@ -1,0 +1,22 @@
+{
+  "robot": "Robotiq_HandE",
+  "source": "Robotiq_Hand_E.usda",
+  "joints": [
+    {
+      "name": "left_finger_joint",
+      "type": "prismatic",
+      "lower": 0.0,
+      "upper": 0.02500000037252903,
+      "parent": "root",
+      "childLink": "left_finger"
+    },
+    {
+      "name": "right_finger_joint",
+      "type": "prismatic",
+      "lower": 0.0,
+      "upper": 0.02500000037252903,
+      "parent": "root",
+      "childLink": "right_finger"
+    }
+  ]
+}

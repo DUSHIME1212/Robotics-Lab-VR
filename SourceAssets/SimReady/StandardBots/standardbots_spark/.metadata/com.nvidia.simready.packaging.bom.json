@@ -1,0 +1,213 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "spark/.thumbs/256x256/standardbots_spark.usd.png",
+      "size": 13818,
+      "hash": {
+        "sha256-flat-1mb": "5254a042cd77e1f1e1c06d85ee8f4a10f8064e89507cd9f2d23242a98eeeb615",
+        "sha256": "9f806d3b80692847fea1233a642874d2b63bdd55835b3ac03e4e226b6132dd75"
+      }
+    },
+    {
+      "relative_path": "spark/.thumbs/256x256/standardbots_spark.usd_light.png",
+      "size": 14113,
+      "hash": {
+        "sha256-flat-1mb": "7db64fbaee38855e06d05944ca3eb47fa9d556ad0782542a46b6a6a3c210d920",
+        "sha256": "e6e5c0361e8e49497b06b091fbfe9ab2703fd4075450cfa41b2b04d370735062"
+      }
+    },
+    {
+      "relative_path": "spark/.thumbs/256x256/standardbots_spark.usd_transparent.png",
+      "size": 17330,
+      "hash": {
+        "sha256-flat-1mb": "a7311830c5dff0e1f99979ad7a1124a3de0f10d70fa39919f66e918d811f652b",
+        "sha256": "a73c49015dd5a2b70660f07603b5138ea5e5f422fbc5baad33d57339ef7f8d1e"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/OmniPBR/OmniPBR.mdl",
+      "size": 13989,
+      "hash": {
+        "sha256-flat-1mb": "4d0f54d47017bfbe22cc483cb02c4fe7e2254ddd1119cd618cbaea553639d52c",
+        "sha256": "d384fc800f120e3cad1b7ca8837f9c554f9c34343d194813fca27caa493001f2"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/OmniPBR/OmniPBRBase.mdl",
+      "size": 17274,
+      "hash": {
+        "sha256-flat-1mb": "4b54e7fb8bc92191512851b3acc6fc6fa9863f80d98ffece8f0cb9b99f5f4535",
+        "sha256": "701f37299b44106842bdbe025de52eedec391e35b038f61c4ed4d25bd98e7db1"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/OmniPBR/OmniPBR_ClearCoat.mdl",
+      "size": 27453,
+      "hash": {
+        "sha256-flat-1mb": "0e35217542eb4ece0205fc09f74eb71aaa6bfb75b3b861d64693d317282df424",
+        "sha256": "687fce3f0693146b91495f04407a7c38c78f6b9262b63621f44b4b1f09110469"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/spark_base.usd",
+      "size": 1924727,
+      "hash": {
+        "sha256-flat-1mb": "d555be5066c1349c1de663d34d495a0d4bff0af02265d13ca7e3a1a392038f47",
+        "sha256": "55baa19414ed45a233f398861ea78f49915f6a7f43b785bacf483b5dfd3cf008",
+        "sha256-first1m": "279999013aa8115204e1d70bfd7daa5c22eb85a39c42013dce76f514ad666c0b"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/spark_materials.usda",
+      "size": 5511,
+      "hash": {
+        "sha256-flat-1mb": "d818b9ee7cbad94043d8ede5ec9c369b246083e6bda3dfe3ddf365c3fb964632",
+        "sha256": "f2d07325b732db6bd87b2a0071a4dca2cb02ebf6106c641cd12695c834338368"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/spark_physics.usd",
+      "size": 4520,
+      "hash": {
+        "sha256-flat-1mb": "21f53a98fe7766c03cedf8c3fb0776efdb52517571349766a3aa6b0e99b37675",
+        "sha256": "a49941d84643b70046a92128da677afdb0a9227ffb2e1502c7bdb968c737850c"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/spark_sensor.usd",
+      "size": 645,
+      "hash": {
+        "sha256-flat-1mb": "704226d3d8e1cc625cec1d5475eca628a594a0af17e5b0e46781c6e9ca8eeb0d",
+        "sha256": "788b78a393765e01db8acca673f38b6c3388a65ca98e7979e7071b185c15186c"
+      }
+    },
+    {
+      "relative_path": "spark/configuration/spark_visual.usda",
+      "size": 32385,
+      "hash": {
+        "sha256-flat-1mb": "e09d9278e94a7741807658746f1e53a732bc80ba7c0e77f5ec4545f2b634c466",
+        "sha256": "3e97f7e3fd12abfe754b61e91b47fe9114c0f0da2bebb8e19568d32e4854767b"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/base_link.usd",
+      "size": 4456462,
+      "hash": {
+        "sha256-flat-1mb": "2e57e6bb0747b7b1b18e04d4143252ecd62a8cc081c11732652e5bd121a8a880",
+        "sha256": "64a1599e205750687d13b1504c21e26218f4423f7d366d79fbb809386d2d702e",
+        "sha256-first1m": "75a90d692daa7c4b508a9334db46538b96e795ce3e73781b9edb5c6e8b2bc315"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/forearm_link.usd",
+      "size": 11090641,
+      "hash": {
+        "sha256-flat-1mb": "39efd7a3d370f6716560bfbad1bad86a37f3a2049e6e4bcf3102f11f57688724",
+        "sha256": "ed00f891f0e17e32d1ee1a5f1d7a4b401532c2630e7c1e0d6f3548507d200a3f",
+        "sha256-first1m": "a9b03415d1d85726583c1292d7626db21c380126ff994ee7fd34ab59e5940006"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/gltf/pbr.mdl",
+      "size": 42240,
+      "hash": {
+        "sha256-flat-1mb": "0ea567c192a18e6835ba556207f797ebe90850414ac832952c61c571cff22a0d",
+        "sha256": "eeed10b53c18d789f94a24a3a6b996c49668ae2d5b6a909bae3420f2beb16fc8"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/shoulder_link.usd",
+      "size": 6258398,
+      "hash": {
+        "sha256-flat-1mb": "f5478184fef43041d20dec7280317710e92af72d6ca44f686d441d3d13806065",
+        "sha256": "68a67d936f0d1f7b1c7b84b254493d2203a7ac15fe884ce545d2c7f69b328941",
+        "sha256-first1m": "459e0f92490184c7ac1ca5476cf33115159d0bd3c9dfb46d0b73e6ae353ca0b9"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/upper_arm_link.usd",
+      "size": 13819892,
+      "hash": {
+        "sha256-flat-1mb": "e2286296132505585f9599a028834dec35e64b7e394348985128a35411645231",
+        "sha256": "e7e1250652e68a6d0a617c869feed986337d68d79602b7ed07541269af9a301e",
+        "sha256-first1m": "e4051b668ef10d4b84b6b22dfe2861d18a32accd5d4c63a7fa49774a33e4141d"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/wrist_1_link.usd",
+      "size": 4162675,
+      "hash": {
+        "sha256-flat-1mb": "cf60cc71f3f1d02560d439dda464b7bc2200e03be3ae6d9bc1831ae6d195de20",
+        "sha256": "8d3c3d8d1b7b51e3c8177036b85febda8c6de751261505f907f452f475780f87",
+        "sha256-first1m": "ca6869fc908d81b2eac2508e508197c00d2683d9fc321e38a8325eda8fd32c80"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/wrist_2_link.usd",
+      "size": 4162691,
+      "hash": {
+        "sha256-flat-1mb": "8ab096bd82b61bce05ea3d01e856701ce40c250a811f7b25d3952df1a544c38d",
+        "sha256": "3a0932e079527a4c80a3cd63f1fcf1ccaf9c71bc30a169be66b3c7aed81ce801",
+        "sha256-first1m": "5d865b8683fd56031bb9421b7f10292937bcc8d509ad0ed8ec0fa890996e71ee"
+      }
+    },
+    {
+      "relative_path": "spark/meshes/visual/wrist_3_link.usd",
+      "size": 4709471,
+      "hash": {
+        "sha256-flat-1mb": "5e3265bd891cc6be8e0c2841e5c3f7e7a45862a9430a5776caca0a183e236fe6",
+        "sha256": "676936b6939885e62810b632c4c384cbb36445dc95be27f3d32f20d68383f13e",
+        "sha256-first1m": "7c706e7460544118a7ffeb9c0ca70f18769123ca4fff06120b33af4c857a98da"
+      }
+    },
+    {
+      "relative_path": "spark/preview/spark_front.png",
+      "size": 133060,
+      "hash": {
+        "sha256-flat-1mb": "dfa5434047e1f47c71222288cac1678ade8d91895675193eda1dd3ae6ed48e66",
+        "sha256": "7647de5499ff1e3c1c1bfce351e94d144a5204344ea439fad503d1124a9b4249"
+      }
+    },
+    {
+      "relative_path": "spark/preview/spark_shoulder_detail.png",
+      "size": 371194,
+      "hash": {
+        "sha256-flat-1mb": "f4d2bbcec1695390a2aa063e03a2ba46439985c001bd655f4d85303ba64ecb18",
+        "sha256": "23a5c6ed787b5adb661c91ebf3ce0fd1e584a9205bf9bbd54ceb1624b51011f3"
+      }
+    },
+    {
+      "relative_path": "spark/preview/spark_side.png",
+      "size": 160551,
+      "hash": {
+        "sha256-flat-1mb": "b4d0de4c7ec3da3ddfefd9f51dff43c78b6a4b904b279ef4813a083abb5f446a",
+        "sha256": "091e6bfabd96072c4e4f20c952b16f7a3cc5ad66f59b1a6ca01c5fcc6c0f40a6"
+      }
+    },
+    {
+      "relative_path": "spark/preview/spark_three_quarter.png",
+      "size": 277504,
+      "hash": {
+        "sha256-flat-1mb": "4c8f7b44e8fffd3957e2622e4b5141f98039748dbc2c332b0f076decc5599f8e",
+        "sha256": "61e095145119f6fe1f3cad837790aa5da065c52081d84c1c48083cb9de3a0c25"
+      }
+    },
+    {
+      "relative_path": "spark/preview/spark_wrist_detail.png",
+      "size": 267612,
+      "hash": {
+        "sha256-flat-1mb": "a10d52565233b853a0df1c0d6f99634ddd62b183323b8b53755170378a669e60",
+        "sha256": "1da576bea6d7e7e548dea62da9bc722dfe49260ae352f3f7d4c1b079c80b3c65"
+      }
+    },
+    {
+      "relative_path": "spark/standardbots_spark.usd",
+      "size": 2555,
+      "hash": {
+        "sha256-flat-1mb": "36a922ab0e499ecd2c59900469ce15d4e803ad45bebd5ac2b83b5d4fbf95d4da",
+        "sha256": "6b4558f390fb173ac903b1a10695d17aa304c30792ede992e0e759e61ffc1ac3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "robot": "StandardBots_Core",
+  "source": "standardbots_core.usd",
+  "joints": [
+    {
+      "name": "joint0",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "root",
+      "childLink": "shoulder_link"
+    },
+    {
+      "name": "joint1",
+      "type": "revolute",
+      "lower": -135.0,
+      "upper": 135.0,
+      "parent": "joint0",
+      "childLink": "upper_arm_link"
+    },
+    {
+      "name": "joint2",
+      "type": "revolute",
+      "lower": -165.0,
+      "upper": 165.0,
+      "parent": "joint1",
+      "childLink": "forearm_link"
+    },
+    {
+      "name": "joint3",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "joint2",
+      "childLink": "wrist_1_link"
+    },
+    {
+      "name": "joint4",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "joint3",
+      "childLink": "wrist_2_link"
+    },
+    {
+      "name": "joint5",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "joint4",
+      "childLink": "wrist_3_link"
+    }
+  ]
+}

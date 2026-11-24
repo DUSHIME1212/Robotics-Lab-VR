@@ -1,0 +1,206 @@
+{
+  "robot": "Menlo_Asimov1",
+  "source": "asimov_1.usd",
+  "joints": [
+    {
+      "name": "left_hip_pitch_joint",
+      "type": "revolute",
+      "lower": -89.9543685913086,
+      "upper": 89.9543685913086,
+      "parent": "root",
+      "childLink": "left_hip_pitch_link"
+    },
+    {
+      "name": "left_hip_roll_joint",
+      "type": "revolute",
+      "lower": -44.9999885559082,
+      "upper": 44.9999885559082,
+      "parent": "left_hip_pitch_joint",
+      "childLink": "left_hip_roll_link"
+    },
+    {
+      "name": "left_hip_yaw_joint",
+      "type": "revolute",
+      "lower": -44.9999885559082,
+      "upper": 44.9999885559082,
+      "parent": "left_hip_roll_joint",
+      "childLink": "left_hip_yaw_link"
+    },
+    {
+      "name": "left_knee_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 85.94366455078125,
+      "parent": "left_hip_yaw_joint",
+      "childLink": "left_knee_link"
+    },
+    {
+      "name": "left_ankle_pitch_joint",
+      "type": "revolute",
+      "lower": -20.05352210998535,
+      "upper": 20.05352210998535,
+      "parent": "left_knee_joint",
+      "childLink": "left_ankle_pitch_link"
+    },
+    {
+      "name": "left_ankle_roll_joint",
+      "type": "revolute",
+      "lower": -5.729577541351318,
+      "upper": 5.729577541351318,
+      "parent": "left_ankle_pitch_joint",
+      "childLink": "left_ankle_roll_link"
+    },
+    {
+      "name": "right_hip_pitch_joint",
+      "type": "revolute",
+      "lower": -89.9543685913086,
+      "upper": 89.9543685913086,
+      "parent": "root",
+      "childLink": "right_hip_pitch_link"
+    },
+    {
+      "name": "right_hip_roll_joint",
+      "type": "revolute",
+      "lower": -44.9999885559082,
+      "upper": 44.9999885559082,
+      "parent": "right_hip_pitch_joint",
+      "childLink": "right_hip_roll_link"
+    },
+    {
+      "name": "right_hip_yaw_joint",
+      "type": "revolute",
+      "lower": -44.9999885559082,
+      "upper": 44.9999885559082,
+      "parent": "right_hip_roll_joint",
+      "childLink": "right_hip_yaw_link"
+    },
+    {
+      "name": "right_knee_joint",
+      "type": "revolute",
+      "lower": -85.94366455078125,
+      "upper": 0.0,
+      "parent": "right_hip_yaw_joint",
+      "childLink": "right_knee_link"
+    },
+    {
+      "name": "right_ankle_pitch_joint",
+      "type": "revolute",
+      "lower": -20.05352210998535,
+      "upper": 20.05352210998535,
+      "parent": "right_knee_joint",
+      "childLink": "right_ankle_pitch_link"
+    },
+    {
+      "name": "right_ankle_roll_joint",
+      "type": "revolute",
+      "lower": -5.729577541351318,
+      "upper": 5.729577541351318,
+      "parent": "right_ankle_pitch_joint",
+      "childLink": "right_ankle_roll_link"
+    },
+    {
+      "name": "waist_yaw_joint",
+      "type": "revolute",
+      "lower": -89.9999771118164,
+      "upper": 89.9999771118164,
+      "parent": "root",
+      "childLink": "waist_yaw_link"
+    },
+    {
+      "name": "left_shoulder_pitch_joint",
+      "type": "revolute",
+      "lower": -180.00001525878906,
+      "upper": 50.00001907348633,
+      "parent": "waist_yaw_joint",
+      "childLink": "left_shoulder_pitch_link"
+    },
+    {
+      "name": "left_shoulder_roll_joint",
+      "type": "revolute",
+      "lower": -89.9999771118164,
+      "upper": 0.0,
+      "parent": "left_shoulder_pitch_joint",
+      "childLink": "left_shoulder_roll_link"
+    },
+    {
+      "name": "left_shoulder_yaw_joint",
+      "type": "revolute",
+      "lower": -89.9999771118164,
+      "upper": 89.9999771118164,
+      "parent": "left_shoulder_roll_joint",
+      "childLink": "left_shoulder_yaw_link"
+    },
+    {
+      "name": "left_elbow_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 120.0002670288086,
+      "parent": "left_shoulder_yaw_joint",
+      "childLink": "left_elbow_link"
+    },
+    {
+      "name": "left_wrist_yaw_joint",
+      "type": "revolute",
+      "lower": -180.00001525878906,
+      "upper": 180.00001525878906,
+      "parent": "left_elbow_joint",
+      "childLink": "left_wrist_yaw_link"
+    },
+    {
+      "name": "neck_yaw_joint",
+      "type": "revolute",
+      "lower": -89.9543685913086,
+      "upper": 89.9543685913086,
+      "parent": "waist_yaw_joint",
+      "childLink": "neck_yaw_link"
+    },
+    {
+      "name": "neck_pitch_joint",
+      "type": "revolute",
+      "lower": -17.999984741210938,
+      "upper": 22.918310165405273,
+      "parent": "neck_yaw_joint",
+      "childLink": "neck_pitch_link"
+    },
+    {
+      "name": "right_shoulder_pitch_joint",
+      "type": "revolute",
+      "lower": -50.00001907348633,
+      "upper": 180.00001525878906,
+      "parent": "waist_yaw_joint",
+      "childLink": "right_shoulder_pitch_link"
+    },
+    {
+      "name": "right_shoulder_roll_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 89.9999771118164,
+      "parent": "right_shoulder_pitch_joint",
+      "childLink": "right_shoulder_roll_link"
+    },
+    {
+      "name": "right_shoulder_yaw_joint",
+      "type": "revolute",
+      "lower": -89.9999771118164,
+      "upper": 89.9999771118164,
+      "parent": "right_shoulder_roll_joint",
+      "childLink": "right_shoulder_yaw_link"
+    },
+    {
+      "name": "right_elbow_joint",
+      "type": "revolute",
+      "lower": -120.0002670288086,
+      "upper": 0.0,
+      "parent": "right_shoulder_yaw_joint",
+      "childLink": "right_elbow_link"
+    },
+    {
+      "name": "right_wrist_yaw_joint",
+      "type": "revolute",
+      "lower": -180.00001525878906,
+      "upper": 180.00001525878906,
+      "parent": "right_elbow_joint",
+      "childLink": "right_wrist_yaw_link"
+    }
+  ]
+}

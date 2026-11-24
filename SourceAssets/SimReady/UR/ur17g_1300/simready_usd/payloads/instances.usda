@@ -1,0 +1,698 @@
+#usda 1.0
+(
+    "Universal Robots UR17g-1300. © 2026 Universal Robots A/S. Use hereof is subject to Universal Robots A/S' Terms and Conditions for Use of Graphical Documentation. See LICENSE-UR-Graphical-Documentation.txt."
+    customLayerData = {
+        string copyright = "© 2026 Universal Robots A/S"
+        string creator = "URDF USD Converter v0.3.2"
+        string license = "LicenseRef-UR-Graphical-Documentation"
+        string license_files = "LICENSE-UR-Graphical-Documentation.txt"
+        string license_notice = "© 2026 Universal Robots A/S. Use hereof is subject to Universal Robots A/S' Terms and Conditions for Use of Graphical Documentation. See LICENSE-UR-Graphical-Documentation.txt."
+    }
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Scope "Instances"
+{
+    def Xform "base" (
+        prepend references = @./geometries.usd@</Geometries/base>
+    )
+    {
+        over "base"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/base/VisualMaterials/tn__Metal_Alu_Brushed007_rU>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/base/VisualMaterials/tn__Rubber_Black007_ZN>
+            }
+
+            over "GeomSubset_003" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/base/VisualMaterials/tn__LED003_k9>
+            }
+
+            over "GeomSubset_004" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/base/VisualMaterials/tn__Metal_Alu_Brushed007_rU>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_Alu_Brushed007_rU" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_Alu_Brushed007_rU>
+            )
+            {
+            }
+
+            def Material "tn__Rubber_Black007_ZN" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+
+            def Material "tn__LED003_k9" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__LED003_k9>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "shoulder" (
+        prepend references = @./geometries.usd@</Geometries/shoulder>
+    )
+    {
+        over "shoulder"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/shoulder/VisualMaterials/tn__Metal_DarkGray007_aQ>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/shoulder/VisualMaterials/tn__Rubber_Black007_1_YQ>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_DarkGray007_aQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_DarkGray007_aQ>
+            )
+            {
+            }
+
+            def Material "tn__Rubber_Black007_1_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "shoulder_001" (
+        prepend references = @./geometries.usd@</Geometries/shoulder_001>
+    )
+    {
+        over "shoulder_001"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/shoulder_001/VisualMaterials/tn__Metal_DarkGray007_1_ZT>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/shoulder_001/VisualMaterials/tn__Metal_Alu_Brushed007_1_qX0>
+            }
+
+            over "GeomSubset_003" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/shoulder_001/VisualMaterials/tn__Rubber_Black007_2_YQ>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_DarkGray007_1_ZT" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_DarkGray007_aQ>
+            )
+            {
+            }
+
+            def Material "tn__Metal_Alu_Brushed007_1_qX0" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_Alu_Brushed007_rU>
+            )
+            {
+            }
+
+            def Material "tn__Rubber_Black007_2_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__shoulder_pad_Logo_002002_ta0" (
+        prepend references = @./geometries.usd@</Geometries/tn__shoulder_pad_Logo_002002_ta0>
+    )
+    {
+        over "tn__shoulder_pad_Logo_002002_ta0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__shoulder_pad_Logo_002002_ta0/VisualMaterials/tn__Plastic_Blue001_ZN>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Plastic_Blue001_ZN" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Plastic_Blue001_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "shoulder_pad_Logo" (
+        prepend references = @./geometries.usd@</Geometries/shoulder_pad_Logo>
+    )
+    {
+        over "shoulder_pad_Logo" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/shoulder_pad_Logo/VisualMaterials/tn__Plastic_Blue001_ZN>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Plastic_Blue001_ZN" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Plastic_Blue001_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "elbow_001" (
+        prepend references = @./geometries.usd@</Geometries/elbow_001>
+    )
+    {
+        over "elbow_001"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/elbow_001/VisualMaterials/tn__Metal_DarkGray007_2_ZT>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/elbow_001/VisualMaterials/tn__Metal_Alu_Brushed007_2_qX0>
+            }
+
+            over "GeomSubset_003" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/elbow_001/VisualMaterials/tn__Rubber_Black007_3_YQ>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_DarkGray007_2_ZT" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_DarkGray007_aQ>
+            )
+            {
+            }
+
+            def Material "tn__Metal_Alu_Brushed007_2_qX0" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_Alu_Brushed007_rU>
+            )
+            {
+            }
+
+            def Material "tn__Rubber_Black007_3_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__elbow1_pad_logo_hM" (
+        prepend references = @./geometries.usd@</Geometries/tn__elbow1_pad_logo_hM>
+    )
+    {
+        over "tn__elbow1_pad_logo_hM" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__elbow1_pad_logo_hM/VisualMaterials/tn__Plastic_Blue001_1_YQ>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Plastic_Blue001_1_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Plastic_Blue001_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "elbow_pad_Logo_002" (
+        prepend references = @./geometries.usd@</Geometries/elbow_pad_Logo_002>
+    )
+    {
+        over "elbow_pad_Logo_002" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/elbow_pad_Logo_002/VisualMaterials/tn__Plastic_Blue001_1_YQ>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Plastic_Blue001_1_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Plastic_Blue001_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__wrist1_001_ZF" (
+        prepend references = @./geometries.usd@</Geometries/tn__wrist1_001_ZF>
+    )
+    {
+        over "tn__wrist1_001_ZF"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/tn__wrist1_001_ZF/VisualMaterials/tn__Metal_DarkGray007_3_ZT>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/tn__wrist1_001_ZF/VisualMaterials/tn__Rubber_Black007_4_YQ>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_DarkGray007_3_ZT" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_DarkGray007_aQ>
+            )
+            {
+            }
+
+            def Material "tn__Rubber_Black007_4_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__wrist1_pad_loog_001_bS" (
+        prepend references = @./geometries.usd@</Geometries/tn__wrist1_pad_loog_001_bS>
+    )
+    {
+        over "tn__wrist1_pad_loog_001_bS" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__wrist1_pad_loog_001_bS/VisualMaterials/tn__Plastic_Blue001_2_YQ>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Plastic_Blue001_2_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Plastic_Blue001_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "Band" (
+        prepend references = @./geometries.usd@</Geometries/Band>
+    )
+    {
+        over "Band" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/Band/VisualMaterials/tn__Rubber_Black007_5_YQ>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Rubber_Black007_5_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__wrist2_001_ZF" (
+        prepend references = @./geometries.usd@</Geometries/tn__wrist2_001_ZF>
+    )
+    {
+        over "tn__wrist2_001_ZF" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__wrist2_001_ZF/VisualMaterials/tn__Metal_DarkGray007_4_ZT>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_DarkGray007_4_ZT" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_DarkGray007_aQ>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__wrist3G001_ZF7M" (
+        prepend references = @./geometries.usd@</Geometries/tn__wrist3G001_ZF7M>
+    )
+    {
+        over "tn__wrist3G001_ZF7M"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/tn__wrist3G001_ZF7M/VisualMaterials/tn__Metal_Alu_Brushed007_3_qX0>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/tn__wrist3G001_ZF7M/VisualMaterials/tn__Metal_Alu_Brushed001_rU>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_Alu_Brushed007_3_qX0" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_Alu_Brushed007_rU>
+            )
+            {
+            }
+
+            def Material "tn__Metal_Alu_Brushed001_rU" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_Alu_Brushed001_rU>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__NoPanelprotection_gP" (
+        prepend references = @./geometries.usd@</Geometries/tn__NoPanelprotection_gP>
+    )
+    {
+        over "tn__NoPanelprotection_gP" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__NoPanelprotection_gP/VisualMaterials/tn__Metal_Alu_Brushed001_rU>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Metal_Alu_Brushed001_rU" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_Alu_Brushed001_rU>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "Band_1" (
+        prepend references = @./geometries.usd@</Geometries/Band_1>
+    )
+    {
+        over "Band_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/Band_1/VisualMaterials/tn__Rubber_Black007_6_YQ>
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Rubber_Black007_6_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "smart_panel" (
+        prepend references = @./geometries.usd@</Geometries/smart_panel>
+    )
+    {
+        over "smart_panel"
+        {
+            token subsetFamily:materialBind:familyType = "partition"
+
+            over "GeomSubset_001" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/smart_panel/VisualMaterials/tn__Rubber_Black007_7_YQ>
+            }
+
+            over "GeomSubset_002" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/smart_panel/VisualMaterials/tn__Metal_Alu_Brushed001_1_qX0>
+            }
+
+            over "GeomSubset_003" (
+                apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                custom rel material:binding
+                prepend rel material:binding = </Instances/smart_panel/VisualMaterials/tn__light001_lC>
+            }
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Rubber_Black007_7_YQ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rubber_Black007_ZN>
+            )
+            {
+            }
+
+            def Material "tn__Metal_Alu_Brushed001_1_qX0" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Metal_Alu_Brushed001_rU>
+            )
+            {
+            }
+
+            def Material "tn__light001_lC" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__light001_lC>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "smart_panel_1" (
+        prepend references = @./geometries.usd@</Geometries/smart_panel_1>
+    )
+    {
+        over "smart_panel_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "wrist3_1" (
+        prepend references = @./geometries.usd@</Geometries/wrist3_1>
+    )
+    {
+        over "wrist3_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "wrist2_1" (
+        prepend references = @./geometries.usd@</Geometries/wrist2_1>
+    )
+    {
+        over "wrist2_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "wrist1_1" (
+        prepend references = @./geometries.usd@</Geometries/wrist1_1>
+    )
+    {
+        over "wrist1_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "forearm_1" (
+        prepend references = @./geometries.usd@</Geometries/forearm_1>
+    )
+    {
+        over "forearm_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "upperarm_1" (
+        prepend references = @./geometries.usd@</Geometries/upperarm_1>
+    )
+    {
+        over "upperarm_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "shoulder_1" (
+        prepend references = @./geometries.usd@</Geometries/shoulder_1>
+    )
+    {
+        over "shoulder_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "base_1" (
+        prepend references = @./geometries.usd@</Geometries/base_1>
+    )
+    {
+        over "base_1" (
+            apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+        )
+        {
+            token physics:approximation = "convexHull"
+            token purpose = "guide"
+        }
+    }
+}
+

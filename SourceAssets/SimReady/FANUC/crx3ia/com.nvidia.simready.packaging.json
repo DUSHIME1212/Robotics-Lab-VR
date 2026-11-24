@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.FANUC-CORPORATION.SimReady-Assets.crx3ia.2026.10.19_00",
+  "license": "Apache-2.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "8fdab09ad1a286567c19c7f147e1fbb657f63179e57e54a9cdef2e8721a4259d"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "11bc5747772ac5443e63f8765ab2c0d9066567959d90082142d250bfc051a196"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "95daf45dfffd72edff9c28d7a7e8dee20b66f0c0b4e3745eae5f83b128dfd77e"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "da588795cafed172d816c5af88db8f3853be6e2100229b4f15a013b3842702f5"
+  },
+  "package_hash": {
+    "sha256": "2e14b2a1a704758f85239e2d93c3d2f93b15810d488a94b65a661e4b9055e3ea"
+  }
+}

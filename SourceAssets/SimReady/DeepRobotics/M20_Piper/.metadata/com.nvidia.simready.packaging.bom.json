@@ -1,0 +1,80 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/M20_Piper.usd.png",
+      "size": 606403,
+      "hash": {
+        "sha256-flat-1mb": "a6f78de56e8bb06221a8a898361f5b1733485b119c64ef393a8d7c492a5a0611",
+        "sha256": "c4ef40364390037b0a0a5f2cc27d3c8cb39a4c8707edfd07aa016cb60ad5c81c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/M20_Piper.usd_light.png",
+      "size": 492198,
+      "hash": {
+        "sha256-flat-1mb": "d35d036219f4c651d33793a038fb3b4bd58902db8f46c475fa41afda127568fc",
+        "sha256": "badd4874907dbbd6e28fd66e791cbbcbe87c9a64b2554a975ee93d5453093d82"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/M20_Piper.usd_transparent.png",
+      "size": 372673,
+      "hash": {
+        "sha256-flat-1mb": "d224857ac2491a714071b5b412c04b942eb14d74d822263878ad88e5a5fc118a",
+        "sha256": "93af36a048f960f26b6b2658d24879a739f056f38fd25f6796f298ecffc98327"
+      }
+    },
+    {
+      "relative_path": "simready_usd/M20_Piper.usd",
+      "size": 30290477,
+      "hash": {
+        "sha256-flat-1mb": "1fa6bc8fd07655ad091bb06c08f733744c2fae4f0c8f9a7cdace56808e949bc6",
+        "sha256": "4675faa1051371c5b1baefecf9361980e4ec56fb3069fddc541743ec8c431106",
+        "sha256-first1m": "18b8c15fa04a17a2f538d9aa052ccf16471b1d439b9f9ddbeb6d027b1ccab3c5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/SOURCE_LICENSE.txt",
+      "size": 1502,
+      "hash": {
+        "sha256-flat-1mb": "b9676f32a7def4d4c4d9ec4b7ad54197fcbb63bfdd9c28575d0132abaeb0250f",
+        "sha256": "6bc5967b1cfbdb83b0798942a5f11d4e0555ad8de17697bd4d7eaab6e22f9be5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20_Piper_base.usd",
+      "size": 30275157,
+      "hash": {
+        "sha256-flat-1mb": "468d8dc4ca6bbb98c9f9522b1deb0357b00c70c77e536c049220a14ab11c89c3",
+        "sha256": "8ae1ae518d4d604c891fc5f212aaeab2eca01b90ae6760e82e27091e835eb2d0",
+        "sha256-first1m": "290e21d6049b002eef94b799203dd70701fa9345f3d7040a7359ae977fc2878e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20_Piper_physics.usd",
+      "size": 30281189,
+      "hash": {
+        "sha256-flat-1mb": "f99bf679a322aa85470e1495671fd0eddffed3bdc7f1e30d148a49dd6f1c65ee",
+        "sha256": "672fd9f7014933242e01c0ad7bdfb6395b29f73609969294805fe5b8f5bd2d57",
+        "sha256-first1m": "f095cddff40968cb743e3e3f9e040063b364cb83ff74fcd7aa830460d749786d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20_Piper_robot.usd",
+      "size": 2541,
+      "hash": {
+        "sha256-flat-1mb": "5c86ded4f03a36e3dbff911fd046eed5d2627a13d8faa8ad1b2356e3fee631a6",
+        "sha256": "501a42ebfc56df1dc0cd8352ce254cef9f493cf50658b7a3af8766bfb9839291"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20_Piper_sensor.usd",
+      "size": 648,
+      "hash": {
+        "sha256-flat-1mb": "87460cc47a78df4bdca2ee138735803a12635c8ebf408132ba2ab3284136c705",
+        "sha256": "b72441b4d7d57dc5f6019c1f74501a2d0d30ce6fbba89a987850527e264022bd"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/M20S.usd.png",
+      "size": 590793,
+      "hash": {
+        "sha256-flat-1mb": "be06b84c294d2b16d39dbe743134fd5095397147e841235d4e78ff54352dd2f0",
+        "sha256": "bf6faf96e3c25909719d3ee7a95ed4e3b59ca9708ec1227b08a485ee5452a9d2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/M20S.usd_light.png",
+      "size": 465559,
+      "hash": {
+        "sha256-flat-1mb": "6af4b658d6e6d274ec990614979b4c67dd90e600b59678493c2a4e8033094f48",
+        "sha256": "cccb8ddb9e342c5f7205f8c08862eea3a0435888fb32974814f47f89a96d2097"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/M20S.usd_transparent.png",
+      "size": 344547,
+      "hash": {
+        "sha256-flat-1mb": "b236d568840aa35637681e3c2cb7d308fba8be1ee7f21dfa17c5b67e97036736",
+        "sha256": "1cc69c140b395eb5bebe618980a629db77fb3b635a3b93b18c2b1ec6c7db891b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/M20S.usd",
+      "size": 6569,
+      "hash": {
+        "sha256-flat-1mb": "2ae487771dd6a106c5d0661eca064fc2948ab9d0941bcae778a97a8848c4b0a4",
+        "sha256": "a8d6b03dae14aff48f7795a43739e240291ccebf99727c5ab1e586e7d4749444"
+      }
+    },
+    {
+      "relative_path": "simready_usd/SOURCE_LICENSE.txt",
+      "size": 1502,
+      "hash": {
+        "sha256-flat-1mb": "b9676f32a7def4d4c4d9ec4b7ad54197fcbb63bfdd9c28575d0132abaeb0250f",
+        "sha256": "6bc5967b1cfbdb83b0798942a5f11d4e0555ad8de17697bd4d7eaab6e22f9be5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20S_base.usd",
+      "size": 17197785,
+      "hash": {
+        "sha256-flat-1mb": "08119cddd29fc4b1480a7b2fac12220fd8ab2739970d1335f956dcb13f3484a3",
+        "sha256": "f92140268b46cf2763cd49c001ac6abedcaebf5c209b196591323231b1bccb77",
+        "sha256-first1m": "0c45f91be9795faf7e8861047bc6851468332dfb949cb401964ecd45611145c2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20S_physics.usd",
+      "size": 7428,
+      "hash": {
+        "sha256-flat-1mb": "648b7b30919e1a49e36a1e16a9ea3ef89a2e782ea0064ce3fbadd7bfb5b9c821",
+        "sha256": "05200fed9da4384f5498671d1cccf056676a9f9ebbc7661612e21f87a7cbf6c7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20S_robot.usd",
+      "size": 2040,
+      "hash": {
+        "sha256-flat-1mb": "cb67371a79dfee2d8677f60e06956b9d0ae0e7153fd22c229f157a08ba66a8a0",
+        "sha256": "51fe8cda02fecc5cab3c041a7416f00ebb8d696ad37ad5ed837c0d7fca7fb805"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/M20S_sensor.usd",
+      "size": 644,
+      "hash": {
+        "sha256-flat-1mb": "2758d2deaa6aa7ef916747b3d31ae2fbcbd43853b15364fde2a079355e7d36f5",
+        "sha256": "c995d951441a6e090ab3feeb8efc99b7aa91054b92ccfb5dc8a98f3267e93135"
+      }
+    }
+  ]
+}

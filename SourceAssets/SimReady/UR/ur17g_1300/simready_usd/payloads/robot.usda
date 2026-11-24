@@ -1,0 +1,155 @@
+#usda 1.0
+(
+    "Universal Robots UR17g-1300. Kinematic, joint-limit, inertial and structural data derived from Universal Robots' Universal_Robots_ROS2_Description (ur_description), licensed under the BSD 3-Clause License. See LICENSE-BSD-3-Clause.txt."
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+        string license = "BSD-3-Clause"
+        string license_files = "LICENSE-BSD-3-Clause.txt"
+        string license_notice = "Kinematic, joint-limit, inertial and structural data derived from Universal Robots' Universal_Robots_ROS2_Description (ur_description), licensed under the BSD 3-Clause License. See LICENSE-BSD-3-Clause.txt."
+    }
+    defaultPrim = "ur17g_1300"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @./Physics/physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "ur17g_1300" (
+    prepend apiSchemas = ["IsaacRobotAPI"]
+)
+{
+    custom rel isaac:physics:robotJoints
+    prepend rel isaac:physics:robotJoints = [
+        </ur17g_1300/Physics/root_joint>,
+        </ur17g_1300/Physics/shoulder_pan_joint>,
+        </ur17g_1300/Physics/shoulder_lift_joint>,
+        </ur17g_1300/Physics/elbow_joint>,
+        </ur17g_1300/Physics/wrist_1_joint>,
+        </ur17g_1300/Physics/wrist_2_joint>,
+        </ur17g_1300/Physics/wrist_3_joint>,
+        </ur17g_1300/Physics/tn__wrist_3_linksmart_panel_cY0>,
+    ]
+    custom rel isaac:physics:robotLinks
+    prepend rel isaac:physics:robotLinks = [
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link/upper_arm_link>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link/upper_arm_link/forearm_link>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link/upper_arm_link/forearm_link/wrist_1_link>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link/upper_arm_link/forearm_link/wrist_1_link/wrist_2_link>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link/upper_arm_link/forearm_link/wrist_1_link/wrist_2_link/wrist_3_link>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link/upper_arm_link/forearm_link/wrist_1_link/wrist_2_link/wrist_3_link/ft_frame>,
+        </ur17g_1300/Geometry/world/base_link/base_link_inertia/shoulder_link/upper_arm_link/forearm_link/wrist_1_link/wrist_2_link/wrist_3_link/smart_panel>,
+    ]
+    token isaac:robotType = "Manipulator"
+
+    over "Physics"
+    {
+        over "root_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "shoulder_pan_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "shoulder_lift_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "elbow_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "wrist_1_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "wrist_2_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "wrist_3_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "tn__wrist_3_linksmart_panel_cY0" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+    }
+
+    over "Geometry"
+    {
+        over "world"
+        {
+            over "base_link"
+            {
+                over "base_link_inertia" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "shoulder_link" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "upper_arm_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                            over "forearm_link" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "wrist_1_link" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                    over "wrist_2_link" (
+                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                    )
+                                    {
+                                        over "wrist_3_link" (
+                                            prepend apiSchemas = ["IsaacLinkAPI"]
+                                        )
+                                        {
+                                            over "smart_panel" (
+                                                prepend apiSchemas = ["IsaacLinkAPI"]
+                                            )
+                                            {
+                                            }
+
+                                            over "ft_frame" (
+                                                prepend apiSchemas = ["IsaacSiteAPI"]
+                                            )
+                                            {
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

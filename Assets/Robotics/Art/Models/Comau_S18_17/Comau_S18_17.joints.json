@@ -1,0 +1,54 @@
+{
+  "robot": "Comau_S18_17",
+  "source": "S18-17.usda",
+  "joints": [
+    {
+      "name": "joint_1",
+      "type": "revolute",
+      "lower": -180.00042724609375,
+      "upper": 180.00042724609375,
+      "parent": "root",
+      "childLink": "link_1"
+    },
+    {
+      "name": "joint_2",
+      "type": "revolute",
+      "lower": -90.00021362304688,
+      "upper": 159.9984588623047,
+      "parent": "joint_1",
+      "childLink": "link_2"
+    },
+    {
+      "name": "joint_3",
+      "type": "revolute",
+      "lower": -119.97736358642578,
+      "upper": 169.99658203125,
+      "parent": "joint_2",
+      "childLink": "link_3"
+    },
+    {
+      "name": "joint_4",
+      "type": "revolute",
+      "lower": -199.99664306640625,
+      "upper": 199.99664306640625,
+      "parent": "joint_3",
+      "childLink": "link_4"
+    },
+    {
+      "name": "joint_5",
+      "type": "revolute",
+      "lower": -124.99647521972656,
+      "upper": 124.99647521972656,
+      "parent": "joint_4",
+      "childLink": "link_5"
+    },
+    {
+      "name": "joint_6",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "joint_5",
+      "childLink": "link_6"
+    }
+  ]
+}

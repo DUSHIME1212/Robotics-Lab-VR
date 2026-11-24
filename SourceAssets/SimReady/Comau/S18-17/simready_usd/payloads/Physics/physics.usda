@@ -1,0 +1,244 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    defaultPrim = "S18_17"
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    upAxis = "Z"
+)
+
+over "S18_17"
+{
+    over "Geometry"
+    {
+        over "base_link" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsArticulationRootAPI", "NewtonArticulationRootAPI", "PhysicsMassAPI", "NewtonMassAPI"]
+        )
+        {
+            double[] newton:inertia = [0.56662, 0.7219, 1.0615, 0.008497, 0.037099, 0.00181]
+            bool newton:selfCollisionEnabled = 0
+            point3f physics:centerOfMass = (-0.030099, 0.001451, 0.097665)
+            float3 physics:diagonalInertia = (0.5634155, 0.72232145, 1.064283)
+            float physics:mass = 34.561
+            quatf physics:principalAxes = (0.99895763, -0.00453532, 0.03714978, -0.026132705)
+
+            over "link_1" (
+                prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
+            )
+            {
+                double[] newton:inertia = [2.6628, 2.3501, 2.7047, 0.51755, 0.13573, 0.10526]
+                point3f physics:centerOfMass = (0.043088, -0.15982, 0.012175)
+                float3 physics:diagonalInertia = (1.965781, 2.633432, 3.118387)
+                float physics:mass = 122.36
+                quatf physics:principalAxes = (0.3752711, 0.24782608, 0.496874, 0.7422062)
+
+                over "link_2" (
+                    prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
+                )
+                {
+                    double[] newton:inertia = [0.14516, 2.7811, 2.8386, 0.021246, -0.046277, -0.00058705]
+                    point3f physics:centerOfMass = (0.3632, -0.01269, -0.02941)
+                    float3 physics:diagonalInertia = (0.14419416, 2.7812555, 2.8394105)
+                    float physics:mass = 36.42
+                    quatf physics:principalAxes = (0.99992126, 0.00821893, -0.008618374, -0.003955427)
+
+                    over "link_3" (
+                        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
+                    )
+                    {
+                        double[] newton:inertia = [1.1543, 1.5314, 1.5331, 0.22015, -0.49028, 0.20955]
+                        point3f physics:centerOfMass = (0.1024, -0.16738, 0.085805)
+                        float3 physics:diagonalInertia = (0.7084288, 1.632163, 1.8782082)
+                        float physics:mass = 113.18
+                        quatf physics:principalAxes = (0.9390177, -0.038334258, -0.2811425, -0.19425516)
+
+                        over "link_4" (
+                            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
+                        )
+                        {
+                            double[] newton:inertia = [0.609846, 0.086141, 0.583298, 0.031678, -0.003174, 0.033304]
+                            point3f physics:centerOfMass = (0.032287, 0.488164, -0.010666)
+                            float3 physics:diagonalInertia = (0.082001835, 0.5854766, 0.6118066)
+                            float physics:mass = 14.979131
+                            quatf physics:principalAxes = (0.491112, 0.4782499, 0.5415929, 0.48658314)
+
+                            over "link_5" (
+                                prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
+                            )
+                            {
+                                double[] newton:inertia = [0.030401, 0.026535, 0.014411, 0.000019, 0.00001, -0.005461]
+                                point3f physics:centerOfMass = (-0.000035, -0.013248, 0.05301)
+                                float3 physics:diagonalInertia = (0.012313919, 0.028631954, 0.030401127)
+                                float physics:mass = 7.903919
+                                quatf physics:principalAxes = (0.6954575, -0.12606552, -0.69504696, 0.13174246)
+
+                                over "link_6" (
+                                    prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
+                                )
+                                {
+                                    double[] newton:inertia = [0.00001, 0.00001, 0.00001, 0, 0, 0]
+                                    point3f physics:centerOfMass = (0, 0, 0)
+                                    float3 physics:diagonalInertia = (0.00001, 0.00001, 0.00001)
+                                    float physics:mass = 0.1
+                                    quatf physics:principalAxes = (1, 0, 0, 0)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        def PhysicsRevoluteJoint "joint_1" (
+            prepend apiSchemas = ["NewtonJointAPI", "PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            float newton:velocityLimit = 205.01003
+            uniform token physics:axis = "Y"
+            custom rel physics:body0
+            append rel physics:body0 = </S18_17/Geometry/base_link>
+            custom rel physics:body1
+            append rel physics:body1 = </S18_17/Geometry/base_link/link_1>
+            point3f physics:localPos0 = (0, 0, 0.175)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (-0.70710546, 0.7071081, 0, 0)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+            float physics:lowerLimit = -180.00043
+            float physics:upperLimit = 180.00043
+            float drive:angular:physics:stiffness = 10000.0
+            float drive:angular:physics:damping = 100.0
+            float drive:angular:physics:maxForce = 10000.0
+            custom float urdf:limit:effort = 0
+        }
+
+        def PhysicsRevoluteJoint "joint_2" (
+            prepend apiSchemas = ["NewtonJointAPI", "PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            float newton:velocityLimit = 179.99469
+            uniform token physics:axis = "Z"
+            custom rel physics:body0
+            append rel physics:body0 = </S18_17/Geometry/base_link/link_1>
+            custom rel physics:body1
+            append rel physics:body1 = </S18_17/Geometry/base_link/link_1/link_2>
+            point3f physics:localPos0 = (0.15, -0.289, -0.1429)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (0.70710546, -2.220446e-16, -1.110223e-16, -0.7071081)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+            float physics:lowerLimit = -90.00021
+            float physics:upperLimit = 159.99846
+            float drive:angular:physics:stiffness = 10000.0
+            float drive:angular:physics:damping = 100.0
+            float drive:angular:physics:maxForce = 10000.0
+            custom float urdf:limit:effort = 0
+        }
+
+        def PhysicsRevoluteJoint "joint_3" (
+            prepend apiSchemas = ["NewtonJointAPI", "PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            float newton:velocityLimit = 259.9968
+            uniform token physics:axis = "Y"
+            custom rel physics:body0
+            append rel physics:body0 = </S18_17/Geometry/base_link/link_1/link_2>
+            custom rel physics:body1
+            append rel physics:body1 = </S18_17/Geometry/base_link/link_1/link_2/link_3>
+            point3f physics:localPos0 = (0.77, -2.7755576e-17, 5.551115e-17)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (-0.5, -0.49999815, 0.5, 0.50000185)
+            quatf physics:localRot1 = (0, -1, 0, 0)
+            float physics:lowerLimit = -119.97736
+            float physics:upperLimit = 169.99658
+            float drive:angular:physics:stiffness = 10000.0
+            float drive:angular:physics:damping = 100.0
+            float drive:angular:physics:maxForce = 10000.0
+            custom float urdf:limit:effort = 0
+        }
+
+        def PhysicsRevoluteJoint "joint_4" (
+            prepend apiSchemas = ["NewtonJointAPI", "PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            float newton:velocityLimit = 408.89706
+            uniform token physics:axis = "Y"
+            custom rel physics:body0
+            append rel physics:body0 = </S18_17/Geometry/base_link/link_1/link_2/link_3>
+            custom rel physics:body1
+            append rel physics:body1 = </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4>
+            point3f physics:localPos0 = (0.2, -0.1429, -2.220446e-16)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (0.7071081, -0.70710546, 1.3414605e-16, -1.4880675e-16)
+            quatf physics:localRot1 = (0, -1, 0, 0)
+            float physics:lowerLimit = -199.99664
+            float physics:upperLimit = 199.99664
+            float drive:angular:physics:stiffness = 10000.0
+            float drive:angular:physics:damping = 100.0
+            float drive:angular:physics:maxForce = 3000.0
+            custom float urdf:limit:effort = 0
+        }
+
+        def PhysicsRevoluteJoint "joint_5" (
+            prepend apiSchemas = ["NewtonJointAPI", "PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            float newton:velocityLimit = 399.99902
+            uniform token physics:axis = "Y"
+            custom rel physics:body0
+            append rel physics:body0 = </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4>
+            custom rel physics:body1
+            append rel physics:body1 = </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4/link_5>
+            point3f physics:localPos0 = (0, 0.78, 1.0587912e-21)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (-0.7071081, -0.70710546, -1.3905308e-16, 1.4390116e-16)
+            quatf physics:localRot1 = (0, -1, 0, 0)
+            float physics:lowerLimit = -124.996475
+            float physics:upperLimit = 124.996475
+            float drive:angular:physics:stiffness = 10000.0
+            float drive:angular:physics:damping = 100.0
+            float drive:angular:physics:maxForce = 3000.0
+            custom float urdf:limit:effort = 0
+        }
+
+        def PhysicsRevoluteJoint "joint_6" (
+            prepend apiSchemas = ["NewtonJointAPI", "PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+            float newton:velocityLimit = 641.9706
+            uniform token physics:axis = "Z"
+            custom rel physics:body0
+            append rel physics:body0 = </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4/link_5>
+            custom rel physics:body1
+            append rel physics:body1 = </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4/link_5/link_6>
+            point3f physics:localPos0 = (6.938894e-18, -8.4703295e-22, 0.142)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (0.0000036732024, 2.8640924e-12, -1.8351274e-14, -1)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+            float physics:lowerLimit = -180.0
+            float physics:upperLimit = 180.0
+            float drive:angular:physics:stiffness = 10000.0
+            float drive:angular:physics:damping = 100.0
+            float drive:angular:physics:maxForce = 3000.0
+            custom float urdf:limit:effort = 0
+        }
+
+        def PhysicsFixedJoint "root_joint"
+        {
+            custom rel physics:body0
+            append rel physics:body0 = </S18_17>
+            custom rel physics:body1
+            append rel physics:body1 = </S18_17/Geometry/base_link>
+            point3f physics:localPos0 = (0, 0, 0)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (1, 0, 0, 0)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+        }
+    }
+}
+

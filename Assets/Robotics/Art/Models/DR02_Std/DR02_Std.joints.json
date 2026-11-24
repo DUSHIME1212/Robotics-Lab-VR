@@ -1,0 +1,174 @@
+{
+  "robot": "DR02_Std",
+  "source": "DR02-std.usd",
+  "joints": [
+    {
+      "name": "waist_z_joint",
+      "type": "revolute",
+      "lower": -99.99832153320312,
+      "upper": 210.00048828125,
+      "parent": "root",
+      "childLink": "body"
+    },
+    {
+      "name": "left_shoulder_y_joint",
+      "type": "revolute",
+      "lower": -219.9986114501953,
+      "upper": 90.00021362304688,
+      "parent": "waist_z_joint",
+      "childLink": "left_shoulder_y_link"
+    },
+    {
+      "name": "left_shoulder_x_joint",
+      "type": "revolute",
+      "lower": -20.00000762939453,
+      "upper": 200.00009155273438,
+      "parent": "left_shoulder_y_joint",
+      "childLink": "left_shoulder_x_link"
+    },
+    {
+      "name": "left_shoulder_z_joint",
+      "type": "revolute",
+      "lower": -170.00230407714844,
+      "upper": 170.00230407714844,
+      "parent": "left_shoulder_x_joint",
+      "childLink": "left_shoulder_z_link"
+    },
+    {
+      "name": "left_elbow_joint",
+      "type": "revolute",
+      "lower": -44.00000762939453,
+      "upper": 100.00004577636719,
+      "parent": "left_shoulder_z_joint",
+      "childLink": "left_elbow_link"
+    },
+    {
+      "name": "right_shoulder_y_joint",
+      "type": "revolute",
+      "lower": -219.9986114501953,
+      "upper": 90.00021362304688,
+      "parent": "waist_z_joint",
+      "childLink": "right_shoulder_y_link"
+    },
+    {
+      "name": "right_shoulder_x_joint",
+      "type": "revolute",
+      "lower": -200.00009155273438,
+      "upper": 20.00000762939453,
+      "parent": "right_shoulder_y_joint",
+      "childLink": "right_shoulder_x_link"
+    },
+    {
+      "name": "right_shoulder_z_joint",
+      "type": "revolute",
+      "lower": -170.00230407714844,
+      "upper": 170.00230407714844,
+      "parent": "right_shoulder_x_joint",
+      "childLink": "right_shoulder_z_link"
+    },
+    {
+      "name": "right_elbow_joint",
+      "type": "revolute",
+      "lower": -44.00000762939453,
+      "upper": 100.00004577636719,
+      "parent": "right_shoulder_z_joint",
+      "childLink": "right_elbow_link"
+    },
+    {
+      "name": "left_hip_y_joint",
+      "type": "revolute",
+      "lower": -159.9984588623047,
+      "upper": 90.00021362304688,
+      "parent": "root",
+      "childLink": "left_hip_y_link"
+    },
+    {
+      "name": "left_hip_x_joint",
+      "type": "revolute",
+      "lower": -20.00000762939453,
+      "upper": 150.00035095214844,
+      "parent": "left_hip_y_joint",
+      "childLink": "left_hip_x_link"
+    },
+    {
+      "name": "left_hip_z_joint",
+      "type": "revolute",
+      "lower": -30.000070571899414,
+      "upper": 210.00048828125,
+      "parent": "left_hip_x_joint",
+      "childLink": "left_hip_z_link"
+    },
+    {
+      "name": "left_knee_joint",
+      "type": "revolute",
+      "lower": -9.999832153320312,
+      "upper": 142.99880981445312,
+      "parent": "left_hip_z_joint",
+      "childLink": "left_knee_link"
+    },
+    {
+      "name": "left_ankle_y_joint",
+      "type": "revolute",
+      "lower": -60.00014114379883,
+      "upper": 45.00010681152344,
+      "parent": "left_knee_joint",
+      "childLink": "left_ankle_y_link"
+    },
+    {
+      "name": "left_ankle_x_joint",
+      "type": "revolute",
+      "lower": -35.000274658203125,
+      "upper": 35.000274658203125,
+      "parent": "left_ankle_y_joint",
+      "childLink": "left_ankle_x_link"
+    },
+    {
+      "name": "right_hip_y_joint",
+      "type": "revolute",
+      "lower": -159.9984588623047,
+      "upper": 90.00021362304688,
+      "parent": "root",
+      "childLink": "right_hip_y_link"
+    },
+    {
+      "name": "right_hip_x_joint",
+      "type": "revolute",
+      "lower": -150.00035095214844,
+      "upper": 20.00000762939453,
+      "parent": "right_hip_y_joint",
+      "childLink": "right_hip_x_link"
+    },
+    {
+      "name": "right_hip_z_joint",
+      "type": "revolute",
+      "lower": -210.00048828125,
+      "upper": 30.000070571899414,
+      "parent": "right_hip_x_joint",
+      "childLink": "right_hip_z_link"
+    },
+    {
+      "name": "right_knee_joint",
+      "type": "revolute",
+      "lower": -9.999832153320312,
+      "upper": 142.99880981445312,
+      "parent": "right_hip_z_joint",
+      "childLink": "right_knee_link"
+    },
+    {
+      "name": "right_ankle_y_joint",
+      "type": "revolute",
+      "lower": -60.00014114379883,
+      "upper": 45.00010681152344,
+      "parent": "right_knee_joint",
+      "childLink": "right_ankle_y_link"
+    },
+    {
+      "name": "right_ankle_x_joint",
+      "type": "revolute",
+      "lower": -35.000274658203125,
+      "upper": 35.000274658203125,
+      "parent": "right_ankle_y_joint",
+      "childLink": "right_ankle_x_link"
+    }
+  ]
+}

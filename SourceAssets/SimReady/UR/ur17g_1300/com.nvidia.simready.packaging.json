@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.TeradyneRobotics.UniversalRobots.ur17g_1300.2026.10.19_00",
+  "license": "other",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "7bff41a182f88f36959aaa46d0f29099d3ff82ac4a45204f2154ef95f737963f"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "1e3a7d1b011f1ed8b7d414e8a4483077572a0efacad611017c544a793f02bd68"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "3e0d5f68af8c44503ae3190047400cc8092d4789cf13f825658dda454b5bf6c6"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "9d2c7e323727613a012ff0cee136da428ab24b300f4d8c37d71962c8c52553b7"
+  },
+  "package_hash": {
+    "sha256": "84a8042d06ceb3bb8c22b5cc958af19a52cc1ad9f3c831ec37e5b975b334886d"
+  }
+}

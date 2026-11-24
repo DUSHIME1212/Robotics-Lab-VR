@@ -1,0 +1,155 @@
+#usda 1.0
+(
+    """Visual-appearance layer for the core arm.
+Replaces the STL-derived visual meshes with the textured GLB-derived meshes under
+../meshes/visual/. Geometry, collision and physics layers are untouched; deleting
+this layer from the chain restores the plain STL look."""
+    defaultPrim = "core"
+    subLayers = [
+        @./core_base.usd@
+    ]
+)
+
+over "visuals"
+{
+    over "base_link"
+    {
+        over "base_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "base_link_textured" (
+            "from the Core web-visualizer GLB Base.glb"
+            prepend references = @../meshes/visual/base_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    over "shoulder_link"
+    {
+        over "shoulder_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "shoulder_link_textured" (
+            "from the Core web-visualizer GLB J0.glb"
+            prepend references = @../meshes/visual/shoulder_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    over "upper_arm_link"
+    {
+        over "upper_arm_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "upper_arm_link_textured" (
+            "from the Core web-visualizer GLB J1-J2.glb"
+            prepend references = @../meshes/visual/upper_arm_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    over "forearm_link"
+    {
+        over "forearm_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "forearm_link_textured" (
+            "from the Core web-visualizer GLB WL-J3.glb"
+            prepend references = @../meshes/visual/forearm_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    over "wrist_1_link"
+    {
+        over "wrist_1_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "wrist_1_link_textured" (
+            "from the Core web-visualizer GLB J4.glb"
+            prepend references = @../meshes/visual/wrist_1_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.7071067811865475, 0.7071067811865476, 0, 0)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    over "wrist_2_link"
+    {
+        over "wrist_2_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "wrist_2_link_textured" (
+            "from the Core web-visualizer GLB J5.glb"
+            prepend references = @../meshes/visual/wrist_2_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0, 0, 0.7071067811865475, 0.7071067811865476)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    over "wrist_3_link"
+    {
+        over "wrist_3_link" (
+            active = false
+        )
+        {
+        }
+
+        def Xform "wrist_3_link_textured" (
+            "from core-arm-assets/source-assets/glb/EE_NO_CABLE_NO_QC.glb"
+            prepend references = @../meshes/visual/wrist_3_link.usd@
+        )
+        {
+            quatd xformOp:orient = (0.5, 0.5, 0.5, 0.5)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+}
+

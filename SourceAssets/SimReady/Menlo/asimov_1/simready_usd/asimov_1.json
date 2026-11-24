@@ -1,0 +1,13 @@
+{
+  "author": "Menlo Research",
+  "asset_license": "CC-BY-4.0",
+  "category": "robotics",
+  "qcode": "Q11012",
+  "rigid_body_count": 26,
+  "asset_extents": [
+    0.259853972,
+    0.42370645,
+    1.253809422
+  ],
+  "mass": 35.0
+}

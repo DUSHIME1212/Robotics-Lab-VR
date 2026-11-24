@@ -1,0 +1,1900 @@
+{
+  "robot": "thor",
+  "date": "2026-09-29",
+  "tool": "tools/texture_nvidia_asset.py",
+  "kit_usd": "0.25.11",
+  "inputs": {
+    "nvidia_asset": "Thor/thor-core-arm_assets/thor_nvidia_verified",
+    "glb_dir": "Thor/thor-core-arm_assets/source-assets/glb",
+    "nvidia_files_sha256": {
+      "configuration/thor_base.usd": "2fd9df5002a4268f5bee8a82e119668c8d1730406947596dee8bf4d34d27c6c9",
+      "configuration/thor_materials.usda": "5227a30929ebbf73cc77dac024c547ad47a3b1e74a36ebebd17db54e02921a3a",
+      "configuration/thor_physics.usd": "b3b6dbdeefc3bd2f3ef182d2d3b6089ff7843f068642b1f94bc53a55192474c8",
+      "configuration/thor_sensor.usd": "31d576973c20c15a82406717f17dc36804243fc0800878c6fbfb70c157962b48",
+      "thor.usd": "fe5a8dd00695201e29a86d68aa09004a9d42dd17c4692db067390a7c623805e5"
+    }
+  },
+  "links": {
+    "base_link": {
+      "glb_root_node": "URDF_THOR_GEN3___Base___base_link",
+      "moved_to_default": {
+        "xformOp:orient": "(0.49999994, 0.50000006, 0.49999994, -0.50000006)",
+        "xformOp:scale": "(0.001, 0.001, 0.001)",
+        "xformOp:translate": "(0, 0, 0)"
+      },
+      "mdl_paths_anchored": 4,
+      "meshes": 4,
+      "double_sided_set": 4,
+      "glb": "base_link.glb",
+      "glb_sha256": "5e60a221dfc8052cb2ceb831d4fb924c444fd0f560f86fdf40b5d4cbb9fd3dc2",
+      "usd_mb": 5.52,
+      "materials": [
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_004/New_Arm_Hard_Anodise_Black__1_004",
+          "material": "New_Arm_Hard_Anodise_Black__1_004",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Aluminum_Rough___1__1_002/Aluminum_Rough___1__1_002",
+          "material": "Aluminum_Rough___1__1_002",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Hard_Rough_Plastic_Grey__1_002/Hard_Rough_Plastic_Grey__1_002",
+          "material": "Hard_Rough_Plastic_Grey__1_002",
+          "base_color_factor": [
+            0.515,
+            0.515,
+            0.515
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_005/New_Arm_Hard_Anodise_Black__1_005",
+          "material": "New_Arm_Hard_Anodise_Black__1_005",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        }
+      ],
+      "rotation_axes": "+x -z +y",
+      "orient_wxyz": [
+        0.707107,
+        0.707107,
+        0.0,
+        0.0
+      ],
+      "cover_of_stl_surface": 1.0,
+      "cover_on_stl_surface": 1.0,
+      "area_ratio": 1.004,
+      "bbox_centre_offset_mm": 0.004,
+      "tris": 77243,
+      "stl_tris": 7112,
+      "stl_visual_retired": [
+        "base_link"
+      ],
+      "composed_meshes": 4,
+      "bounds_vs_stl_mm": 0.007
+    },
+    "shoulder_link": {
+      "glb_root_node": "URDF_THOR_GEN3___J0___shoulder_link",
+      "moved_to_default": {
+        "xformOp:orient": "(0.49999994, 0.50000006, 0.49999994, -0.50000006)",
+        "xformOp:scale": "(0.001, 0.001, 0.001)",
+        "xformOp:translate": "(0, 0, 0)"
+      },
+      "mdl_paths_anchored": 3,
+      "meshes": 3,
+      "double_sided_set": 3,
+      "glb": "shoulder_link.glb",
+      "glb_sha256": "0061c6b5fb6018381a1400b23f451e8c9a0cc966a332ade4f1e260598b22947b",
+      "usd_mb": 3.85,
+      "materials": [
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_011/New_Arm_Hard_Anodise_Black__1_011",
+          "material": "New_Arm_Hard_Anodise_Black__1_011",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Hard_Rough_Plastic_Orange___1_007/Hard_Rough_Plastic_Orange___1_007",
+          "material": "Hard_Rough_Plastic_Orange___1_007",
+          "base_color_factor": [
+            1.0,
+            0.235,
+            0.0022
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Aluminum_Brushed_90___1__1_008/Aluminum_Brushed_90___1__1_008",
+          "material": "Aluminum_Brushed_90___1__1_008",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        }
+      ],
+      "rotation_axes": "+x -z +y",
+      "orient_wxyz": [
+        0.707107,
+        0.707107,
+        0.0,
+        0.0
+      ],
+      "cover_of_stl_surface": 1.0,
+      "cover_on_stl_surface": 1.0,
+      "area_ratio": 1.002,
+      "bbox_centre_offset_mm": 0.063,
+      "tris": 54077,
+      "stl_tris": 3510,
+      "stl_visual_retired": [
+        "shoulder_link"
+      ],
+      "composed_meshes": 3,
+      "bounds_vs_stl_mm": 0.126
+    },
+    "upper_arm_link": {
+      "glb_root_node": "URDF_THOR_GEN3___J1___upper_arm_link",
+      "moved_to_default": {
+        "xformOp:orient": "(0.49999994, 0.50000006, 0.49999994, -0.50000006)",
+        "xformOp:scale": "(0.001, 0.001, 0.001)",
+        "xformOp:translate": "(0, 0, 0)"
+      },
+      "mdl_paths_anchored": 5,
+      "meshes": 5,
+      "double_sided_set": 5,
+      "glb": "upper_arm_link.glb",
+      "glb_sha256": "c37cc333493efd54e3ed8635f6cd989d45f9aaae165f585f1f28346e31f07e70",
+      "usd_mb": 10.0,
+      "materials": [
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_006/New_Arm_Hard_Anodise_Black__1_006",
+          "material": "New_Arm_Hard_Anodise_Black__1_006",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Hard_Rough_Plastic_Orange___1_004/Hard_Rough_Plastic_Orange___1_004",
+          "material": "Hard_Rough_Plastic_Orange___1_004",
+          "base_color_factor": [
+            1.0,
+            0.235,
+            0.0022
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Rubber__1__1___1_003/Rubber__1__1___1_003",
+          "material": "Rubber__1__1___1_003",
+          "base_color_factor": [
+            0.0004,
+            0.0004,
+            0.0004
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/URDF_THOR_GEN3___J1___upper_arm_link_color_128_128_128_001/URDF_THOR_GEN3___J1___upper_arm_link_color_128_128_128_001",
+          "material": "URDF_THOR_GEN3___J1___upper_arm_link_color_128_128_128_001",
+          "base_color_factor": [
+            0.502,
+            0.502,
+            0.502
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Aluminum_Brushed_90___1__1_004/Aluminum_Brushed_90___1__1_004",
+          "material": "Aluminum_Brushed_90___1__1_004",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        }
+      ],
+      "rotation_axes": "+x -z +y",
+      "orient_wxyz": [
+        0.707107,
+        0.707107,
+        0.0,
+        0.0
+      ],
+      "cover_of_stl_surface": 1.0,
+      "cover_on_stl_surface": 1.0,
+      "area_ratio": 1.005,
+      "bbox_centre_offset_mm": 0.002,
+      "tris": 140364,
+      "stl_tris": 5596,
+      "stl_visual_retired": [
+        "upper_arm_link"
+      ],
+      "composed_meshes": 5,
+      "bounds_vs_stl_mm": 0.006
+    },
+    "forearm_link": {
+      "glb_root_node": "URDF_THOR_GEN3___J2___forearm_link",
+      "moved_to_default": {
+        "xformOp:orient": "(0.49999994, 0.50000006, 0.49999994, -0.50000006)",
+        "xformOp:scale": "(0.001, 0.001, 0.001)",
+        "xformOp:translate": "(0, 0, 0)"
+      },
+      "mdl_paths_anchored": 5,
+      "meshes": 5,
+      "double_sided_set": 5,
+      "glb": "forearm_link.glb",
+      "glb_sha256": "cce525d8a7ed459361a5c9e3f72feed0e5887127abdc618e304df488b9121526",
+      "usd_mb": 7.32,
+      "materials": [
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_003/New_Arm_Hard_Anodise_Black__1_003",
+          "material": "New_Arm_Hard_Anodise_Black__1_003",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Hard_Rough_Plastic_Orange___1_003/Hard_Rough_Plastic_Orange___1_003",
+          "material": "Hard_Rough_Plastic_Orange___1_003",
+          "base_color_factor": [
+            1.0,
+            0.235,
+            0.0022
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Rubber__1__1___1_004/Rubber__1__1___1_004",
+          "material": "Rubber__1__1___1_004",
+          "base_color_factor": [
+            0.0004,
+            0.0004,
+            0.0004
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Aluminum_Brushed_90___1__1_003/Aluminum_Brushed_90___1__1_003",
+          "material": "Aluminum_Brushed_90___1__1_003",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/URDF_THOR_GEN3___J2___forearm_link_color_255_255_255_001/URDF_THOR_GEN3___J2___forearm_link_color_255_255_255_001",
+          "material": "URDF_THOR_GEN3___J2___forearm_link_color_255_255_255_001",
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        }
+      ],
+      "rotation_axes": "+x -z +y",
+      "orient_wxyz": [
+        0.707107,
+        0.707107,
+        0.0,
+        0.0
+      ],
+      "cover_of_stl_surface": 1.0,
+      "cover_on_stl_surface": 1.0,
+      "area_ratio": 1.004,
+      "bbox_centre_offset_mm": 0.032,
+      "tris": 102425,
+      "stl_tris": 4460,
+      "stl_visual_retired": [
+        "forearm_link"
+      ],
+      "composed_meshes": 5,
+      "bounds_vs_stl_mm": 0.093
+    },
+    "wrist_1_link": {
+      "glb_root_node": "URDF_THOR_GEN3___J3___wrist_1_link",
+      "moved_to_default": {
+        "xformOp:orient": "(0.49999994, 0.50000006, 0.49999994, -0.50000006)",
+        "xformOp:scale": "(0.001, 0.001, 0.001)",
+        "xformOp:translate": "(0, 0, 0)"
+      },
+      "mdl_paths_anchored": 4,
+      "meshes": 4,
+      "double_sided_set": 4,
+      "glb": "wrist_1_link.glb",
+      "glb_sha256": "f61d92649e8930f054311705e0180da356b6c6c56c88c76f28e77d03b0bd17da",
+      "usd_mb": 6.84,
+      "materials": [
+        {
+          "shader": "Looks/Rubber__1__1___1_018/Rubber__1__1___1_018",
+          "material": "Rubber__1__1___1_018",
+          "base_color_factor": [
+            0.0004,
+            0.0004,
+            0.0004
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Hard_Rough_Plastic_Orange___1_021/Hard_Rough_Plastic_Orange___1_021",
+          "material": "Hard_Rough_Plastic_Orange___1_021",
+          "base_color_factor": [
+            1.0,
+            0.235,
+            0.0022
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_035/New_Arm_Hard_Anodise_Black__1_035",
+          "material": "New_Arm_Hard_Anodise_Black__1_035",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Aluminum_Brushed_90___1__1_023/Aluminum_Brushed_90___1__1_023",
+          "material": "Aluminum_Brushed_90___1__1_023",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        }
+      ],
+      "rotation_axes": "+x -z +y",
+      "orient_wxyz": [
+        0.707107,
+        0.707107,
+        0.0,
+        0.0
+      ],
+      "cover_of_stl_surface": 1.0,
+      "cover_on_stl_surface": 1.0,
+      "area_ratio": 1.002,
+      "bbox_centre_offset_mm": 0.052,
+      "tris": 97583,
+      "stl_tris": 3478,
+      "stl_visual_retired": [
+        "wrist_1_link"
+      ],
+      "composed_meshes": 4,
+      "bounds_vs_stl_mm": 0.105
+    },
+    "wrist_2_link": {
+      "glb_root_node": "URDF_THOR_GEN3___J4___wrist_2_link",
+      "moved_to_default": {
+        "xformOp:orient": "(0.49999994, 0.50000006, 0.49999994, -0.50000006)",
+        "xformOp:scale": "(0.001, 0.001, 0.001)",
+        "xformOp:translate": "(0, 0, 0)"
+      },
+      "mdl_paths_anchored": 4,
+      "meshes": 4,
+      "double_sided_set": 4,
+      "glb": "wrist_2_link.glb",
+      "glb_sha256": "ab9b5e6647d37a9fb0a05141482e4469a572c5c64dbaf3147c7c4959ad3403b1",
+      "usd_mb": 6.83,
+      "materials": [
+        {
+          "shader": "Looks/Rubber__1__1___1_016/Rubber__1__1___1_016",
+          "material": "Rubber__1__1___1_016",
+          "base_color_factor": [
+            0.0004,
+            0.0004,
+            0.0004
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Hard_Rough_Plastic_Orange___1_019/Hard_Rough_Plastic_Orange___1_019",
+          "material": "Hard_Rough_Plastic_Orange___1_019",
+          "base_color_factor": [
+            1.0,
+            0.235,
+            0.0022
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_033/New_Arm_Hard_Anodise_Black__1_033",
+          "material": "New_Arm_Hard_Anodise_Black__1_033",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Aluminum_Brushed_90___1__1_021/Aluminum_Brushed_90___1__1_021",
+          "material": "Aluminum_Brushed_90___1__1_021",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        }
+      ],
+      "rotation_axes": "+x -z +y",
+      "orient_wxyz": [
+        0.707107,
+        0.707107,
+        0.0,
+        0.0
+      ],
+      "cover_of_stl_surface": 1.0,
+      "cover_on_stl_surface": 1.0,
+      "area_ratio": 1.002,
+      "bbox_centre_offset_mm": 0.052,
+      "tris": 97425,
+      "stl_tris": 3478,
+      "stl_visual_retired": [
+        "wrist_2_link"
+      ],
+      "composed_meshes": 4,
+      "bounds_vs_stl_mm": 0.105
+    },
+    "wrist_3_link": {
+      "glb_root_node": "URDF_THOR_GEN3___J5___wrist_3_link",
+      "moved_to_default": {
+        "xformOp:orient": "(0.70710665, 0.7071069, 0, 0)",
+        "xformOp:scale": "(0.001, 0.0009999999, 0.0009999999)",
+        "xformOp:translate": "(0, 0, 0)"
+      },
+      "mdl_paths_anchored": 5,
+      "meshes": 5,
+      "double_sided_set": 5,
+      "glb": "wrist_3_link.glb",
+      "glb_sha256": "86e657b86d4e609b7c365cb7e5f5253ea10313eae31ad14570ace7a0fdf0071e",
+      "usd_mb": 3.09,
+      "materials": [
+        {
+          "shader": "Looks/Aluminum_Rough___1__1/Aluminum_Rough___1__1",
+          "material": "Aluminum_Rough___1__1",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_005/New_Arm_Hard_Anodise_Black__1_005",
+          "material": "New_Arm_Hard_Anodise_Black__1_005",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Hard_Rough_Plastic_White__1/Hard_Rough_Plastic_White__1",
+          "material": "Hard_Rough_Plastic_White__1",
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/New_Arm_Hard_Anodise_Black__1_006/New_Arm_Hard_Anodise_Black__1_006",
+          "material": "New_Arm_Hard_Anodise_Black__1_006",
+          "base_color_factor": [
+            0.0118,
+            0.0118,
+            0.0118
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        },
+        {
+          "shader": "Looks/Aluminum_Brushed_90___1__1_005/Aluminum_Brushed_90___1__1_005",
+          "material": "Aluminum_Brushed_90___1__1_005",
+          "base_color_factor": [
+            0.7922,
+            0.8196,
+            0.9333
+          ],
+          "roughness_factor": 0.5528,
+          "metallic_factor_glb": 1.0,
+          "metallic_type": "float",
+          "metallic_factor": 0.5
+        }
+      ],
+      "rotation_axes": "+z +x +y",
+      "orient_wxyz": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "cover_of_stl_surface": 1.0,
+      "cover_on_stl_surface": 0.9974,
+      "area_ratio": 0.979,
+      "bbox_centre_offset_mm": 0.022,
+      "tris": 43335,
+      "stl_tris": 4488,
+      "stl_visual_retired": [
+        "wrist_3_link"
+      ],
+      "composed_meshes": 5,
+      "bounds_vs_stl_mm": 0.042
+    }
+  },
+  "checks": {
+    "non_visual_prims_identical": 57,
+    "visual_prims": 163,
+    "physics_layer_change": "subLayers [thor_base.usd] -> [./thor_visual.usda] only",
+    "worst_visual_bounds_vs_stl_mm": 0.126,
+    "unresolved_asset_paths": []
+  },
+  "look": {
+    "source": "libs/visualizer GLB materials (baseColorFactor, roughnessFactor)",
+    "metallic_factor": 0.5,
+    "metallic_note": "GLBs leave metallicFactor unset (glTF default 1.0); useRobotPart.tsx forces metalness 0.5 at runtime",
+    "double_sided": "restored on every mesh (every GLB material is doubleSided)",
+    "mdl": "gltf/pbr.mdl, vendored to meshes/visual/gltf/pbr.mdl"
+  },
+  "outputs_sha256": {
+    ".thumbs/256x256/standardbots_thor.usd.png": "71b5a5cac10794ec537251bfc721c5d723babfe4cac6b66ec00d1289ca731126",
+    ".thumbs/256x256/standardbots_thor.usd_light.png": "ced5329b819f08faaacf91263265cb394266987d24840f9efabd2eb1ded52880",
+    ".thumbs/256x256/standardbots_thor.usd_transparent.png": "c3bc1b3e0ef46048b0afe4b9b120b52a64b80c0a3bb371ef6834bca79356819d",
+    "configuration/OmniPBR/OmniPBR.mdl": "d384fc800f120e3cad1b7ca8837f9c554f9c34343d194813fca27caa493001f2",
+    "configuration/OmniPBR/OmniPBRBase.mdl": "701f37299b44106842bdbe025de52eedec391e35b038f61c4ed4d25bd98e7db1",
+    "configuration/OmniPBR/OmniPBR_ClearCoat.mdl": "687fce3f0693146b91495f04407a7c38c78f6b9262b63621f44b4b1f09110469",
+    "configuration/thor_base.usd": "6fcde5a26738f76ae561c94bdeab3338a37f600dddf09c48521ba0af063c8d2a",
+    "configuration/thor_materials.usda": "9340f1ffacb976eb40c3103c710382a831dffd8da19129efd6dea744fa70aaaf",
+    "configuration/thor_physics.usd": "11990ff6be0a620e0ce9ad1f4c6243b0a1fcf758ccd9cad6ae12b0977a5d5d43",
+    "configuration/thor_sensor.usd": "31d576973c20c15a82406717f17dc36804243fc0800878c6fbfb70c157962b48",
+    "configuration/thor_visual.usda": "5e2d0f8f0f424497647e694208d90138e74df0c70b6a0645f4b02d402208e400",
+    "meshes/visual/base_link.usd": "16309a359f88bbcdc8fe1880077812d9bef8b48e59c3613a2634c6993af7e0b0",
+    "meshes/visual/forearm_link.usd": "0b15eef7a326a511a5fa2628399ea8162ccd2377e945f23152f8aa8541ffaa87",
+    "meshes/visual/gltf/pbr.mdl": "eeed10b53c18d789f94a24a3a6b996c49668ae2d5b6a909bae3420f2beb16fc8",
+    "meshes/visual/shoulder_link.usd": "e32adc0959b9da5b20e47316b4b2a265f63eb41849d00104cf2d4348933e5b4d",
+    "meshes/visual/upper_arm_link.usd": "6fdafc0dadf9568efbd865a3e03e98ebab4832881206939fe061c5d7022ce221",
+    "meshes/visual/wrist_1_link.usd": "b48b2d0e3f206de59fae5e21f7d09cf49029cb2594cf41da4e8732f181db6c4f",
+    "meshes/visual/wrist_2_link.usd": "090d8f6945a267ee86cbe9be9509c446265a2f7a4b84ba5fa3f769924ffa90f3",
+    "meshes/visual/wrist_3_link.usd": "c20d4c5a8ca797dc40e441378bec167cfee14bd4d6b0398de01cee92d1356fd2",
+    "preview/thor_front.png": "52fd9b660bb87841dbb0d79e47a0a3ce367bcd67a677f41bf0b793275ac5effa",
+    "preview/thor_shoulder_detail.png": "00605e7c456a5e8f92f6b9bc2cee0b0571dcfd5e13800d82a473c1557aebe475",
+    "preview/thor_side.png": "325a3d1440bd2675f0ba4966da338b47b588476059ee21a29ef78325ea64af13",
+    "preview/thor_three_quarter.png": "2bdb6b10622cfc9700cf6c5ce594efa06a252fa143a6fe6f94ee8475a5b610c1",
+    "preview/thor_wrist_detail.png": "bd6d41533f546577e483a390726537f4cf9d27542040b273702f85699a435f30",
+    "standardbots_thor.usd": "994246dfeec5973d5f70c2c52341ab8c6b046ee825cbb8cde438832f45b91184"
+  },
+  "revisions": [
+    {
+      "date": "2026-09-29",
+      "stage": "SimReady Robot-Body-Runnable conformance",
+      "tool": "tools/conform_nvidia_arm.py",
+      "input": "Thor/StandardBots_Thor_USD_20260929/thor",
+      "kit_usd": "0.25.11",
+      "changes": [
+        "thor.usd: subLayers ['configuration/thor_materials.usda'] -> ['./configuration/thor_materials.usda']",
+        "thor.usd: /thor{Physics=None} reference 'configuration/thor_base.usd' -> './configuration/thor_base.usd'",
+        "thor.usd: /thor{Physics=PhysX} payload 'configuration/thor_physics.usd' -> './configuration/thor_physics.usd'",
+        "thor.usd: /thor{Sensor=Sensors} payload 'configuration/thor_sensor.usd' -> './configuration/thor_sensor.usd'",
+        "vendored OmniPBR.mdl, OmniPBR_ClearCoat.mdl, OmniPBRBase.mdl from <Isaac Sim 6.0.1>/kit/mdl/core/Base -> configuration/OmniPBR/",
+        "configuration/thor_base.usd: 8 x info:mdl:sourceAsset 'OmniPBR.mdl' -> './OmniPBR/OmniPBR.mdl'",
+        "configuration/thor_base.usd: MaterialBindingAPI applied on 7 prim(s)",
+        "configuration/thor_physics.usd: /thor/world physics:mass 0.0 -> 0.0001",
+        "configuration/thor_physics.usd: /thor/world physics:principalAxes = identity (isotropic diagonalInertia)",
+        "configuration/thor_physics.usd: /thor/base_link/collisions -> /thor/base_link/collisions/base_link/mesh: PhysicsCollisionAPI, PhysicsMeshCollisionAPI + ['physics:approximation']; dropped ['PhysxMeshMergeCollisionAPI'] and its collection; de-instanced",
+        "configuration/thor_physics.usd: /thor/forearm_link/collisions -> /thor/forearm_link/collisions/forearm_link/mesh: PhysicsCollisionAPI, PhysicsMeshCollisionAPI + ['physics:approximation']; dropped ['PhysxMeshMergeCollisionAPI'] and its collection; de-instanced",
+        "configuration/thor_physics.usd: /thor/shoulder_link/collisions -> /thor/shoulder_link/collisions/shoulder_link/mesh: PhysicsCollisionAPI, PhysicsMeshCollisionAPI + ['physics:approximation']; dropped ['PhysxMeshMergeCollisionAPI'] and its collection; de-instanced",
+        "configuration/thor_physics.usd: /thor/upper_arm_link/collisions -> /thor/upper_arm_link/collisions/upper_arm_link/mesh: PhysicsCollisionAPI, PhysicsMeshCollisionAPI + ['physics:approximation']; dropped ['PhysxMeshMergeCollisionAPI'] and its collection; de-instanced",
+        "configuration/thor_physics.usd: /thor/wrist_1_link/collisions -> /thor/wrist_1_link/collisions/wrist_1_link/mesh: PhysicsCollisionAPI, PhysicsMeshCollisionAPI + ['physics:approximation']; dropped ['PhysxMeshMergeCollisionAPI'] and its collection; de-instanced",
+        "configuration/thor_physics.usd: /thor/wrist_2_link/collisions -> /thor/wrist_2_link/collisions/wrist_2_link/mesh: PhysicsCollisionAPI, PhysicsMeshCollisionAPI + ['physics:approximation']; dropped ['PhysxMeshMergeCollisionAPI'] and its collection; de-instanced",
+        "configuration/thor_physics.usd: /thor/wrist_3_link/collisions -> /thor/wrist_3_link/collisions/wrist_3_link/mesh: PhysicsCollisionAPI, PhysicsMeshCollisionAPI + ['physics:approximation']; dropped ['PhysxMeshMergeCollisionAPI'] and its collection; de-instanced",
+        "thor.usd: /thor IsaacRobotAPI, robotType Manipulator, 8 robotJoints (root joint first), 8 robotLinks",
+        "meshes/visual/base_link.usd: 25139 of 77243 faces flipped (0.1532 m2); back-facing share of visible pixels, worst view 98.3% -> 0.7%, mean 68.9% -> 0.2%",
+        "meshes/visual/forearm_link.usd: 43547 of 102425 faces flipped (0.2045 m2); back-facing share of visible pixels, worst view 24.1% -> 1.0%, mean 15.8% -> 0.3%",
+        "meshes/visual/shoulder_link.usd: 23165 of 54077 faces flipped (0.1467 m2); back-facing share of visible pixels, worst view 69.7% -> 0.3%, mean 24.2% -> 0.1%",
+        "meshes/visual/upper_arm_link.usd: 50107 of 140364 faces flipped (0.0974 m2); back-facing share of visible pixels, worst view 21.1% -> 0.2%, mean 12.0% -> 0.1%",
+        "meshes/visual/wrist_1_link.usd: 32619 of 97583 faces flipped (0.0464 m2); back-facing share of visible pixels, worst view 83.9% -> 3.4%, mean 34.9% -> 1.5%",
+        "meshes/visual/wrist_2_link.usd: 32430 of 97425 faces flipped (0.0546 m2); back-facing share of visible pixels, worst view 82.1% -> 4.2%, mean 36.2% -> 1.6%",
+        "meshes/visual/wrist_3_link.usd: 9256 of 43335 faces flipped (0.0109 m2); back-facing share of visible pixels, worst view 56.5% -> 3.0%, mean 23.1% -> 1.5%"
+      ],
+      "composed_prims_changed": 56,
+      "joints_and_links_unchanged": 15,
+      "robot_joints": [
+        "/thor/root_joint",
+        "/thor/joints/base_joint",
+        "/thor/joints/joint0",
+        "/thor/joints/joint1",
+        "/thor/joints/joint2",
+        "/thor/joints/joint3",
+        "/thor/joints/joint4",
+        "/thor/joints/joint5"
+      ],
+      "robot_links": [
+        "/thor/world",
+        "/thor/base_link",
+        "/thor/shoulder_link",
+        "/thor/upper_arm_link",
+        "/thor/forearm_link",
+        "/thor/wrist_1_link",
+        "/thor/wrist_2_link",
+        "/thor/wrist_3_link"
+      ],
+      "face_orientation": {
+        "base_link": {
+          "file": "base_link.usd",
+          "faces": 77243,
+          "faces_visible": 65371,
+          "faces_flipped": 25139,
+          "area_flipped_m2": 0.15323,
+          "holes_before_max": 0.983,
+          "holes_before_mean": 0.689,
+          "holes_after_max": 0.0072,
+          "holes_after_mean": 0.0023,
+          "meshes_touched": 4
+        },
+        "forearm_link": {
+          "file": "forearm_link.usd",
+          "faces": 102425,
+          "faces_visible": 89111,
+          "faces_flipped": 43547,
+          "area_flipped_m2": 0.20447,
+          "holes_before_max": 0.2414,
+          "holes_before_mean": 0.1585,
+          "holes_after_max": 0.0102,
+          "holes_after_mean": 0.0027,
+          "meshes_touched": 4
+        },
+        "shoulder_link": {
+          "file": "shoulder_link.usd",
+          "faces": 54077,
+          "faces_visible": 52907,
+          "faces_flipped": 23165,
+          "area_flipped_m2": 0.14668,
+          "holes_before_max": 0.6973,
+          "holes_before_mean": 0.2421,
+          "holes_after_max": 0.0029,
+          "holes_after_mean": 0.0015,
+          "meshes_touched": 2
+        },
+        "upper_arm_link": {
+          "file": "upper_arm_link.usd",
+          "faces": 140364,
+          "faces_visible": 125952,
+          "faces_flipped": 50107,
+          "area_flipped_m2": 0.09744,
+          "holes_before_max": 0.211,
+          "holes_before_mean": 0.1203,
+          "holes_after_max": 0.0016,
+          "holes_after_mean": 0.001,
+          "meshes_touched": 4
+        },
+        "wrist_1_link": {
+          "file": "wrist_1_link.usd",
+          "faces": 97583,
+          "faces_visible": 80525,
+          "faces_flipped": 32619,
+          "area_flipped_m2": 0.04636,
+          "holes_before_max": 0.8385,
+          "holes_before_mean": 0.3489,
+          "holes_after_max": 0.0344,
+          "holes_after_mean": 0.0152,
+          "meshes_touched": 3
+        },
+        "wrist_2_link": {
+          "file": "wrist_2_link.usd",
+          "faces": 97425,
+          "faces_visible": 80315,
+          "faces_flipped": 32430,
+          "area_flipped_m2": 0.05462,
+          "holes_before_max": 0.8213,
+          "holes_before_mean": 0.362,
+          "holes_after_max": 0.0423,
+          "holes_after_mean": 0.0164,
+          "meshes_touched": 3
+        },
+        "wrist_3_link": {
+          "file": "wrist_3_link.usd",
+          "faces": 43335,
+          "faces_visible": 28805,
+          "faces_flipped": 9256,
+          "area_flipped_m2": 0.01091,
+          "holes_before_max": 0.5651,
+          "holes_before_mean": 0.2306,
+          "holes_after_max": 0.03,
+          "holes_after_mean": 0.0152,
+          "meshes_touched": 5
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "stage": "package layout, previews, thumbnail",
+      "tool": "tools/finalize_layout.py",
+      "changes": [
+        "thor/thor.usd -> thor/standardbots_thor.usd (NP.005, RC.003)",
+        "thor/preview/: 5 renders (thor_three_quarter.png, thor_front.png, thor_side.png, thor_wrist_detail.png, thor_shoulder_detail.png)",
+        "thor/.thumbs/256x256/standardbots_thor.usd.png: crop 678x678 at 297,18 of thor_three_quarter.png -> 256x256 (SR.002)"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "stage": "joint torque and position limits from engineering",
+      "tool": "tools/apply_joint_physics.py",
+      "input": "Thor/StandardBots_Thor_SimReady_20260929/standardbots_thor/thor",
+      "spec": "Thor/engineering/thor_joint_physics.json",
+      "spec_sha256": "1a18d1a2f96af4b497c152aeae8217e49a9316c08150d15b08dc526df47aa794",
+      "source": "Standard Bots engineering: Thor actuator torque table and joint ranges, received 2026-09-30 (ASSETS_NEEDED.md section G)",
+      "effort_column": "repeated_peak_torque_Nm",
+      "kit_usd": "0.25.11",
+      "changes": [
+        "configuration/thor_physics.usd: /thor/joints/joint0 drive:angular:physics:maxForce 346 -> 1404 N\u00b7m",
+        "configuration/thor_physics.usd: /thor/joints/joint1 drive:angular:physics:maxForce 346 -> 1404 N\u00b7m",
+        "configuration/thor_physics.usd: /thor/joints/joint2 drive:angular:physics:maxForce 163 -> 802 N\u00b7m",
+        "configuration/thor_physics.usd: /thor/joints/joint2 physics:lowerLimit -183.438 -> -180 deg",
+        "configuration/thor_physics.usd: /thor/joints/joint2 physics:upperLimit 183.438 -> 180 deg",
+        "configuration/thor_physics.usd: /thor/joints/joint3 drive:angular:physics:maxForce 63 -> 217 N\u00b7m",
+        "configuration/thor_physics.usd: /thor/joints/joint4 drive:angular:physics:maxForce 63 -> 217 N\u00b7m",
+        "configuration/thor_physics.usd: /thor/joints/joint5 drive:angular:physics:maxForce 63 -> 217 N\u00b7m"
+      ],
+      "joints": {
+        "joint0": {
+          "drive:angular:physics:maxForce": [
+            346.0,
+            1404.0
+          ],
+          "physics:lowerLimit": [
+            -360.0,
+            -360.0
+          ],
+          "physics:upperLimit": [
+            360.0,
+            360.0
+          ]
+        },
+        "joint1": {
+          "drive:angular:physics:maxForce": [
+            346.0,
+            1404.0
+          ],
+          "physics:lowerLimit": [
+            -360.0,
+            -360.0
+          ],
+          "physics:upperLimit": [
+            360.0,
+            360.0
+          ]
+        },
+        "joint2": {
+          "drive:angular:physics:maxForce": [
+            163.0,
+            802.0
+          ],
+          "physics:lowerLimit": [
+            -183.437744140625,
+            -180.0
+          ],
+          "physics:upperLimit": [
+            183.437744140625,
+            180.0
+          ]
+        },
+        "joint3": {
+          "drive:angular:physics:maxForce": [
+            63.0,
+            217.0
+          ],
+          "physics:lowerLimit": [
+            -360.0,
+            -360.0
+          ],
+          "physics:upperLimit": [
+            360.0,
+            360.0
+          ]
+        },
+        "joint4": {
+          "drive:angular:physics:maxForce": [
+            63.0,
+            217.0
+          ],
+          "physics:lowerLimit": [
+            -360.0,
+            -360.0
+          ],
+          "physics:upperLimit": [
+            360.0,
+            360.0
+          ]
+        },
+        "joint5": {
+          "drive:angular:physics:maxForce": [
+            63.0,
+            217.0
+          ],
+          "physics:lowerLimit": [
+            -360.0,
+            -360.0
+          ],
+          "physics:upperLimit": [
+            360.0,
+            360.0
+          ]
+        }
+      },
+      "unchanged": "velocity limits, drive gains, masses, inertias, joint frames, colliders, visuals",
+      "composed_attributes_changed": 8
+    },
+    {
+      "date": "2026-09-30",
+      "stage": "collision filter",
+      "tool": "tools/filter_collision_pair.py",
+      "input": "Thor/StandardBots_Thor_SimReady_20260930/standardbots_thor/thor",
+      "in_place": true,
+      "kit_usd": "0.25.11",
+      "input_sha256": {
+        "configuration/thor_physics.usd": "81d3e8399d01c02b92ebfa07032df745ccfe545559501d7063a7838acf9f049d"
+      },
+      "changes": [
+        "configuration/thor_physics.usd: /thor/upper_arm_link PhysicsFilteredPairsAPI, physics:filteredPairs -> /thor/base_link"
+      ],
+      "reason": "PhysX's convex decomposition of the visual-STL colliders bridges a real gap of at least 14 mm between base_link and upper_arm_link and jams the shoulder (Thor/validation_runs/2026-09-30/README.md). Decision 2026-09-30.",
+      "clearance_sweep": {
+        "joints": [
+          "joint0",
+          "joint1"
+        ],
+        "step_deg": 10.0,
+        "poses": 1369,
+        "sampling_mm": {
+          "base_link": 1,
+          "upper_arm_link": 2
+        },
+        "ranges_deg": {
+          "joint0": [
+            -180.0,
+            180.0
+          ],
+          "joint1": [
+            -180.0,
+            180.0
+          ]
+        },
+        "min_clearance_mm": 14.28,
+        "at_deg": {
+          "joint0": -170.0,
+          "joint1": -80.0
+        },
+        "max_clearance_mm": 15.93,
+        "threshold_mm": 5.0
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "stage": "SimReady stamp: Robot-Body-Runnable 1.1.0",
+      "tool": "tools/stamp_simready.py",
+      "features": {
+        "FET001_BASE_NEUTRAL": "1.0.1",
+        "FET004_ROBOT_PHYSX": "0.3.0",
+        "FET021_ROBOT_CORE_RUNNABLE": "0.2.0",
+        "FET022_DRIVEN_JOINTS_PHYSX": "0.2.0",
+        "FET024_BASE_ARTICULATION_NEUTRAL": "0.1.0",
+        "FET024_BASE_ARTICULATION_PHYSX": "0.1.0"
+      },
+      "stale_dates_pruned": [],
+      "robot_schema_on_pythonpath": true
+    },
+    {
+      "date": "2026-09-30",
+      "stage": "provenance paths made workspace-relative",
+      "tool": "inline (Thor/validation_runs/2026-09-30/final/relativise_build_report.log)",
+      "changes": [
+        "inputs.nvidia_asset -> Thor/thor-core-arm_assets/thor_nvidia_verified",
+        "inputs.glb_dir -> Thor/thor-core-arm_assets/source-assets/glb",
+        "revisions[0].input -> Thor/StandardBots_Thor_USD_20260929/thor",
+        "revisions[0].changes[4]: the MDL source folder -> <Isaac Sim 6.0.1>/kit/mdl/core/Base"
+      ],
+      "content_changed": false,
+      "note": "each was an absolute path on the build machine; only the field names and new values are recorded"
+    },
+    {
+      "date": "2026-10-02",
+      "stage": "joint velocity limits from the controller",
+      "tool": "tools/apply_joint_velocity.py",
+      "input": "Thor/StandardBots_Thor_SimReady_20260930/standardbots_thor/thor",
+      "spec": "Thor/engineering/thor_joint_velocity.json",
+      "spec_sha256": "fe4a2b1d4c0ff14fdd3308f67c0ef1a7ae9474192556942fea957b8796e5e658",
+      "source": "Standard Bots sb repo, libs/motion-planning/ArmJointVelocities.ts, THOR_MAX_JOINT_SPEEDS: the 48 V tier that getThorMaxJointSpeedsForCBVoltage returns for CBVoltage V48. Set by commit 7eff7ad881 'feat(motion-planning): apply RevC/48V benchmarked Thor joint limits (#18142)', 2026-05-27; unchanged on GitHub main when checked on 2026-10-02.",
+      "decision": "User, 2026-10-02: use the 48 V tier. The URDFs and limits.yaml carry RO1's 4.712/5.027/6.807 rad/s for Thor; they are fallback ceilings only (Slack #team-motion-planning, 2026-08-07).",
+      "kit_usd": "0.25.11",
+      "changes": [
+        "configuration/thor_physics.usd: /thor/joints/joint0 physxJoint:maxJointVelocity 270 -> 124.9048 deg/s (2.18 rad/s)",
+        "configuration/thor_physics.usd: /thor/joints/joint1 physxJoint:maxJointVelocity 270 -> 124.9048 deg/s (2.18 rad/s)",
+        "configuration/thor_physics.usd: /thor/joints/joint2 physxJoint:maxJointVelocity 288 -> 154.1256 deg/s (2.69 rad/s)",
+        "configuration/thor_physics.usd: /thor/joints/joint3 physxJoint:maxJointVelocity 390 -> 237.7775 deg/s (4.15 rad/s)",
+        "configuration/thor_physics.usd: /thor/joints/joint4 physxJoint:maxJointVelocity 390 -> 237.7775 deg/s (4.15 rad/s)",
+        "configuration/thor_physics.usd: /thor/joints/joint5 physxJoint:maxJointVelocity 390 -> 237.7775 deg/s (4.15 rad/s)"
+      ],
+      "joints": {
+        "joint0": {
+          "physxJoint:maxJointVelocity": [
+            270.0,
+            124.90480041503906
+          ]
+        },
+        "joint1": {
+          "physxJoint:maxJointVelocity": [
+            270.0,
+            124.90480041503906
+          ]
+        },
+        "joint2": {
+          "physxJoint:maxJointVelocity": [
+            288.0,
+            154.12564086914062
+          ]
+        },
+        "joint3": {
+          "physxJoint:maxJointVelocity": [
+            389.9999694824219,
+            237.77748107910156
+          ]
+        },
+        "joint4": {
+          "physxJoint:maxJointVelocity": [
+            389.9999694824219,
+            237.77748107910156
+          ]
+        },
+        "joint5": {
+          "physxJoint:maxJointVelocity": [
+            389.9999694824219,
+            237.77748107910156
+          ]
+        }
+      },
+      "unchanged": "torque and position limits, drive gains, masses, inertias, joint frames, colliders, visuals",
+      "composed_attributes_changed": 6,
+      "note": "the input's SimReady stamp is stale after this edit; restamp"
+    },
+    {
+      "date": "2026-10-02",
+      "stage": "link inertials rotated Rz(90 deg) into the URDF joint frames",
+      "tool": "tools/rotate_link_inertials.py",
+      "spec": "Thor/engineering/thor_inertial_frame_fix.json",
+      "spec_sha256": "c70a22120b0971d336dd55f4482c229173d084a40bccd1000784ed158cd01a6a",
+      "reference": "Thor/engineering/inertia_rz90_reference/pr23043_thor_physical_parameters.yaml",
+      "reference_sha256": "9617626f276ba7514dcf6818a7fd84a126e134884d446e6c97ca618799116022",
+      "source": "The SolidWorks export 'URDF THOR GEN3.SLDASM' defines joint axes along Y; Standard Bots' URDFs use X. On import, Rz(+90 deg) was applied to joint origins but not to CoMs or inertia tensors (shoulder through wrist_3; base_link's frame is not rotated). Reported by Brian Lynn, Slack #team-motion-planning, 2026-09-10 ('Spark and Thor Inertia Tensors and CoM's Incorrect'). Fix: sb PR #23043 'fix(urdf): apply Rz(+90 deg) to Spark/Thor inertia and strip wrist_3_cable_link inertial' by Lovro Ivanov, head 832dae36affafe4c7ab702be680c7d3225daddfb, OPEN (not merged) as of 2026-10-02. The PR states the error causes gravity-feedforward error up to ~6 N.m on Thor joint 1.",
+      "kit_usd": "0.25.11",
+      "changes": [
+        "configuration/thor_physics.usd: /thor/shoulder_link centerOfMass (-8e-07, -0.0079685, -0.028423) -> (0.0079685, -8e-07, -0.028423); principalAxes rotated Rz(90)",
+        "configuration/thor_physics.usd: /thor/upper_arm_link centerOfMass (1.6e-06, 0.011572, 0.41622) -> (-0.011572, 1.6e-06, 0.41622); principalAxes rotated Rz(90)",
+        "configuration/thor_physics.usd: /thor/forearm_link centerOfMass (7e-07, 0.0042292, 0.5456981) -> (-0.0042292, 7e-07, 0.5456981); principalAxes rotated Rz(90)",
+        "configuration/thor_physics.usd: /thor/wrist_1_link centerOfMass (-4e-07, -0.0031754, 0.0332635) -> (0.0031754, -4e-07, 0.0332635); principalAxes rotated Rz(90)",
+        "configuration/thor_physics.usd: /thor/wrist_2_link centerOfMass (3e-07, 0.03335, -0.0031461) -> (-0.03335, 3e-07, -0.0031461); principalAxes rotated Rz(90)",
+        "configuration/thor_physics.usd: /thor/wrist_3_link centerOfMass (-9.77e-05, -0.027224, 0.0006186) -> (0.027224, -9.77e-05, 0.0006186); principalAxes rotated Rz(90)"
+      ],
+      "links": {
+        "shoulder_link": {
+          "physics:centerOfMass": [
+            [
+              -7.819600114089553e-07,
+              -0.007968500256538391,
+              -0.028423000127077103
+            ],
+            [
+              0.007968500256538391,
+              -7.819600114094432e-07,
+              -0.028423000127077103
+            ]
+          ],
+          "physics:principalAxes": [
+            [
+              0.9975593686103821,
+              0.06982184201478958,
+              -8.444100240012631e-05,
+              0.0004038399492856115
+            ],
+            [
+              0.7050954525221874,
+              0.04943120791230341,
+              0.04931179029872674,
+              0.7056665684687045
+            ]
+          ]
+        },
+        "upper_arm_link": {
+          "physics:centerOfMass": [
+            [
+              1.5637999695172766e-06,
+              0.01157199963927269,
+              0.4162200093269348
+            ],
+            [
+              -0.01157199963927269,
+              1.5637999695179852e-06,
+              0.4162200093269348
+            ]
+          ],
+          "physics:principalAxes": [
+            [
+              0.9999231100082397,
+              0.012407224625349045,
+              -2.5094766442634864e-07,
+              8.403827087022364e-05
+            ],
+            [
+              0.7069929268437379,
+              0.00877340935963257,
+              0.00877305446607265,
+              0.7071117748959272
+            ]
+          ]
+        },
+        "forearm_link": {
+          "physics:centerOfMass": [
+            [
+              7.251886700032628e-07,
+              0.0042292228899896145,
+              0.5456981062889099
+            ],
+            [
+              -0.0042292228899896145,
+              7.251886700035218e-07,
+              0.5456981062889099
+            ]
+          ],
+          "physics:principalAxes": [
+            [
+              0.9995933771133423,
+              -0.028515536338090897,
+              -2.8770177777914796e-06,
+              5.1050097681581974e-05
+            ],
+            [
+              0.7067831370204953,
+              -0.020161494170413272,
+              -0.020165562887855825,
+              0.7068553327589033
+            ]
+          ]
+        },
+        "wrist_1_link": {
+          "physics:centerOfMass": [
+            [
+              -4.020913593194564e-07,
+              -0.003175415564328432,
+              0.03326346352696419
+            ],
+            [
+              0.003175415564328432,
+              -4.0209135931965083e-07,
+              0.03326346352696419
+            ]
+          ],
+          "physics:principalAxes": [
+            [
+              0.9983192086219788,
+              -0.057925496250391006,
+              -1.6110545402625576e-05,
+              -0.0018826450686901808
+            ],
+            [
+              0.7072494602451902,
+              -0.04094811625459164,
+              -0.04097090000468811,
+              0.7045869982556401
+            ]
+          ]
+        },
+        "wrist_2_link": {
+          "physics:centerOfMass": [
+            [
+              2.529799871808791e-07,
+              0.03334999829530716,
+              -0.003146100090816617
+            ],
+            [
+              -0.03334999829530716,
+              2.529799871829212e-07,
+              -0.003146100090816617
+            ]
+          ],
+          "physics:principalAxes": [
+            [
+              0.9983927607536316,
+              0.0566391721367836,
+              -0.001999185886234045,
+              -1.8881390133174136e-05
+            ],
+            [
+              0.7059836081071054,
+              0.04146357857133764,
+              0.038636302915357086,
+              0.7059569057904062
+            ]
+          ]
+        },
+        "wrist_3_link": {
+          "physics:centerOfMass": [
+            [
+              -9.774399950401857e-05,
+              -0.027224000543355942,
+              0.0006185799720697105
+            ],
+            [
+              0.027224000543355942,
+              -9.774399950402024e-05,
+              0.0006185799720697105
+            ]
+          ],
+          "physics:principalAxes": [
+            [
+              0.9947367906570435,
+              -0.0009630174608901143,
+              -0.10245195776224136,
+              0.0012181169586256146
+            ],
+            [
+              0.7025237571428827,
+              0.07176351440234488,
+              -0.07312542668991222,
+              0.7042464345823061
+            ]
+          ]
+        }
+      },
+      "unchanged": "masses, principal moments, base_link inertials, joints, colliders, visuals",
+      "composed_attributes_changed": 12,
+      "note": "the input's SimReady stamp is stale after this edit; restamp"
+    },
+    {
+      "date": "2026-10-02",
+      "stage": "SimReady stamp: Robot-Body-Runnable 1.1.0",
+      "tool": "tools/stamp_simready.py",
+      "features": {
+        "FET001_BASE_NEUTRAL": "1.0.1",
+        "FET004_ROBOT_PHYSX": "0.3.0",
+        "FET021_ROBOT_CORE_RUNNABLE": "0.2.0",
+        "FET022_DRIVEN_JOINTS_PHYSX": "0.2.0",
+        "FET024_BASE_ARTICULATION_NEUTRAL": "0.1.0",
+        "FET024_BASE_ARTICULATION_PHYSX": "0.1.0"
+      },
+      "stale_dates_pruned": [
+        "2026-09-30"
+      ],
+      "robot_schema_on_pythonpath": true
+    },
+    {
+      "date": "2026-10-07",
+      "stage": "UsdPreviewSurface beside every MDL material (VM.PS.002)",
+      "tool": "tools/add_preview_surfaces.py",
+      "input": "Thor/StandardBots_Thor_SimReady_20261002/standardbots_thor/thor",
+      "kit_usd": "0.25.11",
+      "changes": [
+        "configuration/thor_materials.usda: 8 material(s) gain a PreviewSurface UsdPreviewSurface on outputs:surface",
+        "configuration/thor_visual.usda: 30 material(s) gain a PreviewSurface UsdPreviewSurface on outputs:surface"
+      ],
+      "mapping": {
+        "gltf_material": {
+          "diffuseColor": "base_color_factor",
+          "metallic": "metallic_factor",
+          "roughness": "roughness_factor",
+          "ior": "ior"
+        },
+        "OmniPBR": {
+          "diffuseColor": "diffuse_color_constant",
+          "metallic": "metallic_constant",
+          "roughness": "reflection_roughness_constant"
+        }
+      },
+      "materials": [
+        {
+          "material": "/thor/Looks/material_base_link_color",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              0.8666700124740601,
+              0.8666700124740601,
+              0.8902000188827515
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/Looks/material_forearm_link_color",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              0.8666666746139526,
+              0.8666666746139526,
+              0.8901960849761963
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/Looks/material_shoulder_link_color",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              0.8666666746139526,
+              0.8666666746139526,
+              0.8901960849761963
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/Looks/material_upper_arm_link_color",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              0.8666700124740601,
+              0.8666700124740601,
+              0.8902000188827515
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/Looks/material_wrist_1_link_color",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              0.8666666746139526,
+              0.8666666746139526,
+              0.8901960849761963
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/Looks/material_wrist_2_link_color",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              0.8666666746139526,
+              0.8666666746139526,
+              0.8901960849761963
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/Looks/material_wrist_3_link_color",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              0.8902000188827515,
+              0.8902000188827515,
+              0.9137300252914429
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/Looks/DefaultMaterial",
+          "mdl": "OmniPBR",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "metallic": 0.0,
+            "roughness": 0.3199999928474426
+          }
+        },
+        {
+          "material": "/thor/base_link/visuals/base_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_004",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/base_link/visuals/base_link_textured/Looks/Aluminum_Rough___1__1_002",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/base_link/visuals/base_link_textured/Looks/Hard_Rough_Plastic_Grey__1_002",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.5150229930877686,
+              0.5150229930877686,
+              0.5150229930877686
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/base_link/visuals/base_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_005",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/shoulder_link/visuals/shoulder_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_011",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/shoulder_link/visuals/shoulder_link_textured/Looks/Hard_Rough_Plastic_Orange___1_007",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              0.23503099381923676,
+              0.0022145500406622887
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/shoulder_link/visuals/shoulder_link_textured/Looks/Aluminum_Brushed_90___1__1_008",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/upper_arm_link/visuals/upper_arm_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_006",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/upper_arm_link/visuals/upper_arm_link_textured/Looks/Hard_Rough_Plastic_Orange___1_004",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              0.23503099381923676,
+              0.0022145500406622887
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/upper_arm_link/visuals/upper_arm_link_textured/Looks/Rubber__1__1___1_003",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.00039999998989515007,
+              0.00039999998989515007,
+              0.00039999998989515007
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/upper_arm_link/visuals/upper_arm_link_textured/Looks/URDF_THOR_GEN3___J1___upper_arm_link_color_128_128_128_001",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.5019609928131104,
+              0.5019609928131104,
+              0.5019609928131104
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/upper_arm_link/visuals/upper_arm_link_textured/Looks/Aluminum_Brushed_90___1__1_004",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/forearm_link/visuals/forearm_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_003",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/forearm_link/visuals/forearm_link_textured/Looks/Hard_Rough_Plastic_Orange___1_003",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              0.23503099381923676,
+              0.0022145500406622887
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/forearm_link/visuals/forearm_link_textured/Looks/Rubber__1__1___1_004",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.00039999998989515007,
+              0.00039999998989515007,
+              0.00039999998989515007
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/forearm_link/visuals/forearm_link_textured/Looks/Aluminum_Brushed_90___1__1_003",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/forearm_link/visuals/forearm_link_textured/Looks/URDF_THOR_GEN3___J2___forearm_link_color_255_255_255_001",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_1_link/visuals/wrist_1_link_textured/Looks/Rubber__1__1___1_018",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.00039999998989515007,
+              0.00039999998989515007,
+              0.00039999998989515007
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_1_link/visuals/wrist_1_link_textured/Looks/Hard_Rough_Plastic_Orange___1_021",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              0.23503099381923676,
+              0.0022145500406622887
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_1_link/visuals/wrist_1_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_035",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_1_link/visuals/wrist_1_link_textured/Looks/Aluminum_Brushed_90___1__1_023",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_2_link/visuals/wrist_2_link_textured/Looks/Rubber__1__1___1_016",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.00039999998989515007,
+              0.00039999998989515007,
+              0.00039999998989515007
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_2_link/visuals/wrist_2_link_textured/Looks/Hard_Rough_Plastic_Orange___1_019",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              0.23503099381923676,
+              0.0022145500406622887
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_2_link/visuals/wrist_2_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_033",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_2_link/visuals/wrist_2_link_textured/Looks/Aluminum_Brushed_90___1__1_021",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_3_link/visuals/wrist_3_link_textured/Looks/Aluminum_Rough___1__1",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_3_link/visuals/wrist_3_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_005",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_3_link/visuals/wrist_3_link_textured/Looks/Hard_Rough_Plastic_White__1",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_3_link/visuals/wrist_3_link_textured/Looks/New_Arm_Hard_Anodise_Black__1_006",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.011764699593186378,
+              0.011764699593186378,
+              0.011764699593186378
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        },
+        {
+          "material": "/thor/wrist_3_link/visuals/wrist_3_link_textured/Looks/Aluminum_Brushed_90___1__1_005",
+          "mdl": "gltf_material",
+          "values": {
+            "diffuseColor": [
+              0.792156994342804,
+              0.8196079730987549,
+              0.9333329796791077
+            ],
+            "metallic": 0.5,
+            "roughness": 0.5527864098548889,
+            "ior": 1.4500000476837158
+          }
+        }
+      ],
+      "defaults_used": [],
+      "unchanged": "MDL networks, bindings, geometry, physics, colliders"
+    },
+    {
+      "date": "2026-10-07",
+      "stage": "SimReady provenance metadata (SR.004)",
+      "tool": "tools/author_simready_metadata.py",
+      "input": "Thor/StandardBots_Thor_SimReady_20261007/standardbots_thor/thor",
+      "in_place": true,
+      "helper": "Thor/validation_runs/2026-10-07/vendor/extract_simready_metadata.py",
+      "helper_sha256": "a7f28269ca8769762b62415b8806672a183a82fcbf203b0a32448f03c01a412f",
+      "spec": "Thor/engineering/thor_simready_metadata.json",
+      "spec_sha256": "5680fd660c0128a557ebec1987d0984aaa9710840bd1bb0c6876d6f90bf830ed",
+      "fields": {
+        "asset_extents": [
+          0.6211521625518799,
+          0.2960044741630554,
+          2.264488935470581
+        ],
+        "asset_license": "CC-BY-4.0",
+        "asset_name": "standardbots_thor",
+        "asset_type": "robot",
+        "author": "Standard Bots",
+        "category": "robotic arm",
+        "mass": 83.5967314077352,
+        "qcode": "Q40687",
+        "rigid_body_count": 8,
+        "source_file": "standard_bots_thor_description/robot_isaac.urdf",
+        "usd_date_generated": "2026-10-07"
+      },
+      "dropped": "SimReady_Metadata.validation, the retired Robot-Body-Runnable 1.1.0 stamp",
+      "mass_check": {
+        "verdict": "plausible",
+        "implied_density_kg_m3": 2459.44179901426,
+        "total_mass_kg": 83.5967314077352,
+        "expected_mass_min_kg": 60.0,
+        "expected_mass_max_kg": 110.0
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "stage": "thumbnail to NVIDIA's thumbnail guidelines (REVIEW.004)",
+      "tool": "tools/render_thumbnail.py",
+      "renderer": "Isaac Sim RTX real-time, Replicator rgb + distance_to_image_plane mask",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth_deg": -135.0,
+        "elevation_deg": 25.0,
+        "width_m": 2.4233
+      },
+      "lighting": "dome 1000 + key 3500 / fill 1500 / rim 2200 distant lights, all 6500 K",
+      "render_px": 1024,
+      "fill": 0.861,
+      "changes": [
+        ".thumbs/256x256/standardbots_thor.usd.png",
+        ".thumbs/256x256/standardbots_thor.usd_light.png",
+        ".thumbs/256x256/standardbots_thor.usd_transparent.png"
+      ],
+      "why": "the old thumbnail showed the asset on a light grey (RGB 225) background"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.standardbots.simready-thor.standardbots_thor.2026.10.07_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "28c1e08872609cf7598e8fb64fb15be9c5b726f6ceb69c9c4254a049a3f8b08f"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "22f778d09cbc242f270abcfbc74b0e2b4d589333a512aa7f1d2fdaddf8a1fbba"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "92976151162e4004357531af0949c78ed93ef15ce8fa0bada44ea5bcd24188dd"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "36302662381f6ce586aad61d2f007176ecf38fbfc826b5eb2cd73facc3f7c2e2"
+  },
+  "package_hash": {
+    "sha256": "303d3c23fe6f03a219e97ac8c8ceb25428dc6e717d7e75ad000aa71259518649"
+  }
+}

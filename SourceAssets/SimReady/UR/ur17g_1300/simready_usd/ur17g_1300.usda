@@ -1,0 +1,84 @@
+#usda 1.0
+(
+    "Universal Robots UR17g-1300. Visual geometry, materials and textures: © 2026 Universal Robots A/S. Use hereof is subject to Universal Robots A/S' Terms and Conditions for Use of Graphical Documentation. See LICENSE-UR-Graphical-Documentation.txt. Everything else: Kinematic, joint-limit, inertial and structural data derived from Universal Robots' Universal_Robots_ROS2_Description (ur_description), licensed under the BSD 3-Clause License. See LICENSE-BSD-3-Clause.txt. See NOTICE.txt."
+    customLayerData = {
+        dictionary SimReady_Metadata = {
+            dictionary Variants = {
+                dictionary Physics = {
+                    dictionary Newton = {
+                        string activateOption = "Enabled"
+                        string prim = "/ur17g_1300"
+                        string variantSetName = "Newton"
+                    }
+                    dictionary PhysX = {
+                        string activateOption = "Enabled"
+                        string prim = "/ur17g_1300"
+                        string variantSetName = "PhysX"
+                    }
+                }
+            }
+            float3 asset_extents = (1.315, 0.4281, 0.2995)
+            string asset_license = "LicenseRef-UR-Graphical-Documentation AND BSD-3-Clause"
+            string asset_name = "ur17g_1300"
+            string asset_type = "robot"
+            string author = "Universal Robots"
+            string category = "robot_arm"
+            string description = "Universal Robots UR17g-1300 collaborative robot arm (g-Series, 1300 mm reach)"
+            string display_name = "UR17g-1300"
+            double mass = 40.3578
+            string qcode = "Q5138951"
+            int rigid_body_count = 8
+            string source_file = "ur17g_1300_description/urdf/ur17g_1300.urdf"
+            string usd_date_generated = "2026-10-19"
+        }
+        string asset_name = "ur17g_1300"
+        string asset_type = "robot"
+        string copyright = "© 2026 Universal Robots A/S"
+        string license = "LicenseRef-UR-Graphical-Documentation AND BSD-3-Clause"
+        string license_files = "LICENSE-UR-Graphical-Documentation.txt, LICENSE-BSD-3-Clause.txt, NOTICE.txt"
+        string license_notice = "Visual geometry, materials and textures: © 2026 Universal Robots A/S. Use hereof is subject to Universal Robots A/S' Terms and Conditions for Use of Graphical Documentation. See LICENSE-UR-Graphical-Documentation.txt. Everything else: Kinematic, joint-limit, inertial and structural data derived from Universal Robots' Universal_Robots_ROS2_Description (ur_description), licensed under the BSD 3-Clause License. See LICENSE-BSD-3-Clause.txt. See NOTICE.txt."
+        string source_file = "ur17g_1300_description/urdf/ur17g_1300.urdf"
+        string usd_date_generated = "2026-10-19"
+    }
+    defaultPrim = "ur17g_1300"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "ur17g_1300" (
+    assetInfo = {
+        string name = "UR17g-1300"
+    }
+    displayName = "UR17g-1300"
+    kind = "component"
+    prepend references = @./payloads/base.usda@
+    variants = {
+        string Newton = "Disabled"
+        string PhysX = "Disabled"
+    }
+    prepend variantSets = ["PhysX", "Newton"]
+)
+{
+    variantSet "PhysX" = {
+        "Disabled" {
+
+        }
+        "Enabled" (
+            prepend payload = @./runnables/physics/physx.usda@
+        ) {
+
+        }
+    }
+    variantSet "Newton" = {
+        "Disabled" {
+
+        }
+        "Enabled" (
+            prepend payload = @./runnables/physics/newton.usda@
+        ) {
+
+        }
+    }
+}
+

@@ -1,0 +1,2246 @@
+{
+  "schema_version": "1.0",
+  "asset": "Robotiq_Hand_E_C10",
+  "run_timestamp": "2026-10-30T17:14:04Z",
+  "passed": false,
+  "results": [
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 5.687,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.988,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 124.27,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.828,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 0.000116,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 1.4e-05,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 45.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 5.661,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.995,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 124.69,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.824,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 6e-05,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 7e-06,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 315.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "display_color_response",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 10.828,
+      "message": "The asset covers 0 pixel(s) of flat magenta when the probe material drives it with a constant, below the 5000 needed to measure anything. The whole frame moved 155122 pixel(s) against an empty room, so the object is either not there or not magenta.\n\nHow to fix:\n- Check the camera framed the object; the run auto-frames on the asset bounds and an empty bound produces this.\n- Check primvars:displayOpacity. Geometry resolving an opacity of zero renders invisible under the nominated material whatever its display colour says, which DISP.003 calls out as a common artifact of an unconfigured export.\n- Check the probe material resolved. With mtlx first in Kit's render-context list the OpenPBR surface is what Kit evaluates; the list this run saw is reported above.",
+      "metrics": {
+        "display_color_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "display_color_render_context_order": {
+          "value": "mdl, mtlx, universal",
+          "unit": null
+        },
+        "display_color_renderable_gprims": {
+          "value": 7,
+          "unit": null
+        },
+        "display_color_gprims_without_displaycolor": {
+          "value": 0,
+          "unit": null
+        },
+        "display_color_gprims_without_displayopacity": {
+          "value": 7,
+          "unit": null
+        },
+        "display_color_probe_bound_gprims": {
+          "value": 7,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 0.82,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 5,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 164.0,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.283,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "display_color_silhouette_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "display_color_whole_frame_delta_pixels": {
+          "value": 155122,
+          "unit": null
+        },
+        "display_color_read_mean_rgb": {
+          "value": [
+            0.0645,
+            0.0649,
+            0.0647
+          ],
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "display_color_response",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 10.925,
+      "message": "The asset covers 0 pixel(s) of flat magenta when the probe material drives it with a constant, below the 5000 needed to measure anything. The whole frame moved 155126 pixel(s) against an empty room, so the object is either not there or not magenta.\n\nHow to fix:\n- Check the camera framed the object; the run auto-frames on the asset bounds and an empty bound produces this.\n- Check primvars:displayOpacity. Geometry resolving an opacity of zero renders invisible under the nominated material whatever its display colour says, which DISP.003 calls out as a common artifact of an unconfigured export.\n- Check the probe material resolved. With mtlx first in Kit's render-context list the OpenPBR surface is what Kit evaluates; the list this run saw is reported above.",
+      "metrics": {
+        "display_color_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "display_color_render_context_order": {
+          "value": "mdl, mtlx, universal",
+          "unit": null
+        },
+        "display_color_renderable_gprims": {
+          "value": 7,
+          "unit": null
+        },
+        "display_color_gprims_without_displaycolor": {
+          "value": 0,
+          "unit": null
+        },
+        "display_color_gprims_without_displayopacity": {
+          "value": 7,
+          "unit": null
+        },
+        "display_color_probe_bound_gprims": {
+          "value": 7,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 0.815,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 5,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 162.97,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.306,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "display_color_silhouette_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "display_color_whole_frame_delta_pixels": {
+          "value": 155126,
+          "unit": null
+        },
+        "display_color_read_mean_rgb": {
+          "value": [
+            0.0645,
+            0.0649,
+            0.0647
+          ],
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "drive_gain_validation",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 4.755,
+      "message": "",
+      "metrics": {
+        "dgv_joints_tested": {
+          "value": 1,
+          "unit": null
+        },
+        "dgv_passive_joints_skipped": {
+          "value": 2,
+          "unit": null
+        },
+        "dgv_mimic_follower_joints_skipped": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 0.611,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 305.53,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.286,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_joints_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "dgv_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "effort_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 13.14,
+      "message": "",
+      "metrics": {
+        "eff_joints_with_candidates": {
+          "value": 1,
+          "unit": null
+        },
+        "eff_joints_skipped_passive": {
+          "value": 2,
+          "unit": null
+        },
+        "eff_joints_skipped_mimic_follower": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 4.262,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 24,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 177.57,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.882,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_tested": {
+          "value": 1,
+          "unit": null
+        },
+        "eff_joints_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "eff_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "full_range_sweep",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 23.224,
+      "message": "",
+      "metrics": {
+        "frs_total_dofs": {
+          "value": 3,
+          "unit": null
+        },
+        "frs_joints_tested": {
+          "value": 1,
+          "unit": null
+        },
+        "frs_passive_joints_skipped": {
+          "value": 2,
+          "unit": null
+        },
+        "frs_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_bbox_baseline_volume": {
+          "value": 0.0023135399966436334,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 4.616,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 153.85,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.967,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_joints_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "frs_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "gripper_close_lift_cube",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 113.674,
+      "message": "FET028 grasp not established on shape 'cube' -- not lifting.\nThe lift only starts once the gripper has the object in a\nreal grasp (all fingers in contact). Geometric+stall proxy:\n  - close stalled on the object (contact): False\n  - object still between the fingers (lateral 0.000 m <= retain tolerance 0.028 m): True\ncube closed but did not capture the object: the fingers\neither met in empty space (no contact) or knocked the\nobject out of the grasp during the close. Inspect the\ncube_closed / cube_engaged captures and the close metrics.",
+      "metrics": {
+        "gripper_max_opening_m": {
+          "value": 0.04039999842643738,
+          "unit": null
+        },
+        "gripper_max_payload_kg": {
+          "value": 10.0,
+          "unit": null
+        },
+        "used_heuristic_payload": {
+          "value": false,
+          "unit": null
+        },
+        "tested_object_mass_kg": {
+          "value": 8.5,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 49.516,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 298,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 166.16,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 7.056,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "detect_used_authored_grip_line": {
+          "value": true,
+          "unit": null
+        },
+        "grasp_center_initial_z_cube": {
+          "value": 0.07741999834775924,
+          "unit": null
+        },
+        "approach_clearance_m_cube": {
+          "value": 0.05827999889850616,
+          "unit": null
+        },
+        "spawn_center_z_cube": {
+          "value": 0.01913999944925308,
+          "unit": null
+        },
+        "open_joint_actual_cube": {
+          "value": 1.90309457082094e-09,
+          "unit": null
+        },
+        "open_joint_expected_cube": {
+          "value": 0.0,
+          "unit": null
+        },
+        "open_joint_worst_error_cube": {
+          "value": 1.90309457082094e-09,
+          "unit": null
+        },
+        "measured_separation_after_open_cube": {
+          "value": 1.8995327925655188e-08,
+          "unit": null
+        },
+        "descent_total_cube": {
+          "value": 0.05663403254936046,
+          "unit": null
+        },
+        "descent_contacted_cube": {
+          "value": false,
+          "unit": null
+        },
+        "contact_backoff_m_cube": {
+          "value": 0.0,
+          "unit": null
+        },
+        "grasp_depth_search_m_cube": {
+          "value": 0.028279998898506162,
+          "unit": null
+        },
+        "close_blocked_by_object_cube": {
+          "value": false,
+          "unit": null
+        },
+        "close_joint_actual_cube_finger_1_joint": {
+          "value": 0.0035197653342038393,
+          "unit": null
+        },
+        "close_joint_fraction_cube": {
+          "value": 0.18332110244916483,
+          "unit": null
+        },
+        "object_lateral_drift_after_close_cube": {
+          "value": 4.787742073758871e-08,
+          "unit": null
+        },
+        "object_z_drift_from_spawn_after_close_cube": {
+          "value": -0.005000004470348356,
+          "unit": null
+        },
+        "grip_confirmed_contact_cube": {
+          "value": false,
+          "unit": null
+        },
+        "grip_object_retained_cube": {
+          "value": true,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "gripper_close_lift_cube",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 125.171,
+      "message": "FET028 grasp not established on shape 'cube' -- not lifting.\nThe lift only starts once the gripper has the object in a\nreal grasp (all fingers in contact). Geometric+stall proxy:\n  - close stalled on the object (contact): True\n  - object still between the fingers (lateral 0.527 m <= retain tolerance 0.028 m): False\ncube closed but did not capture the object: the fingers\neither met in empty space (no contact) or knocked the\nobject out of the grasp during the close. Inspect the\ncube_closed / cube_engaged captures and the close metrics.",
+      "metrics": {
+        "gripper_max_opening_m": {
+          "value": 0.04039999842643738,
+          "unit": null
+        },
+        "gripper_max_payload_kg": {
+          "value": 10.0,
+          "unit": null
+        },
+        "used_heuristic_payload": {
+          "value": false,
+          "unit": null
+        },
+        "tested_object_mass_kg": {
+          "value": 8.5,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 32.899,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 182,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 180.76,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 4.282,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "detect_used_authored_grip_line": {
+          "value": true,
+          "unit": null
+        },
+        "grasp_center_initial_z_cube": {
+          "value": 0.07741999834775924,
+          "unit": null
+        },
+        "approach_clearance_m_cube": {
+          "value": 0.05827999889850616,
+          "unit": null
+        },
+        "spawn_center_z_cube": {
+          "value": 0.01913999944925308,
+          "unit": null
+        },
+        "open_joint_actual_cube": {
+          "value": -6.589457868244608e-09,
+          "unit": null
+        },
+        "open_joint_expected_cube": {
+          "value": 0.0,
+          "unit": null
+        },
+        "open_joint_worst_error_cube": {
+          "value": 6.589457868244608e-09,
+          "unit": null
+        },
+        "measured_separation_after_open_cube": {
+          "value": 1.2712245052171213e-06,
+          "unit": null
+        },
+        "descent_total_cube": {
+          "value": 0.040256981551647184,
+          "unit": null
+        },
+        "descent_contacted_cube": {
+          "value": false,
+          "unit": null
+        },
+        "contact_backoff_m_cube": {
+          "value": 0.0,
+          "unit": null
+        },
+        "grasp_depth_search_m_cube": {
+          "value": 0.007069999724626541,
+          "unit": null
+        },
+        "close_blocked_by_object_cube": {
+          "value": true,
+          "unit": null
+        },
+        "close_joint_actual_cube_finger_1_joint": {
+          "value": -0.5582964420318604,
+          "unit": null
+        },
+        "close_joint_fraction_cube": {
+          "value": -29.077938308031435,
+          "unit": null
+        },
+        "object_lateral_drift_after_close_cube": {
+          "value": 0.5274054857702988,
+          "unit": null
+        },
+        "object_z_drift_from_spawn_after_close_cube": {
+          "value": -0.005252283923327921,
+          "unit": null
+        },
+        "grip_confirmed_contact_cube": {
+          "value": true,
+          "unit": null
+        },
+        "grip_object_retained_cube": {
+          "value": false,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "gripper_close_lift_sphere",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 120.325,
+      "message": "FET028 grasp not established on shape 'sphere' -- not lifting.\nThe lift only starts once the gripper has the object in a\nreal grasp (all fingers in contact). Geometric+stall proxy:\n  - close stalled on the object (contact): False\n  - object still between the fingers (lateral 0.000 m <= retain tolerance 0.028 m): True\nsphere closed but did not capture the object: the fingers\neither met in empty space (no contact) or knocked the\nobject out of the grasp during the close. Inspect the\nsphere_closed / sphere_engaged captures and the close metrics.",
+      "metrics": {
+        "gripper_max_opening_m": {
+          "value": 0.04039999842643738,
+          "unit": null
+        },
+        "gripper_max_payload_kg": {
+          "value": 10.0,
+          "unit": null
+        },
+        "used_heuristic_payload": {
+          "value": false,
+          "unit": null
+        },
+        "tested_object_mass_kg": {
+          "value": 5.0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 50.297,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 298,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 168.78,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 7.032,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "detect_used_authored_grip_line": {
+          "value": true,
+          "unit": null
+        },
+        "grasp_center_initial_z_sphere": {
+          "value": 0.07741999834775924,
+          "unit": null
+        },
+        "approach_clearance_m_sphere": {
+          "value": 0.05827999889850616,
+          "unit": null
+        },
+        "spawn_center_z_sphere": {
+          "value": 0.01913999944925308,
+          "unit": null
+        },
+        "open_joint_actual_sphere": {
+          "value": 2.309025859403846e-09,
+          "unit": null
+        },
+        "open_joint_expected_sphere": {
+          "value": 0.0,
+          "unit": null
+        },
+        "open_joint_worst_error_sphere": {
+          "value": 2.309025859403846e-09,
+          "unit": null
+        },
+        "measured_separation_after_open_sphere": {
+          "value": 1.8995327925655188e-08,
+          "unit": null
+        },
+        "descent_total_sphere": {
+          "value": 0.056634019510844416,
+          "unit": null
+        },
+        "descent_contacted_sphere": {
+          "value": false,
+          "unit": null
+        },
+        "contact_backoff_m_sphere": {
+          "value": 0.0,
+          "unit": null
+        },
+        "grasp_depth_search_m_sphere": {
+          "value": 0.028279998898506162,
+          "unit": null
+        },
+        "close_blocked_by_object_sphere": {
+          "value": false,
+          "unit": null
+        },
+        "close_joint_actual_sphere_finger_1_joint": {
+          "value": 0.0035176684614270926,
+          "unit": null
+        },
+        "close_joint_fraction_sphere": {
+          "value": 0.18321189033056323,
+          "unit": null
+        },
+        "object_lateral_drift_after_close_sphere": {
+          "value": 8.809619389745239e-09,
+          "unit": null
+        },
+        "object_z_drift_from_spawn_after_close_sphere": {
+          "value": -0.005000000745058058,
+          "unit": null
+        },
+        "grip_confirmed_contact_sphere": {
+          "value": false,
+          "unit": null
+        },
+        "grip_object_retained_sphere": {
+          "value": true,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "gripper_close_lift_sphere",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 117.528,
+      "message": "FET028 grasp not established on shape 'sphere' -- not lifting.\nThe lift only starts once the gripper has the object in a\nreal grasp (all fingers in contact). Geometric+stall proxy:\n  - close stalled on the object (contact): True\n  - object still between the fingers (lateral 4.624 m <= retain tolerance 0.028 m): False\nsphere closed but did not capture the object: the fingers\neither met in empty space (no contact) or knocked the\nobject out of the grasp during the close. Inspect the\nsphere_closed / sphere_engaged captures and the close metrics.",
+      "metrics": {
+        "gripper_max_opening_m": {
+          "value": 0.04039999842643738,
+          "unit": null
+        },
+        "gripper_max_payload_kg": {
+          "value": 10.0,
+          "unit": null
+        },
+        "used_heuristic_payload": {
+          "value": false,
+          "unit": null
+        },
+        "tested_object_mass_kg": {
+          "value": 5.0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 33.428,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 182,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 183.67,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 4.26,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "detect_used_authored_grip_line": {
+          "value": true,
+          "unit": null
+        },
+        "grasp_center_initial_z_sphere": {
+          "value": 0.07741999834775924,
+          "unit": null
+        },
+        "approach_clearance_m_sphere": {
+          "value": 0.05827999889850616,
+          "unit": null
+        },
+        "spawn_center_z_sphere": {
+          "value": 0.01913999944925308,
+          "unit": null
+        },
+        "open_joint_actual_sphere": {
+          "value": 1.9216486180084758e-09,
+          "unit": null
+        },
+        "open_joint_expected_sphere": {
+          "value": 0.0,
+          "unit": null
+        },
+        "open_joint_worst_error_sphere": {
+          "value": 1.9216486180084758e-09,
+          "unit": null
+        },
+        "measured_separation_after_open_sphere": {
+          "value": 5.446218835913963e-07,
+          "unit": null
+        },
+        "descent_total_sphere": {
+          "value": 0.04064201172441244,
+          "unit": null
+        },
+        "descent_contacted_sphere": {
+          "value": false,
+          "unit": null
+        },
+        "contact_backoff_m_sphere": {
+          "value": 0.0,
+          "unit": null
+        },
+        "grasp_depth_search_m_sphere": {
+          "value": 0.007069999724626541,
+          "unit": null
+        },
+        "close_blocked_by_object_sphere": {
+          "value": true,
+          "unit": null
+        },
+        "close_joint_actual_sphere_finger_1_joint": {
+          "value": -1.4108495712280273,
+          "unit": null
+        },
+        "close_joint_fraction_sphere": {
+          "value": -73.48174501126415,
+          "unit": null
+        },
+        "object_lateral_drift_after_close_sphere": {
+          "value": 4.3678780722832675,
+          "unit": null
+        },
+        "object_z_drift_from_spawn_after_close_sphere": {
+          "value": -0.005637181848287581,
+          "unit": null
+        },
+        "grip_confirmed_contact_sphere": {
+          "value": true,
+          "unit": null
+        },
+        "grip_object_retained_sphere": {
+          "value": false,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.06,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "ground_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.06,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "ground_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ik_target_reach",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.869,
+      "message": "IK Target Reach is not applicable to standalone grippers: their articulation DOFs open and close the fingers but do not provide an arm-like Cartesian workspace for inverse kinematics.",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "jacobian_ik",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.823,
+      "message": "JIK is not applicable to standalone grippers: their articulation DOFs open and close the fingers but do not provide an arm-like Cartesian workspace for inverse kinematics.",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 35.956,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 7.788,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 173.07,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.311,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_rot_deg": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_trans_pct": {
+          "value": 46.68,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_bbox_m": {
+          "value": 0.0411,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_rot_deg": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_trans_pct": {
+          "value": 43.07,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_bbox_m": {
+          "value": 0.0446,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_rot_deg": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_trans_pct": {
+          "value": 41.17,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_bbox_m": {
+          "value": 0.0466,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 3,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 3,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 33.931,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 7.422,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 164.94,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.323,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_rot_deg": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_trans_pct": {
+          "value": 46.67,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_bbox_m": {
+          "value": 0.0411,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_rot_deg": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_trans_pct": {
+          "value": 43.05,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_bbox_m": {
+          "value": 0.0446,
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_rot_deg": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_trans_pct": {
+          "value": 41.16,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_bbox_m": {
+          "value": 0.0466,
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 3,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 3,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_finger_1_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_finger_2_joint_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_finger_3_joint_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 9.896,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 3.857,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 128.55,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.867,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.827586,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 24,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.700328,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.023773,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 9.832,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 3.805,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 126.82,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.867,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.827586,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 24,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.701369,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.023518,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "mimic_joint",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 28.419,
+      "message": "",
+      "metrics": {
+        "mim_mimic_pairs_detected": {
+          "value": 2,
+          "unit": null
+        },
+        "mim_skipped_pairs": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 9.564,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 60,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 159.4,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.783,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_max_error_rad": {
+          "value": 0.03455998601006616,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_mean_error_rad": {
+          "value": 0.01916150126317943,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_ref_swept_rad": {
+          "value": 0.01628396613523364,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_follower_observed_rad": {
+          "value": 0.016283811768516898,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_follower_expected_rad": {
+          "value": 0.01628396613523364,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_dir_matches_gear": {
+          "value": 0,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_motion_ratio": {
+          "value": 0.9999905203243816,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_gear_ratio_error": {
+          "value": 9.479675618373484e-06,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_abs_formula_max_error_rad": {
+          "value": 0.03455998934805393,
+          "unit": null
+        },
+        "mim_pair_finger_2_joint_rest_residual_rad": {
+          "value": 3.337987775076101e-09,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_max_error_rad": {
+          "value": 0.03071839443873614,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_mean_error_rad": {
+          "value": 0.015358471714231806,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_ref_swept_rad": {
+          "value": 0.015359993558377028,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_follower_observed_rad": {
+          "value": 0.01535999565385282,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_follower_expected_rad": {
+          "value": 0.015359993558377028,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_dir_matches_gear": {
+          "value": 0,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_motion_ratio": {
+          "value": 1.0000001364242626,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_gear_ratio_error": {
+          "value": 1.364242625534473e-07,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_abs_formula_max_error_rad": {
+          "value": 0.03455998934805393,
+          "unit": null
+        },
+        "mim_pair_finger_3_joint_rest_residual_rad": {
+          "value": 0.0038415949093177915,
+          "unit": null
+        },
+        "mim_pairs_passed": {
+          "value": 2,
+          "unit": null
+        },
+        "mim_pairs_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "multi_joint_coordination",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.86,
+      "message": "MJC skipped: asset has only 1/3 joints with finite position limits; MJC needs at least 2.\n\nWHAT THE TEST FOUND:\n  - Articulation DOFs reported by Isaac: 3\n  - DOFs with finite (lower, upper) and upper-lower > 1e-6: 1\n  - Required by MJC: >= 2 (each driven independently to a mid-range\n    target chosen by target_factors x [lower+margin, upper-margin]).\n\nWHY IT MATTERS:\n  MJC validates simultaneous multi-joint convergence under the PD\n  drive controller. A revolute joint authored without limits (or\n  with type='none', or as a continuous joint) has no mid-range\n  target the test can pick, so it cannot participate.\n\nFIX: On every joint you intend MJC to exercise, author finite\nposition limits on the matching axis. For PhysicsRevoluteJoint use\nlowerLimit/upperLimit in DEGREES; for PhysicsPrismaticJoint use\nlowerLimit/upperLimit in the stage's linear unit (typically meters).\nBoth must be finite and upperLimit > lowerLimit.\n\nTEMPLATE -- paste/edit on each joint prim. Pick limits that match\nthe real mechanical travel of the joint; do NOT use +-inf:\n\n    def PhysicsRevoluteJoint \"joint_1\"\n    {\n        uniform token physics:axis = \"Z\"\n        float physics:lowerLimit = -170.0   # degrees\n        float physics:upperLimit =  170.0   # degrees\n        # ... body0 / body1 / localPos0 / localPos1 ...\n    }\n\n    def PhysicsPrismaticJoint \"slider_1\"\n    {\n        uniform token physics:axis = \"X\"\n        float physics:lowerLimit = 0.0      # meters\n        float physics:upperLimit = 0.085    # meters\n        # ... body0 / body1 / localPos0 / localPos1 ...\n    }\n\nCHECKLIST per joint you expect MJC to drive:\n  - physics:axis is set (X / Y / Z).\n  - physics:lowerLimit and physics:upperLimit are BOTH finite.\n  - physics:upperLimit - physics:lowerLimit > 1e-6 (non-degenerate).\n  - Joint is reachable from the articulation root (otherwise Isaac\n    will not expose it as a DOF; see FET_024 for articulation\n    topology requirements).\n\nIf the joint is intentionally free-running (e.g. a passive wheel),\nexclude it from your articulation rather than leaving it limit-less.\n\nREFERENCE:\n  Spec (driven joints):  nv_core/sr_specs/docs/shared/features/FET_022-driven_joints.md\n  Spec (articulation):   nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/features/FET_024-base_articulation.md\n  Example: sample_content/common_assets/robots_general/Robotiq/2F-85/simready_isaac_usd/Robotiq_2F_85.usda\n           (search for: prepend apiSchemas = [\"PhysicsDriveAPI:angular\"])",
+      "metrics": {
+        "mjc_total_joints": {
+          "value": 3,
+          "unit": null
+        },
+        "mjc_valid_joints": {
+          "value": 1,
+          "unit": null
+        },
+        "mjc_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 3.096,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.951,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 118.85,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.36,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.002515,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.009337,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 3.134,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.945,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 118.1,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.367,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.002508,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.009399,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.749,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.979,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 148.95,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.908,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.9,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 3.2,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.694,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.957,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 147.85,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.94,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.9,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 3.2,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.095,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.224,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 112.17,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.167681,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.09,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.227,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 113.29,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.167689,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 1.695,
+      "message": "The asset covers 0 pixel(s) of flat magenta when the control material is bound over it, below the 5000 needed to measure anything.\n\nHow to fix:\n- Check the camera framed the object. The run auto-frames on the asset bounds and an empty bound produces this.\n- Check the asset has renderable geometry of default or render purpose that is not authored invisible.",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.728,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 3,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 242.68,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 8,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 8,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "fail",
+      "passed": false,
+      "duration": 1.711,
+      "message": "The asset covers 0 pixel(s) of flat magenta when the control material is bound over it, below the 5000 needed to measure anything.\n\nHow to fix:\n- Check the camera framed the object. The run auto-frames on the asset bounds and an empty bound produces this.\n- Check the asset has renderable geometry of default or render purpose that is not authored invisible.",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.736,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 3,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 245.46,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 8,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 8,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.077,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "slope_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.07,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "slope_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "state_accuracy",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 10.312,
+      "message": "",
+      "metrics": {
+        "sta_joints_with_limits": {
+          "value": 1,
+          "unit": null
+        },
+        "sta_joints_skipped_passive": {
+          "value": 2,
+          "unit": null
+        },
+        "sta_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_skipped_loop": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 4.16,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 24,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 173.35,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.829,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_tested": {
+          "value": 1,
+          "unit": null
+        },
+        "sta_joints_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "sta_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_max_position_error_deg": {
+          "value": 2.8554518861114273,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "velocity_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 4.635,
+      "message": "",
+      "metrics": {
+        "vel_joints_skipped_passive": {
+          "value": 2,
+          "unit": null
+        },
+        "vel_joints_skipped_mimic_follower": {
+          "value": 2,
+          "unit": null
+        },
+        "vel_joints_skipped_loop": {
+          "value": 0,
+          "unit": null
+        },
+        "vel_joints_with_limits": {
+          "value": 1,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 0.602,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 301.21,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.287,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "vel_joints_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "vel_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    }
+  ]
+}

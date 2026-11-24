@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/S10.usd.png",
+      "size": 632650,
+      "hash": {
+        "sha256-flat-1mb": "ac3c1a5ea2b5f3894cf4f0ea85b070fe859294dfda79410ec1fb4f87298abfee",
+        "sha256": "d6e1bb30e8d3561bdf7f41dd3840a68d7adf30bb38890e52b5e70e6b67598943"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/S10.usd_light.png",
+      "size": 520842,
+      "hash": {
+        "sha256-flat-1mb": "219a02d2b4c45145edc7c43188490cc3f93b03c43bc27e7ca607582ef1b63028",
+        "sha256": "e6bba1f3d87fdb9092ccded52a39f63b3e08d7fe4699bde615ac9da47d4d5d26"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/S10.usd_transparent.png",
+      "size": 406767,
+      "hash": {
+        "sha256-flat-1mb": "4217c6fd2b64e2bf29dee4a7959737165ad168f46cccacf85681156ea64a9617",
+        "sha256": "36af9def2bb7ce4c74e1c64668e2c6f7adc46dbd9ce02ece1e233e57da335065"
+      }
+    },
+    {
+      "relative_path": "simready_usd/S10.usd",
+      "size": 7077,
+      "hash": {
+        "sha256-flat-1mb": "20d77972d4091d72435b6df5b93ad700513dfec770ea4bc6865081c0b6f5b0ce",
+        "sha256": "4640b124103aca74e8b50696332acbd9346c01d57baeab8b88ed221e3f8ea63d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/SOURCE_LICENSE.txt",
+      "size": 1502,
+      "hash": {
+        "sha256-flat-1mb": "b9676f32a7def4d4c4d9ec4b7ad54197fcbb63bfdd9c28575d0132abaeb0250f",
+        "sha256": "6bc5967b1cfbdb83b0798942a5f11d4e0555ad8de17697bd4d7eaab6e22f9be5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/S10_base.usd",
+      "size": 25318213,
+      "hash": {
+        "sha256-flat-1mb": "72e67bcfa2186243bcdaa10e75db6f035ccf41bbd1f9dd523d872217b85f2c4d",
+        "sha256": "7c8a54ff64c779cabca4435454973b6bae4790f68cfe009f88b5f45aa62e1816",
+        "sha256-first1m": "793135e06809490ea1e9e2f32072c5ff6708bdd48fcde88b915d4022ae07bad3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/S10_physics.usd",
+      "size": 6387,
+      "hash": {
+        "sha256-flat-1mb": "0b82382b90dde9a5b6057a115e01e61576188498bf787779149869e4ada320ba",
+        "sha256": "b7f6ed36907f81b33e776698d971caae05fc19a383edeaaf9e1712d25fe5b67c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/S10_robot.usd",
+      "size": 2046,
+      "hash": {
+        "sha256-flat-1mb": "4891624f26a973b80385938dad843a2d678e000eea273685759745d16a02e568",
+        "sha256": "8cd70fe09a5082238886c67fd74c807c02ba6b8e466275f6a4cb6630598ac4f6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/S10_sensor.usd",
+      "size": 643,
+      "hash": {
+        "sha256-flat-1mb": "5762ab131a1e8bb4a130242c50b541fafc20a9cc78d0a76568a3b9dad71f289f",
+        "sha256": "640532c3a70aa54079f80eb7d4005f5879a5ad66da13b34cd315dabad106951d"
+      }
+    }
+  ]
+}

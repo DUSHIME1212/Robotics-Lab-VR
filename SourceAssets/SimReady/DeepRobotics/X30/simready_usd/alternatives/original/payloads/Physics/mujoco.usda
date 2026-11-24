@@ -1,0 +1,202 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    defaultPrim = "X30"
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    subLayers = [
+        @./physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "X30"
+{
+    over "Physics"
+    {
+        over "FL_HipX_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "FL_HipY_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "FL_Knee_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "FR_HipX_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "FR_HipY_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "FR_Knee_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "HL_HipX_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "HL_HipY_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "HL_Knee_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "HR_HipX_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "HR_HipY_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "HR_Knee_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        def MjcActuator "FL_HipX_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/FL_HipX_joint>
+        }
+
+        def MjcActuator "FL_HipY_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/FL_HipY_joint>
+        }
+
+        def MjcActuator "FL_Knee_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 150
+            uniform double mjc:forceRange:min = -150
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/FL_Knee_joint>
+        }
+
+        def MjcActuator "FR_HipX_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/FR_HipX_joint>
+        }
+
+        def MjcActuator "FR_HipY_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/FR_HipY_joint>
+        }
+
+        def MjcActuator "FR_Knee_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 150
+            uniform double mjc:forceRange:min = -150
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/FR_Knee_joint>
+        }
+
+        def MjcActuator "HL_HipX_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/HL_HipX_joint>
+        }
+
+        def MjcActuator "HL_HipY_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/HL_HipY_joint>
+        }
+
+        def MjcActuator "HL_Knee_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 150
+            uniform double mjc:forceRange:min = -150
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/HL_Knee_joint>
+        }
+
+        def MjcActuator "HR_HipX_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/HR_HipX_joint>
+        }
+
+        def MjcActuator "HR_HipY_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 84
+            uniform double mjc:forceRange:min = -84
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/HR_HipY_joint>
+        }
+
+        def MjcActuator "HR_Knee_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 150
+            uniform double mjc:forceRange:min = -150
+            custom rel mjc:target
+            append rel mjc:target = </X30/Physics/HR_Knee_joint>
+        }
+    }
+}
+

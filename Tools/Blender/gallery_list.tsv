@@ -1,0 +1,26 @@
+Agibot_G2_Omnipicker	Agibot/g2_omnipicker/simready_usd/g2_omnipicker.usda	Agibot G2 · wheeled dual-arm mobile manipulator
+Agibot_G2_Swiftpicker	Agibot/g2_swiftpicker/simready_usd/g2_swiftpicker.usda	Agibot G2 · fast-picking mobile manipulator
+Agibot_A3_Ultra	Agibot/A3/raise_a3_ultra_t3d0/simready_usd/interface.usda	Agibot Raise A3 Ultra · humanoid
+Comau_S18_17	Comau/S18-17/simready_usd/S18-17.usda	Comau S18-17 · industrial arm
+DR02_Pro	DeepRobotics/DR02-pro/simready_usd/DR02-pro.usd	Deep Robotics DR02-Pro · humanoid
+DR02_Std	DeepRobotics/DR02-std/simready_usd/DR02-std.usd	Deep Robotics DR02 · humanoid
+DeepRobotics_M20	DeepRobotics/M20/simready_usd/M20.usd	Deep Robotics M20 · wheeled quadruped
+DeepRobotics_M20S	DeepRobotics/M20S/simready_usd/M20S.usd	Deep Robotics M20S · wheeled quadruped
+DeepRobotics_M20_Piper	DeepRobotics/M20_Piper/simready_usd/M20_Piper.usd	M20 + Piper arm · mobile manipulation
+DeepRobotics_S10	DeepRobotics/S10/simready_usd/S10.usd	Deep Robotics S10 · wheeled quadruped
+DeepRobotics_X30	DeepRobotics/X30/simready_usd/X30.usd	Deep Robotics X30 · industrial quadruped
+FANUC_CRX3iA	FANUC/crx3ia/simready_usd/crx3ia.usd	FANUC CRX-3iA · cobot, 3 kg payload
+FANUC_CRX5iA	FANUC/crx5ia/simready_usd/crx5ia.usd	FANUC CRX-5iA · cobot, 5 kg payload
+FANUC_CRX10iA_L	FANUC/crx10ia_l/simready_usd/crx10ia_l.usd	FANUC CRX-10iA/L · long-reach cobot
+FANUC_CRX10iA_LP	FANUC/crx10ia_lp/simready_usd/crx10ia_lp.usd	FANUC CRX-10iA/L · paint/food variant
+FANUC_CRX20iA_L	FANUC/crx20ia_l/simready_usd/crx20ia_l.usd	FANUC CRX-20iA/L · cobot, 20 kg payload
+FANUC_CRX30iA	FANUC/crx30ia/simready_usd/crx30ia.usd	FANUC CRX-30iA · cobot, 30 kg payload
+Franka_FR3_Duo	Franka/fr3_duo/simready_usd/fr3_duo.usda	Franka FR3 Duo · dual-arm
+Franka_FR3_Duo_Vision	Franka/fr3_duo_vision_manipulation_kit/simready_usd/fr3_duo_vision_manipulation_kit.usda	FR3 Duo · vision manipulation kit
+Menlo_Asimov1	Menlo/asimov_1/simready_usd/asimov_1.usd	Menlo Asimov 1 · humanoid
+OnRobot_RG2	OnRobot/onrobot_rg2/simready_usd/onrobot_rg2.usda	OnRobot RG2 · 2-finger gripper
+Robotiq_2F140	Robotiq/Robotiq_2F_140/simready_usd/Robotiq_2F_140.usda	Robotiq 2F-140 · wide-stroke gripper
+Robotiq_HandE	Robotiq/Robotiq_Hand_E/simready_usd/Robotiq_Hand_E.usda	Robotiq Hand-E · parallel gripper
+StandardBots_Core	StandardBots/standardbots_core/core/standardbots_core.usd	Standard Bots Core · 6-axis arm
+StandardBots_Spark	StandardBots/standardbots_spark/spark/standardbots_spark.usd	Standard Bots Spark · 6-axis arm
+StandardBots_Thor	StandardBots/standardbots_thor/thor/standardbots_thor.usd	Standard Bots Thor · heavy 6-axis arm

@@ -1,0 +1,512 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    defaultPrim = "tn__DR02PRO_sA"
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    upAxis = "Z"
+)
+
+over "tn__DR02PRO_sA" (
+    prepend apiSchemas = ["IsaacRobotAPI"]
+)
+{
+    prepend rel isaac:physics:robotJoints = [
+        </tn__DR02PRO_sA/Physics/waist_z_joint>,
+        </tn__DR02PRO_sA/Physics/left_hip_y_joint>,
+        </tn__DR02PRO_sA/Physics/right_hip_y_joint>,
+        </tn__DR02PRO_sA/Physics/waist_x_joint>,
+        </tn__DR02PRO_sA/Physics/waist_y_joint>,
+        </tn__DR02PRO_sA/Physics/left_shoulder_y_joint>,
+        </tn__DR02PRO_sA/Physics/right_shoulder_y_joint>,
+        </tn__DR02PRO_sA/Physics/neck_z_joint>,
+        </tn__DR02PRO_sA/Physics/left_shoulder_x_joint>,
+        </tn__DR02PRO_sA/Physics/left_shoulder_z_joint>,
+        </tn__DR02PRO_sA/Physics/left_elbow_joint>,
+        </tn__DR02PRO_sA/Physics/left_wrist_z_joint>,
+        </tn__DR02PRO_sA/Physics/left_wrist_y_joint>,
+        </tn__DR02PRO_sA/Physics/left_wrist_x_joint>,
+        </tn__DR02PRO_sA/Physics/left_hand_joint>,
+        </tn__DR02PRO_sA/Physics/right_shoulder_x_joint>,
+        </tn__DR02PRO_sA/Physics/right_shoulder_z_joint>,
+        </tn__DR02PRO_sA/Physics/right_elbow_joint>,
+        </tn__DR02PRO_sA/Physics/right_wrist_z_joint>,
+        </tn__DR02PRO_sA/Physics/right_wrist_y_joint>,
+        </tn__DR02PRO_sA/Physics/right_wrist_x_joint>,
+        </tn__DR02PRO_sA/Physics/right_hand_joint>,
+        </tn__DR02PRO_sA/Physics/neck_y_joint>,
+        </tn__DR02PRO_sA/Physics/left_hip_x_joint>,
+        </tn__DR02PRO_sA/Physics/left_hip_z_joint>,
+        </tn__DR02PRO_sA/Physics/left_knee_joint>,
+        </tn__DR02PRO_sA/Physics/left_ankle_y_joint>,
+        </tn__DR02PRO_sA/Physics/left_ankle_x_joint>,
+        </tn__DR02PRO_sA/Physics/right_hip_x_joint>,
+        </tn__DR02PRO_sA/Physics/right_hip_z_joint>,
+        </tn__DR02PRO_sA/Physics/right_knee_joint>,
+        </tn__DR02PRO_sA/Physics/right_ankle_y_joint>,
+        </tn__DR02PRO_sA/Physics/right_ankle_x_joint>,
+    ]
+    prepend rel isaac:physics:robotLinks = [
+        </tn__DR02PRO_sA/Geometry/base_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link/left_shoulder_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link/left_shoulder_x_link/left_shoulder_z_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link/left_shoulder_x_link/left_shoulder_z_link/left_elbow_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link/left_shoulder_x_link/left_shoulder_z_link/left_elbow_link/left_wrist_z_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link/left_shoulder_x_link/left_shoulder_z_link/left_elbow_link/left_wrist_z_link/left_wrist_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link/left_shoulder_x_link/left_shoulder_z_link/left_elbow_link/left_wrist_z_link/left_wrist_y_link/left_wrist_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/left_shoulder_y_link/left_shoulder_x_link/left_shoulder_z_link/left_elbow_link/left_wrist_z_link/left_wrist_y_link/left_wrist_x_link/left_hand_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link/right_shoulder_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link/right_shoulder_x_link/right_shoulder_z_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link/right_shoulder_x_link/right_shoulder_z_link/right_elbow_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link/right_shoulder_x_link/right_shoulder_z_link/right_elbow_link/right_wrist_z_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link/right_shoulder_x_link/right_shoulder_z_link/right_elbow_link/right_wrist_z_link/right_wrist_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link/right_shoulder_x_link/right_shoulder_z_link/right_elbow_link/right_wrist_z_link/right_wrist_y_link/right_wrist_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/right_shoulder_y_link/right_shoulder_x_link/right_shoulder_z_link/right_elbow_link/right_wrist_z_link/right_wrist_y_link/right_wrist_x_link/right_hand_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/neck_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/waist_z_link/waist_x_link/body/neck_link/head_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/left_hip_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/left_hip_y_link/left_hip_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/left_hip_y_link/left_hip_x_link/left_hip_z_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/left_hip_y_link/left_hip_x_link/left_hip_z_link/left_knee_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/left_hip_y_link/left_hip_x_link/left_hip_z_link/left_knee_link/left_ankle_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/left_hip_y_link/left_hip_x_link/left_hip_z_link/left_knee_link/left_ankle_y_link/left_ankle_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/right_hip_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/right_hip_y_link/right_hip_x_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/right_hip_y_link/right_hip_x_link/right_hip_z_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/right_hip_y_link/right_hip_x_link/right_hip_z_link/right_knee_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/right_hip_y_link/right_hip_x_link/right_hip_z_link/right_knee_link/right_ankle_y_link>,
+        </tn__DR02PRO_sA/Geometry/base_link/right_hip_y_link/right_hip_x_link/right_hip_z_link/right_knee_link/right_ankle_y_link/right_ankle_x_link>,
+    ]
+    token isaac:robotType = "Humanoid"
+
+    over "Geometry"
+    {
+        over "base_link" (
+            prepend apiSchemas = ["IsaacLinkAPI"]
+        )
+        {
+            over "waist_z_link" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "waist_x_link" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "body" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "left_shoulder_y_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                            over "left_shoulder_x_link" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "left_shoulder_z_link" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                    over "left_elbow_link" (
+                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                    )
+                                    {
+                                        over "left_wrist_z_link" (
+                                            prepend apiSchemas = ["IsaacLinkAPI"]
+                                        )
+                                        {
+                                            over "left_wrist_y_link" (
+                                                prepend apiSchemas = ["IsaacLinkAPI"]
+                                            )
+                                            {
+                                                over "left_wrist_x_link" (
+                                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                                )
+                                                {
+                                                    over "left_hand_link" (
+                                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        over "right_shoulder_y_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                            over "right_shoulder_x_link" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "right_shoulder_z_link" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                    over "right_elbow_link" (
+                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                    )
+                                    {
+                                        over "right_wrist_z_link" (
+                                            prepend apiSchemas = ["IsaacLinkAPI"]
+                                        )
+                                        {
+                                            over "right_wrist_y_link" (
+                                                prepend apiSchemas = ["IsaacLinkAPI"]
+                                            )
+                                            {
+                                                over "right_wrist_x_link" (
+                                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                                )
+                                                {
+                                                    over "right_hand_link" (
+                                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        over "neck_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                            over "neck_link" (
+                                prepend apiSchemas = ["IsaacSiteAPI"]
+                            )
+                            {
+                            }
+
+                            over "head_link" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                            }
+                        }
+
+                        over "d435_head_link" (
+                            prepend apiSchemas = ["IsaacSiteAPI"]
+                        )
+                        {
+                        }
+
+                        over "d435_front_link" (
+                            prepend apiSchemas = ["IsaacSiteAPI"]
+                        )
+                        {
+                        }
+
+                        over "d435_rear_link" (
+                            prepend apiSchemas = ["IsaacSiteAPI"]
+                        )
+                        {
+                        }
+
+                        over "lidar_link" (
+                            prepend apiSchemas = ["IsaacSiteAPI"]
+                        )
+                        {
+                        }
+
+                        over "imu_head_link" (
+                            prepend apiSchemas = ["IsaacSiteAPI"]
+                        )
+                        {
+                        }
+
+                        over "imu_base_link" (
+                            prepend apiSchemas = ["IsaacSiteAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+            }
+
+            over "left_hip_y_link" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "left_hip_x_link" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "left_hip_z_link" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "left_knee_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                            over "left_ankle_y_link" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "left_ankle_x_link" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            over "right_hip_y_link" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "right_hip_x_link" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "right_hip_z_link" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "right_knee_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                            over "right_ankle_y_link" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "right_ankle_x_link" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        over "waist_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "waist_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "waist_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_shoulder_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_shoulder_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_shoulder_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_elbow_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_wrist_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_wrist_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_wrist_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_hand_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_shoulder_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_shoulder_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_shoulder_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_elbow_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_wrist_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_wrist_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_wrist_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_hand_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "neck_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "neck_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_hip_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_hip_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_hip_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_knee_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_ankle_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_ankle_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_hip_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_hip_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_hip_z_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_knee_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_ankle_y_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_ankle_x_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+    }
+}
+

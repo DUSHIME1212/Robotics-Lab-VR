@@ -1,0 +1,487 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    defaultPrim = "tn__DR02PRO_sA"
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    subLayers = [
+        @./physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "tn__DR02PRO_sA"
+{
+    over "Physics"
+    {
+        over "waist_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "waist_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "waist_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_shoulder_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_shoulder_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_shoulder_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_elbow_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_wrist_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_wrist_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_wrist_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_shoulder_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_shoulder_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_shoulder_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_elbow_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_wrist_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_wrist_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_wrist_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "neck_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "neck_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_hip_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_hip_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_hip_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_knee_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_ankle_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "left_ankle_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_hip_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_hip_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_hip_z_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_knee_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_ankle_y_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        over "right_ankle_x_joint" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+            prepend apiSchemas = ["MjcJointAPI"]
+        )
+        {
+        }
+
+        def MjcActuator "waist_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/waist_z_joint>
+        }
+
+        def MjcActuator "waist_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/waist_x_joint>
+        }
+
+        def MjcActuator "waist_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 363
+            uniform double mjc:forceRange:min = -363
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/waist_y_joint>
+        }
+
+        def MjcActuator "left_shoulder_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_shoulder_y_joint>
+        }
+
+        def MjcActuator "left_shoulder_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_shoulder_x_joint>
+        }
+
+        def MjcActuator "left_shoulder_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_shoulder_z_joint>
+        }
+
+        def MjcActuator "left_elbow_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_elbow_joint>
+        }
+
+        def MjcActuator "left_wrist_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_wrist_z_joint>
+        }
+
+        def MjcActuator "left_wrist_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_wrist_y_joint>
+        }
+
+        def MjcActuator "left_wrist_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_wrist_x_joint>
+        }
+
+        def MjcActuator "right_shoulder_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_shoulder_y_joint>
+        }
+
+        def MjcActuator "right_shoulder_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_shoulder_x_joint>
+        }
+
+        def MjcActuator "right_shoulder_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_shoulder_z_joint>
+        }
+
+        def MjcActuator "right_elbow_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_elbow_joint>
+        }
+
+        def MjcActuator "right_wrist_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_wrist_z_joint>
+        }
+
+        def MjcActuator "right_wrist_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_wrist_y_joint>
+        }
+
+        def MjcActuator "right_wrist_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_wrist_x_joint>
+        }
+
+        def MjcActuator "neck_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/neck_z_joint>
+        }
+
+        def MjcActuator "neck_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/neck_y_joint>
+        }
+
+        def MjcActuator "left_hip_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 363
+            uniform double mjc:forceRange:min = -363
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_hip_y_joint>
+        }
+
+        def MjcActuator "left_hip_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 363
+            uniform double mjc:forceRange:min = -363
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_hip_x_joint>
+        }
+
+        def MjcActuator "left_hip_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_hip_z_joint>
+        }
+
+        def MjcActuator "left_knee_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 363
+            uniform double mjc:forceRange:min = -363
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_knee_joint>
+        }
+
+        def MjcActuator "left_ankle_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_ankle_y_joint>
+        }
+
+        def MjcActuator "left_ankle_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/left_ankle_x_joint>
+        }
+
+        def MjcActuator "right_hip_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 363
+            uniform double mjc:forceRange:min = -363
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_hip_y_joint>
+        }
+
+        def MjcActuator "right_hip_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 363
+            uniform double mjc:forceRange:min = -363
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_hip_x_joint>
+        }
+
+        def MjcActuator "right_hip_z_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_hip_z_joint>
+        }
+
+        def MjcActuator "right_knee_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 363
+            uniform double mjc:forceRange:min = -363
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_knee_joint>
+        }
+
+        def MjcActuator "right_ankle_y_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 137
+            uniform double mjc:forceRange:min = -137
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_ankle_y_joint>
+        }
+
+        def MjcActuator "right_ankle_x_joint_actuator"
+        {
+            uniform double mjc:forceRange:max = 50
+            uniform double mjc:forceRange:min = -50
+            custom rel mjc:target
+            append rel mjc:target = </tn__DR02PRO_sA/Physics/right_ankle_x_joint>
+        }
+    }
+}
+

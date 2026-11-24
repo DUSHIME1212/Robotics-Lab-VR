@@ -1,0 +1,382 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Robotiq_2F_140.usda.png",
+      "size": 19119,
+      "hash": {
+        "sha256-flat-1mb": "c89931ae650048605fe47ccca2ce4ea1347b74f6d851f22c24c2ca51ab178c93",
+        "sha256": "71307b5fa6bcf02b995e297ddddc14707e1b2d7161ee32407ad1b7d8a5f9153f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Robotiq_2F_140.usda_light.png",
+      "size": 19187,
+      "hash": {
+        "sha256-flat-1mb": "7c880edbb356e182b629844e28f51e91dabb6f6a3045f8fe188df57ff6dc8e33",
+        "sha256": "97f63c22673cf04116e090ff5ccf306362212acfb61ead8f00704ff2ea7ee3fd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/Robotiq_2F_140.usda_transparent.png",
+      "size": 26142,
+      "hash": {
+        "sha256-flat-1mb": "e6dc8afda510b6e9cf66370afd9be5ea8bb13407520d9010a8f6557e2f6dba97",
+        "sha256": "a2e7bf87bddfd546dde3f25688b5a871ee40544adc2b011e9b8c5345871316e2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/Robotiq_2F_140.usda",
+      "size": 10013,
+      "hash": {
+        "sha256-flat-1mb": "55d2656f1f7256066e804cc9f55c177722e864dfd78d5e5d93dbd2992fb7d58b",
+        "sha256": "a300ed26df3c635bbf6dacf43c043ae40f209a2f4cabdbb21994f225c84612fb"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Robotiq_2F_140_config_physics_compliant.usda",
+      "size": 5546,
+      "hash": {
+        "sha256-flat-1mb": "c12acabe40809080cf6cff2749e946617bd0d978b8d3efb49fc7b76312154a18",
+        "sha256": "9d66a26105be762b75d180d53c898a5e9207e36d2cf204c649635ab67254c54d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Robotiq_2F_140_config_physics_parallel_grip.usda",
+      "size": 5622,
+      "hash": {
+        "sha256-flat-1mb": "6d1f94f7c8817502032bfa81a20ddc50ab840d91de1723e16ef5c54a15caeed8",
+        "sha256": "95dbf761e5abae5c9658e13a4f982be590db7583782d3cb152b244a887ff433f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/Robotiq_2F_140_robot.usda",
+      "size": 10265,
+      "hash": {
+        "sha256-flat-1mb": "2ffef9b819598a6b3734f6c46d0fe94c63233a6f559efa6ea7c902471ede3287",
+        "sha256": "a495674846cede4b5a692a40711d4ad85260e05cd54a82222123c26ba592bb4f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/materials.usd",
+      "size": 8377,
+      "hash": {
+        "sha256-flat-1mb": "6f133e334813ce030c06c3c534f5007f7b7fe52a947573c83dfc30e7f7706294",
+        "sha256": "48eca813596e78486469edc70f825c9bb9913836f63e4007559920820e8e9d9d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_base.usd",
+      "size": 1607515,
+      "hash": {
+        "sha256-flat-1mb": "d96258559dda3b97489cb1ac7ef0b122604e8c4c2bdbb012c717f933d906940b",
+        "sha256": "2a88d4ac045dfc10376e3073b9477aaf29e594f709ad7fe131149e19169364b8",
+        "sha256-first1m": "2127dd2cb0941af420479022bf1cd73e5bbbb55c3d35405ee721df4c93458a7f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_dowel_pin.usda",
+      "size": 795,
+      "hash": {
+        "sha256-flat-1mb": "50e3cf82af7e976e1e3172cee6204096e0c4f63a09594e117ad18c0d2e0b0c59",
+        "sha256": "2ea9f26c168065ac0bfdee1059f4086a0093d2471a7e7be6ed48e92277638d6a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_flat_left.usd",
+      "size": 39374,
+      "hash": {
+        "sha256-flat-1mb": "9c988ddb8e384b95158f9a1623f270fc7ed6ca896d14a3bfae61d0635af8181f",
+        "sha256": "8424e265d5164af2c1b213920558d3f892d58bfec143c43e9301bd7a0b2dccf1"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_flat_right.usd",
+      "size": 39374,
+      "hash": {
+        "sha256-flat-1mb": "d9acb616aa9d345b4a1c451000a48e5882df24dfe4bb31d5eb419605616feaaa",
+        "sha256": "ffb2233a85ea9305d64e7e80c0271957b163a81b46122a7139d1efb39cb2e415"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_silicone_left.usd",
+      "size": 61713,
+      "hash": {
+        "sha256-flat-1mb": "66d217175c63f8fd20b640bf8e92c4f437de36e1b2747f3a3a289286e60a6f21",
+        "sha256": "ee6c8a2d6d4b8247bd0ddffbbfa788e59a2b2d6c5e3f5d9a72b012e895cc21a5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_silicone_right.usd",
+      "size": 61791,
+      "hash": {
+        "sha256-flat-1mb": "da14c1d3e5eca92ed8b8c9f4bee7cedda906c77057a3e746cc432a4aeab41ac3",
+        "sha256": "8e085ee96d2b6a4ad734df0670499e2949e0d1f77830a8245b58fbae7d076a82"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_tsf140_left.usd",
+      "size": 1043300,
+      "hash": {
+        "sha256-flat-1mb": "2be4144c5f9ca11139621f9ef7a1c257a80a654a91818b948c8c9504f35985e1",
+        "sha256": "7fdc6ac5dccbbafeda7dd4c60d392c48f64f95d4deb20244a58e331fb7f0c1be"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_tsf140_right.usd",
+      "size": 1044132,
+      "hash": {
+        "sha256-flat-1mb": "295f1052ed778cab44ef8e5b6f805e758a4c80a99ec583d58d52e0c0065d5996",
+        "sha256": "4af7b9363137a69f3daf384becd77ca6737b79a62cfe60a936db271246002c4d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_vgroove_left.usd",
+      "size": 55278,
+      "hash": {
+        "sha256-flat-1mb": "7462122022ed0d58ab03cdab84655e9515b3356731b0283f9a87ee387a642962",
+        "sha256": "5a14721d64bd4b6272bbb141f45e2e947999aaeaf71ba20adb792ab0c7b43e5c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_fingertip_vgroove_right.usd",
+      "size": 55364,
+      "hash": {
+        "sha256-flat-1mb": "01841a6224387d053bcfb82f04081188cfaa8fa87771c1d20e611ad5e719b178",
+        "sha256": "792320b70eeafad4060d7eec8f6c7b530856276cc5f1da43415fd4d3e2e83323"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_inner_finger_left.usd",
+      "size": 163284,
+      "hash": {
+        "sha256-flat-1mb": "87cc203b93f32802495c9acc3b02fdfb98c050bb747c1014f625fc8cab6943c4",
+        "sha256": "c1eb96b42f951edd0681819b03d7df67a3166405c13ab763d20574ab40e17a9e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_inner_finger_right.usd",
+      "size": 163284,
+      "hash": {
+        "sha256-flat-1mb": "a4b14c9633a12906557f7fff1c9e80d20327f581c4136d4186a4ede6e7bda48c",
+        "sha256": "a0b216a2acedabd2a9757e8fa98b037c250834904c19f484e05011d36d36742f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_inner_knuckle_left.usd",
+      "size": 92646,
+      "hash": {
+        "sha256-flat-1mb": "8357d1f8b42cb7f369d330549b7664797b7f6c92147621b096e0164f5f7bc516",
+        "sha256": "dfe524fdf9eddda92c5c139f31693848c4048d484013dd933f17473990bb47de"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_inner_knuckle_right.usd",
+      "size": 92646,
+      "hash": {
+        "sha256-flat-1mb": "cf7564092d762f95ffaff9c2591df236c02de1694f59ff8ee283f9eb3d40d42d",
+        "sha256": "8108d2c2a3190dbf64f87af7cbac2a983283c69bf922b892be5d03d20e666428"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_outer_finger_left.usd",
+      "size": 177137,
+      "hash": {
+        "sha256-flat-1mb": "b6d187fb58e996ad8368db1e772a2c908c6bc276abe9fb84f90cb651c8867c5b",
+        "sha256": "e8b094d1d4238650227eb4aea3444edf9f379417abcf912677144b83e629c6e7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_outer_finger_right.usd",
+      "size": 177129,
+      "hash": {
+        "sha256-flat-1mb": "9ac5d69933b51dd6d4aeec82c164c60f493f458b4f3ba37a62edadbbc2cd55c9",
+        "sha256": "a49b8a203668a866f089ea16a430c0e90159624031f300d1bf9c6b467d7c51e3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_outer_knuckle_left.usd",
+      "size": 18768,
+      "hash": {
+        "sha256-flat-1mb": "97005e5f6daaa3c2d26e6aca6c53bebdfd0ac2b428b1829329c9ae2a4a3716c8",
+        "sha256": "1d4250c1a1369fef10ad41ec0fbef694f4f5962f03a8ebdee070723299430dd1"
+      }
+    },
+    {
+      "relative_path": "simready_usd/parts/Robotiq_2F_140_outer_knuckle_right.usd",
+      "size": 18768,
+      "hash": {
+        "sha256-flat-1mb": "941548a7c34adc840664d529fe23a287eb6f5f741b27afc1f1e09c38a59dd172",
+        "sha256": "432f9e05c8a8ba09709fe23771e254fe85f4d80d3863f7e9936d3baa7b0f3433"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_body_mass_physics.usda",
+      "size": 4963,
+      "hash": {
+        "sha256-flat-1mb": "6ef28a7162a7129a174e1cdbac18f116bf3bacefe7a3e03babf4897a5b601048",
+        "sha256": "62631213b5f6d0f0b1616a5dfe172fc6a19ac4c64ff62dbefd8fc012ef6a9884"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_compliant_physics.usda",
+      "size": 5460,
+      "hash": {
+        "sha256-flat-1mb": "996336ec7be30da4d4a26c3ac3296841f575cbbb01fd5a17d2ce9d0125002751",
+        "sha256": "b78b942c51e6bd228d10a22bbf6da85053b8a59ebbeb2ae507c3ef0d5f7f315a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_fingertip_physics.usda",
+      "size": 3302,
+      "hash": {
+        "sha256-flat-1mb": "dbe3b3074c26d6ee081fd15a0e7a184171ac010f8f00c6fdba7f9ebe6c3e66c8",
+        "sha256": "63ceb62730ce87b101ca2ffbdb31f2a8235932e0c3e9314f43e34be7a6408646"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_fingertip_silicone.usda",
+      "size": 1243,
+      "hash": {
+        "sha256-flat-1mb": "529e6ce22cbd4fad87588a62ab14fb2f9687a64b55b41be7d604fca469294205",
+        "sha256": "e1af49bc14bd392b76c9385ea84ffc8517e81e17a1da56cf4573cd8246eeccb9"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_fingertip_tsf140.usda",
+      "size": 1565,
+      "hash": {
+        "sha256-flat-1mb": "f3e864165ce915e280720702ed6333e23459950b17f669f82f2b190493e7596e",
+        "sha256": "f95387738daaea236058fd1742000137503335b648ba37b1686ce440a9f01236"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_fingertip_vgroove.usda",
+      "size": 1237,
+      "hash": {
+        "sha256-flat-1mb": "cea1d15fd09b13970a10a544d825a6539dd8ed09b01261ce2dacbb79005c1703",
+        "sha256": "5e77c6cf95b73f51e86752b1a454538dfe39dabc51d83a22a8479350ce8cee0a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_kinematics_physics.usda",
+      "size": 12106,
+      "hash": {
+        "sha256-flat-1mb": "0ddc549ed774a179060ee9a1070ccb7cc9d5b2e6ab078f3213e6efe1759e0262",
+        "sha256": "cb8d7ed9b595bf0a0ea6e004ff23c51cc6172cc413f7a43e4cd0ce95dc1bf3ec"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_newton_common_physics.usda",
+      "size": 13072,
+      "hash": {
+        "sha256-flat-1mb": "9ff87b49ec1a93ac51303196e1674d7f49bce65c227aaeb125789dbf9a4cbe60",
+        "sha256": "5a36f8c60308762f4f3ec87811d0e6ec015a0382049031acea2f211399b914c7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_newton_compliant_physics.usda",
+      "size": 2718,
+      "hash": {
+        "sha256-flat-1mb": "1f7e54dff5f44c1f8a84969e13302bc6fcdfe49c219c04ae311eb7d2db1ea6b1",
+        "sha256": "345a2f60e8ea73299c8970770abd343c365dfe28986c9011b407a2d283f16fae"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_newton_fourbar_physics.usda",
+      "size": 19125,
+      "hash": {
+        "sha256-flat-1mb": "4e757020e886ec913fa816cc19987bcdfbc3c5abae35b4a1dbee34d27038223b",
+        "sha256": "3fb96a625ad0d931424ad5bd60adc10729fadbf812172b43787cd1ec1e8e6a06"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_newton_parallel_grip_physics.usda",
+      "size": 3591,
+      "hash": {
+        "sha256-flat-1mb": "2173bd0cebcdae6c226a150f29625b4a4d38713b470a5af7bdbd0bcd34c2274a",
+        "sha256": "b5a1750ed4be102a81cc3b4abe96aa89bb6773a842d82d32d47e5ece54f9c048"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_parallel_grip_dowel_pins.usda",
+      "size": 1917,
+      "hash": {
+        "sha256-flat-1mb": "2ce7689d060ea01ba86a2258e590301de51dd2cb0bd5f05e45cf991b67c3611c",
+        "sha256": "9aeccfcf90d40447dae2317b59cf0a4dd1397bd45dedd573816ffa96219969f5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_parallel_grip_physics.usda",
+      "size": 7098,
+      "hash": {
+        "sha256-flat-1mb": "204ee2596ba1074d2d293a275a098fc462a08952f3ed81e2e3c33e42c4e633b3",
+        "sha256": "5ecedd079685953e1ee02f53ba3eee0dabb56773a51f21f56af9715d3af8ceba"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_physx_common_physics.usda",
+      "size": 10614,
+      "hash": {
+        "sha256-flat-1mb": "fecffd6417532b9b975238275a2c1197d42d15eec9e972e0bf90c4738b4f2103",
+        "sha256": "cc2bd446908303b988d884660fb288e1d4bc0d03af353615f2153ebec8a4bfd0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_tactile_effective_response.usda",
+      "size": 1221,
+      "hash": {
+        "sha256-flat-1mb": "858d61d57e6d31d9a143847aacb8e1c053b089129f0dbbca9c2a04aeb132aac5",
+        "sha256": "a855afe75b46b030939adca3e998acd16c776ee20088e272437948b42a008891"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_tactile_raycast.usda",
+      "size": 1921,
+      "hash": {
+        "sha256-flat-1mb": "4f8bdd702606f2fc41a829ebfb77fac8d5650624d67da62f35cb29f0d8e17fd5",
+        "sha256": "3c497f9db5c7f06a896de36b13171c694fdcf8bc86e71b3933c630906afb0d9e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Robotiq_2F_140_tactile_zones.usda",
+      "size": 32632,
+      "hash": {
+        "sha256-flat-1mb": "b69b3e9d738dfdc4f6caba902e11265183df74d9d6975985b79fff4e8de76301",
+        "sha256": "3d63fb2a94a5e214b46476292a511b8a473e6fd043d21587a0b0f43eaa932735"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/base.usda",
+      "size": 9099,
+      "hash": {
+        "sha256-flat-1mb": "9618b8a4faaf64d9461a1fe71978ba25ae60595cdc1242fdb8eac0a3b50177f2",
+        "sha256": "3e5d8335c1bafbed3388a8bbc91df85f493a268aa34851320118f760866e05de"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/geometries.usd",
+      "size": 614,
+      "hash": {
+        "sha256-flat-1mb": "eac0a104ace6daf85dab4ab9d5e02853a00a4d2aa8f7b190dfff7ace006aa2eb",
+        "sha256": "43f1718720ea76cf8c69d5031de8d215806c79a54618417c431c0f17fe0758f3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances.usda",
+      "size": 595,
+      "hash": {
+        "sha256-flat-1mb": "7e914dbd2382aab42f011539a1ca961ab88d57b6bcd790b33d7c26e913c80d0a",
+        "sha256": "f3354daa0ef1d865ac397413b732636e56d9affc5ce48240a174b30bea5309f6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/materials.usda",
+      "size": 509,
+      "hash": {
+        "sha256-flat-1mb": "b526a481a65cac1a35d7b11e118d76953553943ec71644a09721d47d9b62f5fa",
+        "sha256": "a5b6d1edfd4eb76df8a64f4ed694275950c5ec1d5ba56beabefbeb1cec562bb4"
+      }
+    }
+  ]
+}

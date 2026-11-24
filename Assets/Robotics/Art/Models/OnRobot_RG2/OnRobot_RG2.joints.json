@@ -1,0 +1,86 @@
+{
+  "robot": "OnRobot_RG2",
+  "source": "onrobot_rg2.usda",
+  "joints": [
+    {
+      "name": "finger_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 70.05999755859375,
+      "parent": "root",
+      "childLink": "right_outer_proximal_finger_link"
+    },
+    {
+      "name": "right_finger_cover_arm_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "finger_joint",
+      "childLink": "right_finger_cover_arm_link"
+    },
+    {
+      "name": "right_finger_cover_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "right_finger_cover_arm_joint",
+      "childLink": "right_finger_cover_link"
+    },
+    {
+      "name": "right_finger_base_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "finger_joint",
+      "childLink": "right_finger_base_link"
+    },
+    {
+      "name": "left_outer_proximal_finger_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 70.05999755859375,
+      "parent": "root",
+      "childLink": "left_outer_proximal_finger_link"
+    },
+    {
+      "name": "left_finger_cover_arm_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "left_outer_proximal_finger_joint",
+      "childLink": "left_finger_cover_arm_link"
+    },
+    {
+      "name": "left_finger_cover_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "left_finger_cover_arm_joint",
+      "childLink": "left_finger_cover_link"
+    },
+    {
+      "name": "left_finger_base_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "left_outer_proximal_finger_joint",
+      "childLink": "left_finger_base_link"
+    },
+    {
+      "name": "right_inner_proximal_finger_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "root",
+      "childLink": "right_inner_proximal_finger_link"
+    },
+    {
+      "name": "left_inner_proximal_finger_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "root",
+      "childLink": "left_inner_proximal_finger_link"
+    }
+  ]
+}

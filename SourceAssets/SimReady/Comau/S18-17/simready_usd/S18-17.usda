@@ -1,0 +1,59 @@
+#usda 1.0
+(
+    customLayerData = {
+        string asset_name = "S18-17"
+        string asset_type = "Robot arm"
+        string source_file = "s18-17_description/urdf/S18-17.urdf"
+        string usd_date_generated = "2026-10-13"
+        string creator = "URDF USD Converter v0.3.2"
+        dictionary SimReady_Metadata = {
+            string author = "LucaDiRuscio"
+            string asset_name = "S18-17"
+            string asset_type = "Robot arm"
+            string asset_license = "cc-by-4.0"
+            string category = "Industrial Robot"
+            string source_file = "s18-17_description/urdf/S18-17.urdf"
+            string usd_date_generated = "2026-10-13"
+            string qcode = "Q40687"
+            int rigid_body_count = 7
+            float3 asset_extents = (0.5615, 0.5201, 2.156)
+            double mass = 329.504
+        }
+    }
+    defaultPrim = "S18_17"
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    upAxis = "Z"
+)
+
+def Xform "S18_17" (
+    prepend references = @./payloads/base.usda@
+    append variantSets = "Physics"
+    variants = {
+        string Physics = "physics"
+    }
+)
+{
+    variantSet "Physics" = {
+        "mujoco" (
+            prepend payload = @./payloads/Physics/mujoco.usda@
+        ) {
+
+        }
+        "none" {
+
+        }
+        "physics" (
+            prepend payload = @./payloads/Physics/physics.usda@
+        ) {
+
+        }
+        "physx" (
+            prepend payload = @./payloads/Physics/physx.usda@
+        ) {
+
+        }
+    }
+}

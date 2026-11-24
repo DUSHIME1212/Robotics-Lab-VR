@@ -1,0 +1,221 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "thor/.thumbs/256x256/standardbots_thor.usd.png",
+      "size": 11137,
+      "hash": {
+        "sha256-flat-1mb": "845c069eae889df74580881da2566f6bbfe5842481341f3e20ab57454ea38ca5",
+        "sha256": "71b5a5cac10794ec537251bfc721c5d723babfe4cac6b66ec00d1289ca731126"
+      }
+    },
+    {
+      "relative_path": "thor/.thumbs/256x256/standardbots_thor.usd_light.png",
+      "size": 11384,
+      "hash": {
+        "sha256-flat-1mb": "78590101070bfb625ea0d964611d93c93566e2af6994d0ee792c4a20adb88dd4",
+        "sha256": "ced5329b819f08faaacf91263265cb394266987d24840f9efabd2eb1ded52880"
+      }
+    },
+    {
+      "relative_path": "thor/.thumbs/256x256/standardbots_thor.usd_transparent.png",
+      "size": 13908,
+      "hash": {
+        "sha256-flat-1mb": "e46534e58b6acb0d2c1db8e573b753f7d42a13266a34ad69fe6fc4c47f03dc23",
+        "sha256": "c3bc1b3e0ef46048b0afe4b9b120b52a64b80c0a3bb371ef6834bca79356819d"
+      }
+    },
+    {
+      "relative_path": "thor/build_report.json",
+      "size": 68459,
+      "hash": {
+        "sha256-flat-1mb": "e80972e1a315a8596fd6a2376bbd66ffc8b356bb0c507c5fbfb8531e5deaa07f",
+        "sha256": "4cd423948945985e7df0dd89ed22be02b340cde6c45ab736df1742b84dfe3485"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/OmniPBR/OmniPBR.mdl",
+      "size": 13989,
+      "hash": {
+        "sha256-flat-1mb": "4d0f54d47017bfbe22cc483cb02c4fe7e2254ddd1119cd618cbaea553639d52c",
+        "sha256": "d384fc800f120e3cad1b7ca8837f9c554f9c34343d194813fca27caa493001f2"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/OmniPBR/OmniPBRBase.mdl",
+      "size": 17274,
+      "hash": {
+        "sha256-flat-1mb": "4b54e7fb8bc92191512851b3acc6fc6fa9863f80d98ffece8f0cb9b99f5f4535",
+        "sha256": "701f37299b44106842bdbe025de52eedec391e35b038f61c4ed4d25bd98e7db1"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/OmniPBR/OmniPBR_ClearCoat.mdl",
+      "size": 27453,
+      "hash": {
+        "sha256-flat-1mb": "0e35217542eb4ece0205fc09f74eb71aaa6bfb75b3b861d64693d317282df424",
+        "sha256": "687fce3f0693146b91495f04407a7c38c78f6b9262b63621f44b4b1f09110469"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/thor_base.usd",
+      "size": 2321001,
+      "hash": {
+        "sha256-flat-1mb": "cdceeae97befb5c8ba37421834ef93ea5c3433e48ce89786ef2646707484c386",
+        "sha256": "6fcde5a26738f76ae561c94bdeab3338a37f600dddf09c48521ba0af063c8d2a",
+        "sha256-first1m": "29aa7de543db5f21cfde8a53a358e797e1c55a5319874a4c4d3dd31d80876bae"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/thor_materials.usda",
+      "size": 5528,
+      "hash": {
+        "sha256-flat-1mb": "e95c96c16e82c3c34250b4b3f453a099e9c411699cd1e76d83f94af8b208ed76",
+        "sha256": "9340f1ffacb976eb40c3103c710382a831dffd8da19129efd6dea744fa70aaaf"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/thor_physics.usd",
+      "size": 4705,
+      "hash": {
+        "sha256-flat-1mb": "390cebd2705a2c829aa0bed1af8770ca8738c21cd7fe12596defd41f9242e4e0",
+        "sha256": "11990ff6be0a620e0ce9ad1f4c6243b0a1fcf758ccd9cad6ae12b0977a5d5d43"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/thor_sensor.usd",
+      "size": 644,
+      "hash": {
+        "sha256-flat-1mb": "946def8d672186dd9d0c560c5b2b6b7fffbc8f60c913e6e5a2c69e2e45396a41",
+        "sha256": "31d576973c20c15a82406717f17dc36804243fc0800878c6fbfb70c157962b48"
+      }
+    },
+    {
+      "relative_path": "thor/configuration/thor_visual.usda",
+      "size": 31403,
+      "hash": {
+        "sha256-flat-1mb": "4710662007161471552e005dde6bf516e4235545f04f4e138ca9b6737c867c0b",
+        "sha256": "5e2d0f8f0f424497647e694208d90138e74df0c70b6a0645f4b02d402208e400"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/base_link.usd",
+      "size": 5525248,
+      "hash": {
+        "sha256-flat-1mb": "70d3952db0c389b84333b05b40bf2b4c4bf83f8d163fd649aedd963e50d1a657",
+        "sha256": "16309a359f88bbcdc8fe1880077812d9bef8b48e59c3613a2634c6993af7e0b0",
+        "sha256-first1m": "e71592c2350eb12d9c0aee82bc71d1b0d49a82240b7bc369f6c3d67fa876c1b0"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/forearm_link.usd",
+      "size": 7321311,
+      "hash": {
+        "sha256-flat-1mb": "69462a41baab60e24766b5cefd03bac1630f2f52af1ef2d0fd8aca4d27946398",
+        "sha256": "0b15eef7a326a511a5fa2628399ea8162ccd2377e945f23152f8aa8541ffaa87",
+        "sha256-first1m": "04562ec745286b390216e868c86481516844247097c19bcfddb738f191686a1b"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/gltf/pbr.mdl",
+      "size": 42240,
+      "hash": {
+        "sha256-flat-1mb": "0ea567c192a18e6835ba556207f797ebe90850414ac832952c61c571cff22a0d",
+        "sha256": "eeed10b53c18d789f94a24a3a6b996c49668ae2d5b6a909bae3420f2beb16fc8"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/shoulder_link.usd",
+      "size": 3849839,
+      "hash": {
+        "sha256-flat-1mb": "380fc1dbad20278f5f89578254618661e8e4a53bb90d832bffd9081f373f275d",
+        "sha256": "e32adc0959b9da5b20e47316b4b2a265f63eb41849d00104cf2d4348933e5b4d",
+        "sha256-first1m": "148ec3ca42f479ca306720c0e95b6d5f3c3183735d61b857d24d38e4782e26c5"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/upper_arm_link.usd",
+      "size": 10005902,
+      "hash": {
+        "sha256-flat-1mb": "0e95c515868b4e616e6488281f25b2dcfa92ccba1c14095beaf6a5cbe22c7a4f",
+        "sha256": "6fdafc0dadf9568efbd865a3e03e98ebab4832881206939fe061c5d7022ce221",
+        "sha256-first1m": "f4733372213d6a32134cd7a8640e5c3be6a310f9f996e491c0fc6305293c5bd7"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/wrist_1_link.usd",
+      "size": 6850708,
+      "hash": {
+        "sha256-flat-1mb": "be29eac11be1ba0e3995658b8e093715bca8143109f00444e3b9f8e10f8f9fd7",
+        "sha256": "b48b2d0e3f206de59fae5e21f7d09cf49029cb2594cf41da4e8732f181db6c4f",
+        "sha256-first1m": "cf8c625749c10bf4eca05b9d8a7553c86d375960520b68bef4f20f284aebe253"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/wrist_2_link.usd",
+      "size": 6838967,
+      "hash": {
+        "sha256-flat-1mb": "3e03174c4916b60f0fee0df7f7a88d5d38c39a8e182230682deeec5da3f1f00e",
+        "sha256": "090d8f6945a267ee86cbe9be9509c446265a2f7a4b84ba5fa3f769924ffa90f3",
+        "sha256-first1m": "05190c78b44179038c3f6a80f6a55717d4f079252ff9533bb89e32a59f606413"
+      }
+    },
+    {
+      "relative_path": "thor/meshes/visual/wrist_3_link.usd",
+      "size": 3103995,
+      "hash": {
+        "sha256-flat-1mb": "d05cfa68d46475f3ac7405fef04176245641f063f6fe6cb352aac41532e6b298",
+        "sha256": "c20d4c5a8ca797dc40e441378bec167cfee14bd4d6b0398de01cee92d1356fd2",
+        "sha256-first1m": "7fbe44f897aac4ff171e10133025ff8f27c3e0a4ca4ffecf30b59f0db3cc9ad8"
+      }
+    },
+    {
+      "relative_path": "thor/preview/thor_front.png",
+      "size": 143355,
+      "hash": {
+        "sha256-flat-1mb": "e2ba990af4f9eea055ba876f79cfb41fd2596d4bc37ca4d103acf996ea22d413",
+        "sha256": "52fd9b660bb87841dbb0d79e47a0a3ce367bcd67a677f41bf0b793275ac5effa"
+      }
+    },
+    {
+      "relative_path": "thor/preview/thor_shoulder_detail.png",
+      "size": 270593,
+      "hash": {
+        "sha256-flat-1mb": "a82fb80d23fb64f968cb1c0c1ec0900393040cf58e860621e685c897d481a4c1",
+        "sha256": "00605e7c456a5e8f92f6b9bc2cee0b0571dcfd5e13800d82a473c1557aebe475"
+      }
+    },
+    {
+      "relative_path": "thor/preview/thor_side.png",
+      "size": 172214,
+      "hash": {
+        "sha256-flat-1mb": "3ba0de9318ce4a69a85c4a0bb482c126d5caed90bebfeeef999af7f51cc580de",
+        "sha256": "325a3d1440bd2675f0ba4966da338b47b588476059ee21a29ef78325ea64af13"
+      }
+    },
+    {
+      "relative_path": "thor/preview/thor_three_quarter.png",
+      "size": 286728,
+      "hash": {
+        "sha256-flat-1mb": "4770dc3b51ca4005e0a2cf633e08071c3397b9ce05a26e8d6278fe8b7455f333",
+        "sha256": "2bdb6b10622cfc9700cf6c5ce594efa06a252fa143a6fe6f94ee8475a5b610c1"
+      }
+    },
+    {
+      "relative_path": "thor/preview/thor_wrist_detail.png",
+      "size": 327245,
+      "hash": {
+        "sha256-flat-1mb": "2d7a683269cac93e8bc7acfcfc87e6ce5c0cb5ec4edd331a09bcc9b4342eaee8",
+        "sha256": "bd6d41533f546577e483a390726537f4cf9d27542040b273702f85699a435f30"
+      }
+    },
+    {
+      "relative_path": "thor/standardbots_thor.usd",
+      "size": 2553,
+      "hash": {
+        "sha256-flat-1mb": "9687e87b84a921aa8613b7905bb6d9169504f94e57657883b7c06cad2c26d6a7",
+        "sha256": "994246dfeec5973d5f70c2c52341ab8c6b046ee825cbb8cde438832f45b91184"
+      }
+    }
+  ]
+}

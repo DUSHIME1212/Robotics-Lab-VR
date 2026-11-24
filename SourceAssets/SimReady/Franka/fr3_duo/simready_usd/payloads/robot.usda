@@ -1,0 +1,423 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.1.2"
+    }
+    defaultPrim = "fr3_duo"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "fr3_duo" (
+    prepend apiSchemas = ["IsaacRobotAPI"]
+)
+{
+    prepend rel isaac:physics:robotJoints = [
+        </fr3_duo/Physics/mount_joint>,
+        </fr3_duo/Physics/left_fr3v2_1_left_base_joint>,
+        </fr3_duo/Physics/left_fr3v2_1_joint1>,
+        </fr3_duo/Physics/left_fr3v2_1_joint2>,
+        </fr3_duo/Physics/left_fr3v2_1_joint3>,
+        </fr3_duo/Physics/left_fr3v2_1_joint4>,
+        </fr3_duo/Physics/left_fr3v2_1_joint5>,
+        </fr3_duo/Physics/left_fr3v2_1_joint6>,
+        </fr3_duo/Physics/left_fr3v2_1_joint7>,
+        </fr3_duo/Physics/right_fr3v2_1_right_base_joint>,
+        </fr3_duo/Physics/right_fr3v2_1_joint1>,
+        </fr3_duo/Physics/right_fr3v2_1_joint2>,
+        </fr3_duo/Physics/right_fr3v2_1_joint3>,
+        </fr3_duo/Physics/right_fr3v2_1_joint4>,
+        </fr3_duo/Physics/right_fr3v2_1_joint5>,
+        </fr3_duo/Physics/right_fr3v2_1_joint6>,
+        </fr3_duo/Physics/right_fr3v2_1_joint7>,
+    ]
+    prepend rel isaac:physics:robotLinks = [
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+        </fr3_duo/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+    ]
+    token isaac:robotType = "Manipulator"
+
+    over "Geometry"
+    {
+        over "base"
+        {
+            over "fr3_duo_mount_mounting_point" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "fr3_duo_mount_origin"
+                {
+                    over "fr3_duo_mount_left"
+                    {
+                        over "left_base"
+                        {
+                            over "left_fr3v2_1_link0" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "left_fr3v2_1_link1" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                    over "left_fr3v2_1_link2" (
+                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                    )
+                                    {
+                                        over "left_fr3v2_1_link3" (
+                                            prepend apiSchemas = ["IsaacLinkAPI"]
+                                        )
+                                        {
+                                            over "left_fr3v2_1_link4" (
+                                                prepend apiSchemas = ["IsaacLinkAPI"]
+                                            )
+                                            {
+                                                over "left_fr3v2_1_link5" (
+                                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                                )
+                                                {
+                                                    over "left_fr3v2_1_link6" (
+                                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                                    )
+                                                    {
+                                                        over "left_fr3v2_1_link7" (
+                                                            prepend apiSchemas = ["IsaacLinkAPI"]
+                                                        )
+                                                        {
+                                                            over "left_fr3v2_1_link8" (
+                                                                prepend apiSchemas = ["IsaacSiteAPI"]
+                                                            )
+                                                            {
+                                                            }
+                                                        }
+                                                    }
+
+                                                    over "left_fr3v2_1_link5_accelerometer_top" (
+                                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                                    )
+                                                    {
+                                                    }
+
+                                                    over "left_fr3v2_1_link5_accelerometer_bottom" (
+                                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+
+                                                over "left_fr3v2_1_link4_accelerometer_top" (
+                                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                                )
+                                                {
+                                                }
+
+                                                over "left_fr3v2_1_link4_accelerometer_bottom" (
+                                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                                )
+                                                {
+                                                }
+                                            }
+
+                                            over "left_fr3v2_1_link3_accelerometer_top" (
+                                                prepend apiSchemas = ["IsaacSiteAPI"]
+                                            )
+                                            {
+                                            }
+
+                                            over "left_fr3v2_1_link3_accelerometer_bottom" (
+                                                prepend apiSchemas = ["IsaacSiteAPI"]
+                                            )
+                                            {
+                                            }
+                                        }
+
+                                        over "left_fr3v2_1_link2_accelerometer_top" (
+                                            prepend apiSchemas = ["IsaacSiteAPI"]
+                                        )
+                                        {
+                                        }
+
+                                        over "left_fr3v2_1_link2_accelerometer_bottom" (
+                                            prepend apiSchemas = ["IsaacSiteAPI"]
+                                        )
+                                        {
+                                        }
+                                    }
+
+                                    over "left_fr3v2_1_link1_accelerometer_top" (
+                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                    )
+                                    {
+                                    }
+
+                                    over "left_fr3v2_1_link1_accelerometer_bottom" (
+                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                    )
+                                    {
+                                    }
+                                }
+
+                                over "left_fr3v2_1_link0_accelerometer_top" (
+                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                )
+                                {
+                                }
+
+                                over "left_fr3v2_1_link0_accelerometer_bottom" (
+                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                )
+                                {
+                                }
+                            }
+                        }
+                    }
+
+                    over "fr3_duo_mount_right"
+                    {
+                        over "right_base"
+                        {
+                            over "right_fr3v2_1_link0" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "right_fr3v2_1_link1" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                    over "right_fr3v2_1_link2" (
+                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                    )
+                                    {
+                                        over "right_fr3v2_1_link3" (
+                                            prepend apiSchemas = ["IsaacLinkAPI"]
+                                        )
+                                        {
+                                            over "right_fr3v2_1_link4" (
+                                                prepend apiSchemas = ["IsaacLinkAPI"]
+                                            )
+                                            {
+                                                over "right_fr3v2_1_link5" (
+                                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                                )
+                                                {
+                                                    over "right_fr3v2_1_link6" (
+                                                        prepend apiSchemas = ["IsaacLinkAPI"]
+                                                    )
+                                                    {
+                                                        over "right_fr3v2_1_link7" (
+                                                            prepend apiSchemas = ["IsaacLinkAPI"]
+                                                        )
+                                                        {
+                                                            over "right_fr3v2_1_link8" (
+                                                                prepend apiSchemas = ["IsaacSiteAPI"]
+                                                            )
+                                                            {
+                                                            }
+                                                        }
+                                                    }
+
+                                                    over "right_fr3v2_1_link5_accelerometer_top" (
+                                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                                    )
+                                                    {
+                                                    }
+
+                                                    over "right_fr3v2_1_link5_accelerometer_bottom" (
+                                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+
+                                                over "right_fr3v2_1_link4_accelerometer_top" (
+                                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                                )
+                                                {
+                                                }
+
+                                                over "right_fr3v2_1_link4_accelerometer_bottom" (
+                                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                                )
+                                                {
+                                                }
+                                            }
+
+                                            over "right_fr3v2_1_link3_accelerometer_top" (
+                                                prepend apiSchemas = ["IsaacSiteAPI"]
+                                            )
+                                            {
+                                            }
+
+                                            over "right_fr3v2_1_link3_accelerometer_bottom" (
+                                                prepend apiSchemas = ["IsaacSiteAPI"]
+                                            )
+                                            {
+                                            }
+                                        }
+
+                                        over "right_fr3v2_1_link2_accelerometer_top" (
+                                            prepend apiSchemas = ["IsaacSiteAPI"]
+                                        )
+                                        {
+                                        }
+
+                                        over "right_fr3v2_1_link2_accelerometer_bottom" (
+                                            prepend apiSchemas = ["IsaacSiteAPI"]
+                                        )
+                                        {
+                                        }
+                                    }
+
+                                    over "right_fr3v2_1_link1_accelerometer_top" (
+                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                    )
+                                    {
+                                    }
+
+                                    over "right_fr3v2_1_link1_accelerometer_bottom" (
+                                        prepend apiSchemas = ["IsaacSiteAPI"]
+                                    )
+                                    {
+                                    }
+                                }
+
+                                over "right_fr3v2_1_link0_accelerometer_top" (
+                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                )
+                                {
+                                }
+
+                                over "right_fr3v2_1_link0_accelerometer_bottom" (
+                                    prepend apiSchemas = ["IsaacSiteAPI"]
+                                )
+                                {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        over "mount_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_left_base_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_joint1" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_joint2" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_joint3" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_joint4" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_joint5" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_joint6" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "left_fr3v2_1_joint7" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_right_base_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_joint1" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_joint2" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_joint3" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_joint4" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_joint5" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_joint6" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "right_fr3v2_1_joint7" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+    }
+}
+

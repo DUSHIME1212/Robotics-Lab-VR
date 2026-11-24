@@ -1,0 +1,123 @@
+#usda 1.0
+(
+    defaultPrim = "n_220_27"
+    metersPerUnit = 1
+    subLayers = [
+        @./instances.usda@,
+        @./materials.usda@
+    ]
+    upAxis = "Z"
+)
+
+def Xform "n_220_27"
+{
+    def Scope "joints"
+    {
+    }
+
+    def Xform "base_link"
+    {
+        quatd xformOp:orient = (1, 0, 0, 0)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "visuals" (
+            instanceable = true
+            references = </visuals/base_link>
+        )
+        {
+        }
+    }
+
+    def Xform "link_1"
+    {
+        quatd xformOp:orient = (0.7071055173873901, -0.7071080803871155, 0, 0)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0, 0, 0.289000004529953)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "visuals" (
+            instanceable = true
+            references = </visuals/link_1>
+        )
+        {
+        }
+    }
+
+    def Xform "link_2"
+    {
+        quatd xformOp:orient = (0.49999821186065674, -0.5, -0.500001847743988, -0.5)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0.40000003576278687, -0.22499825060367584, 0.775000810623169)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "visuals" (
+            instanceable = true
+            references = </visuals/link_2>
+        )
+        {
+        }
+    }
+
+    def Xform "link_3"
+    {
+        quatd xformOp:orient = (5.960464477539063e-8, 0.000003635883331298828, 0, -1.0000001192092896)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0.399996280670166, -0.22499443590641022, 1.8250007629394531)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "visuals" (
+            instanceable = true
+            references = </visuals/link_3>
+        )
+        {
+        }
+    }
+
+    def Xform "link_4"
+    {
+        quatd xformOp:orient = (-0.0000025288159122283105, 0.0000026131001504836604, -0.7071081399917603, -0.7071055769920349)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0.11999624967575073, 0.0000055283308029174805, 1.8249987363815308)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "visuals" (
+            instanceable = true
+            references = </visuals/link_4>
+        )
+        {
+        }
+    }
+
+    def Xform "link_5"
+    {
+        quatd xformOp:orient = (5.9604531088552903e-8, 0.000003635883786046179, 0, -1.0000001192092896)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0.1199873760342598, 0.00001029670238494873, 3.044999122619629)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "visuals" (
+            instanceable = true
+            references = </visuals/link_5>
+        )
+        {
+        }
+    }
+
+    def Xform "link_6"
+    {
+        quatd xformOp:orient = (1.0000001192092896, -1.3161863092470139e-11, -0.000003635883786046179, 0.0000036795950109080877)
+        double3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0.11998570710420609, 0.00001029670238494873, 3.2744991779327393)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "visuals" (
+            instanceable = true
+            references = </visuals/link_6>
+        )
+        {
+        }
+    }
+}
+

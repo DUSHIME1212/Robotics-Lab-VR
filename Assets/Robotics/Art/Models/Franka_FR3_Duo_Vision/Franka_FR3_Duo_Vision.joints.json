@@ -1,0 +1,214 @@
+{
+  "robot": "Franka_FR3_Duo_Vision",
+  "source": "fr3_duo_vision_manipulation_kit.usda",
+  "joints": [
+    {
+      "name": "left_robotiq_finger_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 47.0,
+      "parent": "root",
+      "childLink": "left_robotiq_left_outer_knuckle"
+    },
+    {
+      "name": "left_robotiq_right_outer_knuckle_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 47.0,
+      "parent": "root",
+      "childLink": "left_robotiq_right_outer_knuckle"
+    },
+    {
+      "name": "left_robotiq_left_inner_finger_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "root",
+      "childLink": "left_robotiq_left_inner_finger"
+    },
+    {
+      "name": "left_robotiq_right_inner_finger_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "root",
+      "childLink": "left_robotiq_right_inner_finger"
+    },
+    {
+      "name": "left_robotiq_left_inner_finger_knuckle_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "left_robotiq_left_inner_finger_joint",
+      "childLink": "left_robotiq_left_inner_knuckle"
+    },
+    {
+      "name": "left_robotiq_right_inner_finger_knuckle_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "left_robotiq_right_inner_finger_joint",
+      "childLink": "left_robotiq_right_inner_knuckle"
+    },
+    {
+      "name": "right_robotiq_finger_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 47.0,
+      "parent": "root",
+      "childLink": "right_robotiq_left_outer_knuckle"
+    },
+    {
+      "name": "right_robotiq_right_outer_knuckle_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 47.0,
+      "parent": "root",
+      "childLink": "right_robotiq_right_outer_knuckle"
+    },
+    {
+      "name": "right_robotiq_left_inner_finger_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "root",
+      "childLink": "right_robotiq_left_inner_finger"
+    },
+    {
+      "name": "right_robotiq_right_inner_finger_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "root",
+      "childLink": "right_robotiq_right_inner_finger"
+    },
+    {
+      "name": "right_robotiq_left_inner_finger_knuckle_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "right_robotiq_left_inner_finger_joint",
+      "childLink": "right_robotiq_left_inner_knuckle"
+    },
+    {
+      "name": "right_robotiq_right_inner_finger_knuckle_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "right_robotiq_right_inner_finger_joint",
+      "childLink": "right_robotiq_right_inner_knuckle"
+    },
+    {
+      "name": "left_fr3v2_1_joint1",
+      "type": "revolute",
+      "lower": -166.20016479492188,
+      "upper": 166.20016479492188,
+      "parent": "root",
+      "childLink": "left_fr3v2_1_link1"
+    },
+    {
+      "name": "left_fr3v2_1_joint2",
+      "type": "revolute",
+      "lower": -105.20021057128906,
+      "upper": 105.20021057128906,
+      "parent": "left_fr3v2_1_joint1",
+      "childLink": "left_fr3v2_1_link2"
+    },
+    {
+      "name": "left_fr3v2_1_joint3",
+      "type": "revolute",
+      "lower": -166.20016479492188,
+      "upper": 166.20016479492188,
+      "parent": "left_fr3v2_1_joint2",
+      "childLink": "left_fr3v2_1_link3"
+    },
+    {
+      "name": "left_fr3v2_1_joint4",
+      "type": "revolute",
+      "lower": -176.30026245117188,
+      "upper": -6.700001239776611,
+      "parent": "left_fr3v2_1_joint3",
+      "childLink": "left_fr3v2_1_link4"
+    },
+    {
+      "name": "left_fr3v2_1_joint5",
+      "type": "revolute",
+      "lower": -164.800048828125,
+      "upper": 164.800048828125,
+      "parent": "left_fr3v2_1_joint4",
+      "childLink": "left_fr3v2_1_link5"
+    },
+    {
+      "name": "left_fr3v2_1_joint6",
+      "type": "revolute",
+      "lower": 25.199981689453125,
+      "upper": 264.8000793457031,
+      "parent": "left_fr3v2_1_joint5",
+      "childLink": "left_fr3v2_1_link6"
+    },
+    {
+      "name": "left_fr3v2_1_joint7",
+      "type": "revolute",
+      "lower": -174.7998809814453,
+      "upper": 174.7998809814453,
+      "parent": "left_fr3v2_1_joint6",
+      "childLink": "left_fr3v2_1_link7"
+    },
+    {
+      "name": "right_fr3v2_1_joint1",
+      "type": "revolute",
+      "lower": -166.20016479492188,
+      "upper": 166.20016479492188,
+      "parent": "root",
+      "childLink": "right_fr3v2_1_link1"
+    },
+    {
+      "name": "right_fr3v2_1_joint2",
+      "type": "revolute",
+      "lower": -105.20021057128906,
+      "upper": 105.20021057128906,
+      "parent": "right_fr3v2_1_joint1",
+      "childLink": "right_fr3v2_1_link2"
+    },
+    {
+      "name": "right_fr3v2_1_joint3",
+      "type": "revolute",
+      "lower": -166.20016479492188,
+      "upper": 166.20016479492188,
+      "parent": "right_fr3v2_1_joint2",
+      "childLink": "right_fr3v2_1_link3"
+    },
+    {
+      "name": "right_fr3v2_1_joint4",
+      "type": "revolute",
+      "lower": -176.30026245117188,
+      "upper": -6.700001239776611,
+      "parent": "right_fr3v2_1_joint3",
+      "childLink": "right_fr3v2_1_link4"
+    },
+    {
+      "name": "right_fr3v2_1_joint5",
+      "type": "revolute",
+      "lower": -164.800048828125,
+      "upper": 164.800048828125,
+      "parent": "right_fr3v2_1_joint4",
+      "childLink": "right_fr3v2_1_link5"
+    },
+    {
+      "name": "right_fr3v2_1_joint6",
+      "type": "revolute",
+      "lower": 25.199981689453125,
+      "upper": 264.8000793457031,
+      "parent": "right_fr3v2_1_joint5",
+      "childLink": "right_fr3v2_1_link6"
+    },
+    {
+      "name": "right_fr3v2_1_joint7",
+      "type": "revolute",
+      "lower": -174.7998809814453,
+      "upper": 174.7998809814453,
+      "parent": "right_fr3v2_1_joint6",
+      "childLink": "right_fr3v2_1_link7"
+    }
+  ]
+}

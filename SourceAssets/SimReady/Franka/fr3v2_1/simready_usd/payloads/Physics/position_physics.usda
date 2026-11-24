@@ -1,0 +1,63 @@
+#usda 1.0
+(
+    defaultPrim = "fr3v2_1"
+    doc = """Position-control drive gains for fr3v2_1.usda, composed by ControlMode = "position".
+
+Stiffness / damping in N*m/rad and N*m*s/rad:
+joints 1-2: 4500 / 450, joints 3-4: 3500 / 350, joints 5-7: 2000 / 200.
+These are the position-actuator gains (kp / kv) of the FR3 v2 model in MuJoCo Menagerie
+(google-deepmind/mujoco_menagerie, franka_fr3_v2/fr3v2.xml), authored here per degree,
+as UsdPhysics angular drives require.
+"""
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "fr3v2_1"
+{
+    over "Physics"
+    {
+        over "fr3v2_1_joint1"
+        {
+            float drive:angular:physics:damping = 7.853982
+            float drive:angular:physics:stiffness = 78.539816
+        }
+
+        over "fr3v2_1_joint2"
+        {
+            float drive:angular:physics:damping = 7.853982
+            float drive:angular:physics:stiffness = 78.539816
+        }
+
+        over "fr3v2_1_joint3"
+        {
+            float drive:angular:physics:damping = 6.108652
+            float drive:angular:physics:stiffness = 61.086524
+        }
+
+        over "fr3v2_1_joint4"
+        {
+            float drive:angular:physics:damping = 6.108652
+            float drive:angular:physics:stiffness = 61.086524
+        }
+
+        over "fr3v2_1_joint5"
+        {
+            float drive:angular:physics:damping = 3.490659
+            float drive:angular:physics:stiffness = 34.906585
+        }
+
+        over "fr3v2_1_joint6"
+        {
+            float drive:angular:physics:damping = 3.490659
+            float drive:angular:physics:stiffness = 34.906585
+        }
+
+        over "fr3v2_1_joint7"
+        {
+            float drive:angular:physics:damping = 3.490659
+            float drive:angular:physics:stiffness = 34.906585
+        }
+    }
+}

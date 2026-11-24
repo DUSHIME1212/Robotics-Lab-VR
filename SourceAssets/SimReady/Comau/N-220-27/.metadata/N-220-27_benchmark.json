@@ -1,0 +1,1723 @@
+{
+  "schema_version": "1.0",
+  "asset": "N-220-27",
+  "run_timestamp": "2026-10-22T14:27:33Z",
+  "passed": true,
+  "results": [
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 15.749,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 4.58,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 286.27,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.817,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 6.6e-05,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 1e-05,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 270.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 15.97,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 4.584,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 286.52,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.78,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 3.1e-05,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 6e-06,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 180.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "drive_gain_validation",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 18.803,
+      "message": "",
+      "metrics": {
+        "dgv_joints_tested": {
+          "value": 6,
+          "unit": null
+        },
+        "dgv_passive_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_mimic_follower_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 4.456,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 15,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 297.07,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.167,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "dgv_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "effort_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 128.6,
+      "message": "",
+      "metrics": {
+        "eff_joints_with_candidates": {
+          "value": 6,
+          "unit": null
+        },
+        "eff_joints_skipped_passive": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 36.682,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 144,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 254.74,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 6.566,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_tested": {
+          "value": 6,
+          "unit": null
+        },
+        "eff_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "eff_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "full_range_sweep",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 233.64,
+      "message": "",
+      "metrics": {
+        "frs_total_dofs": {
+          "value": 6,
+          "unit": null
+        },
+        "frs_joints_tested": {
+          "value": 6,
+          "unit": null
+        },
+        "frs_passive_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_bbox_baseline_volume": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 43.939,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 180,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 244.11,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 8.659,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "frs_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "frs_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.178,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "ground_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.176,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "ground_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ik_target_reach",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 2.174,
+      "message": "IK Target Reach phase cannot run: no Lula kinematics descriptor matched this asset.\n\n  Found:    asset_path='<home>/Desktop/simready-central/N-220-27/simready_usd/n-220-27.usd'\n            isaac:robotType='ARM'\n  Expected: the asset's path OR its IsaacRobotAPI.isaac:robotType\n            value contains one of the canonical Lula-supported\n            robot keys (case-insensitive substring match):\n              Franka, UR3, UR5, UR10, UR16e, Kinova_Gen3, Cobotta_Pro_900, Cobotta_Pro_1300, Denso_Cobotta, Festo_Cobot, Rethink_Sawyer, Rizon4\n\nFIX (asset-authoring): the Lula IK solver needs a descriptor YAML +\nURDF pair to know your robot's kinematic chain. Two ways to satisfy\nthis test:\n\n  1. RENAME / RETAG to a supported model. If your robot IS one of the\n     supported models above, ensure the asset folder name (or the\n     default prim's isaac:robotType token) contains the canonical\n     key. For example, place the asset under a folder containing\n     'Franka' or set:\n         token isaac:robotType = \"Manipulator\"\n         string isaac:robotName = \"Franka\"\n     on the default prim.\n\n  2. PROVIDE an explicit Lula descriptor. Set the phase config in\n     your test profile:\n         lula_robot_name: \"<canonical-name>\"\n         lula_yaml_path:  \"./abs/path/to/robot_descriptor.yaml\"\n         lula_urdf_path:  \"./abs/path/to/robot.urdf\"\n     The YAML must list the kinematic chain (base_link, cspace,\n     active joints, default_q) per Isaac Sim's Lula descriptor\n     format. See any policy in the policy_map directory cited below\n     for a working template.\n\nREFERENCE:\n  Spec:      nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/isaac_sim/robot_core/requirements/robot-type.md (RC.008)\n             nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/isaac_sim/robot_core/requirements/robot-schema.md (RC.007)\n  Feature:   nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/features/FET_021_ISAAC.md\n  Lula descriptors: Isaac Sim ships YAML+URDF pairs under\n             isaacsim.robot_motion.motion_generation/policies/\n             policy_map.json -- keyed by canonical robot name\n             (Franka, UR3, UR5, UR10, UR16e, Kinova_Gen3,\n              Cobotta_Pro_900, Cobotta_Pro_1300, Denso_Cobotta,\n              Festo_Cobot, Rethink_Sawyer, Rizon4).\n  Example:   Any Franka_*.usd or UR10_*.usd asset under\n             sample_content/common_assets/robots_general/ -- the\n             asset folder name contains the canonical robot key\n             and the default prim sets isaac:robotType=\"Manipulator\".",
+      "metrics": {},
+      "kit_logs": []
+    },
+    {
+      "test_name": "jacobian_ik",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 160.445,
+      "message": "",
+      "metrics": {
+        "jik_robot_reach": {
+          "value": 1.7006,
+          "unit": null
+        },
+        "jik_target_radius": {
+          "value": 1.5305,
+          "unit": null
+        },
+        "jik_base_position_x": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jik_base_position_y": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jik_base_position_z": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jik_max_observed_reach": {
+          "value": 3.3509,
+          "unit": null
+        },
+        "jik_distinct_reachable_targets": {
+          "value": 5,
+          "unit": null
+        },
+        "jik_bbox_baseline_volume": {
+          "value": 0.0,
+          "unit": null
+        },
+        "jik_total_iterations": {
+          "value": 526,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 16.348,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 60,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 272.46,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 3.173,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_targets_generated": {
+          "value": 7,
+          "unit": null
+        },
+        "jik_targets_reached": {
+          "value": 4,
+          "unit": null
+        },
+        "jik_targets_total_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "jik_targets_in_reach": {
+          "value": 5,
+          "unit": null
+        },
+        "jik_targets_out_of_reach": {
+          "value": 2,
+          "unit": null
+        },
+        "jik_in_reach_failed": {
+          "value": 1,
+          "unit": null
+        },
+        "jik_in_reach_passed_green": {
+          "value": 4,
+          "unit": null
+        },
+        "jik_in_reach_solver_failed_red": {
+          "value": 1,
+          "unit": null
+        },
+        "jik_in_reach_motion_failed_orange": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_out_of_reach_correctly_failed_magenta": {
+          "value": 2,
+          "unit": null
+        },
+        "jik_out_of_reach_false_positive_yellow": {
+          "value": 0,
+          "unit": null
+        },
+        "jik_max_position_error_m": {
+          "value": 4.130818,
+          "unit": null
+        },
+        "jik_max_orientation_error_deg": {
+          "value": 94.6006,
+          "unit": null
+        },
+        "jik_pass_rate": {
+          "value": 0.8,
+          "unit": null
+        },
+        "jik_ee_link": {
+          "value": "/World/AssetRoot/Asset/link_6",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 83.611,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 17.246,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 383.23,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.993,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_joint_1_rot_deg": {
+          "value": 179.995,
+          "unit": null
+        },
+        "jm_joint_joint_1_trans_pct": {
+          "value": 15.83,
+          "unit": null
+        },
+        "jm_joint_joint_1_bbox_m": {
+          "value": 1.2636,
+          "unit": null
+        },
+        "jm_joint_joint_1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_2_rot_deg": {
+          "value": 179.957,
+          "unit": null
+        },
+        "jm_joint_joint_2_trans_pct": {
+          "value": 96.02,
+          "unit": null
+        },
+        "jm_joint_joint_2_bbox_m": {
+          "value": 1.4677,
+          "unit": null
+        },
+        "jm_joint_joint_2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_3_rot_deg": {
+          "value": 77.001,
+          "unit": null
+        },
+        "jm_joint_joint_3_trans_pct": {
+          "value": 94.94,
+          "unit": null
+        },
+        "jm_joint_joint_3_bbox_m": {
+          "value": 1.0065,
+          "unit": null
+        },
+        "jm_joint_joint_3_pct_of_travel": {
+          "value": 46.1,
+          "unit": null
+        },
+        "jm_joint_joint_4_rot_deg": {
+          "value": 179.993,
+          "unit": null
+        },
+        "jm_joint_joint_4_trans_pct": {
+          "value": 245.85,
+          "unit": null
+        },
+        "jm_joint_joint_4_bbox_m": {
+          "value": 1.1323,
+          "unit": null
+        },
+        "jm_joint_joint_4_pct_of_travel": {
+          "value": 90.0,
+          "unit": null
+        },
+        "jm_joint_joint_5_rot_deg": {
+          "value": 179.949,
+          "unit": null
+        },
+        "jm_joint_joint_5_trans_pct": {
+          "value": 829.17,
+          "unit": null
+        },
+        "jm_joint_joint_5_bbox_m": {
+          "value": 0.5001,
+          "unit": null
+        },
+        "jm_joint_joint_5_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_6_rot_deg": {
+          "value": 179.968,
+          "unit": null
+        },
+        "jm_joint_joint_6_trans_pct": {
+          "value": 2324.64,
+          "unit": null
+        },
+        "jm_joint_joint_6_bbox_m": {
+          "value": 0.1986,
+          "unit": null
+        },
+        "jm_joint_joint_6_pct_of_travel": {
+          "value": 90.0,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 6,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_joint_1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_5_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_6_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 85.486,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 15.072,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 334.93,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.718,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_joint_1_rot_deg": {
+          "value": 177.243,
+          "unit": null
+        },
+        "jm_joint_joint_1_trans_pct": {
+          "value": 15.82,
+          "unit": null
+        },
+        "jm_joint_joint_1_bbox_m": {
+          "value": 1.2636,
+          "unit": null
+        },
+        "jm_joint_joint_1_pct_of_travel": {
+          "value": 98.5,
+          "unit": null
+        },
+        "jm_joint_joint_2_rot_deg": {
+          "value": 179.909,
+          "unit": null
+        },
+        "jm_joint_joint_2_trans_pct": {
+          "value": 96.44,
+          "unit": null
+        },
+        "jm_joint_joint_2_bbox_m": {
+          "value": 1.4677,
+          "unit": null
+        },
+        "jm_joint_joint_2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_3_rot_deg": {
+          "value": 120.692,
+          "unit": null
+        },
+        "jm_joint_joint_3_trans_pct": {
+          "value": 143.62,
+          "unit": null
+        },
+        "jm_joint_joint_3_bbox_m": {
+          "value": 1.0066,
+          "unit": null
+        },
+        "jm_joint_joint_3_pct_of_travel": {
+          "value": 72.3,
+          "unit": null
+        },
+        "jm_joint_joint_4_rot_deg": {
+          "value": 179.984,
+          "unit": null
+        },
+        "jm_joint_joint_4_trans_pct": {
+          "value": 338.54,
+          "unit": null
+        },
+        "jm_joint_joint_4_bbox_m": {
+          "value": 1.1323,
+          "unit": null
+        },
+        "jm_joint_joint_4_pct_of_travel": {
+          "value": 90.0,
+          "unit": null
+        },
+        "jm_joint_joint_5_rot_deg": {
+          "value": 179.977,
+          "unit": null
+        },
+        "jm_joint_joint_5_trans_pct": {
+          "value": 799.74,
+          "unit": null
+        },
+        "jm_joint_joint_5_bbox_m": {
+          "value": 0.5001,
+          "unit": null
+        },
+        "jm_joint_joint_5_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_6_rot_deg": {
+          "value": 179.998,
+          "unit": null
+        },
+        "jm_joint_joint_6_trans_pct": {
+          "value": 1857.08,
+          "unit": null
+        },
+        "jm_joint_joint_6_bbox_m": {
+          "value": 0.1986,
+          "unit": null
+        },
+        "jm_joint_joint_6_pct_of_travel": {
+          "value": 90.0,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 6,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_joint_1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_5_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_6_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 20.617,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 8.314,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 277.13,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.715,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.62069,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 18,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.755792,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.021323,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 22.09,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 8.909,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 296.97,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.785,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.586207,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 17,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.753141,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.022596,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "mimic_joint",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 2.012,
+      "message": "MIM: no PhysxMimicJointAPI found on any joint under the asset prim.\n\n  Found:    0 joints with PhysxMimicJointAPI applied\n  Expected: at least one revolute or prismatic joint with\n            PhysxMimicJointAPI:<axisToken> applied (rotX/rotY/rotZ\n            or transX/transY/transZ)\n\nFIX (if your asset has coupled joints, e.g. a parallel-jaw gripper\nwhere the two finger joints must move together):\n  1. Pick the driven joint and call it the REFERENCE joint. Leave\n     it with a normal drive (PhysicsDriveAPI or JointStateAPI).\n  2. On each FOLLOWER joint, apply PhysxMimicJointAPI keyed to that\n     joint's physics:axis instance token (e.g. \"rotX\" for a\n     revolute joint with physics:axis = \"X\").\n  3. Set physxMimicJoint:<axis>:gearing (non-zero) and\n     physxMimicJoint:<axis>:referenceJoint pointing at the\n     reference joint's prim path.\n  4. Both follower AND reference joints must have physics:lowerLimit\n     and physics:upperLimit authored, and neither may have\n     physics:excludeFromArticulation = true.\n\nPaste-ready USDA snippet (adapt paths, axis token, gearing sign,\nand limits to your asset):\n\n    # The follower joint: applies PhysxMimicJointAPI keyed to the axis\n    # token of the joint (rotX/rotY/rotZ for revolute, transX/transY/\n    # transZ for prismatic). The instance name MUST match physics:axis.\n    def PhysicsRevoluteJoint \"follower_joint\" (\n        prepend apiSchemas = [\"PhysxMimicJointAPI:rotX\"]\n    )\n    {\n        uniform token physics:axis = \"X\"\n        rel physics:body0 = <./path/to/parent_link>\n        rel physics:body1 = <./path/to/follower_link>\n        float physics:lowerLimit = -45.0   # required: limits must be authored\n        float physics:upperLimit =  45.0\n\n        # ---- PhysxMimicJointAPI:rotX attributes ----\n        # gearing: \u0394q_follower = gearing * \u0394q_reference + offset\n        # Must be a non-zero real number. Sign encodes direction:\n        # -1 = follower moves opposite the reference (typical for\n        # parallel-jaw grippers where one jaw mirrors the other).\n        float physxMimicJoint:rotX:gearing = -1.0\n        float physxMimicJoint:rotX:offset = 0.0\n        float physxMimicJoint:rotX:naturalFrequency = 100.0\n        float physxMimicJoint:rotX:dampingRatio = 0.0\n        # referenceJoint must point at a joint that does NOT itself\n        # carry PhysxMimicJointAPI (no chains/cycles).\n        rel physxMimicJoint:rotX:referenceJoint = <./path/to/reference_joint>\n    }\n\nREFERENCE:\n  Spec:      nv_core/tiers/simready_foundation_tier_core/simready/foundation/tier_core/capabilities/physics_bodies/physics_driven_joints/requirements/mimic-api-check.md (DJ.007)\n  Example:   sample_content/common_assets/robots_general/Robotiq/ezu_35/simready_isaac_usd/payloads/Physics/physx.usda\n             (search for: PhysxMimicJointAPI:rotX on GBA2_TRANS_2 / GBA3_TRANS_3 referencing Jaw_Drive with gearing = -1)\n\nNote: this test is SKIPPED (not failed) because mimic joints are\noptional. If your asset truly has no coupled joints, this skip is\nexpected and benign.",
+      "metrics": {
+        "mim_mimic_pairs_detected": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "multi_joint_coordination",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 70.787,
+      "message": "",
+      "metrics": {
+        "mjc_total_joints": {
+          "value": 6,
+          "unit": null
+        },
+        "mjc_valid_joints": {
+          "value": 6,
+          "unit": null
+        },
+        "mjc_loop_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 21.156,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 84,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 251.85,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 3.868,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "mjc_iterations_passed": {
+          "value": 3,
+          "unit": null
+        },
+        "mjc_iterations_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.098,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.237,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 279.65,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.777,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.000629,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.001567,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.507,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.325,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 290.6,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.749,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.000705,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.002091,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 15.689,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 6.06,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 302.99,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.904,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.7,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 0.0,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 17.987,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 6.538,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 326.91,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.971,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.7,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 0.0,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 2.69,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.482,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 241.0,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.094812,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 2.961,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.565,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 282.42,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.094793,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.243,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.932,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 483.07,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 7,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 7,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 33577,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.431,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.277,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 569.32,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 7,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 7,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 30635,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.236,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "slope_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim_newton",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.209,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "slope_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "state_accuracy",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 106.843,
+      "message": "",
+      "metrics": {
+        "sta_joints_with_limits": {
+          "value": 6,
+          "unit": null
+        },
+        "sta_joints_skipped_passive": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_skipped_loop": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 39.834,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 157,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 253.72,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 7.685,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_joints_tested": {
+          "value": 6,
+          "unit": null
+        },
+        "sta_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "sta_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "sta_max_position_error_deg": {
+          "value": 2.7136207103111376,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "velocity_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 26.353,
+      "message": "",
+      "metrics": {
+        "vel_joints_with_limits": {
+          "value": 6,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 7.406,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 23,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 322.0,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.626,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "vel_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "vel_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    }
+  ]
+}

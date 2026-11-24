@@ -1,0 +1,54 @@
+{
+  "robot": "Robotiq2F85",
+  "source": "Robotiq_2F_85.usda",
+  "joints": [
+    {
+      "name": "finger_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 47.0,
+      "parent": "root",
+      "childLink": "left_outer_knuckle"
+    },
+    {
+      "name": "right_outer_knuckle_joint",
+      "type": "revolute",
+      "lower": 0.0,
+      "upper": 47.0,
+      "parent": "root",
+      "childLink": "right_outer_knuckle"
+    },
+    {
+      "name": "left_inner_finger_joint",
+      "type": "revolute",
+      "lower": -79.5,
+      "upper": 74.19999694824219,
+      "parent": "root",
+      "childLink": "left_inner_finger"
+    },
+    {
+      "name": "right_inner_finger_joint",
+      "type": "revolute",
+      "lower": -74.19999694824219,
+      "upper": 79.5,
+      "parent": "root",
+      "childLink": "right_inner_finger"
+    },
+    {
+      "name": "left_inner_finger_knuckle_joint",
+      "type": "revolute",
+      "lower": -53.400001525878906,
+      "upper": 76.9000015258789,
+      "parent": "left_inner_finger_joint",
+      "childLink": "left_inner_knuckle"
+    },
+    {
+      "name": "right_inner_finger_knuckle_joint",
+      "type": "revolute",
+      "lower": -76.9000015258789,
+      "upper": 53.400001525878906,
+      "parent": "right_inner_finger_joint",
+      "childLink": "right_inner_knuckle"
+    }
+  ]
+}

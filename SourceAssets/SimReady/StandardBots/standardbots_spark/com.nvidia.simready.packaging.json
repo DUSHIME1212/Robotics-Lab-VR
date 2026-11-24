@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.standardbots.simready-spark.standardbots_spark.2026.10.09_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "a94dc5db15e80329983159306efcb4d09cef3d79a5f752ebe4146071503a7749"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "1478ba4a8cf06ba8498e995c3be45796694d404c311d47b3ecd9041350f488c6"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "5c31fbed623ec9b8f350e07c0b23099ad0d042af823d6161976193c3fa8c7900"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "5f6bfb51998b5798df7b7a175aecfd928e4646a709be8a873d0dd048d7368ae1"
+  },
+  "package_hash": {
+    "sha256": "c13dcaa248c81bd051b8a325045604fac7be440226fde6181865b6d02d735cd0"
+  }
+}

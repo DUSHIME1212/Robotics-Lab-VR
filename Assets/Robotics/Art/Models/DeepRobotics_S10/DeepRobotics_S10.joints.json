@@ -1,0 +1,134 @@
+{
+  "robot": "DeepRobotics_S10",
+  "source": "S10.usd",
+  "joints": [
+    {
+      "name": "fl_hipx_joint",
+      "type": "revolute",
+      "lower": -35.00198745727539,
+      "upper": 35.00198745727539,
+      "parent": "root",
+      "childLink": "fl_hipx"
+    },
+    {
+      "name": "fl_hipy_joint",
+      "type": "revolute",
+      "lower": -144.9984130859375,
+      "upper": 144.9984130859375,
+      "parent": "fl_hipx_joint",
+      "childLink": "fl_hipy"
+    },
+    {
+      "name": "fl_knee_joint",
+      "type": "revolute",
+      "lower": -155.9992218017578,
+      "upper": 155.9992218017578,
+      "parent": "fl_hipy_joint",
+      "childLink": "fl_knee"
+    },
+    {
+      "name": "fl_wheel_joint",
+      "type": "revolute",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "parent": "fl_knee_joint",
+      "childLink": "fl_wheel"
+    },
+    {
+      "name": "fr_hipx_joint",
+      "type": "revolute",
+      "lower": -35.00198745727539,
+      "upper": 35.00198745727539,
+      "parent": "root",
+      "childLink": "fr_hipx"
+    },
+    {
+      "name": "fr_hipy_joint",
+      "type": "revolute",
+      "lower": -144.9984130859375,
+      "upper": 144.9984130859375,
+      "parent": "fr_hipx_joint",
+      "childLink": "fr_hipy"
+    },
+    {
+      "name": "fr_knee_joint",
+      "type": "revolute",
+      "lower": -155.9992218017578,
+      "upper": 155.9992218017578,
+      "parent": "fr_hipy_joint",
+      "childLink": "fr_knee"
+    },
+    {
+      "name": "fr_wheel_joint",
+      "type": "revolute",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "parent": "fr_knee_joint",
+      "childLink": "fr_wheel"
+    },
+    {
+      "name": "hl_hipx_joint",
+      "type": "revolute",
+      "lower": -35.00198745727539,
+      "upper": 35.00198745727539,
+      "parent": "root",
+      "childLink": "hl_hipx"
+    },
+    {
+      "name": "hl_hipy_joint",
+      "type": "revolute",
+      "lower": -144.9984130859375,
+      "upper": 144.9984130859375,
+      "parent": "hl_hipx_joint",
+      "childLink": "hl_hipy"
+    },
+    {
+      "name": "hl_knee_joint",
+      "type": "revolute",
+      "lower": -155.9992218017578,
+      "upper": 155.9992218017578,
+      "parent": "hl_hipy_joint",
+      "childLink": "hl_knee"
+    },
+    {
+      "name": "hl_wheel_joint",
+      "type": "revolute",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "parent": "hl_knee_joint",
+      "childLink": "hl_wheel"
+    },
+    {
+      "name": "hr_hipx_joint",
+      "type": "revolute",
+      "lower": -35.00198745727539,
+      "upper": 35.00198745727539,
+      "parent": "root",
+      "childLink": "hr_hipx"
+    },
+    {
+      "name": "hr_hipy_joint",
+      "type": "revolute",
+      "lower": -144.9984130859375,
+      "upper": 144.9984130859375,
+      "parent": "hr_hipx_joint",
+      "childLink": "hr_hipy"
+    },
+    {
+      "name": "hr_knee_joint",
+      "type": "revolute",
+      "lower": -155.9992218017578,
+      "upper": 155.9992218017578,
+      "parent": "hr_hipy_joint",
+      "childLink": "hr_knee"
+    },
+    {
+      "name": "hr_wheel_joint",
+      "type": "revolute",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "parent": "hr_knee_joint",
+      "childLink": "hr_wheel"
+    }
+  ]
+}

@@ -1,0 +1,1162 @@
+#usda 1.0
+(
+    defaultPrim = "fr3_duo_vision_manipulation_kit"
+    doc = "Newton overrides for fr3_duo_vision_manipulation_kit.usda"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "fr3_duo_vision_manipulation_kit" (
+    prepend apiSchemas = ["NewtonArticulationRootAPI"]
+)
+{
+    bool newton:selfCollisionEnabled = 0
+
+    over "Geometry"
+    {
+        over "base" (
+        )
+        {
+            over "fr3_duo_mount_mounting_point"
+            {
+                over "fr3_duo_mount_origin"
+                {
+                    over "fr3_duo_mount_left"
+                    {
+                        over "left_base"
+                        {
+                            over "left_fr3v2_1_link0"
+                            {
+                                over "left_fr3v2_1_link1"
+                                {
+                                    over "left_fr3v2_1_link2"
+                                    {
+                                        over "left_fr3v2_1_link3"
+                                        {
+                                            over "left_fr3v2_1_link4"
+                                            {
+                                                over "left_fr3v2_1_link5"
+                                                {
+                                                    over "left_fr3v2_1_link6"
+                                                    {
+                                                        over "left_fr3v2_1_link7"
+                                                        {
+                                                            over "left_fr3v2_1_link8"
+                                                            {
+                                                                over "left_ur_to_robotiq_link"
+                                                                {
+                                                                    over "left_gripper_mount_link"
+                                                                    {
+                                                                        over "left_robotiq_85_base_link"
+                                                                        {
+                                                                            over "left__wrist_camera_mount_casing_link"
+                                                                            {
+                                                                                over "left__wrist_camera_mount_link"
+                                                                                {
+                                                                                    over "left__wrist_camera_bottom_screw_frame"
+                                                                                    {
+                                                                                        over "left__wrist_camera_link"
+                                                                                        {
+                                                                                            over "box" (
+                                                                                                prepend apiSchemas = ["NewtonCollisionAPI"]
+                                                                                            )
+                                                                                            {
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+
+                                                                                over "wristcam_mount_D405_robotiq_1"
+                                                                                {
+                                                                                    over "wristcam_mount_D405_robotiq_1" (
+                                                                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                                    )
+                                                                                    {
+                                                                                    }
+                                                                                }
+                                                                            }
+
+                                                                            over "robotiq_base_1"
+                                                                            {
+                                                                                over "robotiq_base_1" (
+                                                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                                )
+                                                                                {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+
+                                                                    over "ur_to_robotiq_adapter_1"
+                                                                    {
+                                                                        over "ur_to_robotiq_adapter_1" (
+                                                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                        )
+                                                                        {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+
+                                                            over "left_fr3v2_1_link7_collision"
+                                                            {
+                                                                over "left_fr3v2_1_link7_collision" (
+                                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                )
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+
+                                                        over "left_fr3v2_1_link6_collision"
+                                                        {
+                                                            over "left_fr3v2_1_link6_collision" (
+                                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                            )
+                                                            {
+                                                            }
+                                                        }
+                                                    }
+
+                                                    over "left_fr3v2_1_link5_collision"
+                                                    {
+                                                        over "left_fr3v2_1_link5_collision" (
+                                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                        )
+                                                        {
+                                                        }
+                                                    }
+                                                }
+
+                                                over "left_fr3v2_1_link4_collision"
+                                                {
+                                                    over "left_fr3v2_1_link4_collision" (
+                                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+                                            }
+
+                                            over "left_fr3v2_1_link3_collision"
+                                            {
+                                                over "left_fr3v2_1_link3_collision" (
+                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                )
+                                                {
+                                                }
+                                            }
+                                        }
+
+                                        over "left_fr3v2_1_link2_collision"
+                                        {
+                                            over "left_fr3v2_1_link2_collision" (
+                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                            )
+                                            {
+                                            }
+                                        }
+                                    }
+
+                                    over "left_fr3v2_1_link1_collision"
+                                    {
+                                        over "left_fr3v2_1_link1_collision" (
+                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                        )
+                                        {
+                                        }
+                                    }
+                                }
+
+                                over "left_fr3v2_1_link0_collision"
+                                {
+                                    over "left_fr3v2_1_link0_collision" (
+                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                    )
+                                    {
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    over "fr3_duo_mount_right"
+                    {
+                        over "right_base"
+                        {
+                            over "right_fr3v2_1_link0"
+                            {
+                                over "right_fr3v2_1_link1"
+                                {
+                                    over "right_fr3v2_1_link2"
+                                    {
+                                        over "right_fr3v2_1_link3"
+                                        {
+                                            over "right_fr3v2_1_link4"
+                                            {
+                                                over "right_fr3v2_1_link5"
+                                                {
+                                                    over "right_fr3v2_1_link6"
+                                                    {
+                                                        over "right_fr3v2_1_link7"
+                                                        {
+                                                            over "right_fr3v2_1_link8"
+                                                            {
+                                                                over "right_ur_to_robotiq_link"
+                                                                {
+                                                                    over "right_gripper_mount_link"
+                                                                    {
+                                                                        over "right_robotiq_85_base_link"
+                                                                        {
+                                                                            over "right__wrist_camera_mount_casing_link"
+                                                                            {
+                                                                                over "right__wrist_camera_mount_link"
+                                                                                {
+                                                                                    over "right__wrist_camera_bottom_screw_frame"
+                                                                                    {
+                                                                                        over "right__wrist_camera_link"
+                                                                                        {
+                                                                                            over "box" (
+                                                                                                prepend apiSchemas = ["NewtonCollisionAPI"]
+                                                                                            )
+                                                                                            {
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+
+                                                                                over "wristcam_mount_D405_robotiq_1"
+                                                                                {
+                                                                                    over "wristcam_mount_D405_robotiq_1" (
+                                                                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                                    )
+                                                                                    {
+                                                                                    }
+                                                                                }
+                                                                            }
+
+                                                                            over "robotiq_base_1"
+                                                                            {
+                                                                                over "robotiq_base_1" (
+                                                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                                )
+                                                                                {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+
+                                                                    over "ur_to_robotiq_adapter_1"
+                                                                    {
+                                                                        over "ur_to_robotiq_adapter_1" (
+                                                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                        )
+                                                                        {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+
+                                                            over "right_fr3v2_1_link7_collision"
+                                                            {
+                                                                over "left_fr3v2_1_link7_collision" (
+                                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                )
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+
+                                                        over "right_fr3v2_1_link6_collision"
+                                                        {
+                                                            over "left_fr3v2_1_link6_collision" (
+                                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                            )
+                                                            {
+                                                            }
+                                                        }
+                                                    }
+
+                                                    over "right_fr3v2_1_link5_collision"
+                                                    {
+                                                        over "left_fr3v2_1_link5_collision" (
+                                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                        )
+                                                        {
+                                                        }
+                                                    }
+                                                }
+
+                                                over "right_fr3v2_1_link4_collision"
+                                                {
+                                                    over "left_fr3v2_1_link4_collision" (
+                                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+                                            }
+
+                                            over "right_fr3v2_1_link3_collision"
+                                            {
+                                                over "left_fr3v2_1_link3_collision" (
+                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                )
+                                                {
+                                                }
+                                            }
+                                        }
+
+                                        over "right_fr3v2_1_link2_collision"
+                                        {
+                                            over "left_fr3v2_1_link2_collision" (
+                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                            )
+                                            {
+                                            }
+                                        }
+                                    }
+
+                                    over "right_fr3v2_1_link1_collision"
+                                    {
+                                        over "left_fr3v2_1_link1_collision" (
+                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                        )
+                                        {
+                                        }
+                                    }
+                                }
+
+                                over "right_fr3v2_1_link0_collision"
+                                {
+                                    over "left_fr3v2_1_link0_collision" (
+                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                    )
+                                    {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                over "head_link"
+                {
+                    over "head_camera_mounting_point"
+                    {
+                        over "head_camera_link"
+                        {
+                            over "head_camera_center"
+                            {
+                                over "zedm_1"
+                                {
+                                    over "box" (
+                                        prepend apiSchemas = ["NewtonCollisionAPI"]
+                                    )
+                                    {
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    over "franka_head_1"
+                    {
+                        over "franka_head_1" (
+                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+
+                over "fr3_duo_mount_1"
+                {
+                    over "fr3_duo_mount_1" (
+                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                    )
+                    {
+                    }
+                }
+
+                over "fr3_duo_cover_1"
+                {
+                    over "fr3_duo_cover_1" (
+                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                    )
+                    {
+                    }
+                }
+            }
+        }
+
+        over "left_robotiq_2f85" (
+            variants = {
+                string Physics = "Newton_parallel_grip"
+            }
+        )
+        {
+            over "Robotiq_2F_85" (
+                delete apiSchemas = ["PhysicsArticulationRootAPI", "NewtonArticulationRootAPI"]
+            )
+            {
+                over "left_robotiq_root_joint" (
+                    active = false
+                )
+                {
+                }
+
+                over "left_robotiq_base_link" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_left_outer_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_left_outer_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_left_inner_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_left_inner_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_right_outer_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_right_outer_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_right_inner_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_right_inner_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_left_fingertip" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "left_robotiq_right_fingertip" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link/left_gripper_mount_link/left_robotiq_85_base_link/left__wrist_camera_mount_casing_link/left__wrist_camera_mount_link/left__wrist_camera_bottom_screw_frame/left__wrist_camera_link>,
+                    ]
+                }
+
+                over "Joints"
+                {
+                    over "left_robotiq_left_inner_knuckle_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                        doc = "Passive joint, closed by Robotiq's loop-closure equality. The zero-gain drive only makes the joint explicit for NEWTON.DJ.001; it applies no force."
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+
+                    over "left_robotiq_right_inner_knuckle_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                        doc = "Passive joint, closed by Robotiq's loop-closure equality. The zero-gain drive only makes the joint explicit for NEWTON.DJ.001; it applies no force."
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+
+                    over "left_robotiq_left_inner_finger_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+
+                    over "left_robotiq_right_inner_finger_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+                }
+            }
+        }
+
+        over "right_robotiq_2f85" (
+            variants = {
+                string Physics = "Newton_parallel_grip"
+            }
+        )
+        {
+            over "Robotiq_2F_85" (
+                delete apiSchemas = ["PhysicsArticulationRootAPI", "NewtonArticulationRootAPI"]
+            )
+            {
+                over "right_robotiq_root_joint" (
+                    active = false
+                )
+                {
+                }
+
+                over "right_robotiq_base_link" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_left_outer_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_left_outer_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_left_inner_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_left_inner_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_right_outer_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_right_outer_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_right_inner_finger" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_right_inner_knuckle" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_left_fingertip" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "right_robotiq_right_fingertip" (
+                    prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+                )
+                {
+                    custom rel physics:filteredPairs = [
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_outer_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_finger>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_right_inner_knuckle>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_left_fingertip>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link>,
+                        </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link/right_gripper_mount_link/right_robotiq_85_base_link/right__wrist_camera_mount_casing_link/right__wrist_camera_mount_link/right__wrist_camera_bottom_screw_frame/right__wrist_camera_link>,
+                    ]
+                }
+
+                over "Joints"
+                {
+                    over "right_robotiq_left_inner_knuckle_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                        doc = "Passive joint, closed by Robotiq's loop-closure equality. The zero-gain drive only makes the joint explicit for NEWTON.DJ.001; it applies no force."
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+
+                    over "right_robotiq_right_inner_knuckle_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                        doc = "Passive joint, closed by Robotiq's loop-closure equality. The zero-gain drive only makes the joint explicit for NEWTON.DJ.001; it applies no force."
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+
+                    over "right_robotiq_left_inner_finger_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+
+                    over "right_robotiq_right_inner_finger_joint" (
+                        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+                    )
+                    {
+                        float drive:angular:physics:damping = 0
+                        float drive:angular:physics:maxForce = 1
+                        float drive:angular:physics:stiffness = 0
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        over "left_fr3v2_1_joint1" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint2" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint3" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint4" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint5" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint6" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint7" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint1" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint2" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint3" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint4" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint5" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint6" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint7" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        def PhysicsFixedJoint "left_robotiq_2f85_mount_joint"
+        {
+            custom rel physics:body0 = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_left/left_base/left_fr3v2_1_link0/left_fr3v2_1_link1/left_fr3v2_1_link2/left_fr3v2_1_link3/left_fr3v2_1_link4/left_fr3v2_1_link5/left_fr3v2_1_link6/left_fr3v2_1_link7/left_fr3v2_1_link8/left_ur_to_robotiq_link>
+            custom rel physics:body1 = </fr3_duo_vision_manipulation_kit/Geometry/left_robotiq_2f85/Robotiq_2F_85/left_robotiq_base_link>
+            point3f physics:localPos0 = (-5.551115e-17, 2.7755576e-17, 0.011)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (0.70710677, 1.9626155e-17, 3.925231e-17, 0.70710677)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+        }
+
+        def PhysicsFixedJoint "right_robotiq_2f85_mount_joint"
+        {
+            custom rel physics:body0 = </fr3_duo_vision_manipulation_kit/Geometry/base/fr3_duo_mount_mounting_point/fr3_duo_mount_origin/fr3_duo_mount_right/right_base/right_fr3v2_1_link0/right_fr3v2_1_link1/right_fr3v2_1_link2/right_fr3v2_1_link3/right_fr3v2_1_link4/right_fr3v2_1_link5/right_fr3v2_1_link6/right_fr3v2_1_link7/right_fr3v2_1_link8/right_ur_to_robotiq_link>
+            custom rel physics:body1 = </fr3_duo_vision_manipulation_kit/Geometry/right_robotiq_2f85/Robotiq_2F_85/right_robotiq_base_link>
+            point3f physics:localPos0 = (5.551115e-17, 8.326673e-17, 0.011)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (0.70710677, -1.9626155e-17, 3.925231e-17, 0.70710677)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+        }
+    }
+}
+

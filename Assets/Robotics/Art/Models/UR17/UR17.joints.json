@@ -1,0 +1,54 @@
+{
+  "robot": "UR17",
+  "source": "ur17g_1300.usda",
+  "joints": [
+    {
+      "name": "shoulder_pan_joint",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "root",
+      "childLink": "shoulder_link"
+    },
+    {
+      "name": "shoulder_lift_joint",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "shoulder_pan_joint",
+      "childLink": "upper_arm_link"
+    },
+    {
+      "name": "elbow_joint",
+      "type": "revolute",
+      "lower": -180.0,
+      "upper": 180.0,
+      "parent": "shoulder_lift_joint",
+      "childLink": "forearm_link"
+    },
+    {
+      "name": "wrist_1_joint",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "elbow_joint",
+      "childLink": "wrist_1_link"
+    },
+    {
+      "name": "wrist_2_joint",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "wrist_1_joint",
+      "childLink": "wrist_2_link"
+    },
+    {
+      "name": "wrist_3_joint",
+      "type": "revolute",
+      "lower": -360.0,
+      "upper": 360.0,
+      "parent": "wrist_2_joint",
+      "childLink": "wrist_3_link"
+    }
+  ]
+}

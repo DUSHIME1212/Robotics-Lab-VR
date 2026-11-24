@@ -1,0 +1,280 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    defaultPrim = "S18_17"
+    doc = """Generated from Composed Stage of root layer /home/luca/Documents/S18-17/payloads/base.usd
+"""
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    subLayers = [
+        @./robot.usda@
+    ]
+    upAxis = "Z"
+)
+
+def Xform "S18_17" (
+    prepend apiSchemas = ["GeomModelAPI"]
+    assetInfo = {
+        string name = "S18-17"
+    }
+    displayName = "S18-17"
+    kind = "component"
+)
+{
+    float3[] extentsHint = [(-0.2934697, -0.25749928, -1.712408e-14), (0.268, 0.26260135, 2.1559994), (3.4028235e38, 3.4028235e38, 3.4028235e38), (-3.4028235e38, -3.4028235e38, -3.4028235e38), (3.4028235e38, 3.4028235e38, 3.4028235e38), (-3.4028235e38, -3.4028235e38, -3.4028235e38), (-0.2934697, -0.25749928, -1.712408e-14), (0.268, 0.26260135, 2.1559994)]
+
+    def Scope "Materials"
+    {
+        def Material "material_2" (
+            instanceable = true
+            prepend references = @./materials.usda@</Materials/material_2>
+        )
+        {
+        }
+
+        def Material "material_4" (
+            instanceable = true
+            prepend references = @./materials.usda@</Materials/material_4>
+        )
+        {
+        }
+    }
+
+    def Scope "Geometry"
+    {
+        def Xform "base_link"
+        {
+            def Xform "base_link" (
+                instanceable = true
+                prepend references = @./instances.usda@</Instances/base_link>
+            )
+            {
+                quatd xformOp:orient = (1, 0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+
+            def Xform "link_1"
+            {
+                quatf xformOp:orient = (-0.70710546, 0.7071081, 0, 0)
+                float3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0.175)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def Xform "link_1" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </S18_17/Materials/material_2>
+                    quatf xformOp:orient = (1, 0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                    def Xform "Mesh" (
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_1" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_1_1>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_2" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_2>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_3" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_3>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_4" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_4>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_5" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_5>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_6" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_6>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_7" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_7>
+                    )
+                    {
+                    }
+
+                    def Xform "Mesh_8" (
+                        displayName = "Mesh"
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/Mesh_8>
+                    )
+                    {
+                    }
+                }
+
+                def Xform "link_2"
+                {
+                    quatf xformOp:orient = (-0.70710546, 0, 0, 0.7071081)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0.15, -0.289, -0.1429)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                    def Xform "link_2" (
+                        instanceable = true
+                        prepend references = @./instances.usda@</Instances/link_2>
+                    )
+                    {
+                        quatd xformOp:orient = (1, 0, 0, 0)
+                        double3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (0, 0, 0)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                    }
+
+                    def Xform "link_3"
+                    {
+                        quatf xformOp:orient = (0.49999815, -0.5, 0.50000185, -0.5)
+                        float3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (0.77, 0, 0)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                        def Xform "link_3" (
+                            prepend apiSchemas = ["MaterialBindingAPI"]
+                        )
+                        {
+                            rel material:binding = </S18_17/Materials/material_4>
+                            quatf xformOp:orient = (1, 0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                            def Xform "Mesh" (
+                                instanceable = true
+                                prepend references = @./instances.usda@</Instances/Mesh_9>
+                            )
+                            {
+                            }
+
+                            def Xform "Mesh_1" (
+                                displayName = "Mesh"
+                                instanceable = true
+                                prepend references = @./instances.usda@</Instances/Mesh_1_1_1>
+                            )
+                            {
+                            }
+
+                            def Xform "Mesh_2" (
+                                displayName = "Mesh"
+                                instanceable = true
+                                prepend references = @./instances.usda@</Instances/Mesh_2_1_1>
+                            )
+                            {
+                            }
+                        }
+
+                        def Xform "link_4"
+                        {
+                            quatf xformOp:orient = (0.70710546, 0.7071081, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0.2, -0.1429, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                            def Xform "link_4" (
+                                instanceable = true
+                                prepend references = @./instances.usda@</Instances/link_4>
+                            )
+                            {
+                                quatd xformOp:orient = (1, 0, 0, 0)
+                                double3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (0, 0, 0)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                            }
+
+                            def Xform "link_5"
+                            {
+                                quatf xformOp:orient = (-0.70710546, 0.7071081, 0, 0)
+                                float3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (0, 0.78, 0)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                                def Xform "link_5" (
+                                    instanceable = true
+                                    prepend references = @./instances.usda@</Instances/link_5>
+                                )
+                                {
+                                    quatd xformOp:orient = (1, 0, 0, 0)
+                                    double3 xformOp:scale = (1, 1, 1)
+                                    double3 xformOp:translate = (0, 0, 0)
+                                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                }
+
+                                def Xform "link_6"
+                                {
+                                    quatf xformOp:orient = (-0.0000036732051, 0, 0, 1)
+                                    float3 xformOp:scale = (1, 1, 1)
+                                    double3 xformOp:translate = (0, 0, 0.142)
+                                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                                    def Xform "link_6" (
+                                        instanceable = true
+                                        prepend references = @./instances.usda@</Instances/link_6>
+                                    )
+                                    {
+                                        quatd xformOp:orient = (1, 0, 0, 0)
+                                        double3 xformOp:scale = (1, 1, 1)
+                                        double3 xformOp:translate = (0, 0, 0)
+                                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    def Scope "Physics"
+    {
+    }
+
+    def Scope "VisualMaterials"
+    {
+    }
+}
+

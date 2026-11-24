@@ -1,0 +1,62 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/asimov_1.usd.png",
+      "size": 17520,
+      "hash": {
+        "sha256-flat-1mb": "6bfbcca5cdb05a07fa5b4725af01623a19583772041f483beb338d59a1da3c44",
+        "sha256": "4ce1c2210811a94d4048735b34885244a7da499dd72fba12e0e67402dec89f9d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/asimov_1.json",
+      "size": 226,
+      "hash": {
+        "sha256-flat-1mb": "d4603d04b6abb9d796d94db324f7bcb33b8686e8c176a42600c8843d63580661",
+        "sha256": "9f927df8a6b30f92f4c32961c120c3f37c6cb1039e6450dff40629d0e2aaaf5a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/asimov_1.usd",
+      "size": 3843,
+      "hash": {
+        "sha256-flat-1mb": "d866d104821b7be21c0213937484459c205ee97ea57eceb120ea4c68b84e210b",
+        "sha256": "860d8ea2c2adc6487e2a6908f0d51e57aa47a2eee4a646af3074444f9381a282"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/asimov_1_base.usd",
+      "size": 72836154,
+      "hash": {
+        "sha256-flat-1mb": "2a70ff178e06cb2b44f872e19e1faf9979dcff7f783c8435cfa29b1dd4c6a4af",
+        "sha256": "a4fddc2ed3dee0921a3e9a78adaaaa9f812ad22d74da17888d81a0f49024f2ff",
+        "sha256-first1m": "8e545de42879f5213a60c8808b8e274de59b57fa29aa99c3016074b5689fbe5b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/asimov_1_physics.usd",
+      "size": 9801,
+      "hash": {
+        "sha256-flat-1mb": "5b9f1b8f3d2c4922427227cc06ac249aa769bb650f84924d5a58921c514531c4",
+        "sha256": "c7079506a9d5ea4835ec21628c3aa7ed3375fe15a77b568a2477e5d4b2aca652"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/asimov_1_robot.usd",
+      "size": 2852,
+      "hash": {
+        "sha256-flat-1mb": "6468e61bb5b349386463a02d2cf53375f93a9926e80d4e8d31540eb1685e6811",
+        "sha256": "c26876cdc0ab4a3eff70c8a24ab030c5b56a8eece7fd375015bfe8ad04c4a411"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/asimov_1_sensor.usd",
+      "size": 648,
+      "hash": {
+        "sha256-flat-1mb": "c4a256c88c72fb716dcb7fbf1acb6c57e39699d1bf468c665fcd29df91956015",
+        "sha256": "172cc32ac7f781ea00eaa43fa53ff5e2d72970a905815c62fd0b92defeb3a8b5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.AGIBOT-Yuanzheng.A3_Ultra_usd.raise_a3_ultra_t3d0.2026.10.23_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "74798f5af3d6dae73c53fa5f1843470f2cd41a3d02bcb68c2924e79822c4a96f"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "b37ff93804eafb1539d8ed647af3de66332ae6f46efe4d4f55b4029dbc090093"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "fa00cfc2b68ed6e79fc3f410e5a6d19f2cb014eb221a38fb847dcaf6000d47c7"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "b2c66048bc8ff3717c671a0826c4ed1c9498fe8c50848c625d4f985ca3c6e9b4"
+  },
+  "package_hash": {
+    "sha256": "2c03389e8ef27a4d2df00a62de618b38d05c38e2adbfd725ec3d338d9934f20f"
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "schema_version": "1.0",
+  "asset": "S18-17",
+  "run_timestamp": "2026-10-19T13:13:32Z",
+  "passed": true,
+  "results": [
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 16.212,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 4.391,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 274.44,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.808,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 0.000962,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 0.000285,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 315.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "drive_gain_validation",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 43.848,
+      "message": "",
+      "metrics": {
+        "dgv_joints_tested": {
+          "value": 6,
+          "unit": null
+        },
+        "dgv_passive_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_mimic_follower_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 31.257,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 12,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 2604.75,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.945,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 12,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 12,
+          "unit": null
+        },
+        "_render_blank_retry[dgv_001_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_001_0016_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_002_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_002_0016_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_003_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_003_0016_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_004_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_004_0016_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_005_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_005_0016_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_006_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[dgv_006_0016_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "dgv_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "dgv_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "effort_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 467.784,
+      "message": "",
+      "metrics": {
+        "eff_joints_with_candidates": {
+          "value": 6,
+          "unit": null
+        },
+        "eff_joints_skipped_passive": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_skipped_mimic_follower": {
+          "value": 0,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 368.784,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 144,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 2561.0,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 7.17,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 144,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 144,
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_+XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_001_-XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_+XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_002_-XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_+XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_003_-XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_+XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_004_-XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_+XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_005_-XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-X_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-X_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-Y_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-Y_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-Z_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-Z_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-XY_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-XY_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-YZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-YZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_+XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-XZ_0000_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "_render_blank_retry[eff_006_-XZ_0030_001.png]": {
+          "value": "attempts=6 recovered=False",
+          "unit": null
+        },
+        "eff_joints_tested": {
+          "value": 6,
+          "unit": null
+        },
+        "eff_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "eff_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.161,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "ground_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 83.897,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 15.327,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 340.61,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 2.597,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_joint_1_rot_deg": {
+          "value": 180.0,
+          "unit": null
+        },
+        "jm_joint_joint_1_trans_pct": {
+          "value": 9.49,
+          "unit": null
+        },
+        "jm_joint_joint_1_bbox_m": {
+          "value": 2.1088,
+          "unit": null
+        },
+        "jm_joint_joint_1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_2_rot_deg": {
+          "value": 93.223,
+          "unit": null
+        },
+        "jm_joint_joint_2_trans_pct": {
+          "value": 35.87,
+          "unit": null
+        },
+        "jm_joint_joint_2_bbox_m": {
+          "value": 1.8984,
+          "unit": null
+        },
+        "jm_joint_joint_2_pct_of_travel": {
+          "value": 58.3,
+          "unit": null
+        },
+        "jm_joint_joint_3_rot_deg": {
+          "value": 174.891,
+          "unit": null
+        },
+        "jm_joint_joint_3_trans_pct": {
+          "value": 199.25,
+          "unit": null
+        },
+        "jm_joint_joint_3_bbox_m": {
+          "value": 1.1597,
+          "unit": null
+        },
+        "jm_joint_joint_3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_4_rot_deg": {
+          "value": 179.988,
+          "unit": null
+        },
+        "jm_joint_joint_4_trans_pct": {
+          "value": 312.47,
+          "unit": null
+        },
+        "jm_joint_joint_4_bbox_m": {
+          "value": 0.7631,
+          "unit": null
+        },
+        "jm_joint_joint_4_pct_of_travel": {
+          "value": 90.0,
+          "unit": null
+        },
+        "jm_joint_joint_5_rot_deg": {
+          "value": 179.93,
+          "unit": null
+        },
+        "jm_joint_joint_5_trans_pct": {
+          "value": 1613.74,
+          "unit": null
+        },
+        "jm_joint_joint_5_bbox_m": {
+          "value": 0.2825,
+          "unit": null
+        },
+        "jm_joint_joint_5_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_joint_6_rot_deg": {
+          "value": 180.0,
+          "unit": null
+        },
+        "jm_joint_joint_6_trans_pct": {
+          "value": 2054.04,
+          "unit": null
+        },
+        "jm_joint_joint_6_bbox_m": {
+          "value": 0.1548,
+          "unit": null
+        },
+        "jm_joint_joint_6_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 6,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 6,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_joint_1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_5_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_joint_6_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 20.646,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 8.025,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 267.51,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.746,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.551724,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 16,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.782309,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.019643,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.18,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.164,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 270.46,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.681,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.000208,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.001623,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 15.944,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 6.039,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 301.93,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.858,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.9,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 0.0,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 2.921,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.491,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 245.34,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.075415,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "pass",
+      "passed": true,
+      "duration": 6.022,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.724,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 431.05,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 9,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 9,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 64667,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.1.0.0",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.253,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "slope_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    }
+  ]
+}

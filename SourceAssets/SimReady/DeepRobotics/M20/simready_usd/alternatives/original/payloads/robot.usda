@@ -1,0 +1,248 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    defaultPrim = "M20"
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    upAxis = "Z"
+)
+
+over "M20" (
+    prepend apiSchemas = ["IsaacRobotAPI"]
+)
+{
+    prepend rel isaac:physics:robotJoints = [
+        </M20/Physics/fl_hipx_joint>,
+        </M20/Physics/fr_hipx_joint>,
+        </M20/Physics/hl_hipx_joint>,
+        </M20/Physics/hr_hipx_joint>,
+        </M20/Physics/fl_hipy_joint>,
+        </M20/Physics/fl_knee_joint>,
+        </M20/Physics/fl_wheel_joint>,
+        </M20/Physics/fr_hipy_joint>,
+        </M20/Physics/fr_knee_joint>,
+        </M20/Physics/fr_wheel_joint>,
+        </M20/Physics/hl_hipy_joint>,
+        </M20/Physics/hl_knee_joint>,
+        </M20/Physics/hl_wheel_joint>,
+        </M20/Physics/hr_hipy_joint>,
+        </M20/Physics/hr_knee_joint>,
+        </M20/Physics/hr_wheel_joint>,
+    ]
+    prepend rel isaac:physics:robotLinks = [
+        </M20/Geometry/base_link>,
+        </M20/Geometry/base_link/fl_hipx>,
+        </M20/Geometry/base_link/fl_hipx/fl_hipy>,
+        </M20/Geometry/base_link/fl_hipx/fl_hipy/fl_knee>,
+        </M20/Geometry/base_link/fl_hipx/fl_hipy/fl_knee/fl_wheel>,
+        </M20/Geometry/base_link/fr_hipx>,
+        </M20/Geometry/base_link/fr_hipx/fr_hipy>,
+        </M20/Geometry/base_link/fr_hipx/fr_hipy/fr_knee>,
+        </M20/Geometry/base_link/fr_hipx/fr_hipy/fr_knee/fr_wheel>,
+        </M20/Geometry/base_link/hl_hipx>,
+        </M20/Geometry/base_link/hl_hipx/hl_hipy>,
+        </M20/Geometry/base_link/hl_hipx/hl_hipy/hl_knee>,
+        </M20/Geometry/base_link/hl_hipx/hl_hipy/hl_knee/hl_wheel>,
+        </M20/Geometry/base_link/hr_hipx>,
+        </M20/Geometry/base_link/hr_hipx/hr_hipy>,
+        </M20/Geometry/base_link/hr_hipx/hr_hipy/hr_knee>,
+        </M20/Geometry/base_link/hr_hipx/hr_hipy/hr_knee/hr_wheel>,
+    ]
+    token isaac:robotType = "Quadruped"
+
+    over "Geometry"
+    {
+        over "base_link" (
+            prepend apiSchemas = ["IsaacLinkAPI"]
+        )
+        {
+            over "fl_hipx" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "fl_hipy" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "fl_knee" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "fl_wheel" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+            }
+
+            over "fr_hipx" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "fr_hipy" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "fr_knee" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "fr_wheel" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+            }
+
+            over "hl_hipx" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "hl_hipy" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "hl_knee" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "hl_wheel" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+            }
+
+            over "hr_hipx" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "hr_hipy" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "hr_knee" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "hr_wheel" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        over "fl_hipx_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "fl_hipy_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "fl_knee_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "fl_wheel_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "fr_hipx_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "fr_hipy_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "fr_knee_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "fr_wheel_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hl_hipx_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hl_hipy_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hl_knee_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hl_wheel_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hr_hipx_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hr_hipy_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hr_knee_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "hr_wheel_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+    }
+}
+

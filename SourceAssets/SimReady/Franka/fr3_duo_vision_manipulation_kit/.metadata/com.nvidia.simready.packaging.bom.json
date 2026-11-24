@@ -1,0 +1,593 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/fr3_duo_vision_manipulation_kit.usda.png",
+      "size": 15877,
+      "hash": {
+        "sha256-flat-1mb": "1272055f5b2ed45edfbab45d50fdaaa1d4d58d7f58dd6c2ea61891ffd99a748d",
+        "sha256": "80d3d7a31896d32eb208272aa36c6fdcfb2d1640c6085369869a31bf0b83949c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/fr3_duo_vision_manipulation_kit.usda",
+      "size": 2853,
+      "hash": {
+        "sha256-flat-1mb": "2216ec218100104e86430f70618692603abb810b51ee47fee6e01cb96897032c",
+        "sha256": "b4396ce61ea0c3f1adb7f1e7a539d9261a00cef5ab3fce3255b382b0af57c976"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Physics/physics.usda",
+      "size": 167517,
+      "hash": {
+        "sha256-flat-1mb": "5cb154c4abae3a3066eadffff9499e7d9b4d541e4ccd467110af24dfe12ea245",
+        "sha256": "ad76891c439a962d50c4a2799d9f7390e899b4e6d2b291bf74ae0d5d4574f06a"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/Physics/position_physics.usda",
+      "size": 3501,
+      "hash": {
+        "sha256-flat-1mb": "2c471dc08b9319f020e84823f9c4a41e00098afce52075e3a1f27677df210310",
+        "sha256": "4a2d03ebfce278c9180a31547fce7dfa66d463721d15f6d6795fe9163a479c20"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/base.usda",
+      "size": 198963,
+      "hash": {
+        "sha256-flat-1mb": "33c0e5d08b283ca3a66cce8605345777281a960d1a6d059a4ba92b8ffa4525f6",
+        "sha256": "2b45b2aa7a5eb3794a68e8b55f602e97fd9daffdaeaa098ac984c13e4937ab0d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/geometries.usd",
+      "size": 16773129,
+      "hash": {
+        "sha256-flat-1mb": "27835ff741923c93778d3c5e52d4e0ce8da16b8e23340662a2761d0dbdf4a03f",
+        "sha256": "f0d2772cde7501ddebea4964395b736f5242d25df10a735165d95f1ac02074b4",
+        "sha256-first1m": "630952a14b6f455567a59444559dad0bc43ae3cd718681d9ddb99a95c847db7c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/instances.usda",
+      "size": 1073112,
+      "hash": {
+        "sha256-flat-1mb": "e675fb4cbc8331bd92c57dd49126964727e3b06c2e6665f530185196c0d38201",
+        "sha256": "0fce7b06476b5fec2336a9d563e2aaf29e13b499bf411103e51af9f20c4e64f4",
+        "sha256-first1m": "f466f35a3f10067bffdcc4e1d22399438b92987fad29c42e356ddd37955fdbe2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/materials.usda",
+      "size": 38170,
+      "hash": {
+        "sha256-flat-1mb": "9fd376a329b3919072b784b0867abeeea62ed8065ff1fcf971c0f15e19374fe4",
+        "sha256": "c760777e3b3ef48e275e7c06dd428e22f70e4ffdaa8a5e150f9bbf4a5ef91195"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robot.usda",
+      "size": 31298,
+      "hash": {
+        "sha256-flat-1mb": "adb9f72d100bbaa57618788eaa91ea493808ae83c7f1c7c6140fd8267082f05f",
+        "sha256": "ff5edc72532364a6de85dd1092b0afd10ec72356f61f1ecec72c281de25b563b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/LICENSE_BSD-3-Clause_and_attributions.txt",
+      "size": 2899,
+      "hash": {
+        "sha256-flat-1mb": "ef6a91d7c4bc9817ad0796090f5e62a550aaa2c58d20cbf0eceb280d552e8789",
+        "sha256": "f162a2346c734d4baaae9d7fa554317654b2af42c87b757af3c01e007e85758e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/PACKAGE-LICENSES/LICENSE_CC-BY-4.0.txt",
+      "size": 18657,
+      "hash": {
+        "sha256-flat-1mb": "4f29c803e61c2c9d438a51bb27045cd040dc9e018bf24ea9f210b2f40c3a7305",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/Robotiq_2F_85.usda",
+      "size": 8658,
+      "hash": {
+        "sha256-flat-1mb": "d603d954cb8b35d4664ba905e7da3e9e865e5dc843b411ba4c986ef91c6d1e3e",
+        "sha256": "5a03f77fbf97928aec3cb47f77ef238f293acf4c78046c4d27c9061ac246be2b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/configuration/Robotiq_2F_85_config_physics_compliant.usda",
+      "size": 5560,
+      "hash": {
+        "sha256-flat-1mb": "6ea79e7afa97568bf3d299217ea02cd535d84bc0994677a9c2e7f7afd8a1e18b",
+        "sha256": "c7ea028ed9f7bd876f7f96f51ece9840dd0de1683a35271180c9520091d09c0e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/configuration/Robotiq_2F_85_config_physics_parallel_grip.usda",
+      "size": 5551,
+      "hash": {
+        "sha256-flat-1mb": "e7c0b73da3bf0d74e1304bde6828d0dc0b2cc90283b035a68a2cea937a6a490d",
+        "sha256": "43639a78fdfa8105184bf35526bc692c2b62828edcf79b62298c96d98048e77f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/configuration/Robotiq_2F_85_robot.usda",
+      "size": 10506,
+      "hash": {
+        "sha256-flat-1mb": "fa58822f9e6692c21ac0b8036b0bae8e8545396f5f8ad57f1288cdae457da985",
+        "sha256": "a5ad96590c031e718d48b121d6fb1143c00ec0de5e44a0420982e49994f7deb4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/materials/LICENSE_CC-BY-4.0.txt",
+      "size": 18657,
+      "hash": {
+        "sha256-flat-1mb": "4f29c803e61c2c9d438a51bb27045cd040dc9e018bf24ea9f210b2f40c3a7305",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/materials/materials.usd",
+      "size": 8377,
+      "hash": {
+        "sha256-flat-1mb": "6f133e334813ce030c06c3c534f5007f7b7fe52a947573c83dfc30e7f7706294",
+        "sha256": "48eca813596e78486469edc70f825c9bb9913836f63e4007559920820e8e9d9d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/parts/Defeatured_2F_85_PAD_OPEN_Finger1step_JFT.usd",
+      "size": 78162,
+      "hash": {
+        "sha256-flat-1mb": "92c6b329537bff6c140281e8477c5d7ce6eccdeeaff0eb3a796aff69603507c7",
+        "sha256": "1d8f971e8d9e6b140ae406adbe4ebf17831c8c298ce3ce07577b7fac3590bb8c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/parts/Defeatured_2F_85_PAD_OPEN_basestep_JFX.usd",
+      "size": 3374025,
+      "hash": {
+        "sha256-flat-1mb": "552a76b7fcd0921dcc55737c584ee9b36e7e478d254f7994ec86a11f33a45b7d",
+        "sha256": "a9082107ce6d92b69945ca81f22b271c24c5fba338655e6b838c517d81039826",
+        "sha256-first1m": "a704e7490e10112eef7eb89e547112eee84bf5a4cf432969e4b65bcc603f1865"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/parts/Defeatured_2F_85_PAD_OPEN_finger2step_JFP.usd",
+      "size": 230362,
+      "hash": {
+        "sha256-flat-1mb": "9c7c41528e31f303726036e3bbdc599e67994130b6affecabaa4bc66c176ebbc",
+        "sha256": "82d1355f767006bdcb1376e8fd495c222120b18776d6d9cccdb199c0ef3d240d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/parts/Defeatured_2F_85_PAD_OPEN_finger3step_JFL.usd",
+      "size": 143859,
+      "hash": {
+        "sha256-flat-1mb": "47ddad301310c8d805be28a5ff01cd41aa1660e9748bc17250c589af9a36e544",
+        "sha256": "2daaae8c788e7e74fa54a5850854b4dcd2ee6d739a2873db63c1fc5db157e87c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/parts/Defeatured_2F_85_PAD_OPEN_finger4step_JFH.usd",
+      "size": 135927,
+      "hash": {
+        "sha256-flat-1mb": "9f12eeb46587ffdffba3d86e09a74209b13546a9f0b01a57e6ff00c17f62a3d4",
+        "sha256": "8d7e3fce9d1c70ab65a676f3efdfa5fd1d161a66793a36bed408509e33b64fe5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/parts/Defeatured_2F_85_PAD_OPEN_fingertipsstep_JFD.usd",
+      "size": 43308,
+      "hash": {
+        "sha256-flat-1mb": "a2476d1b74580f1290e5be7b65c4bd8d12c85391fb2103714a3d7e809bb45d63",
+        "sha256": "700409224e3d2c4e0a0e2ba4b4da4f644babd74207d660c034ce53b255b3e876"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/parts/TSF_85_case.usd",
+      "size": 732988,
+      "hash": {
+        "sha256-flat-1mb": "be7c9bce1283d743b298aeb19482389e5a76cdeb987da9763c5a547dda2c7e16",
+        "sha256": "3465da112b4cd8098b0d2dc29d861db8a4efe0530cc4ad3933e52b3ca60c12fd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_body_mass_physics.usda",
+      "size": 1301,
+      "hash": {
+        "sha256-flat-1mb": "a4c266767802c80cdc9e5f05446161810bb27eb138c0d2afcc3c4c9937f33112",
+        "sha256": "4d484ff3619a8b9952b65c6c643ec054a3981816733d210cd21bad2531965937"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_compliant_physics.usda",
+      "size": 5909,
+      "hash": {
+        "sha256-flat-1mb": "d8a0a8880e424e8e49466531d09872ca90673f8eae942de044c97e0e4779ef47",
+        "sha256": "59932ddd78a30b8fa37e01ceb414a40157bc6eddbfa5ba27517133eb6ddbcacc"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_fingertip_physics.usda",
+      "size": 2411,
+      "hash": {
+        "sha256-flat-1mb": "e08475f997d58657ee559ddfdb2ccec0649cec73217e492a967dda9029c1ae92",
+        "sha256": "5d4a1fe0da58c7a608404b7f4bdc9843c9e857cbab68fa2ac4e81a49156606e4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_fingertip_tsf85.usda",
+      "size": 642,
+      "hash": {
+        "sha256-flat-1mb": "e24bbc1b554b88efce67811212d627daf04605c4d58c02ba815689f460ae508f",
+        "sha256": "79249a4cc45de7788cf4387b6967b3d0578f3c45b7886b46eea35de79290f47d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_kinematics_physics.usda",
+      "size": 10882,
+      "hash": {
+        "sha256-flat-1mb": "fa529397cfea394bb0ccde30e3a554f77782333086ec8332ea42117687b3fe34",
+        "sha256": "c53b8b2304996f4caed83061ae581568b8554e7f8681263019c1dc1383fb685f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_newton_common_physics.usda",
+      "size": 8236,
+      "hash": {
+        "sha256-flat-1mb": "3cd2c2a938d692eebedb90f99e4e34cf5fdaf01416d63d2e4717e1276d4cc1c7",
+        "sha256": "6a171d083d6c4ef344f8a063e5b62041e4f596ac170ebf29cce1bd20698da259"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_newton_compliant_physics.usda",
+      "size": 2594,
+      "hash": {
+        "sha256-flat-1mb": "e656c87fa70ffd06b4658ca85ffb353afe834a8a3ff8aa41c0d26b0141a9970b",
+        "sha256": "bcb2f69002fde97b1f68eac6260b60f20da6b682dc2b00be408c29254fec0c6c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_newton_fourbar_physics.usda",
+      "size": 11436,
+      "hash": {
+        "sha256-flat-1mb": "8bdf0c5bc81528f321037038ffbeb9b23c7f27329e96856fc312e1877ac7f072",
+        "sha256": "f936768bc42370ec6ba279e7295fc5e0bedf76d85916ba53e455ca195034ea68"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_newton_parallel_grip_physics.usda",
+      "size": 3293,
+      "hash": {
+        "sha256-flat-1mb": "bb0a8d93f86ad74706db502b02c69d7f6f8ac2f23a5a719bb17a73dc9fbcb2aa",
+        "sha256": "bf31079e8eba05625d053dbf184e5e8bfc135b2a902de4c1d6fcf1c562885ed0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_parallel_grip_physics.usda",
+      "size": 9993,
+      "hash": {
+        "sha256-flat-1mb": "c4761600724036bc790128a9afdf476a3363e05a8cf8f8efce2aa0ba1f73d2eb",
+        "sha256": "cd63e55b61b3f4b7384cb23edbfff7c1f7ad847a48d188d172cb210a350e68ad"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/Robotiq_2F_85_physx_common_physics.usda",
+      "size": 4270,
+      "hash": {
+        "sha256-flat-1mb": "f63237a943133598335b6304e72bc1f88037c264bf58794ad7c9adb5b9a5769c",
+        "sha256": "c51079d39e318d9f2af42eaee29fee64623bbe06691494b4df6fe67f437f0cc6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/base.usda",
+      "size": 24756,
+      "hash": {
+        "sha256-flat-1mb": "a6db505c6a18ab28f098a7ea2fea3cf7166ba964da89375dabbf247052020b14",
+        "sha256": "fba582d5548129bae38b7811a32fe01072398e735dab0ce847cfbf304da47163"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/geometries.usd",
+      "size": 614,
+      "hash": {
+        "sha256-flat-1mb": "eac0a104ace6daf85dab4ab9d5e02853a00a4d2aa8f7b190dfff7ace006aa2eb",
+        "sha256": "43f1718720ea76cf8c69d5031de8d215806c79a54618417c431c0f17fe0758f3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/instances.usda",
+      "size": 595,
+      "hash": {
+        "sha256-flat-1mb": "7e914dbd2382aab42f011539a1ca961ab88d57b6bcd790b33d7c26e913c80d0a",
+        "sha256": "f3354daa0ef1d865ac397413b732636e56d9affc5ce48240a174b30bea5309f6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_left/payloads/materials.usda",
+      "size": 509,
+      "hash": {
+        "sha256-flat-1mb": "b526a481a65cac1a35d7b11e118d76953553943ec71644a09721d47d9b62f5fa",
+        "sha256": "a5b6d1edfd4eb76df8a64f4ed694275950c5ec1d5ba56beabefbeb1cec562bb4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/LICENSE_BSD-3-Clause_and_attributions.txt",
+      "size": 2899,
+      "hash": {
+        "sha256-flat-1mb": "ef6a91d7c4bc9817ad0796090f5e62a550aaa2c58d20cbf0eceb280d552e8789",
+        "sha256": "f162a2346c734d4baaae9d7fa554317654b2af42c87b757af3c01e007e85758e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/PACKAGE-LICENSES/LICENSE_CC-BY-4.0.txt",
+      "size": 18657,
+      "hash": {
+        "sha256-flat-1mb": "4f29c803e61c2c9d438a51bb27045cd040dc9e018bf24ea9f210b2f40c3a7305",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/Robotiq_2F_85.usda",
+      "size": 8660,
+      "hash": {
+        "sha256-flat-1mb": "777ece5f11cad6b363f67ac2788499f435cab58e0e2343d2b8302babf89f2cb0",
+        "sha256": "a38377c5a205ae823fcc221c7a9bb248b7459575881cae8456886d3511ed7797"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/configuration/Robotiq_2F_85_config_physics_compliant.usda",
+      "size": 5560,
+      "hash": {
+        "sha256-flat-1mb": "6ea79e7afa97568bf3d299217ea02cd535d84bc0994677a9c2e7f7afd8a1e18b",
+        "sha256": "c7ea028ed9f7bd876f7f96f51ece9840dd0de1683a35271180c9520091d09c0e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/configuration/Robotiq_2F_85_config_physics_parallel_grip.usda",
+      "size": 5551,
+      "hash": {
+        "sha256-flat-1mb": "e7c0b73da3bf0d74e1304bde6828d0dc0b2cc90283b035a68a2cea937a6a490d",
+        "sha256": "43639a78fdfa8105184bf35526bc692c2b62828edcf79b62298c96d98048e77f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/configuration/Robotiq_2F_85_robot.usda",
+      "size": 10578,
+      "hash": {
+        "sha256-flat-1mb": "4cc09bc3d35c15d759ef13bff3a7c65b780ca1ea1adf6182eb5cf07eb8016579",
+        "sha256": "f3d8f34a1336eb81a7eeb98f3e4246eea8e7c300e6ff4033741e09148daf78d7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/materials/LICENSE_CC-BY-4.0.txt",
+      "size": 18657,
+      "hash": {
+        "sha256-flat-1mb": "4f29c803e61c2c9d438a51bb27045cd040dc9e018bf24ea9f210b2f40c3a7305",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/materials/materials.usd",
+      "size": 8377,
+      "hash": {
+        "sha256-flat-1mb": "6f133e334813ce030c06c3c534f5007f7b7fe52a947573c83dfc30e7f7706294",
+        "sha256": "48eca813596e78486469edc70f825c9bb9913836f63e4007559920820e8e9d9d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/parts/Defeatured_2F_85_PAD_OPEN_Finger1step_JFT.usd",
+      "size": 78162,
+      "hash": {
+        "sha256-flat-1mb": "92c6b329537bff6c140281e8477c5d7ce6eccdeeaff0eb3a796aff69603507c7",
+        "sha256": "1d8f971e8d9e6b140ae406adbe4ebf17831c8c298ce3ce07577b7fac3590bb8c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/parts/Defeatured_2F_85_PAD_OPEN_basestep_JFX.usd",
+      "size": 3374025,
+      "hash": {
+        "sha256-flat-1mb": "552a76b7fcd0921dcc55737c584ee9b36e7e478d254f7994ec86a11f33a45b7d",
+        "sha256": "a9082107ce6d92b69945ca81f22b271c24c5fba338655e6b838c517d81039826",
+        "sha256-first1m": "a704e7490e10112eef7eb89e547112eee84bf5a4cf432969e4b65bcc603f1865"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/parts/Defeatured_2F_85_PAD_OPEN_finger2step_JFP.usd",
+      "size": 230362,
+      "hash": {
+        "sha256-flat-1mb": "9c7c41528e31f303726036e3bbdc599e67994130b6affecabaa4bc66c176ebbc",
+        "sha256": "82d1355f767006bdcb1376e8fd495c222120b18776d6d9cccdb199c0ef3d240d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/parts/Defeatured_2F_85_PAD_OPEN_finger3step_JFL.usd",
+      "size": 143859,
+      "hash": {
+        "sha256-flat-1mb": "47ddad301310c8d805be28a5ff01cd41aa1660e9748bc17250c589af9a36e544",
+        "sha256": "2daaae8c788e7e74fa54a5850854b4dcd2ee6d739a2873db63c1fc5db157e87c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/parts/Defeatured_2F_85_PAD_OPEN_finger4step_JFH.usd",
+      "size": 135927,
+      "hash": {
+        "sha256-flat-1mb": "9f12eeb46587ffdffba3d86e09a74209b13546a9f0b01a57e6ff00c17f62a3d4",
+        "sha256": "8d7e3fce9d1c70ab65a676f3efdfa5fd1d161a66793a36bed408509e33b64fe5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/parts/Defeatured_2F_85_PAD_OPEN_fingertipsstep_JFD.usd",
+      "size": 43308,
+      "hash": {
+        "sha256-flat-1mb": "a2476d1b74580f1290e5be7b65c4bd8d12c85391fb2103714a3d7e809bb45d63",
+        "sha256": "700409224e3d2c4e0a0e2ba4b4da4f644babd74207d660c034ce53b255b3e876"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/parts/TSF_85_case.usd",
+      "size": 732988,
+      "hash": {
+        "sha256-flat-1mb": "be7c9bce1283d743b298aeb19482389e5a76cdeb987da9763c5a547dda2c7e16",
+        "sha256": "3465da112b4cd8098b0d2dc29d861db8a4efe0530cc4ad3933e52b3ca60c12fd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_body_mass_physics.usda",
+      "size": 1304,
+      "hash": {
+        "sha256-flat-1mb": "f9db8ebd0bbcc6aed3a2c1d3408e09d03f6601d773a9ae455ec0294e32c7b5bb",
+        "sha256": "1d125beffa8a293438300523b9ba03495fa9425c7ae383858f5b9a1eeec2eaa0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_compliant_physics.usda",
+      "size": 5929,
+      "hash": {
+        "sha256-flat-1mb": "fa4d0851c58f3d30ac9f9097f9783010998df71be9e60cd582c62ff7864bdded",
+        "sha256": "f4fd8d304129ce2bc6eac0b2012cb4a40affbf64d7e5ac2d9250a6e0f5cfb0e8"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_fingertip_physics.usda",
+      "size": 2419,
+      "hash": {
+        "sha256-flat-1mb": "b2bef640f95de574ff8b3542422eaf18ec39aae09c8f071aa1d8a8b0a2ad34d1",
+        "sha256": "473703114eb3303271569113feae3f64794819dcb39133780551e6fc971c26ea"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_fingertip_tsf85.usda",
+      "size": 642,
+      "hash": {
+        "sha256-flat-1mb": "e24bbc1b554b88efce67811212d627daf04605c4d58c02ba815689f460ae508f",
+        "sha256": "79249a4cc45de7788cf4387b6967b3d0578f3c45b7886b46eea35de79290f47d"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_kinematics_physics.usda",
+      "size": 10914,
+      "hash": {
+        "sha256-flat-1mb": "3599e9da9ccb5d4ce3489348de6bdf994be7f7399e6e58c8fb95925826db83b9",
+        "sha256": "82e54fa4d81c680b93f63981cbfdaaaa8ea8b1f5fdc9c23a67be4654981ea9d5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_newton_common_physics.usda",
+      "size": 8247,
+      "hash": {
+        "sha256-flat-1mb": "dbc1e28231118dd899b4d87087297b943ddbca17540b98301ded1ac49b998bc0",
+        "sha256": "1ea78c23582ef1ab67dd238e285122540f212ce0b3c260933e95fa7e6d7bd712"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_newton_compliant_physics.usda",
+      "size": 2596,
+      "hash": {
+        "sha256-flat-1mb": "483eb0529fb84038af6a0901802c7e9b5492be9f9df75f04281849e1b128999d",
+        "sha256": "f4b49eaec5020bdcd792c71f65013104ccbf898dc853136aa3e813051ce8fe23"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_newton_fourbar_physics.usda",
+      "size": 11459,
+      "hash": {
+        "sha256-flat-1mb": "fc98853164b84aad30334a3ca0f8589f99353f13cef953d03fcbf7caf79f713c",
+        "sha256": "3c05d1a6bc0d1f7ff798e4d4fc694b2fa2fe35fc1cb48b62b719b40126fe089b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_newton_parallel_grip_physics.usda",
+      "size": 3303,
+      "hash": {
+        "sha256-flat-1mb": "eedc4a9ea1e13d5be98eb2848b586f83a0aee178eefd09f115a4d70a37d22e7b",
+        "sha256": "28ee180e7d919e1dbd1a15ce09bf7cd14a4c11bad263cccaf7a3899b33006dcb"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_parallel_grip_physics.usda",
+      "size": 10020,
+      "hash": {
+        "sha256-flat-1mb": "b1abcbb75b75b4862e1c1c44d1618a3655f8212f9319905a7955e08b86263b6f",
+        "sha256": "60a2e1d76e04e94118cce77ebad906588fe41ae64a99d087bd066c26b1a62412"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/Robotiq_2F_85_physx_common_physics.usda",
+      "size": 4271,
+      "hash": {
+        "sha256-flat-1mb": "0269881f9bede4375c1befab2b81d0213f6991e0812f51b97f96b2ee30ee465b",
+        "sha256": "9f4814030449e0c70e2cce6868b5d989a88a065744f197831cb622a8796e2a57"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/base.usda",
+      "size": 24767,
+      "hash": {
+        "sha256-flat-1mb": "b8dac187f651872328df496765e7e9f0a665be2c96d14ff92cc0b0168331c463",
+        "sha256": "f11d57e078075e6e77a63b26a9b057ecaae0c865d980123b19f1da1063f000c0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/geometries.usd",
+      "size": 614,
+      "hash": {
+        "sha256-flat-1mb": "eac0a104ace6daf85dab4ab9d5e02853a00a4d2aa8f7b190dfff7ace006aa2eb",
+        "sha256": "43f1718720ea76cf8c69d5031de8d215806c79a54618417c431c0f17fe0758f3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/instances.usda",
+      "size": 595,
+      "hash": {
+        "sha256-flat-1mb": "7e914dbd2382aab42f011539a1ca961ab88d57b6bcd790b33d7c26e913c80d0a",
+        "sha256": "f3354daa0ef1d865ac397413b732636e56d9affc5ce48240a174b30bea5309f6"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/robotiq_2f85_right/payloads/materials.usda",
+      "size": 509,
+      "hash": {
+        "sha256-flat-1mb": "b526a481a65cac1a35d7b11e118d76953553943ec71644a09721d47d9b62f5fa",
+        "sha256": "a5b6d1edfd4eb76df8a64f4ed694275950c5ec1d5ba56beabefbeb1cec562bb4"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/sensors.usda",
+      "size": 28930,
+      "hash": {
+        "sha256-flat-1mb": "798d7d0218cbb05974aa9f08a8008617eb6fb1aee73d6522b661a9670ebbaad1",
+        "sha256": "c15384854f7c8f79318c5a8bc4198f30cc739f93fde5011477e199aa294bcd59"
+      }
+    },
+    {
+      "relative_path": "simready_usd/runnables/physics/mujoco.usda",
+      "size": 158554,
+      "hash": {
+        "sha256-flat-1mb": "4cc993fbedebbfd87b1a1f1f48399157ba5fb1eda179ae62653aef684a978560",
+        "sha256": "171f4ce72f5b08c7550cc7fc744c98f8e165baa16380a3d669db9f767ad7590e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/runnables/physics/newton.usda",
+      "size": 116046,
+      "hash": {
+        "sha256-flat-1mb": "2dad560102a368a29ced8c80b803b8e5fd2e7e5ff2b89fd88cc1393c25fda45d",
+        "sha256": "305ebee46f244a2d6a75eaa2204b235f75b49c2f8551ee83d66ca28f384d17cd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/runnables/physics/physx.usda",
+      "size": 90138,
+      "hash": {
+        "sha256-flat-1mb": "95f835032dead9e3386a5b8454a12b4f67a418463882689647e0458bf8ab1a1c",
+        "sha256": "2107b0336992bf754ff37577b27556f83366993cb750e416cc1c8c7d5c69e879"
+      }
+    }
+  ]
+}

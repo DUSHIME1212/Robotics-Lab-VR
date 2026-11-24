@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.deeproboticslab.simready-assets.S10.2026.10.22_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "64832859ae266cff9fd4623d39148248a2058d53bd080569fdc8d062b4e2d802"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "6aa03900c3b4e9f1cf361f5bc6cb1d3dd9ae12df9fee880298138456e5fd7b77"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "e7f76c26d4dafe78e5f4d7627f2172fc13539c263020dc93e7f63e640c772715"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "88a6611607240998d8a888b6967f205138fe38f8285f73286ab3920314f56f1f"
+  },
+  "package_hash": {
+    "sha256": "858d433afb30f930b44e1b0a31e9028f02daa316f5b5efe0949e1434e1e7f92e"
+  }
+}

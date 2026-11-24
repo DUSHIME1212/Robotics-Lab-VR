@@ -1,0 +1,26 @@
+Agibot_G2_Omnipicker	Agibot G2 · wheeled dual-arm mobile manipulator
+Agibot_G2_Swiftpicker	Agibot G2 · fast-picking mobile manipulator
+Agibot_A3_Ultra	Agibot Raise A3 Ultra · humanoid
+Comau_S18_17	Comau S18-17 · industrial arm
+DR02_Pro	Deep Robotics DR02-Pro · humanoid
+DR02_Std	Deep Robotics DR02 · humanoid
+DeepRobotics_M20	Deep Robotics M20 · wheeled quadruped
+DeepRobotics_M20S	Deep Robotics M20S · wheeled quadruped
+DeepRobotics_M20_Piper	M20 + Piper arm · mobile manipulation
+DeepRobotics_S10	Deep Robotics S10 · wheeled quadruped
+DeepRobotics_X30	Deep Robotics X30 · industrial quadruped
+FANUC_CRX3iA	FANUC CRX-3iA · cobot, 3 kg payload
+FANUC_CRX5iA	FANUC CRX-5iA · cobot, 5 kg payload
+FANUC_CRX10iA_L	FANUC CRX-10iA/L · long-reach cobot
+FANUC_CRX10iA_LP	FANUC CRX-10iA/L · paint/food variant
+FANUC_CRX20iA_L	FANUC CRX-20iA/L · cobot, 20 kg payload
+FANUC_CRX30iA	FANUC CRX-30iA · cobot, 30 kg payload
+Franka_FR3_Duo	Franka FR3 Duo · dual-arm
+Franka_FR3_Duo_Vision	FR3 Duo · vision manipulation kit
+Menlo_Asimov1	Menlo Asimov 1 · humanoid
+OnRobot_RG2	OnRobot RG2 · 2-finger gripper
+Robotiq_2F140	Robotiq 2F-140 · wide-stroke gripper
+Robotiq_HandE	Robotiq Hand-E · parallel gripper
+StandardBots_Core	Standard Bots Core · 6-axis arm
+StandardBots_Spark	Standard Bots Spark · 6-axis arm
+StandardBots_Thor	Standard Bots Thor · heavy 6-axis arm

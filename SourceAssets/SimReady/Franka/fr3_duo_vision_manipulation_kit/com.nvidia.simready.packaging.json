@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.frankarobotics.simready-assets.fr3_duo_vision_manipulation_kit.2026.10.24_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "08ef942056e7ee2c89957311472fa7069bcfe2e1d14e2177b23e1f2e4d8bca09"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "52ddaa9f28d53f4065e8217e2273dc76efd03d37f4316ce01f764e53187813ed"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "7354752f619a29d0b09a2f97b0a2bff426abb698c7474ed2bab1b336e7ac81c6"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "e7f6fbc6daa1e5e1b587b54db796553c35bb4edc9af562ef735774c5ac20eecd"
+  },
+  "package_hash": {
+    "sha256": "4e91bc495d10574a841b91121ba699f4d072d11a95b404bc89aec53a53c831cf"
+  }
+}

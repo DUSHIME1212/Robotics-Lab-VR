@@ -1,0 +1,43 @@
+#usda 1.0
+(
+    defaultPrim = "Robotiq_2F_85"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "Robotiq_2F_85"
+{
+    over "Robotiq_2F_85"
+    {
+        over "left_robotiq_base_link" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0.035508)
+            float3 physics:diagonalInertia = (0.001, 0.001, 0.001)
+            float physics:mass = 0.77744
+            quatf physics:principalAxes = (1, 0, 0, 0)
+        }
+
+        over "left_robotiq_left_outer_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, -0.048356, 0.056017)
+            float3 physics:diagonalInertia = (0.00001, 0.000008, 0.000004)
+            float physics:mass = 0.02
+            quatf physics:principalAxes = (1, 0, 0, 0)
+        }
+
+        over "left_robotiq_right_outer_knuckle" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0.048356, 0.056017)
+            float3 physics:diagonalInertia = (0.00001, 0.000008, 0.000004)
+            float physics:mass = 0.02
+            quatf physics:principalAxes = (1, 0, 0, 0)
+        }
+    }
+}
+

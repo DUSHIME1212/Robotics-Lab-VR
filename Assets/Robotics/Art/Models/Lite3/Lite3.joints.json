@@ -1,0 +1,102 @@
+{
+  "robot": "Lite3",
+  "source": "Lite3.usd",
+  "joints": [
+    {
+      "name": "FL_HipX_joint",
+      "type": "revolute",
+      "lower": -29.96569061279297,
+      "upper": 29.96569061279297,
+      "parent": "root",
+      "childLink": "FL_HIP"
+    },
+    {
+      "name": "FL_HipY_joint",
+      "type": "revolute",
+      "lower": -152.97972106933594,
+      "upper": 17.990875244140625,
+      "parent": "FL_HipX_joint",
+      "childLink": "FL_THIGH"
+    },
+    {
+      "name": "FL_Knee_joint",
+      "type": "revolute",
+      "lower": 30.022985458374023,
+      "upper": 159.96981811523438,
+      "parent": "FL_HipY_joint",
+      "childLink": "FL_SHANK"
+    },
+    {
+      "name": "FR_HipX_joint",
+      "type": "revolute",
+      "lower": -29.96569061279297,
+      "upper": 29.96569061279297,
+      "parent": "root",
+      "childLink": "FR_HIP"
+    },
+    {
+      "name": "FR_HipY_joint",
+      "type": "revolute",
+      "lower": -152.97972106933594,
+      "upper": 17.990875244140625,
+      "parent": "FR_HipX_joint",
+      "childLink": "FR_THIGH"
+    },
+    {
+      "name": "FR_Knee_joint",
+      "type": "revolute",
+      "lower": 30.022985458374023,
+      "upper": 159.96981811523438,
+      "parent": "FR_HipY_joint",
+      "childLink": "FR_SHANK"
+    },
+    {
+      "name": "HL_HipX_joint",
+      "type": "revolute",
+      "lower": -29.96569061279297,
+      "upper": 29.96569061279297,
+      "parent": "root",
+      "childLink": "HL_HIP"
+    },
+    {
+      "name": "HL_HipY_joint",
+      "type": "revolute",
+      "lower": -152.97972106933594,
+      "upper": 17.990875244140625,
+      "parent": "HL_HipX_joint",
+      "childLink": "HL_THIGH"
+    },
+    {
+      "name": "HL_Knee_joint",
+      "type": "revolute",
+      "lower": 30.022985458374023,
+      "upper": 159.96981811523438,
+      "parent": "HL_HipY_joint",
+      "childLink": "HL_SHANK"
+    },
+    {
+      "name": "HR_HipX_joint",
+      "type": "revolute",
+      "lower": -29.96569061279297,
+      "upper": 29.96569061279297,
+      "parent": "root",
+      "childLink": "HR_HIP"
+    },
+    {
+      "name": "HR_HipY_joint",
+      "type": "revolute",
+      "lower": -152.97972106933594,
+      "upper": 17.990875244140625,
+      "parent": "HR_HipX_joint",
+      "childLink": "HR_THIGH"
+    },
+    {
+      "name": "HR_Knee_joint",
+      "type": "revolute",
+      "lower": 30.022985458374023,
+      "upper": 159.96981811523438,
+      "parent": "HR_HipY_joint",
+      "childLink": "HR_SHANK"
+    }
+  ]
+}

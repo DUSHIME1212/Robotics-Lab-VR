@@ -1,0 +1,13 @@
+#usda 1.0
+(
+    """Same as core_physics.usd, with core_body_light.usda composed over it.
+Used by core_light_body.usd; see BUILD_NOTES.md section 6."""
+    defaultPrim = "core"
+    metersPerUnit = 1
+    subLayers = [
+        @core_body_light.usda@,
+        @core_physics.usd@
+    ]
+    upAxis = "Z"
+)
+

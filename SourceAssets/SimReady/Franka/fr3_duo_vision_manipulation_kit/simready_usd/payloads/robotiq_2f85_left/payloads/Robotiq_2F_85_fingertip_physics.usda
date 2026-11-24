@@ -1,0 +1,62 @@
+#usda 1.0
+(
+    defaultPrim = "Robotiq_2F_85"
+    metersPerUnit = 1
+    subLayers = [
+        @./base.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "Robotiq_2F_85"
+{
+    over "Robotiq_2F_85"
+    {
+        over "left_robotiq_left_fingertip" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            kind = "group"
+        )
+        {
+            point3f physics:centerOfMass = (0, -0.05063447, 0.12616345)
+            float3 physics:diagonalInertia = (0.0000013906384, 0.0000033053761, 0.0000037298817)
+            float physics:mass = 0.02598171
+            quatf physics:principalAxes = (0.550085, -0.4443045, -0.4443045, 0.550085)
+
+            def PhysicsFixedJoint "left_robotiq_left_fingertip_fixed_joint"
+            {
+                rel physics:body0 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_left_inner_finger>
+                rel physics:body1 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_left_fingertip>
+                float physics:breakForce = 3.4028235e38
+                float physics:breakTorque = 3.4028235e38
+                point3f physics:localPos0 = (0, 0, 0)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (1, 0, 0, 0)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+        }
+
+        over "left_robotiq_right_fingertip" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+            kind = "group"
+        )
+        {
+            point3f physics:centerOfMass = (0, 0.05063447, 0.12616345)
+            float3 physics:diagonalInertia = (0.0000013906384, 0.0000033053761, 0.0000037298817)
+            float physics:mass = 0.02598171
+            quatf physics:principalAxes = (0.550085, 0.4443045, 0.4443045, 0.550085)
+
+            def PhysicsFixedJoint "left_robotiq_right_fingertip_fixed_joint"
+            {
+                rel physics:body0 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_right_inner_finger>
+                rel physics:body1 = </Robotiq_2F_85/Robotiq_2F_85/left_robotiq_right_fingertip>
+                float physics:breakForce = 3.4028235e38
+                float physics:breakTorque = 3.4028235e38
+                point3f physics:localPos0 = (0, 0, 0)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (1, 0, 0, 0)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+        }
+    }
+}
+

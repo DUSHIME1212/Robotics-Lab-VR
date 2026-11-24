@@ -1,0 +1,1393 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.1.2"
+    }
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Scope "Instances"
+{
+    def Xform "FR3_Version2_Link0_8" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_8>
+    )
+    {
+        over "FR3_Version2_Link0_8" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_8/VisualMaterials/LED_Lights_white>
+            color3f[] primvars:displayColor = [(0.743353, 0.83488, 0.857015)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "LED_Lights_white" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/LED_Lights_white>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_7" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_7>
+    )
+    {
+        over "FR3_Version2_Link0_7" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_7/VisualMaterials/Coordinates_Y>
+            color3f[] primvars:displayColor = [(0.897354, 0.977175, 0.852946)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Coordinates_Y" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Coordinates_Y>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_6" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_6>
+    )
+    {
+        over "FR3_Version2_Link0_6" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_6/VisualMaterials/Coordinates_X>
+            color3f[] primvars:displayColor = [(1, 0.885071, 0.885071)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Coordinates_X" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Coordinates_X>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_5" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_5>
+    )
+    {
+        over "FR3_Version2_Link0_5" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_5/VisualMaterials/tn__ReferenceTriangles_xI>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__ReferenceTriangles_xI" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_4" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_4>
+    )
+    {
+        over "FR3_Version2_Link0_4" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_4/VisualMaterials/EU>
+            color3f[] primvars:displayColor = [(0.363795, 0.363795, 0.363795)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "EU" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/EU>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_3" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_3>
+    )
+    {
+        over "FR3_Version2_Link0_3" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_3/VisualMaterials/tn__Alignmentsigns_tE>
+            color3f[] primvars:displayColor = [(0.375274, 0.375274, 0.375274)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Alignmentsigns_tE" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Alignmentsigns_tE>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_2>
+    )
+    {
+        over "FR3_Version2_Link0_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_2/VisualMaterials/Connectors_Metal>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Connectors_Metal" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_1>
+    )
+    {
+        over "FR3_Version2_Link0_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_1/VisualMaterials/Connectors_Black>
+            color3f[] primvars:displayColor = [(0.001432, 0.001432, 0.001432)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Connectors_Black" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Black>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0_0>
+    )
+    {
+        over "FR3_Version2_Link0_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0_0/VisualMaterials/tn__7016_Buttons_Logos_Banderole_>
+            color3f[] primvars:displayColor = [(0.002957, 0.00391, 0.00451)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__7016_Buttons_Logos_Banderole_" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__7016_Buttons_Logos_Banderole_>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__FR3_Version2_Link0001_cW0" (
+        prepend references = @./geometries.usd@</Geometries/tn__FR3_Version2_Link0001_cW0>
+    )
+    {
+        over "tn__FR3_Version2_Link0001_cW0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__FR3_Version2_Link0001_cW0/VisualMaterials/Shells_white>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shells_white" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link0>
+    )
+    {
+        over "FR3_Version2_Link0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link0/VisualMaterials/EUT>
+            color3f[] primvars:displayColor = [(1, 0.006245, 0.003061)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "EUT" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/EUT>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link1_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link1_2>
+    )
+    {
+        over "FR3_Version2_Link1_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link1_2/VisualMaterials/Shell_White>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shell_White" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link1_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link1_1>
+    )
+    {
+        over "FR3_Version2_Link1_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link1_1/VisualMaterials/Rotation_direction>
+            color3f[] primvars:displayColor = [(0.921537, 0.979875, 0.921539)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Rotation_direction" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Rotation_direction>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link1_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link1_0>
+    )
+    {
+        over "FR3_Version2_Link1_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link1_0/VisualMaterials/Reference_Triangles>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Reference_Triangles" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link1>
+    )
+    {
+        over "FR3_Version2_Link1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link1/VisualMaterials/Axis_Number>
+            color3f[] primvars:displayColor = [(0.94065, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Axis_Number" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Axis_Number>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link2_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link2_2>
+    )
+    {
+        over "FR3_Version2_Link2_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link2_2/VisualMaterials/Shell_White_1>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shell_White_1" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link2_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link2_1>
+    )
+    {
+        over "FR3_Version2_Link2_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link2_1/VisualMaterials/tn__Rotationdirection_vH>
+            color3f[] primvars:displayColor = [(0.9263, 0.977175, 0.92797)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__Rotationdirection_vH" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rotationdirection_vH>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link2_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link2_0>
+    )
+    {
+        over "FR3_Version2_Link2_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link2_0/VisualMaterials/tn__ReferenceTriangles_1_zK>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__ReferenceTriangles_1_zK" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link2>
+    )
+    {
+        over "FR3_Version2_Link2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link2/VisualMaterials/tn__AxisNumber_kA>
+            color3f[] primvars:displayColor = [(0.93514, 1, 0.995597)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__AxisNumber_kA" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__AxisNumber_kA>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link3_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link3_2>
+    )
+    {
+        over "FR3_Version2_Link3_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link3_2/VisualMaterials/Shell_white>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shell_white" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link3_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link3_1>
+    )
+    {
+        over "FR3_Version2_Link3_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link3_1/VisualMaterials/tn__RotationDirection_vH>
+            color3f[] primvars:displayColor = [(0.9263, 0.977175, 0.92797)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__RotationDirection_vH" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rotationdirection_vH>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link3_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link3_0>
+    )
+    {
+        over "FR3_Version2_Link3_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link3_0/VisualMaterials/tn__ReferenceTriangles_2_zK>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__ReferenceTriangles_2_zK" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link3" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link3>
+    )
+    {
+        over "FR3_Version2_Link3" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link3/VisualMaterials/tn__AxisNumber_1_mC>
+            color3f[] primvars:displayColor = [(0.93514, 1, 0.995597)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__AxisNumber_1_mC" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__AxisNumber_kA>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link4_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link4_2>
+    )
+    {
+        over "FR3_Version2_Link4_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link4_2/VisualMaterials/Shell_white_1>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shell_white_1" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link4_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link4_1>
+    )
+    {
+        over "FR3_Version2_Link4_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link4_1/VisualMaterials/tn__RotationDirection_1_xJ>
+            color3f[] primvars:displayColor = [(0.9263, 0.977175, 0.92797)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__RotationDirection_1_xJ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rotationdirection_vH>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link4_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link4_0>
+    )
+    {
+        over "FR3_Version2_Link4_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link4_0/VisualMaterials/Reference_Traingle>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Reference_Traingle" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link4" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link4>
+    )
+    {
+        over "FR3_Version2_Link4" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link4/VisualMaterials/Axis_Number_1>
+            color3f[] primvars:displayColor = [(0.93514, 1, 0.995597)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Axis_Number_1" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__AxisNumber_kA>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link5_3" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link5_3>
+    )
+    {
+        over "FR3_Version2_Link5_3" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link5_3/VisualMaterials/tn__7016_Buttons_Logos_Banderole_1_>
+            color3f[] primvars:displayColor = [(0.002957, 0.00391, 0.00451)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__7016_Buttons_Logos_Banderole_1_" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__7016_Buttons_Logos_Banderole_>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link5_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link5_2>
+    )
+    {
+        over "FR3_Version2_Link5_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link5_2/VisualMaterials/Shell_White_2>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shell_White_2" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link5_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link5_1>
+    )
+    {
+        over "FR3_Version2_Link5_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link5_1/VisualMaterials/Rotation_Direction>
+            color3f[] primvars:displayColor = [(0.9263, 0.977175, 0.92797)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Rotation_Direction" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rotationdirection_vH>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link5_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link5_0>
+    )
+    {
+        over "FR3_Version2_Link5_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link5_0/VisualMaterials/tn__ReferenceTriangles_3_zK>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__ReferenceTriangles_3_zK" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link5" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link5>
+    )
+    {
+        over "FR3_Version2_Link5" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link5/VisualMaterials/Axis_Number_2>
+            color3f[] primvars:displayColor = [(0.93514, 1, 0.995597)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Axis_Number_2" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__AxisNumber_kA>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_9" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_9>
+    )
+    {
+        over "FR3_Version2_Link6_9" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_9/VisualMaterials/tn__7016_Buttons_Logos_Banderole_2_>
+            color3f[] primvars:displayColor = [(0.002957, 0.00391, 0.00451)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__7016_Buttons_Logos_Banderole_2_" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__7016_Buttons_Logos_Banderole_>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_8" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_8>
+    )
+    {
+        over "FR3_Version2_Link6_8" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_8/VisualMaterials/Disc_Lights_Blue>
+            color3f[] primvars:displayColor = [(0.001351, 0.139321, 0.522894)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Disc_Lights_Blue" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Disc_Lights_Blue>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_7" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_7>
+    )
+    {
+        over "FR3_Version2_Link6_7" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_7/VisualMaterials/Shell_White_3>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shell_White_3" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_6" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_6>
+    )
+    {
+        over "FR3_Version2_Link6_6" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_6/VisualMaterials/Disc_Lights_White>
+            color3f[] primvars:displayColor = [(0.743353, 0.83488, 0.857015)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Disc_Lights_White" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Disc_Lights_White>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_5" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_5>
+    )
+    {
+        over "FR3_Version2_Link6_5" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_5/VisualMaterials/Disc_Lights_Red>
+            color3f[] primvars:displayColor = [(0.452632, 0.003939, 0.006345)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Disc_Lights_Red" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Disc_Lights_Red>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_4" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_4>
+    )
+    {
+        over "FR3_Version2_Link6_4" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_4/VisualMaterials/tn__7016_Buttons_Logos_Banderole_2_>
+            color3f[] primvars:displayColor = [(0.002957, 0.00391, 0.00451)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__7016_Buttons_Logos_Banderole_2_" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__7016_Buttons_Logos_Banderole_>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_3" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_3>
+    )
+    {
+        over "FR3_Version2_Link6_3" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_3/VisualMaterials/Disc_Lights_Green>
+            color3f[] primvars:displayColor = [(0.01792, 0.268667, 0.003802)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Disc_Lights_Green" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Disc_Lights_Green>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_2>
+    )
+    {
+        over "FR3_Version2_Link6_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_2/VisualMaterials/tn__RotationDirection_2_xJ>
+            color3f[] primvars:displayColor = [(0.9263, 0.977175, 0.92797)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__RotationDirection_2_xJ" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__Rotationdirection_vH>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_1>
+    )
+    {
+        over "FR3_Version2_Link6_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_1/VisualMaterials/Flange_Tie_Metal>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Flange_Tie_Metal" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6_0>
+    )
+    {
+        over "FR3_Version2_Link6_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6_0/VisualMaterials/tn__ReferenceTriangles_4_zK>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__ReferenceTriangles_4_zK" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link6" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link6>
+    )
+    {
+        over "FR3_Version2_Link6" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link6/VisualMaterials/tn__AxisNumber_2_mC>
+            color3f[] primvars:displayColor = [(0.93514, 1, 0.995597)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__AxisNumber_2_mC" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__AxisNumber_kA>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link7_3" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link7_3>
+    )
+    {
+        over "FR3_Version2_Link7_3" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link7_3/VisualMaterials/Flange_Tie_Metal_1>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Flange_Tie_Metal_1" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link7_2" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link7_2>
+    )
+    {
+        over "FR3_Version2_Link7_2" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link7_2/VisualMaterials/Rotation_Direction_1>
+            color3f[] primvars:displayColor = [(0.926301, 0.977175, 0.927971)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Rotation_Direction_1" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Rotation_Direction_1>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link7_1" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link7_1>
+    )
+    {
+        over "FR3_Version2_Link7_1" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link7_1/VisualMaterials/tn__ReferenceTriangles_5_zK>
+            color3f[] primvars:displayColor = [(0.402918, 0.417971, 0.422662)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__ReferenceTriangles_5_zK" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__ReferenceTriangles_xI>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__FR3_Version2_Link7_0001_dZ0" (
+        prepend references = @./geometries.usd@</Geometries/tn__FR3_Version2_Link7_0001_dZ0>
+    )
+    {
+        over "tn__FR3_Version2_Link7_0001_dZ0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__FR3_Version2_Link7_0001_dZ0/VisualMaterials/tn__AxisNumber_3_mC>
+            color3f[] primvars:displayColor = [(0.935141, 1, 0.995597)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__AxisNumber_3_mC" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__AxisNumber_3_mC>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link7_0" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link7_0>
+    )
+    {
+        over "FR3_Version2_Link7_0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link7_0/VisualMaterials/tn__7016_Buttons_Logos_Banderole_3_>
+            color3f[] primvars:displayColor = [(0.002957, 0.00391, 0.00451)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "tn__7016_Buttons_Logos_Banderole_3_" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/tn__7016_Buttons_Logos_Banderole_>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "tn__FR3_Version2_Link7001_cW0" (
+        prepend references = @./geometries.usd@</Geometries/tn__FR3_Version2_Link7001_cW0>
+    )
+    {
+        over "tn__FR3_Version2_Link7001_cW0" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/tn__FR3_Version2_Link7001_cW0/VisualMaterials/Connectors_black>
+            color3f[] primvars:displayColor = [(0.001432, 0.001432, 0.001432)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Connectors_black" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Black>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "FR3_Version2_Link7" (
+        prepend references = @./geometries.usd@</Geometries/FR3_Version2_Link7>
+    )
+    {
+        over "FR3_Version2_Link7" (
+            apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            custom rel material:binding
+            prepend rel material:binding = </Instances/FR3_Version2_Link7/VisualMaterials/Shell_White_4>
+            color3f[] primvars:displayColor = [(1, 1, 1)] (
+                interpolation = "constant"
+            )
+        }
+
+        def Scope "VisualMaterials"
+        {
+            def Material "Shell_White_4" (
+                instanceable = true
+                prepend references = @./materials.usda@</Materials/Connectors_Metal>
+            )
+            {
+            }
+        }
+    }
+
+    def Xform "fr3v2_1_link7_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link7_collision>
+    )
+    {
+        over "fr3v2_1_link7_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "fr3v2_1_link6_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link6_collision>
+    )
+    {
+        over "fr3v2_1_link6_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "fr3v2_1_link5_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link5_collision>
+    )
+    {
+        over "fr3v2_1_link5_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "fr3v2_1_link4_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link4_collision>
+    )
+    {
+        over "fr3v2_1_link4_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "fr3v2_1_link3_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link3_collision>
+    )
+    {
+        over "fr3v2_1_link3_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "fr3v2_1_link2_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link2_collision>
+    )
+    {
+        over "fr3v2_1_link2_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "fr3v2_1_link1_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link1_collision>
+    )
+    {
+        over "fr3v2_1_link1_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+
+    def Xform "fr3v2_1_link0_collision" (
+        prepend references = @./geometries.usd@</Geometries/fr3v2_1_link0_collision>
+    )
+    {
+        over "fr3v2_1_link0_collision"
+        {
+            token purpose = "guide"
+        }
+    }
+}
+

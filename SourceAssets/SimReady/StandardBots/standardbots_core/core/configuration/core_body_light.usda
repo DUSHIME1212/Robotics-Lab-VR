@@ -1,0 +1,148 @@
+#usda 1.0
+(
+    """Repaints the arm's dominant body material from the GLB's dark anodised metal to the
+light grey the URDF specifies, as a neutral dielectric. Composed by
+core_physics_light.usda, which core_light_body.usd payloads."""
+    defaultPrim = "core"
+)
+
+over "core"
+{
+}
+
+over "visuals"
+{
+    over "base_link"
+    {
+        over "base_link_textured"
+        {
+            over "Looks"
+            {
+                over "material2"
+                {
+                    over "material2"
+                    {
+                        color3f inputs:base_color_factor = (0.86667, 0.86667, 0.8902)
+                        float inputs:metallic_factor = 0
+                        float inputs:roughness_factor = 0.32
+                    }
+                }
+            }
+        }
+    }
+
+    over "shoulder_link"
+    {
+        over "shoulder_link_textured"
+        {
+            over "Looks"
+            {
+                over "material3"
+                {
+                    over "material3"
+                    {
+                        color3f inputs:base_color_factor = (0.86667, 0.86667, 0.8902)
+                        float inputs:metallic_factor = 0
+                        float inputs:roughness_factor = 0.32
+                    }
+                }
+            }
+        }
+    }
+
+    over "upper_arm_link"
+    {
+        over "upper_arm_link_textured"
+        {
+            over "Looks"
+            {
+                over "material0"
+                {
+                    over "material0"
+                    {
+                        color3f inputs:base_color_factor = (0.86667, 0.86667, 0.8902)
+                        float inputs:metallic_factor = 0
+                        float inputs:roughness_factor = 0.32
+                    }
+                }
+            }
+        }
+    }
+
+    over "forearm_link"
+    {
+        over "forearm_link_textured"
+        {
+            over "Looks"
+            {
+                over "material0"
+                {
+                    over "material0"
+                    {
+                        color3f inputs:base_color_factor = (0.86667, 0.86667, 0.8902)
+                        float inputs:metallic_factor = 0
+                        float inputs:roughness_factor = 0.32
+                    }
+                }
+            }
+        }
+    }
+
+    over "wrist_1_link"
+    {
+        over "wrist_1_link_textured"
+        {
+            over "Looks"
+            {
+                over "material1"
+                {
+                    over "material1"
+                    {
+                        color3f inputs:base_color_factor = (0.86667, 0.86667, 0.8902)
+                        float inputs:metallic_factor = 0
+                        float inputs:roughness_factor = 0.32
+                    }
+                }
+            }
+        }
+    }
+
+    over "wrist_2_link"
+    {
+        over "wrist_2_link_textured"
+        {
+            over "Looks"
+            {
+                over "material0"
+                {
+                    over "material0"
+                    {
+                        color3f inputs:base_color_factor = (0.86667, 0.86667, 0.8902)
+                        float inputs:metallic_factor = 0
+                        float inputs:roughness_factor = 0.32
+                    }
+                }
+            }
+        }
+    }
+
+    over "wrist_3_link"
+    {
+        over "wrist_3_link_textured"
+        {
+            over "Looks"
+            {
+                over "Arm_Anodise_Gunmetal_Grey_003"
+                {
+                    over "Arm_Anodise_Gunmetal_Grey_003"
+                    {
+                        color3f inputs:base_color_factor = (0.86667, 0.86667, 0.8902)
+                        float inputs:metallic_factor = 0
+                        float inputs:roughness_factor = 0.32
+                    }
+                }
+            }
+        }
+    }
+}
+

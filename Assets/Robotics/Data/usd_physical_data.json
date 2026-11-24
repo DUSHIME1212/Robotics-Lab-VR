@@ -1,0 +1,3601 @@
+{
+ "UR17": {
+  "usdMassKg": 40.36,
+  "massBodies": 8,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "shoulder_pan_joint",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "shoulder_lift_joint",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "elbow_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "wrist_1_joint",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "wrist_2_joint",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "wrist_3_joint",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "CRX10iA": {
+  "usdMassKg": 38.03,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "J1",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J2",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J3",
+    "type": "revolute",
+    "lower": -71.0,
+    "upper": 250.99998474121094,
+    "maxVelocity": null
+   },
+   {
+    "name": "J4",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J5",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J6",
+    "type": "revolute",
+    "lower": -224.99998474121094,
+    "upper": 224.99998474121094,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "FR3": {
+  "usdMassKg": 15.93,
+  "massBodies": 8,
+  "jointCount": 7,
+  "revolute": 7,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "fr3v2_1_joint1",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr3v2_1_joint2",
+    "type": "revolute",
+    "lower": -105.20021057128906,
+    "upper": 105.20021057128906,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr3v2_1_joint3",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr3v2_1_joint4",
+    "type": "revolute",
+    "lower": -176.30026245117188,
+    "upper": -6.700001239776611,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr3v2_1_joint5",
+    "type": "revolute",
+    "lower": -164.800048828125,
+    "upper": 164.800048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr3v2_1_joint6",
+    "type": "revolute",
+    "lower": 25.199981689453125,
+    "upper": 264.8000793457031,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr3v2_1_joint7",
+    "type": "revolute",
+    "lower": -174.7998809814453,
+    "upper": 174.7998809814453,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "ComauN220": {
+  "usdMassKg": 1181.71,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "joint_1",
+    "type": "revolute",
+    "lower": -179.9946746826172,
+    "upper": 179.9946746826172,
+    "maxVelocity": 120.0002670288086
+   },
+   {
+    "name": "joint_2",
+    "type": "revolute",
+    "lower": -76.99979400634766,
+    "upper": 75.99712371826172,
+    "maxVelocity": 99.90664672851562
+   },
+   {
+    "name": "joint_3",
+    "type": "revolute",
+    "lower": -167.0,
+    "upper": 73.99748992919922,
+    "maxVelocity": 109.9964370727539
+   },
+   {
+    "name": "joint_4",
+    "type": "revolute",
+    "lower": -199.99664306640625,
+    "upper": 199.99664306640625,
+    "maxVelocity": 139.9907684326172
+   },
+   {
+    "name": "joint_5",
+    "type": "revolute",
+    "lower": -124.99646759033203,
+    "upper": 124.99646759033203,
+    "maxVelocity": 140.00794982910156
+   },
+   {
+    "name": "joint_6",
+    "type": "revolute",
+    "lower": -199.99664306640625,
+    "upper": 199.99664306640625,
+    "maxVelocity": 209.989013671875
+   }
+  ]
+ },
+ "Robotiq2F85": {
+  "usdMassKg": 1.03,
+  "massBodies": 11,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "finger_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 47.0,
+    "maxVelocity": 86.0
+   },
+   {
+    "name": "right_outer_knuckle_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 47.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_inner_finger_joint",
+    "type": "revolute",
+    "lower": -79.5,
+    "upper": 74.19999694824219,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_inner_finger_joint",
+    "type": "revolute",
+    "lower": -74.19999694824219,
+    "upper": 79.5,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -53.400001525878906,
+    "upper": 76.9000015258789,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -76.9000015258789,
+    "upper": 53.400001525878906,
+    "maxVelocity": 10000.0
+   }
+  ]
+ },
+ "Lite3": {
+  "usdMassKg": 11.94,
+  "massBodies": 17,
+  "jointCount": 12,
+  "revolute": 12,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "FL_HipX_joint",
+    "type": "revolute",
+    "lower": -29.96569061279297,
+    "upper": 29.96569061279297,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "FL_HipY_joint",
+    "type": "revolute",
+    "lower": -152.97972106933594,
+    "upper": 17.990875244140625,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "FL_Knee_joint",
+    "type": "revolute",
+    "lower": 30.022985458374023,
+    "upper": 159.96981811523438,
+    "maxVelocity": 991.2168579101562
+   },
+   {
+    "name": "FR_HipX_joint",
+    "type": "revolute",
+    "lower": -29.96569061279297,
+    "upper": 29.96569061279297,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "FR_HipY_joint",
+    "type": "revolute",
+    "lower": -152.97972106933594,
+    "upper": 17.990875244140625,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "FR_Knee_joint",
+    "type": "revolute",
+    "lower": 30.022985458374023,
+    "upper": 159.96981811523438,
+    "maxVelocity": 991.2168579101562
+   },
+   {
+    "name": "HL_HipX_joint",
+    "type": "revolute",
+    "lower": -29.96569061279297,
+    "upper": 29.96569061279297,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "HL_HipY_joint",
+    "type": "revolute",
+    "lower": -152.97972106933594,
+    "upper": 17.990875244140625,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "HL_Knee_joint",
+    "type": "revolute",
+    "lower": 30.022985458374023,
+    "upper": 159.96981811523438,
+    "maxVelocity": 991.2168579101562
+   },
+   {
+    "name": "HR_HipX_joint",
+    "type": "revolute",
+    "lower": -29.96569061279297,
+    "upper": 29.96569061279297,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "HR_HipY_joint",
+    "type": "revolute",
+    "lower": -152.97972106933594,
+    "upper": 17.990875244140625,
+    "maxVelocity": 1501.1494140625
+   },
+   {
+    "name": "HR_Knee_joint",
+    "type": "revolute",
+    "lower": 30.022985458374023,
+    "upper": 159.96981811523438,
+    "maxVelocity": 991.2168579101562
+   }
+  ]
+ },
+ "Agibot_G2_Omnipicker": {
+  "usdMassKg": 163.55,
+  "massBodies": 56,
+  "jointCount": 46,
+  "revolute": 46,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "idx01_body_joint1",
+    "type": "revolute",
+    "lower": -62.0054931640625,
+    "upper": 0.005729577969759703,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx02_body_joint2",
+    "type": "revolute",
+    "lower": -0.005729577969759703,
+    "upper": 152.00570678710938,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx03_body_joint3",
+    "type": "revolute",
+    "lower": -109.26305389404297,
+    "upper": 59.53031539916992,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx04_body_joint4",
+    "type": "revolute",
+    "lower": -25.003877639770508,
+    "upper": 25.003877639770508,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx05_body_joint5",
+    "type": "revolute",
+    "lower": -174.50003051757812,
+    "upper": 174.50003051757812,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx11_head_joint1",
+    "type": "revolute",
+    "lower": -44.74800491333008,
+    "upper": 44.74800491333008,
+    "maxVelocity": 143.2394561767578
+   },
+   {
+    "name": "idx12_head_joint2",
+    "type": "revolute",
+    "lower": -8.651662826538086,
+    "upper": 8.651662826538086,
+    "maxVelocity": 143.2394561767578
+   },
+   {
+    "name": "idx13_head_joint3",
+    "type": "revolute",
+    "lower": -1.0370535850524902,
+    "upper": 29.97142219543457,
+    "maxVelocity": 143.2394561767578
+   },
+   {
+    "name": "idx21_arm_l_joint1",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx61_arm_r_joint1",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx22_arm_l_joint2",
+    "type": "revolute",
+    "lower": -118.00065612792969,
+    "upper": 118.00065612792969,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx23_arm_l_joint3",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx24_arm_l_joint4",
+    "type": "revolute",
+    "lower": -143.00453186035156,
+    "upper": 58.000518798828125,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx25_arm_l_joint5",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx26_arm_l_joint6",
+    "type": "revolute",
+    "lower": -58.000518798828125,
+    "upper": 58.000518798828125,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx27_arm_l_joint7",
+    "type": "revolute",
+    "lower": -88.0005874633789,
+    "upper": 88.0005874633789,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx31_gripper_l_inner_joint1",
+    "type": "revolute",
+    "lower": -45.0,
+    "upper": 0.0,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx41_gripper_l_outer_joint1",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 45.0,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx32_gripper_l_inner_joint3",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx33_gripper_l_inner_joint4",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx39_gripper_l_inner_joint0",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx42_gripper_l_outer_joint3",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx43_gripper_l_outer_joint4",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx49_gripper_l_outer_joint0",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx62_arm_r_joint2",
+    "type": "revolute",
+    "lower": -118.00065612792969,
+    "upper": 118.00065612792969,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx63_arm_r_joint3",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx64_arm_r_joint4",
+    "type": "revolute",
+    "lower": -143.00453186035156,
+    "upper": 58.000518798828125,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx65_arm_r_joint5",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx66_arm_r_joint6",
+    "type": "revolute",
+    "lower": -58.000518798828125,
+    "upper": 58.000518798828125,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx67_arm_r_joint7",
+    "type": "revolute",
+    "lower": -88.0005874633789,
+    "upper": 88.0005874633789,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx71_gripper_r_inner_joint1",
+    "type": "revolute",
+    "lower": -45.0,
+    "upper": 0.0,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx81_gripper_r_outer_joint1",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 45.0,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx72_gripper_r_inner_joint3",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx73_gripper_r_inner_joint4",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx79_gripper_r_inner_joint0",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx82_gripper_r_outer_joint3",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx83_gripper_r_outer_joint4",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx89_gripper_r_outer_joint0",
+    "type": "revolute",
+    "lower": -114.59156036376953,
+    "upper": 114.59156036376953,
+    "maxVelocity": 572.9578247070312
+   },
+   {
+    "name": "idx111_chassis_lwheel_front_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx131_chassis_rwheel_front_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx141_chassis_rwheel_rear_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx121_chassis_lwheel_rear_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx112_chassis_lwheel_front_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   },
+   {
+    "name": "idx132_chassis_rwheel_front_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   },
+   {
+    "name": "idx142_chassis_rwheel_rear_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   },
+   {
+    "name": "idx122_chassis_lwheel_rear_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   }
+  ]
+ },
+ "Agibot_G2_Swiftpicker": {
+  "usdMassKg": 164.78,
+  "massBodies": 52,
+  "jointCount": 42,
+  "revolute": 42,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "idx01_body_joint1",
+    "type": "revolute",
+    "lower": -62.0054931640625,
+    "upper": 0.005729577969759703,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx02_body_joint2",
+    "type": "revolute",
+    "lower": -0.005729577969759703,
+    "upper": 152.00570678710938,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx03_body_joint3",
+    "type": "revolute",
+    "lower": -109.26305389404297,
+    "upper": 59.53031539916992,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx04_body_joint4",
+    "type": "revolute",
+    "lower": -25.003877639770508,
+    "upper": 25.003877639770508,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx05_body_joint5",
+    "type": "revolute",
+    "lower": -174.50003051757812,
+    "upper": 174.50003051757812,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "idx11_head_joint1",
+    "type": "revolute",
+    "lower": -44.74800491333008,
+    "upper": 44.74800491333008,
+    "maxVelocity": 143.2394561767578
+   },
+   {
+    "name": "idx12_head_joint2",
+    "type": "revolute",
+    "lower": -8.651662826538086,
+    "upper": 8.651662826538086,
+    "maxVelocity": 143.2394561767578
+   },
+   {
+    "name": "idx13_head_joint3",
+    "type": "revolute",
+    "lower": -1.0370535850524902,
+    "upper": 29.97142219543457,
+    "maxVelocity": 143.2394561767578
+   },
+   {
+    "name": "idx21_arm_l_joint1",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx61_arm_r_joint1",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx22_arm_l_joint2",
+    "type": "revolute",
+    "lower": -118.00065612792969,
+    "upper": 118.00065612792969,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx23_arm_l_joint3",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx24_arm_l_joint4",
+    "type": "revolute",
+    "lower": -143.00453186035156,
+    "upper": 58.000518798828125,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx25_arm_l_joint5",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx26_arm_l_joint6",
+    "type": "revolute",
+    "lower": -58.000518798828125,
+    "upper": 58.000518798828125,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx27_arm_l_joint7",
+    "type": "revolute",
+    "lower": -88.0005874633789,
+    "upper": 88.0005874633789,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx31_gripper_l_inner_joint1",
+    "type": "revolute",
+    "lower": -52.13916015625,
+    "upper": 0.0,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx32_gripper_l_outer_joint1",
+    "type": "revolute",
+    "lower": -52.13916015625,
+    "upper": 0.0,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx34_gripper_l_inner_joint2",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx35_gripper_l_outer_joint2",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx33_gripper_l_left_support_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx36_gripper_l_right_support_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx62_arm_r_joint2",
+    "type": "revolute",
+    "lower": -118.00065612792969,
+    "upper": 118.00065612792969,
+    "maxVelocity": 174.7521209716797
+   },
+   {
+    "name": "idx63_arm_r_joint3",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx64_arm_r_joint4",
+    "type": "revolute",
+    "lower": -143.00453186035156,
+    "upper": 58.000518798828125,
+    "maxVelocity": 215.43212890625
+   },
+   {
+    "name": "idx65_arm_r_joint5",
+    "type": "revolute",
+    "lower": -176.0011749267578,
+    "upper": 176.0011749267578,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx66_arm_r_joint6",
+    "type": "revolute",
+    "lower": -58.000518798828125,
+    "upper": 58.000518798828125,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx67_arm_r_joint7",
+    "type": "revolute",
+    "lower": -88.0005874633789,
+    "upper": 88.0005874633789,
+    "maxVelocity": 191.94085693359375
+   },
+   {
+    "name": "idx71_gripper_r_inner_joint1",
+    "type": "revolute",
+    "lower": -52.13916015625,
+    "upper": 0.0,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx72_gripper_r_outer_joint1",
+    "type": "revolute",
+    "lower": -52.13916015625,
+    "upper": 0.0,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx74_gripper_r_inner_joint2",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx75_gripper_r_outer_joint2",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx73_gripper_r_left_support_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx76_gripper_r_right_support_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 52.13916015625,
+    "maxVelocity": 114.59156036376953
+   },
+   {
+    "name": "idx111_chassis_lwheel_front_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx131_chassis_rwheel_front_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx141_chassis_rwheel_rear_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx121_chassis_lwheel_rear_joint1",
+    "type": "revolute",
+    "lower": -170.16847229003906,
+    "upper": 170.16847229003906,
+    "maxVelocity": 233.76678466796875
+   },
+   {
+    "name": "idx112_chassis_lwheel_front_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   },
+   {
+    "name": "idx132_chassis_rwheel_front_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   },
+   {
+    "name": "idx142_chassis_rwheel_rear_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   },
+   {
+    "name": "idx122_chassis_lwheel_rear_joint2",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 1197.4818115234375
+   }
+  ]
+ },
+ "Agibot_A3_Ultra": {
+  "usdMassKg": 57.96,
+  "massBodies": 80,
+  "jointCount": 63,
+  "revolute": 63,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "left_hip_pitch_joint",
+    "type": "revolute",
+    "lower": -144.0,
+    "upper": 168.0,
+    "maxVelocity": 690.0
+   },
+   {
+    "name": "right_hip_pitch_joint",
+    "type": "revolute",
+    "lower": -144.0,
+    "upper": 168.0,
+    "maxVelocity": 690.0
+   },
+   {
+    "name": "waist_yaw_joint",
+    "type": "revolute",
+    "lower": -149.99998474121094,
+    "upper": 149.99998474121094,
+    "maxVelocity": 690.0
+   },
+   {
+    "name": "left_hip_roll_joint",
+    "type": "revolute",
+    "lower": -30.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 690.0
+   },
+   {
+    "name": "left_hip_yaw_joint",
+    "type": "revolute",
+    "lower": -156.0,
+    "upper": 156.0,
+    "maxVelocity": 690.0
+   },
+   {
+    "name": "left_knee_joint",
+    "type": "revolute",
+    "lower": -6.999999523162842,
+    "upper": 144.99998474121094,
+    "maxVelocity": 840.0
+   },
+   {
+    "name": "left_ankle_pitch_joint",
+    "type": "revolute",
+    "lower": -51.999996185302734,
+    "upper": 30.0,
+    "maxVelocity": 618.79443359375
+   },
+   {
+    "name": "left_ankle_roll_joint",
+    "type": "revolute",
+    "lower": -19.999998092651367,
+    "upper": 19.999998092651367,
+    "maxVelocity": 1109.8193359375
+   },
+   {
+    "name": "right_hip_roll_joint",
+    "type": "revolute",
+    "lower": -84.99999237060547,
+    "upper": 30.0,
+    "maxVelocity": 690.0
+   },
+   {
+    "name": "right_hip_yaw_joint",
+    "type": "revolute",
+    "lower": -156.0,
+    "upper": 156.0,
+    "maxVelocity": 690.0
+   },
+   {
+    "name": "right_knee_joint",
+    "type": "revolute",
+    "lower": -6.999999523162842,
+    "upper": 144.99998474121094,
+    "maxVelocity": 840.0
+   },
+   {
+    "name": "right_ankle_pitch_joint",
+    "type": "revolute",
+    "lower": -51.999996185302734,
+    "upper": 30.0,
+    "maxVelocity": 618.79443359375
+   },
+   {
+    "name": "right_ankle_roll_joint",
+    "type": "revolute",
+    "lower": -19.999998092651367,
+    "upper": 19.999998092651367,
+    "maxVelocity": 1109.8193359375
+   },
+   {
+    "name": "waist_roll_joint",
+    "type": "revolute",
+    "lower": -19.999998092651367,
+    "upper": 19.999998092651367,
+    "maxVelocity": 1300.6142578125
+   },
+   {
+    "name": "waist_pitch_joint",
+    "type": "revolute",
+    "lower": -27.999998092651367,
+    "upper": 24.0,
+    "maxVelocity": 529.86279296875
+   },
+   {
+    "name": "head_yaw_joint",
+    "type": "revolute",
+    "lower": -60.0,
+    "upper": 60.0,
+    "maxVelocity": 732.0
+   },
+   {
+    "name": "left_shoulder_pitch_joint",
+    "type": "revolute",
+    "lower": -164.99998474121094,
+    "upper": 164.99998474121094,
+    "maxVelocity": 780.0
+   },
+   {
+    "name": "right_shoulder_pitch_joint",
+    "type": "revolute",
+    "lower": -164.99998474121094,
+    "upper": 164.99998474121094,
+    "maxVelocity": 780.0
+   },
+   {
+    "name": "head_pitch_joint",
+    "type": "revolute",
+    "lower": -24.999998092651367,
+    "upper": 15.0,
+    "maxVelocity": 732.0
+   },
+   {
+    "name": "left_shoulder_roll_joint",
+    "type": "revolute",
+    "lower": -4.999999523162842,
+    "upper": 149.99998474121094,
+    "maxVelocity": 780.0
+   },
+   {
+    "name": "left_shoulder_yaw_joint",
+    "type": "revolute",
+    "lower": -159.99998474121094,
+    "upper": 159.99998474121094,
+    "maxVelocity": 900.0
+   },
+   {
+    "name": "left_elbow_joint",
+    "type": "revolute",
+    "lower": -54.999996185302734,
+    "upper": 99.99999237060547,
+    "maxVelocity": 900.0
+   },
+   {
+    "name": "left_wrist_roll_joint",
+    "type": "revolute",
+    "lower": -159.99998474121094,
+    "upper": 159.99998474121094,
+    "maxVelocity": 900.0
+   },
+   {
+    "name": "left_wrist_pitch_joint",
+    "type": "revolute",
+    "lower": -92.99999237060547,
+    "upper": 92.99999237060547,
+    "maxVelocity": 732.0
+   },
+   {
+    "name": "left_wrist_yaw_joint",
+    "type": "revolute",
+    "lower": -92.99999237060547,
+    "upper": 92.99999237060547,
+    "maxVelocity": 732.0
+   },
+   {
+    "name": "right_shoulder_roll_joint",
+    "type": "revolute",
+    "lower": -149.99998474121094,
+    "upper": 4.999999523162842,
+    "maxVelocity": 780.0
+   },
+   {
+    "name": "right_shoulder_yaw_joint",
+    "type": "revolute",
+    "lower": -159.99998474121094,
+    "upper": 159.99998474121094,
+    "maxVelocity": 900.0
+   },
+   {
+    "name": "right_elbow_joint",
+    "type": "revolute",
+    "lower": -54.999996185302734,
+    "upper": 99.99999237060547,
+    "maxVelocity": 900.0
+   },
+   {
+    "name": "right_wrist_roll_joint",
+    "type": "revolute",
+    "lower": -159.99998474121094,
+    "upper": 159.99998474121094,
+    "maxVelocity": 900.0
+   },
+   {
+    "name": "right_wrist_pitch_joint",
+    "type": "revolute",
+    "lower": -92.99999237060547,
+    "upper": 92.99999237060547,
+    "maxVelocity": 732.0
+   },
+   {
+    "name": "right_wrist_yaw_joint",
+    "type": "revolute",
+    "lower": -92.99999237060547,
+    "upper": 92.99999237060547,
+    "maxVelocity": 732.0
+   },
+   {
+    "name": "R_index_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_index_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_middle_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_middle_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_index_abad_joint",
+    "type": "revolute",
+    "lower": -9.399999618530273,
+    "upper": 0.0,
+    "maxVelocity": 126.27989959716797
+   },
+   {
+    "name": "R_pinky_abad_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 10.59999942779541,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "R_ring_abad_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 9.699999809265137,
+    "maxVelocity": 85.02693176269531
+   },
+   {
+    "name": "R_thumb_roll_joint",
+    "type": "revolute",
+    "lower": -1.6999999284744263,
+    "upper": 64.24999237060547,
+    "maxVelocity": 500.1348571777344
+   },
+   {
+    "name": "R_pinky_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_pinky_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_ring_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_ring_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_thumb_mcp_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 48.21999740600586,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_thumb_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 65.0,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_thumb_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 65.0,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "R_thumb_abad_joint",
+    "type": "revolute",
+    "lower": -94.0999984741211,
+    "upper": 2.5999999046325684,
+    "maxVelocity": 666.6936645507812
+   },
+   {
+    "name": "L_index_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_index_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_middle_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_middle_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_index_abad_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 9.399999618530273,
+    "maxVelocity": 126.27989959716797
+   },
+   {
+    "name": "L_pinky_abad_joint",
+    "type": "revolute",
+    "lower": -10.59999942779541,
+    "upper": 0.0,
+    "maxVelocity": 69.32789611816406
+   },
+   {
+    "name": "L_ring_abad_joint",
+    "type": "revolute",
+    "lower": -9.699999809265137,
+    "upper": 0.0,
+    "maxVelocity": 85.02693176269531
+   },
+   {
+    "name": "L_thumb_roll_joint",
+    "type": "revolute",
+    "lower": -64.24999237060547,
+    "upper": 1.6999999284744263,
+    "maxVelocity": 500.1348571777344
+   },
+   {
+    "name": "L_pinky_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_pinky_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_ring_pip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 84.99999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_ring_dip_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 100.49999237060547,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_thumb_mcp_joint",
+    "type": "revolute",
+    "lower": -48.21999740600586,
+    "upper": 0.0,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_thumb_pip_joint",
+    "type": "revolute",
+    "lower": -65.0,
+    "upper": 0.0,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_thumb_dip_joint",
+    "type": "revolute",
+    "lower": -65.0,
+    "upper": 0.0,
+    "maxVelocity": 222.2503204345703
+   },
+   {
+    "name": "L_thumb_abad_joint",
+    "type": "revolute",
+    "lower": -2.5999999046325684,
+    "upper": 94.0999984741211,
+    "maxVelocity": 666.6936645507812
+   }
+  ]
+ },
+ "Comau_S18_17": {
+  "usdMassKg": 329.5,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "joint_1",
+    "type": "revolute",
+    "lower": -180.00042724609375,
+    "upper": 180.00042724609375,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint_2",
+    "type": "revolute",
+    "lower": -90.00021362304688,
+    "upper": 159.9984588623047,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint_3",
+    "type": "revolute",
+    "lower": -119.97736358642578,
+    "upper": 169.99658203125,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint_4",
+    "type": "revolute",
+    "lower": -199.99664306640625,
+    "upper": 199.99664306640625,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint_5",
+    "type": "revolute",
+    "lower": -124.99647521972656,
+    "upper": 124.99647521972656,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint_6",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "DR02_Pro": {
+  "usdMassKg": 78.09,
+  "massBodies": 34,
+  "jointCount": 31,
+  "revolute": 31,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "waist_z_joint",
+    "type": "revolute",
+    "lower": -99.99832153320312,
+    "upper": 210.00048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "waist_x_joint",
+    "type": "revolute",
+    "lower": -39.99818420410156,
+    "upper": 39.99818420410156,
+    "maxVelocity": null
+   },
+   {
+    "name": "waist_y_joint",
+    "type": "revolute",
+    "lower": -30.000070571899414,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_shoulder_y_joint",
+    "type": "revolute",
+    "lower": -219.9986114501953,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_shoulder_x_joint",
+    "type": "revolute",
+    "lower": -20.00000762939453,
+    "upper": 200.00009155273438,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_shoulder_z_joint",
+    "type": "revolute",
+    "lower": -170.00230407714844,
+    "upper": 170.00230407714844,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_elbow_joint",
+    "type": "revolute",
+    "lower": -44.00000762939453,
+    "upper": 100.00004577636719,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_wrist_z_joint",
+    "type": "revolute",
+    "lower": -170.00230407714844,
+    "upper": 170.00230407714844,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_wrist_y_joint",
+    "type": "revolute",
+    "lower": -90.00021362304688,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_wrist_x_joint",
+    "type": "revolute",
+    "lower": -90.00021362304688,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_shoulder_y_joint",
+    "type": "revolute",
+    "lower": -219.9986114501953,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_shoulder_x_joint",
+    "type": "revolute",
+    "lower": -200.00009155273438,
+    "upper": 20.00000762939453,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_shoulder_z_joint",
+    "type": "revolute",
+    "lower": -170.00230407714844,
+    "upper": 170.00230407714844,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_elbow_joint",
+    "type": "revolute",
+    "lower": -44.00000762939453,
+    "upper": 100.00004577636719,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_wrist_z_joint",
+    "type": "revolute",
+    "lower": -170.00230407714844,
+    "upper": 170.00230407714844,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_wrist_y_joint",
+    "type": "revolute",
+    "lower": -90.00021362304688,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_wrist_x_joint",
+    "type": "revolute",
+    "lower": -90.00021362304688,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "neck_z_joint",
+    "type": "revolute",
+    "lower": -99.99998474121094,
+    "upper": 209.99996948242188,
+    "maxVelocity": null
+   },
+   {
+    "name": "neck_y_joint",
+    "type": "revolute",
+    "lower": -20.00000762939453,
+    "upper": 20.00000762939453,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_hip_y_joint",
+    "type": "revolute",
+    "lower": -159.9984588623047,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_hip_x_joint",
+    "type": "revolute",
+    "lower": -20.00000762939453,
+    "upper": 150.00035095214844,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_hip_z_joint",
+    "type": "revolute",
+    "lower": -30.000070571899414,
+    "upper": 210.00048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_knee_joint",
+    "type": "revolute",
+    "lower": -9.999832153320312,
+    "upper": 142.99880981445312,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_ankle_y_joint",
+    "type": "revolute",
+    "lower": -60.00014114379883,
+    "upper": 45.00010681152344,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_ankle_x_joint",
+    "type": "revolute",
+    "lower": -35.000274658203125,
+    "upper": 35.000274658203125,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_hip_y_joint",
+    "type": "revolute",
+    "lower": -159.9984588623047,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_hip_x_joint",
+    "type": "revolute",
+    "lower": -150.00035095214844,
+    "upper": 20.00000762939453,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_hip_z_joint",
+    "type": "revolute",
+    "lower": -210.00048828125,
+    "upper": 30.000070571899414,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_knee_joint",
+    "type": "revolute",
+    "lower": -9.999832153320312,
+    "upper": 142.99880981445312,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_ankle_y_joint",
+    "type": "revolute",
+    "lower": -60.00014114379883,
+    "upper": 45.00010681152344,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_ankle_x_joint",
+    "type": "revolute",
+    "lower": -35.000274658203125,
+    "upper": 35.000274658203125,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "DR02_Std": {
+  "usdMassKg": 67.58,
+  "massBodies": 22,
+  "jointCount": 21,
+  "revolute": 21,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "waist_z_joint",
+    "type": "revolute",
+    "lower": -99.99832153320312,
+    "upper": 210.00048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_shoulder_y_joint",
+    "type": "revolute",
+    "lower": -219.9986114501953,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_shoulder_x_joint",
+    "type": "revolute",
+    "lower": -20.00000762939453,
+    "upper": 200.00009155273438,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_shoulder_z_joint",
+    "type": "revolute",
+    "lower": -170.00230407714844,
+    "upper": 170.00230407714844,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_elbow_joint",
+    "type": "revolute",
+    "lower": -44.00000762939453,
+    "upper": 100.00004577636719,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_shoulder_y_joint",
+    "type": "revolute",
+    "lower": -219.9986114501953,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_shoulder_x_joint",
+    "type": "revolute",
+    "lower": -200.00009155273438,
+    "upper": 20.00000762939453,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_shoulder_z_joint",
+    "type": "revolute",
+    "lower": -170.00230407714844,
+    "upper": 170.00230407714844,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_elbow_joint",
+    "type": "revolute",
+    "lower": -44.00000762939453,
+    "upper": 100.00004577636719,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_hip_y_joint",
+    "type": "revolute",
+    "lower": -159.9984588623047,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_hip_x_joint",
+    "type": "revolute",
+    "lower": -20.00000762939453,
+    "upper": 150.00035095214844,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_hip_z_joint",
+    "type": "revolute",
+    "lower": -30.000070571899414,
+    "upper": 210.00048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_knee_joint",
+    "type": "revolute",
+    "lower": -9.999832153320312,
+    "upper": 142.99880981445312,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_ankle_y_joint",
+    "type": "revolute",
+    "lower": -60.00014114379883,
+    "upper": 45.00010681152344,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_ankle_x_joint",
+    "type": "revolute",
+    "lower": -35.000274658203125,
+    "upper": 35.000274658203125,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_hip_y_joint",
+    "type": "revolute",
+    "lower": -159.9984588623047,
+    "upper": 90.00021362304688,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_hip_x_joint",
+    "type": "revolute",
+    "lower": -150.00035095214844,
+    "upper": 20.00000762939453,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_hip_z_joint",
+    "type": "revolute",
+    "lower": -210.00048828125,
+    "upper": 30.000070571899414,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_knee_joint",
+    "type": "revolute",
+    "lower": -9.999832153320312,
+    "upper": 142.99880981445312,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_ankle_y_joint",
+    "type": "revolute",
+    "lower": -60.00014114379883,
+    "upper": 45.00010681152344,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_ankle_x_joint",
+    "type": "revolute",
+    "lower": -35.000274658203125,
+    "upper": 35.000274658203125,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "DeepRobotics_M20": {
+  "usdMassKg": 34.53,
+  "massBodies": 17,
+  "jointCount": 16,
+  "revolute": 16,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "fl_hipx_joint",
+    "type": "revolute",
+    "lower": -24.980958938598633,
+    "upper": 35.007720947265625,
+    "maxVelocity": null
+   },
+   {
+    "name": "fl_hipy_joint",
+    "type": "revolute",
+    "lower": -130.9781494140625,
+    "upper": 147.9949951171875,
+    "maxVelocity": null
+   },
+   {
+    "name": "fl_knee_joint",
+    "type": "revolute",
+    "lower": -160.94384765625,
+    "upper": 159.96981811523438,
+    "maxVelocity": null
+   },
+   {
+    "name": "fl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_hipx_joint",
+    "type": "revolute",
+    "lower": -35.007720947265625,
+    "upper": 24.980958938598633,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_hipy_joint",
+    "type": "revolute",
+    "lower": -130.9781494140625,
+    "upper": 147.9949951171875,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_knee_joint",
+    "type": "revolute",
+    "lower": -160.94384765625,
+    "upper": 159.96981811523438,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_hipx_joint",
+    "type": "revolute",
+    "lower": -24.980958938598633,
+    "upper": 35.007720947265625,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_hipy_joint",
+    "type": "revolute",
+    "lower": -147.9949951171875,
+    "upper": 130.9781494140625,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_knee_joint",
+    "type": "revolute",
+    "lower": -159.96981811523438,
+    "upper": 160.94384765625,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_hipx_joint",
+    "type": "revolute",
+    "lower": -35.007720947265625,
+    "upper": 24.980958938598633,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_hipy_joint",
+    "type": "revolute",
+    "lower": -147.9949951171875,
+    "upper": 130.9781494140625,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_knee_joint",
+    "type": "revolute",
+    "lower": -159.96981811523438,
+    "upper": 160.94384765625,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "DeepRobotics_M20S": {
+  "usdMassKg": 34.49,
+  "massBodies": 17,
+  "jointCount": 16,
+  "revolute": 16,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "fl_hipx_joint",
+    "type": "revolute",
+    "lower": -24.98095703125,
+    "upper": 35.007720947265625,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "fl_hipy_joint",
+    "type": "revolute",
+    "lower": -147.99497985839844,
+    "upper": 130.9781494140625,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "fl_knee_joint",
+    "type": "revolute",
+    "lower": -159.96981811523438,
+    "upper": 160.94383239746094,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "fl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 5984.54345703125
+   },
+   {
+    "name": "fr_hipx_joint",
+    "type": "revolute",
+    "lower": -35.007720947265625,
+    "upper": 24.98095703125,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "fr_hipy_joint",
+    "type": "revolute",
+    "lower": -147.99497985839844,
+    "upper": 130.9781494140625,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "fr_knee_joint",
+    "type": "revolute",
+    "lower": -159.96981811523438,
+    "upper": 160.94383239746094,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "fr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 5984.54345703125
+   },
+   {
+    "name": "hl_hipx_joint",
+    "type": "revolute",
+    "lower": -24.98095703125,
+    "upper": 35.007720947265625,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "hl_hipy_joint",
+    "type": "revolute",
+    "lower": -130.9781494140625,
+    "upper": 147.99497985839844,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "hl_knee_joint",
+    "type": "revolute",
+    "lower": -160.94383239746094,
+    "upper": 159.96981811523438,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "hl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 5984.54345703125
+   },
+   {
+    "name": "hr_hipx_joint",
+    "type": "revolute",
+    "lower": -35.007720947265625,
+    "upper": 24.98095703125,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "hr_hipy_joint",
+    "type": "revolute",
+    "lower": -130.9781494140625,
+    "upper": 147.99497985839844,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "hr_knee_joint",
+    "type": "revolute",
+    "lower": -160.94383239746094,
+    "upper": 159.96981811523438,
+    "maxVelocity": 1168.8338623046875
+   },
+   {
+    "name": "hr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 5984.54345703125
+   }
+  ]
+ },
+ "DeepRobotics_M20_Piper": {
+  "usdMassKg": 39.16,
+  "massBodies": 27,
+  "jointCount": 24,
+  "revolute": 22,
+  "prismatic": 2,
+  "joints": [
+   {
+    "name": "fl_hipx_joint",
+    "type": "revolute",
+    "lower": -35.007720947265625,
+    "upper": 24.980960845947266,
+    "maxVelocity": null
+   },
+   {
+    "name": "fl_hipy_joint",
+    "type": "revolute",
+    "lower": -147.9949951171875,
+    "upper": 130.9781494140625,
+    "maxVelocity": null
+   },
+   {
+    "name": "fl_knee_joint",
+    "type": "revolute",
+    "lower": -159.96981811523438,
+    "upper": 160.94384765625,
+    "maxVelocity": null
+   },
+   {
+    "name": "fl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_hipx_joint",
+    "type": "revolute",
+    "lower": -24.980960845947266,
+    "upper": 35.007720947265625,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_hipy_joint",
+    "type": "revolute",
+    "lower": -147.9949951171875,
+    "upper": 130.9781494140625,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_knee_joint",
+    "type": "revolute",
+    "lower": -159.96981811523438,
+    "upper": 160.94384765625,
+    "maxVelocity": null
+   },
+   {
+    "name": "fr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_hipx_joint",
+    "type": "revolute",
+    "lower": -35.007720947265625,
+    "upper": 24.980960845947266,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_hipy_joint",
+    "type": "revolute",
+    "lower": -130.9781494140625,
+    "upper": 147.9949951171875,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_knee_joint",
+    "type": "revolute",
+    "lower": -160.94384765625,
+    "upper": 159.96981811523438,
+    "maxVelocity": null
+   },
+   {
+    "name": "hl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_hipx_joint",
+    "type": "revolute",
+    "lower": -24.980960845947266,
+    "upper": 35.007720947265625,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_hipy_joint",
+    "type": "revolute",
+    "lower": -130.9781494140625,
+    "upper": 147.9949951171875,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_knee_joint",
+    "type": "revolute",
+    "lower": -160.94384765625,
+    "upper": 159.96981811523438,
+    "maxVelocity": null
+   },
+   {
+    "name": "hr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint1",
+    "type": "revolute",
+    "lower": -150.00035095214844,
+    "upper": 150.00035095214844,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint2",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 179.90875244140625,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint3",
+    "type": "revolute",
+    "lower": -169.99658203125,
+    "upper": 0.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint4",
+    "type": "revolute",
+    "lower": -99.98113250732422,
+    "upper": 99.98113250732422,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint5",
+    "type": "revolute",
+    "lower": -69.90084838867188,
+    "upper": 69.90084838867188,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint6",
+    "type": "revolute",
+    "lower": -120.00028228759766,
+    "upper": 120.00028228759766,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint7",
+    "type": "prismatic",
+    "lower": 0.0,
+    "upper": 0.03500000014901161,
+    "maxVelocity": null
+   },
+   {
+    "name": "joint8",
+    "type": "prismatic",
+    "lower": -0.03500000014901161,
+    "upper": 0.0,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "DeepRobotics_S10": {
+  "usdMassKg": 18.99,
+  "massBodies": 17,
+  "jointCount": 16,
+  "revolute": 16,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "fl_hipx_joint",
+    "type": "revolute",
+    "lower": -35.00198745727539,
+    "upper": 35.00198745727539,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "fl_hipy_joint",
+    "type": "revolute",
+    "lower": -144.9984130859375,
+    "upper": 144.9984130859375,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "fl_knee_joint",
+    "type": "revolute",
+    "lower": -155.9992218017578,
+    "upper": 155.9992218017578,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "fl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 3752.873291015625
+   },
+   {
+    "name": "fr_hipx_joint",
+    "type": "revolute",
+    "lower": -35.00198745727539,
+    "upper": 35.00198745727539,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "fr_hipy_joint",
+    "type": "revolute",
+    "lower": -144.9984130859375,
+    "upper": 144.9984130859375,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "fr_knee_joint",
+    "type": "revolute",
+    "lower": -155.9992218017578,
+    "upper": 155.9992218017578,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "fr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 3752.873291015625
+   },
+   {
+    "name": "hl_hipx_joint",
+    "type": "revolute",
+    "lower": -35.00198745727539,
+    "upper": 35.00198745727539,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "hl_hipy_joint",
+    "type": "revolute",
+    "lower": -144.9984130859375,
+    "upper": 144.9984130859375,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "hl_knee_joint",
+    "type": "revolute",
+    "lower": -155.9992218017578,
+    "upper": 155.9992218017578,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "hl_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 3752.873291015625
+   },
+   {
+    "name": "hr_hipx_joint",
+    "type": "revolute",
+    "lower": -35.00198745727539,
+    "upper": 35.00198745727539,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "hr_hipy_joint",
+    "type": "revolute",
+    "lower": -144.9984130859375,
+    "upper": 144.9984130859375,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "hr_knee_joint",
+    "type": "revolute",
+    "lower": -155.9992218017578,
+    "upper": 155.9992218017578,
+    "maxVelocity": 1475.939208984375
+   },
+   {
+    "name": "hr_wheel_joint",
+    "type": "revolute",
+    "lower": -Infinity,
+    "upper": Infinity,
+    "maxVelocity": 3752.873291015625
+   }
+  ]
+ },
+ "DeepRobotics_X30": {
+  "usdMassKg": 55.84,
+  "massBodies": 17,
+  "jointCount": 12,
+  "revolute": 12,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "FL_HipX_joint",
+    "type": "revolute",
+    "lower": -18.50653648376465,
+    "upper": 33.51803207397461,
+    "maxVelocity": null
+   },
+   {
+    "name": "FL_HipY_joint",
+    "type": "revolute",
+    "lower": -169.99658203125,
+    "upper": 15.011494636535645,
+    "maxVelocity": null
+   },
+   {
+    "name": "FL_Knee_joint",
+    "type": "revolute",
+    "lower": 19.996227264404297,
+    "upper": 145.015625,
+    "maxVelocity": null
+   },
+   {
+    "name": "FR_HipX_joint",
+    "type": "revolute",
+    "lower": -33.51803207397461,
+    "upper": 18.50653648376465,
+    "maxVelocity": null
+   },
+   {
+    "name": "FR_HipY_joint",
+    "type": "revolute",
+    "lower": -169.99658203125,
+    "upper": 15.011494636535645,
+    "maxVelocity": null
+   },
+   {
+    "name": "FR_Knee_joint",
+    "type": "revolute",
+    "lower": 19.996227264404297,
+    "upper": 145.015625,
+    "maxVelocity": null
+   },
+   {
+    "name": "HL_HipX_joint",
+    "type": "revolute",
+    "lower": -18.50653648376465,
+    "upper": 33.51803207397461,
+    "maxVelocity": null
+   },
+   {
+    "name": "HL_HipY_joint",
+    "type": "revolute",
+    "lower": -169.99658203125,
+    "upper": 15.011494636535645,
+    "maxVelocity": null
+   },
+   {
+    "name": "HL_Knee_joint",
+    "type": "revolute",
+    "lower": 19.996227264404297,
+    "upper": 145.015625,
+    "maxVelocity": null
+   },
+   {
+    "name": "HR_HipX_joint",
+    "type": "revolute",
+    "lower": -33.51803207397461,
+    "upper": 18.50653648376465,
+    "maxVelocity": null
+   },
+   {
+    "name": "HR_HipY_joint",
+    "type": "revolute",
+    "lower": -169.99658203125,
+    "upper": 15.011494636535645,
+    "maxVelocity": null
+   },
+   {
+    "name": "HR_Knee_joint",
+    "type": "revolute",
+    "lower": 19.996227264404297,
+    "upper": 145.015625,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "FANUC_CRX3iA": {
+  "usdMassKg": 11.0,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "J1",
+    "type": "revolute",
+    "lower": -199.99998474121094,
+    "upper": 199.99998474121094,
+    "maxVelocity": null
+   },
+   {
+    "name": "J2",
+    "type": "revolute",
+    "lower": -179.9989776611328,
+    "upper": 179.9989776611328,
+    "maxVelocity": null
+   },
+   {
+    "name": "J3",
+    "type": "revolute",
+    "lower": -62.70000076293945,
+    "upper": 242.6999969482422,
+    "maxVelocity": null
+   },
+   {
+    "name": "J4",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J5",
+    "type": "revolute",
+    "lower": -179.9989776611328,
+    "upper": 179.9989776611328,
+    "maxVelocity": null
+   },
+   {
+    "name": "J6",
+    "type": "revolute",
+    "lower": -224.99998474121094,
+    "upper": 224.99998474121094,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "FANUC_CRX5iA": {
+  "usdMassKg": 23.23,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "J1",
+    "type": "revolute",
+    "lower": -199.99998474121094,
+    "upper": 199.99998474121094,
+    "maxVelocity": null
+   },
+   {
+    "name": "J2",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J3",
+    "type": "revolute",
+    "lower": -67.99999237060547,
+    "upper": 247.99996948242188,
+    "maxVelocity": null
+   },
+   {
+    "name": "J4",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J5",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J6",
+    "type": "revolute",
+    "lower": -224.99998474121094,
+    "upper": 224.99998474121094,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "FANUC_CRX10iA_L": {
+  "usdMassKg": 38.61,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "J1",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J2",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J3",
+    "type": "revolute",
+    "lower": -270.0,
+    "upper": 270.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J4",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J5",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J6",
+    "type": "revolute",
+    "lower": -224.99998474121094,
+    "upper": 224.99998474121094,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "FANUC_CRX10iA_LP": {
+  "usdMassKg": 47.0,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "J1",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J2",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J3",
+    "type": "revolute",
+    "lower": -270.0,
+    "upper": 270.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J4",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J5",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J6",
+    "type": "revolute",
+    "lower": -224.99998474121094,
+    "upper": 224.99998474121094,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "FANUC_CRX20iA_L": {
+  "usdMassKg": 39.25,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "J1",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J2",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J3",
+    "type": "revolute",
+    "lower": -270.0,
+    "upper": 270.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J4",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J5",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J6",
+    "type": "revolute",
+    "lower": -224.99998474121094,
+    "upper": 224.99998474121094,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "FANUC_CRX30iA": {
+  "usdMassKg": 132.82,
+  "massBodies": 7,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "J1",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J2",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J3",
+    "type": "revolute",
+    "lower": -270.0,
+    "upper": 270.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J4",
+    "type": "revolute",
+    "lower": -190.0,
+    "upper": 190.0,
+    "maxVelocity": null
+   },
+   {
+    "name": "J5",
+    "type": "revolute",
+    "lower": -179.89999389648438,
+    "upper": 179.89999389648438,
+    "maxVelocity": null
+   },
+   {
+    "name": "J6",
+    "type": "revolute",
+    "lower": -224.99998474121094,
+    "upper": 224.99998474121094,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "Franka_FR3_Duo": {
+  "usdMassKg": 35.95,
+  "massBodies": 17,
+  "jointCount": 14,
+  "revolute": 14,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "left_fr3v2_1_joint1",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint2",
+    "type": "revolute",
+    "lower": -105.20021057128906,
+    "upper": 105.20021057128906,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint3",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint4",
+    "type": "revolute",
+    "lower": -176.30026245117188,
+    "upper": -6.700001239776611,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint5",
+    "type": "revolute",
+    "lower": -164.800048828125,
+    "upper": 164.800048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint6",
+    "type": "revolute",
+    "lower": 25.199981689453125,
+    "upper": 264.8000793457031,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint7",
+    "type": "revolute",
+    "lower": -174.7998809814453,
+    "upper": 174.7998809814453,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint1",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint2",
+    "type": "revolute",
+    "lower": -105.20021057128906,
+    "upper": 105.20021057128906,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint3",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint4",
+    "type": "revolute",
+    "lower": -176.30026245117188,
+    "upper": -6.700001239776611,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint5",
+    "type": "revolute",
+    "lower": -164.800048828125,
+    "upper": 164.800048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint6",
+    "type": "revolute",
+    "lower": 25.199981689453125,
+    "upper": 264.8000793457031,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint7",
+    "type": "revolute",
+    "lower": -174.7998809814453,
+    "upper": 174.7998809814453,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "Franka_FR3_Duo_Vision": {
+  "usdMassKg": 38.69,
+  "massBodies": 48,
+  "jointCount": 26,
+  "revolute": 26,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "left_robotiq_finger_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 47.0,
+    "maxVelocity": 86.0
+   },
+   {
+    "name": "left_robotiq_right_outer_knuckle_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 47.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_robotiq_left_inner_finger_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_robotiq_right_inner_finger_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_robotiq_left_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_robotiq_right_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_robotiq_finger_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 47.0,
+    "maxVelocity": 86.0
+   },
+   {
+    "name": "right_robotiq_right_outer_knuckle_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 47.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_robotiq_left_inner_finger_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_robotiq_right_inner_finger_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_robotiq_left_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_robotiq_right_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_fr3v2_1_joint1",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint2",
+    "type": "revolute",
+    "lower": -105.20021057128906,
+    "upper": 105.20021057128906,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint3",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint4",
+    "type": "revolute",
+    "lower": -176.30026245117188,
+    "upper": -6.700001239776611,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint5",
+    "type": "revolute",
+    "lower": -164.800048828125,
+    "upper": 164.800048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint6",
+    "type": "revolute",
+    "lower": 25.199981689453125,
+    "upper": 264.8000793457031,
+    "maxVelocity": null
+   },
+   {
+    "name": "left_fr3v2_1_joint7",
+    "type": "revolute",
+    "lower": -174.7998809814453,
+    "upper": 174.7998809814453,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint1",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint2",
+    "type": "revolute",
+    "lower": -105.20021057128906,
+    "upper": 105.20021057128906,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint3",
+    "type": "revolute",
+    "lower": -166.20016479492188,
+    "upper": 166.20016479492188,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint4",
+    "type": "revolute",
+    "lower": -176.30026245117188,
+    "upper": -6.700001239776611,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint5",
+    "type": "revolute",
+    "lower": -164.800048828125,
+    "upper": 164.800048828125,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint6",
+    "type": "revolute",
+    "lower": 25.199981689453125,
+    "upper": 264.8000793457031,
+    "maxVelocity": null
+   },
+   {
+    "name": "right_fr3v2_1_joint7",
+    "type": "revolute",
+    "lower": -174.7998809814453,
+    "upper": 174.7998809814453,
+    "maxVelocity": null
+   }
+  ]
+ },
+ "Menlo_Asimov1": {
+  "usdMassKg": 35.52,
+  "massBodies": 26,
+  "jointCount": 25,
+  "revolute": 25,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "left_hip_pitch_joint",
+    "type": "revolute",
+    "lower": -89.9543685913086,
+    "upper": 89.9543685913086,
+    "maxVelocity": 720.2078857421875
+   },
+   {
+    "name": "left_hip_roll_joint",
+    "type": "revolute",
+    "lower": -44.9999885559082,
+    "upper": 44.9999885559082,
+    "maxVelocity": 228.0371856689453
+   },
+   {
+    "name": "left_hip_yaw_joint",
+    "type": "revolute",
+    "lower": -44.9999885559082,
+    "upper": 44.9999885559082,
+    "maxVelocity": 312.261962890625
+   },
+   {
+    "name": "left_knee_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 85.94366455078125,
+    "maxVelocity": 701.873291015625
+   },
+   {
+    "name": "left_ankle_pitch_joint",
+    "type": "revolute",
+    "lower": -20.05352210998535,
+    "upper": 20.05352210998535,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "left_ankle_roll_joint",
+    "type": "revolute",
+    "lower": -5.729577541351318,
+    "upper": 5.729577541351318,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "right_hip_pitch_joint",
+    "type": "revolute",
+    "lower": -89.9543685913086,
+    "upper": 89.9543685913086,
+    "maxVelocity": 720.2078857421875
+   },
+   {
+    "name": "right_hip_roll_joint",
+    "type": "revolute",
+    "lower": -44.9999885559082,
+    "upper": 44.9999885559082,
+    "maxVelocity": 228.0371856689453
+   },
+   {
+    "name": "right_hip_yaw_joint",
+    "type": "revolute",
+    "lower": -44.9999885559082,
+    "upper": 44.9999885559082,
+    "maxVelocity": 312.261962890625
+   },
+   {
+    "name": "right_knee_joint",
+    "type": "revolute",
+    "lower": -85.94366455078125,
+    "upper": 0.0,
+    "maxVelocity": 701.873291015625
+   },
+   {
+    "name": "right_ankle_pitch_joint",
+    "type": "revolute",
+    "lower": -20.05352210998535,
+    "upper": 20.05352210998535,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "right_ankle_roll_joint",
+    "type": "revolute",
+    "lower": -5.729577541351318,
+    "upper": 5.729577541351318,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "waist_yaw_joint",
+    "type": "revolute",
+    "lower": -89.9999771118164,
+    "upper": 89.9999771118164,
+    "maxVelocity": 720.2078857421875
+   },
+   {
+    "name": "left_shoulder_pitch_joint",
+    "type": "revolute",
+    "lower": -180.00001525878906,
+    "upper": 50.00001907348633,
+    "maxVelocity": 228.0371856689453
+   },
+   {
+    "name": "left_shoulder_roll_joint",
+    "type": "revolute",
+    "lower": -89.9999771118164,
+    "upper": 0.0,
+    "maxVelocity": 701.873291015625
+   },
+   {
+    "name": "left_shoulder_yaw_joint",
+    "type": "revolute",
+    "lower": -89.9999771118164,
+    "upper": 89.9999771118164,
+    "maxVelocity": 312.261962890625
+   },
+   {
+    "name": "left_elbow_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 120.0002670288086,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "left_wrist_yaw_joint",
+    "type": "revolute",
+    "lower": -180.00001525878906,
+    "upper": 180.00001525878906,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "neck_yaw_joint",
+    "type": "revolute",
+    "lower": -89.9543685913086,
+    "upper": 89.9543685913086,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "neck_pitch_joint",
+    "type": "revolute",
+    "lower": -17.999984741210938,
+    "upper": 22.918310165405273,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "right_shoulder_pitch_joint",
+    "type": "revolute",
+    "lower": -50.00001907348633,
+    "upper": 180.00001525878906,
+    "maxVelocity": 228.0371856689453
+   },
+   {
+    "name": "right_shoulder_roll_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 89.9999771118164,
+    "maxVelocity": 701.873291015625
+   },
+   {
+    "name": "right_shoulder_yaw_joint",
+    "type": "revolute",
+    "lower": -89.9999771118164,
+    "upper": 89.9999771118164,
+    "maxVelocity": 312.261962890625
+   },
+   {
+    "name": "right_elbow_joint",
+    "type": "revolute",
+    "lower": -120.0002670288086,
+    "upper": 0.0,
+    "maxVelocity": 533.9966430664062
+   },
+   {
+    "name": "right_wrist_yaw_joint",
+    "type": "revolute",
+    "lower": -180.00001525878906,
+    "upper": 180.00001525878906,
+    "maxVelocity": 533.9966430664062
+   }
+  ]
+ },
+ "OnRobot_RG2": {
+  "usdMassKg": 0.72,
+  "massBodies": 14,
+  "jointCount": 10,
+  "revolute": 10,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "finger_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 70.05999755859375,
+    "maxVelocity": 67.3499984741211
+   },
+   {
+    "name": "right_finger_cover_arm_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "right_finger_cover_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "right_finger_base_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "left_outer_proximal_finger_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 70.05999755859375,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "left_finger_cover_arm_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "left_finger_cover_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "left_finger_base_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "right_inner_proximal_finger_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   },
+   {
+    "name": "left_inner_proximal_finger_joint",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 100.44999694824219
+   }
+  ]
+ },
+ "Robotiq_2F140": {
+  "usdMassKg": 0.71,
+  "massBodies": 11,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "finger_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 45.0,
+    "maxVelocity": 86.0
+   },
+   {
+    "name": "right_outer_knuckle_joint",
+    "type": "revolute",
+    "lower": 0.0,
+    "upper": 45.0,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_inner_finger_joint",
+    "type": "revolute",
+    "lower": -99.30000305175781,
+    "upper": 54.400001525878906,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_inner_finger_joint",
+    "type": "revolute",
+    "lower": -54.400001525878906,
+    "upper": 99.30000305175781,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "left_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -53.599998474121094,
+    "upper": 59.79999923706055,
+    "maxVelocity": 10000.0
+   },
+   {
+    "name": "right_inner_finger_knuckle_joint",
+    "type": "revolute",
+    "lower": -59.79999923706055,
+    "upper": 53.599998474121094,
+    "maxVelocity": 10000.0
+   }
+  ]
+ },
+ "Robotiq_HandE": {
+  "usdMassKg": 0.94,
+  "massBodies": 5,
+  "jointCount": 2,
+  "revolute": 0,
+  "prismatic": 2,
+  "joints": [
+   {
+    "name": "left_finger_joint",
+    "type": "prismatic",
+    "lower": 0.0,
+    "upper": 0.02500000037252903,
+    "maxVelocity": 0.15000000596046448
+   },
+   {
+    "name": "right_finger_joint",
+    "type": "prismatic",
+    "lower": 0.0,
+    "upper": 0.02500000037252903,
+    "maxVelocity": 10000.0
+   }
+  ]
+ },
+ "StandardBots_Core": {
+  "usdMassKg": 31.4,
+  "massBodies": 11,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "joint0",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 270.0
+   },
+   {
+    "name": "joint1",
+    "type": "revolute",
+    "lower": -135.0,
+    "upper": 135.0,
+    "maxVelocity": 270.0
+   },
+   {
+    "name": "joint2",
+    "type": "revolute",
+    "lower": -165.0,
+    "upper": 165.0,
+    "maxVelocity": 288.0
+   },
+   {
+    "name": "joint3",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 389.9999694824219
+   },
+   {
+    "name": "joint4",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 389.9999694824219
+   },
+   {
+    "name": "joint5",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 389.9999694824219
+   }
+  ]
+ },
+ "StandardBots_Spark": {
+  "usdMassKg": 18.75,
+  "massBodies": 8,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "joint0",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 277.884521484375
+   },
+   {
+    "name": "joint1",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 277.884521484375
+   },
+   {
+    "name": "joint2",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 329.45074462890625
+   },
+   {
+    "name": "joint3",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 395.34088134765625
+   },
+   {
+    "name": "joint4",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 395.34088134765625
+   },
+   {
+    "name": "joint5",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 395.34088134765625
+   }
+  ]
+ },
+ "StandardBots_Thor": {
+  "usdMassKg": 83.6,
+  "massBodies": 8,
+  "jointCount": 6,
+  "revolute": 6,
+  "prismatic": 0,
+  "joints": [
+   {
+    "name": "joint0",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 124.90480041503906
+   },
+   {
+    "name": "joint1",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 124.90480041503906
+   },
+   {
+    "name": "joint2",
+    "type": "revolute",
+    "lower": -180.0,
+    "upper": 180.0,
+    "maxVelocity": 154.12564086914062
+   },
+   {
+    "name": "joint3",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 237.77748107910156
+   },
+   {
+    "name": "joint4",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 237.77748107910156
+   },
+   {
+    "name": "joint5",
+    "type": "revolute",
+    "lower": -360.0,
+    "upper": 360.0,
+    "maxVelocity": 237.77748107910156
+   }
+  ]
+ }
+}

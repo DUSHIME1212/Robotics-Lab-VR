@@ -62,6 +62,29 @@
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.meta.xr.sdk.interaction": "209.0.0",
+    "com.unity.ai.navigation": "2.0.16",
+    "com.unity.behavior": "1.0.17",
+    "com.unity.timeline": "6.6.0",
+    "com.unity.animation.rigging": "6.6.0",
+    "com.meta.xr.sdk.audio": "209.0.0",
+    "dev.yarnspinner.unity": "3.3.2"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Meta XR",
+      "url": "https://npm.developer.oculus.com",
+      "scopes": [
+        "com.meta.xr.sdk"
+      ]
+    },
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "dev.yarnspinner"
+      ]
+    }
+  ]
 }

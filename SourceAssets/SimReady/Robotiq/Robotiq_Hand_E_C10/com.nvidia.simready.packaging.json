@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0",
+  "package_id": "simready.hf.Robotiq-Official.simready-assets.Robotiq_Hand_E_C10.2026.10.30_00",
+  "license": "cc-by-4.0",
+  "metadata": [
+    {
+      "name": "com.nvidia.simready.conformance.Package-Candidate@1.0.0.json",
+      "hash": {
+        "sha256": "e0498e2816907915c638a3f4ee4139d56d206372b8f970a22498b270844db461"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.packaging.bom.json",
+      "hash": {
+        "sha256": "3f955a1d81a9a488f9bf1282362829ae5c210621304aea8f52f49385ed299f5a"
+      }
+    },
+    {
+      "name": "com.nvidia.simready.root_usds.json",
+      "hash": {
+        "sha256": "e9e22d7d07cf35e5abd52d827776645121ce72375614912e376375d076cb4212"
+      }
+    }
+  ],
+  "content_hash": {
+    "sha256": "f551a68963ae29b5bea3a8768179f01f7fcea97026fb1a9bbf9658f0821fb7e1"
+  },
+  "package_hash": {
+    "sha256": "ad792611f74f2b54f8ef12b19897ba1432e180e955402a78f0394dbb30459d55"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/DR02-pro.usd.png",
+      "size": 486318,
+      "hash": {
+        "sha256-flat-1mb": "5275e8b1a8e7e9b36d788472b31a39d4543934a857d7a3204a40310837d3cdf1",
+        "sha256": "c95112c0b0ea1b70a7f4f23f7bbe65a9c9d08ad3d85220dc01d67216515aa422"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/DR02-pro.usd_light.png",
+      "size": 436693,
+      "hash": {
+        "sha256-flat-1mb": "46ad6a78f70ff252de14931d7575993531f2db621ca5e5ab49239c8624c05d6b",
+        "sha256": "92b93a14dc16920b9e019d70bdb6d113bc31b8b241212a2195f770ee482ba0d0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/DR02-pro.usd_transparent.png",
+      "size": 324298,
+      "hash": {
+        "sha256-flat-1mb": "de8ad794f7c63139b91660aabd88b18ca497ba277a081c6396619d3fabc3f255",
+        "sha256": "98b48dd39b3e05c16830b4676c4c84be65a5e3ca994f29195f57241c62c47dd7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/DR02-pro.usd",
+      "size": 7447,
+      "hash": {
+        "sha256-flat-1mb": "80818b6f9808c63650e870e04829fc5165df88bd77ae673e100986f6c305ed27",
+        "sha256": "fb75a3d82ba785064db79f702f49bbdbb10f8a60e3cd40e341f84f2683742037"
+      }
+    },
+    {
+      "relative_path": "simready_usd/SOURCE_LICENSE.txt",
+      "size": 1502,
+      "hash": {
+        "sha256-flat-1mb": "b9676f32a7def4d4c4d9ec4b7ad54197fcbb63bfdd9c28575d0132abaeb0250f",
+        "sha256": "6bc5967b1cfbdb83b0798942a5f11d4e0555ad8de17697bd4d7eaab6e22f9be5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/.thumbs/256x256/DR02-pro.usd.png",
+      "size": 486318,
+      "hash": {
+        "sha256-flat-1mb": "5275e8b1a8e7e9b36d788472b31a39d4543934a857d7a3204a40310837d3cdf1",
+        "sha256": "c95112c0b0ea1b70a7f4f23f7bbe65a9c9d08ad3d85220dc01d67216515aa422"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/.thumbs/256x256/DR02-pro.usd_light.png",
+      "size": 436693,
+      "hash": {
+        "sha256-flat-1mb": "46ad6a78f70ff252de14931d7575993531f2db621ca5e5ab49239c8624c05d6b",
+        "sha256": "92b93a14dc16920b9e019d70bdb6d113bc31b8b241212a2195f770ee482ba0d0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/.thumbs/256x256/DR02-pro.usd_transparent.png",
+      "size": 324298,
+      "hash": {
+        "sha256-flat-1mb": "de8ad794f7c63139b91660aabd88b18ca497ba277a081c6396619d3fabc3f255",
+        "sha256": "98b48dd39b3e05c16830b4676c4c84be65a5e3ca994f29195f57241c62c47dd7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/DR02-pro.usd",
+      "size": 2783,
+      "hash": {
+        "sha256-flat-1mb": "6427c4e63212bb6fddf0db7ea9b721127cdc4308a7ca4afba6512f9bca61194e",
+        "sha256": "395d57041837fca3aa3ab3dcfd3f0b4769739c7c39653069cc73c4fec8eaa6af"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/SOURCE_LICENSE.txt",
+      "size": 1502,
+      "hash": {
+        "sha256-flat-1mb": "b9676f32a7def4d4c4d9ec4b7ad54197fcbb63bfdd9c28575d0132abaeb0250f",
+        "sha256": "6bc5967b1cfbdb83b0798942a5f11d4e0555ad8de17697bd4d7eaab6e22f9be5"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/Physics/mujoco.usda",
+      "size": 15870,
+      "hash": {
+        "sha256-flat-1mb": "af3bce96f3a9f03f658b2ce74f781a46410a0f00265688602968c1f2174a624d",
+        "sha256": "8dd795b241530e11b41279c563a166fba240ee62a352c3f67a727506f20b81e9"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/Physics/physics.usda",
+      "size": 68834,
+      "hash": {
+        "sha256-flat-1mb": "80b524a1dac685a6e907ea990ee5271913f88aa9dddcdd1ec975a268ae3f35dd",
+        "sha256": "28f26d0bd093b8db9231964626064ecf75792f0a2f3c2ebf772438cd12783dc7"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/Physics/physx.usda",
+      "size": 3991,
+      "hash": {
+        "sha256-flat-1mb": "88312d2d947c5d92bcb73d37c5fe710d92802f76ec2d7370007dc88165a7de3f",
+        "sha256": "989ca589556dda9d908935e70f2f1f0321a3643e6b064af18f56363201b52146"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/base.usda",
+      "size": 266578,
+      "hash": {
+        "sha256-flat-1mb": "7794ede06f7791f4fc8cd66a1eab27315dfde6088539fe442671798823097557",
+        "sha256": "a235467c27fff23f926542ec72bb9a7f48485a922757095a2095c139dd3cd449"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/geometries.usd",
+      "size": 35976618,
+      "hash": {
+        "sha256-flat-1mb": "aa69de2deae6832059440f50eb639c00cb57e13f2e3d53720eb163f659c04fd0",
+        "sha256": "af443e31b328e3c9d0d62d94b79720eedd2e27557b6408c08e68751684daf334",
+        "sha256-first1m": "c0433a7b1d285dff8160d9b005074710b7836989ec7561184babf95662b6e9f0"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/instances.usda",
+      "size": 173496,
+      "hash": {
+        "sha256-flat-1mb": "0f5672d7ff35dc3c36ce7fba04ae8f696a4b6594f27d64d11f9b55130b91ad94",
+        "sha256": "803e017a69eda3099195ca9adea96acf7e87a20298fc4a1c087a5f47cc35da27"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/materials.usda",
+      "size": 19000,
+      "hash": {
+        "sha256-flat-1mb": "41c6fef2a6a068f79e0130b3f34c64f8031da231c4480bd75742d29deb552261",
+        "sha256": "a43b376157982a269b44f49a0616c32db8330277b73342ea471ea1fd127fb3bd"
+      }
+    },
+    {
+      "relative_path": "simready_usd/alternatives/original/payloads/robot.usda",
+      "size": 19280,
+      "hash": {
+        "sha256-flat-1mb": "af8bafd91da9c4f59f1d8be45f794f511246132153831ff9b74fe550789df062",
+        "sha256": "b39a639cd0fd6b45b67a97039125900dd4483abd1435ed725c2ebaa1538ae093"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/flat-mujoco.usdc",
+      "size": 36004974,
+      "hash": {
+        "sha256-flat-1mb": "77f822d657a61536bd359daa6f6f01e8c1e443087a5785df03e59f853dae418a",
+        "sha256": "26db64ec6437e9bc943d30944418a3be9c533aff03540e3b655e3b1d649e88ab",
+        "sha256-first1m": "b3f69fedd43beb8ac1392ef5590cc0490a73ef563159316e7775d77dc9aed53e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/flat-physics.usdc",
+      "size": 36003001,
+      "hash": {
+        "sha256-flat-1mb": "a633d5a3e56fb77d790411a959b05d5cdee993f60e6d732b5cb8237fbd92575a",
+        "sha256": "bac3d6aaa29271b94d01a8e2a626fd631c0d5da457fac356cfd049dd9c3a2396",
+        "sha256-first1m": "91b09c5c8840f9f110ae2dd82f82623bd1d45abfdd91037e421774172fe35ac8"
+      }
+    },
+    {
+      "relative_path": "simready_usd/payloads/flat-physx.usdc",
+      "size": 36003021,
+      "hash": {
+        "sha256-flat-1mb": "11c7a7245ae50d3f5f383ea89806bb3c1396a4f15a33c90caf8076858e840dc5",
+        "sha256": "c9460c3c56b79529ebc0f10be407c9f7b524575838eb62427edb601945039ec7",
+        "sha256-first1m": "604bef6ecbf0c077ce7f2cf8f4b4b877a7443d97a04afd37efcdd9000e9ea366"
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "items": [
+    {
+      "relative_path": "simready_usd/.thumbs/1024x1024/crx10ia_l.usd.png",
+      "size": 93917,
+      "hash": {
+        "sha256-flat-1mb": "aff7512e6fc75a77b51fac072aff337c8eaa3bffe5045c7bb390805b249e8498",
+        "sha256": "90f3488c22fb9fd56ec3f3f7b67a245c6dede3bd5bbab30de1e785af3ae3d19b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/.thumbs/256x256/crx10ia_l.usd.png",
+      "size": 10532,
+      "hash": {
+        "sha256-flat-1mb": "7d72ba6529fcf00e0abadcceb7ac05640aeaf9ff665e0ef8bd2fd58038052e31",
+        "sha256": "019a09deb8cbe342f2db93f7c3039f8d24430cb9ee176735d02ad7258ca9f961"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/crx10ia_l_base.usd",
+      "size": 663,
+      "hash": {
+        "sha256-flat-1mb": "b278706226f118e46b4bf942a4b1f87d44ef3c0270c9f6c1960d2a017638e13a",
+        "sha256": "c2eeef10529c6535d98280f5fc61c2ec172db0e264f0def9359a03aefe3c1038"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/crx10ia_l_meshes.usd",
+      "size": 6930294,
+      "hash": {
+        "sha256-flat-1mb": "3dfb2a97ade5a6761c4851917d1c96487d13a913b7d73eb5b2186fd1f703d3c1",
+        "sha256": "1213b88aea76fe67e1c81e785eea14007d68462acc29985b22225fb32d8f93b1",
+        "sha256-first1m": "ce6aa4cee86f5f65967b1d5e4e29fb24cf33c8d915c0a72b811113283dc557e3"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/crx10ia_l_physics.usd",
+      "size": 5667,
+      "hash": {
+        "sha256-flat-1mb": "2bc23a586655fd66c2c3ae0bc146a6422305e05e2a2c5e5b417c1f9469515c4f",
+        "sha256": "c51026035f00e515a6d6ff22b944a3aa1112060d12e465693e16d46a1b1a3db9"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/crx10ia_l_robot.usd",
+      "size": 1409,
+      "hash": {
+        "sha256-flat-1mb": "ecc0a6703edd5e2e993fd8c8c3db578421ebea7c0e6f9b7c9eee1a0d6b175598",
+        "sha256": "e6b78d20634dfb8eb560f89fd56b25c7702ee77312310ea52e097d9801bc0f10"
+      }
+    },
+    {
+      "relative_path": "simready_usd/configuration/crx10ia_l_sensor.usd",
+      "size": 648,
+      "hash": {
+        "sha256-flat-1mb": "6e4c43acd402ad4a93e6e93bb0738d9170600407ffa25e0c2c46df75e1edc100",
+        "sha256": "2b7281c13ab39d1efc6967efc119a635680c55583fb906b8ee30434cf791c37c"
+      }
+    },
+    {
+      "relative_path": "simready_usd/crx10ia_l.usd",
+      "size": 5312,
+      "hash": {
+        "sha256-flat-1mb": "e4100e4c8ff62a139ba7c30503ffee0ee101fc60ffbbce4329b50ebb62c51b05",
+        "sha256": "a783f4721e5be7e7fa0c6679865f71e026277398bdc8c8d31f19b977e0ab5b47"
+      }
+    },
+    {
+      "relative_path": "simready_usd/licenses/LICENSE.txt",
+      "size": 10280,
+      "hash": {
+        "sha256-flat-1mb": "03e8a639431bf908903e37291b3266cb9ddf1b79cac32139ea36288abfe0b1c5",
+        "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff"
+      }
+    },
+    {
+      "relative_path": "simready_usd/licenses/THIRD_PARTY_NOTICES.txt",
+      "size": 1857,
+      "hash": {
+        "sha256-flat-1mb": "5e6eef8ffb74613c1537eee39191e30623f107b9b97c16eb4846800acd1078ee",
+        "sha256": "3eacdfe85ccfe74f84541f8fcf4a5a0e42c3a31639c151e53a0abe047681096b"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/mdl/OmniPBR.mdl",
+      "size": 13989,
+      "hash": {
+        "sha256-flat-1mb": "4d0f54d47017bfbe22cc483cb02c4fe7e2254ddd1119cd618cbaea553639d52c",
+        "sha256": "d384fc800f120e3cad1b7ca8837f9c554f9c34343d194813fca27caa493001f2"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/mdl/OmniPBRBase.mdl",
+      "size": 17274,
+      "hash": {
+        "sha256-flat-1mb": "4b54e7fb8bc92191512851b3acc6fc6fa9863f80d98ffece8f0cb9b99f5f4535",
+        "sha256": "701f37299b44106842bdbe025de52eedec391e35b038f61c4ed4d25bd98e7db1"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/mdl/OmniPBR_ClearCoat.mdl",
+      "size": 27453,
+      "hash": {
+        "sha256-flat-1mb": "0e35217542eb4ece0205fc09f74eb71aaa6bfb75b3b861d64693d317282df424",
+        "sha256": "687fce3f0693146b91495f04407a7c38c78f6b9262b63621f44b4b1f09110469"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/mdl/nvidia/aux_definitions.mdl",
+      "size": 101769,
+      "hash": {
+        "sha256-flat-1mb": "6a5ffcb49e18ade213c3a4d79cf171d66612f9eee045074a0b937dbe4cf01ef6",
+        "sha256": "ebb81c8977aeb30790399ec7aaa7f2f76cb23afb434f56201ef152aba45a6e81"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/mdl/nvidia/core_definitions.mdl",
+      "size": 201537,
+      "hash": {
+        "sha256-flat-1mb": "f0a5fb624bcb5859ae36092ea5dde441b0ecf7822f64deaaaac63a0c6fc134e8",
+        "sha256": "c003da6dee105918af22ba90d3fefd143046354e01508423db015cc25cff8360"
+      }
+    },
+    {
+      "relative_path": "simready_usd/materials/mdl/nvidia/support_definitions.mdl",
+      "size": 147454,
+      "hash": {
+        "sha256-flat-1mb": "2b93c649c03f3ef48fb24cc6baba953df1f9dd4e7e860719bc3322fc3e789aba",
+        "sha256": "bb372f21b6e81d293b99fea6819a8309e2c33c732c7151752b4b33dade177f2e"
+      }
+    },
+    {
+      "relative_path": "simready_usd/runnables/physics/newton.usd",
+      "size": 1725,
+      "hash": {
+        "sha256-flat-1mb": "875c919216df7d896af81e080fd0b152fe8d63fba8b06949aee13b4a38666d8e",
+        "sha256": "207efc01b7ca528d9931dad939ede43a25fa4772ae4f7ee39183660d6256643f"
+      }
+    },
+    {
+      "relative_path": "simready_usd/runnables/physics/physx.usd",
+      "size": 1123,
+      "hash": {
+        "sha256-flat-1mb": "8d2a432a445599c9f67cfff2f982f42ead3d3cba759066fef7f7de547f491a29",
+        "sha256": "e9ba9d1a2b0b25acbc83fceab33856b30e83874504f978922d4f5fc839fc036f"
+      }
+    }
+  ]
+}

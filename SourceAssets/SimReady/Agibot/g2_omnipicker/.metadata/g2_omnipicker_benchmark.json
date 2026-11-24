@@ -1,0 +1,1718 @@
+{
+  "schema_version": "1.0",
+  "asset": "g2_omnipicker",
+  "run_timestamp": "2026-10-15T06:37:48Z",
+  "passed": true,
+  "results": [
+    {
+      "test_name": "culling_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 5.739,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 1.313,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 16,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 82.08,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.635,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "culling_xz_max_diff": {
+          "value": 0.023299,
+          "unit": null
+        },
+        "culling_xz_mean_diff": {
+          "value": 0.011478,
+          "unit": null
+        },
+        "culling_xz_worst_angle": {
+          "value": 180.0,
+          "unit": null
+        },
+        "culling_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "drive_gain_validation",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 98.909,
+      "message": "",
+      "metrics": {
+        "dgv_joints_tested": {
+          "value": 32,
+          "unit": null
+        },
+        "dgv_passive_joints_skipped": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_mimic_follower_joints_skipped": {
+          "value": 14,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 18.841,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 156,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 120.77,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 3.09,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "dgv_joints_passed": {
+          "value": 21,
+          "unit": null
+        },
+        "dgv_joints_failed": {
+          "value": 11,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "effort_limit",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 561.337,
+      "message": "",
+      "metrics": {
+        "eff_joints_with_candidates": {
+          "value": 32,
+          "unit": null
+        },
+        "eff_joints_skipped_passive": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_skipped_mimic_follower": {
+          "value": 14,
+          "unit": null
+        },
+        "_timing_capture_frame_total_s": {
+          "value": 93.374,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 768,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 121.58,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 19.943,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "eff_joints_tested": {
+          "value": 32,
+          "unit": null
+        },
+        "eff_joints_passed": {
+          "value": 32,
+          "unit": null
+        },
+        "eff_joints_failed": {
+          "value": 0,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "ground_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.074,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "ground_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "joint_movement",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 108.016,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 7.956,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 45,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 176.79,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 1.251,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_idx01_body_joint1_rot_deg": {
+          "value": 62.027,
+          "unit": null
+        },
+        "jm_joint_idx01_body_joint1_trans_pct": {
+          "value": 3.68,
+          "unit": null
+        },
+        "jm_joint_idx01_body_joint1_bbox_m": {
+          "value": 2.7976,
+          "unit": null
+        },
+        "jm_joint_idx01_body_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx02_body_joint2_rot_deg": {
+          "value": 152.007,
+          "unit": null
+        },
+        "jm_joint_idx02_body_joint2_trans_pct": {
+          "value": 18.75,
+          "unit": null
+        },
+        "jm_joint_idx02_body_joint2_bbox_m": {
+          "value": 2.592,
+          "unit": null
+        },
+        "jm_joint_idx02_body_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx03_body_joint3_rot_deg": {
+          "value": 109.301,
+          "unit": null
+        },
+        "jm_joint_idx03_body_joint3_trans_pct": {
+          "value": 28.07,
+          "unit": null
+        },
+        "jm_joint_idx03_body_joint3_bbox_m": {
+          "value": 2.4256,
+          "unit": null
+        },
+        "jm_joint_idx03_body_joint3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx04_body_joint4_rot_deg": {
+          "value": 24.99,
+          "unit": null
+        },
+        "jm_joint_idx04_body_joint4_trans_pct": {
+          "value": 16.24,
+          "unit": null
+        },
+        "jm_joint_idx04_body_joint4_bbox_m": {
+          "value": 2.4256,
+          "unit": null
+        },
+        "jm_joint_idx04_body_joint4_pct_of_travel": {
+          "value": 99.9,
+          "unit": null
+        },
+        "jm_joint_idx05_body_joint5_rot_deg": {
+          "value": 174.502,
+          "unit": null
+        },
+        "jm_joint_idx05_body_joint5_trans_pct": {
+          "value": 30.61,
+          "unit": null
+        },
+        "jm_joint_idx05_body_joint5_bbox_m": {
+          "value": 2.3495,
+          "unit": null
+        },
+        "jm_joint_idx05_body_joint5_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx11_head_joint1_rot_deg": {
+          "value": 44.748,
+          "unit": null
+        },
+        "jm_joint_idx11_head_joint1_trans_pct": {
+          "value": 92.91,
+          "unit": null
+        },
+        "jm_joint_idx11_head_joint1_bbox_m": {
+          "value": 0.4513,
+          "unit": null
+        },
+        "jm_joint_idx11_head_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx12_head_joint2_rot_deg": {
+          "value": 8.677,
+          "unit": null
+        },
+        "jm_joint_idx12_head_joint2_trans_pct": {
+          "value": 81.14,
+          "unit": null
+        },
+        "jm_joint_idx12_head_joint2_bbox_m": {
+          "value": 0.353,
+          "unit": null
+        },
+        "jm_joint_idx12_head_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx13_head_joint3_rot_deg": {
+          "value": 29.978,
+          "unit": null
+        },
+        "jm_joint_idx13_head_joint3_trans_pct": {
+          "value": 239.79,
+          "unit": null
+        },
+        "jm_joint_idx13_head_joint3_bbox_m": {
+          "value": 0.353,
+          "unit": null
+        },
+        "jm_joint_idx13_head_joint3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx21_arm_l_joint1_rot_deg": {
+          "value": 176.033,
+          "unit": null
+        },
+        "jm_joint_idx21_arm_l_joint1_trans_pct": {
+          "value": 182.63,
+          "unit": null
+        },
+        "jm_joint_idx21_arm_l_joint1_bbox_m": {
+          "value": 0.9585,
+          "unit": null
+        },
+        "jm_joint_idx21_arm_l_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx61_arm_r_joint1_rot_deg": {
+          "value": 179.915,
+          "unit": null
+        },
+        "jm_joint_idx61_arm_r_joint1_trans_pct": {
+          "value": 272.47,
+          "unit": null
+        },
+        "jm_joint_idx61_arm_r_joint1_bbox_m": {
+          "value": 0.9585,
+          "unit": null
+        },
+        "jm_joint_idx61_arm_r_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx22_arm_l_joint2_rot_deg": {
+          "value": 179.992,
+          "unit": null
+        },
+        "jm_joint_idx22_arm_l_joint2_trans_pct": {
+          "value": 319.9,
+          "unit": null
+        },
+        "jm_joint_idx22_arm_l_joint2_bbox_m": {
+          "value": 0.9417,
+          "unit": null
+        },
+        "jm_joint_idx22_arm_l_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx23_arm_l_joint3_rot_deg": {
+          "value": 179.991,
+          "unit": null
+        },
+        "jm_joint_idx23_arm_l_joint3_trans_pct": {
+          "value": 326.97,
+          "unit": null
+        },
+        "jm_joint_idx23_arm_l_joint3_bbox_m": {
+          "value": 0.7202,
+          "unit": null
+        },
+        "jm_joint_idx23_arm_l_joint3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx24_arm_l_joint4_rot_deg": {
+          "value": 162.109,
+          "unit": null
+        },
+        "jm_joint_idx24_arm_l_joint4_trans_pct": {
+          "value": 545.62,
+          "unit": null
+        },
+        "jm_joint_idx24_arm_l_joint4_bbox_m": {
+          "value": 0.6153,
+          "unit": null
+        },
+        "jm_joint_idx24_arm_l_joint4_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx25_arm_l_joint5_rot_deg": {
+          "value": 179.985,
+          "unit": null
+        },
+        "jm_joint_idx25_arm_l_joint5_trans_pct": {
+          "value": 523.69,
+          "unit": null
+        },
+        "jm_joint_idx25_arm_l_joint5_bbox_m": {
+          "value": 0.4392,
+          "unit": null
+        },
+        "jm_joint_idx25_arm_l_joint5_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx26_arm_l_joint6_rot_deg": {
+          "value": 176.42,
+          "unit": null
+        },
+        "jm_joint_idx26_arm_l_joint6_trans_pct": {
+          "value": 1127.0,
+          "unit": null
+        },
+        "jm_joint_idx26_arm_l_joint6_bbox_m": {
+          "value": 0.3469,
+          "unit": null
+        },
+        "jm_joint_idx26_arm_l_joint6_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx27_arm_l_joint7_rot_deg": {
+          "value": 179.99,
+          "unit": null
+        },
+        "jm_joint_idx27_arm_l_joint7_trans_pct": {
+          "value": 868.64,
+          "unit": null
+        },
+        "jm_joint_idx27_arm_l_joint7_bbox_m": {
+          "value": 0.342,
+          "unit": null
+        },
+        "jm_joint_idx27_arm_l_joint7_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx31_gripper_l_inner_joint1_rot_deg": {
+          "value": 179.979,
+          "unit": null
+        },
+        "jm_joint_idx31_gripper_l_inner_joint1_trans_pct": {
+          "value": 3338.46,
+          "unit": null
+        },
+        "jm_joint_idx31_gripper_l_inner_joint1_bbox_m": {
+          "value": 0.1289,
+          "unit": null
+        },
+        "jm_joint_idx31_gripper_l_inner_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx41_gripper_l_outer_joint1_rot_deg": {
+          "value": 176.733,
+          "unit": null
+        },
+        "jm_joint_idx41_gripper_l_outer_joint1_trans_pct": {
+          "value": 3220.68,
+          "unit": null
+        },
+        "jm_joint_idx41_gripper_l_outer_joint1_bbox_m": {
+          "value": 0.133,
+          "unit": null
+        },
+        "jm_joint_idx41_gripper_l_outer_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx32_gripper_l_inner_joint3_rot_deg": {
+          "value": 179.944,
+          "unit": null
+        },
+        "jm_joint_idx32_gripper_l_inner_joint3_trans_pct": {
+          "value": 3247.48,
+          "unit": null
+        },
+        "jm_joint_idx32_gripper_l_inner_joint3_bbox_m": {
+          "value": 0.1078,
+          "unit": null
+        },
+        "jm_joint_idx32_gripper_l_inner_joint3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx33_gripper_l_inner_joint4_rot_deg": {
+          "value": 9.545,
+          "unit": null
+        },
+        "jm_joint_idx33_gripper_l_inner_joint4_trans_pct": {
+          "value": 177.91,
+          "unit": null
+        },
+        "jm_joint_idx33_gripper_l_inner_joint4_bbox_m": {
+          "value": 0.1026,
+          "unit": null
+        },
+        "jm_joint_idx33_gripper_l_inner_joint4_pct_of_travel": {
+          "value": 8.3,
+          "unit": null
+        },
+        "jm_joint_idx39_gripper_l_inner_joint0_rot_deg": {
+          "value": 52.079,
+          "unit": null
+        },
+        "jm_joint_idx39_gripper_l_inner_joint0_trans_pct": {
+          "value": 1019.45,
+          "unit": null
+        },
+        "jm_joint_idx39_gripper_l_inner_joint0_bbox_m": {
+          "value": 0.0691,
+          "unit": null
+        },
+        "jm_joint_idx39_gripper_l_inner_joint0_pct_of_travel": {
+          "value": 45.4,
+          "unit": null
+        },
+        "jm_joint_idx42_gripper_l_outer_joint3_rot_deg": {
+          "value": 179.898,
+          "unit": null
+        },
+        "jm_joint_idx42_gripper_l_outer_joint3_trans_pct": {
+          "value": 2888.03,
+          "unit": null
+        },
+        "jm_joint_idx42_gripper_l_outer_joint3_bbox_m": {
+          "value": 0.1127,
+          "unit": null
+        },
+        "jm_joint_idx42_gripper_l_outer_joint3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx43_gripper_l_outer_joint4_rot_deg": {
+          "value": 17.357,
+          "unit": null
+        },
+        "jm_joint_idx43_gripper_l_outer_joint4_trans_pct": {
+          "value": 238.43,
+          "unit": null
+        },
+        "jm_joint_idx43_gripper_l_outer_joint4_bbox_m": {
+          "value": 0.1078,
+          "unit": null
+        },
+        "jm_joint_idx43_gripper_l_outer_joint4_pct_of_travel": {
+          "value": 15.1,
+          "unit": null
+        },
+        "jm_joint_idx49_gripper_l_outer_joint0_rot_deg": {
+          "value": 29.088,
+          "unit": null
+        },
+        "jm_joint_idx49_gripper_l_outer_joint0_trans_pct": {
+          "value": 858.97,
+          "unit": null
+        },
+        "jm_joint_idx49_gripper_l_outer_joint0_bbox_m": {
+          "value": 0.0691,
+          "unit": null
+        },
+        "jm_joint_idx49_gripper_l_outer_joint0_pct_of_travel": {
+          "value": 25.4,
+          "unit": null
+        },
+        "jm_joint_idx62_arm_r_joint2_rot_deg": {
+          "value": 179.917,
+          "unit": null
+        },
+        "jm_joint_idx62_arm_r_joint2_trans_pct": {
+          "value": 250.92,
+          "unit": null
+        },
+        "jm_joint_idx62_arm_r_joint2_bbox_m": {
+          "value": 0.9417,
+          "unit": null
+        },
+        "jm_joint_idx62_arm_r_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx63_arm_r_joint3_rot_deg": {
+          "value": 145.374,
+          "unit": null
+        },
+        "jm_joint_idx63_arm_r_joint3_trans_pct": {
+          "value": 368.09,
+          "unit": null
+        },
+        "jm_joint_idx63_arm_r_joint3_bbox_m": {
+          "value": 0.7202,
+          "unit": null
+        },
+        "jm_joint_idx63_arm_r_joint3_pct_of_travel": {
+          "value": 82.6,
+          "unit": null
+        },
+        "jm_joint_idx64_arm_r_joint4_rot_deg": {
+          "value": 179.977,
+          "unit": null
+        },
+        "jm_joint_idx64_arm_r_joint4_trans_pct": {
+          "value": 411.46,
+          "unit": null
+        },
+        "jm_joint_idx64_arm_r_joint4_bbox_m": {
+          "value": 0.6153,
+          "unit": null
+        },
+        "jm_joint_idx64_arm_r_joint4_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx65_arm_r_joint5_rot_deg": {
+          "value": 179.982,
+          "unit": null
+        },
+        "jm_joint_idx65_arm_r_joint5_trans_pct": {
+          "value": 704.07,
+          "unit": null
+        },
+        "jm_joint_idx65_arm_r_joint5_bbox_m": {
+          "value": 0.4392,
+          "unit": null
+        },
+        "jm_joint_idx65_arm_r_joint5_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx66_arm_r_joint6_rot_deg": {
+          "value": 179.985,
+          "unit": null
+        },
+        "jm_joint_idx66_arm_r_joint6_trans_pct": {
+          "value": 822.06,
+          "unit": null
+        },
+        "jm_joint_idx66_arm_r_joint6_bbox_m": {
+          "value": 0.3468,
+          "unit": null
+        },
+        "jm_joint_idx66_arm_r_joint6_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx67_arm_r_joint7_rot_deg": {
+          "value": 179.913,
+          "unit": null
+        },
+        "jm_joint_idx67_arm_r_joint7_trans_pct": {
+          "value": 912.57,
+          "unit": null
+        },
+        "jm_joint_idx67_arm_r_joint7_bbox_m": {
+          "value": 0.3421,
+          "unit": null
+        },
+        "jm_joint_idx67_arm_r_joint7_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx71_gripper_r_inner_joint1_rot_deg": {
+          "value": 177.941,
+          "unit": null
+        },
+        "jm_joint_idx71_gripper_r_inner_joint1_trans_pct": {
+          "value": 2527.33,
+          "unit": null
+        },
+        "jm_joint_idx71_gripper_r_inner_joint1_bbox_m": {
+          "value": 0.1289,
+          "unit": null
+        },
+        "jm_joint_idx71_gripper_r_inner_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx81_gripper_r_outer_joint1_rot_deg": {
+          "value": 179.932,
+          "unit": null
+        },
+        "jm_joint_idx81_gripper_r_outer_joint1_trans_pct": {
+          "value": 2331.94,
+          "unit": null
+        },
+        "jm_joint_idx81_gripper_r_outer_joint1_bbox_m": {
+          "value": 0.133,
+          "unit": null
+        },
+        "jm_joint_idx81_gripper_r_outer_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx72_gripper_r_inner_joint3_rot_deg": {
+          "value": 179.815,
+          "unit": null
+        },
+        "jm_joint_idx72_gripper_r_inner_joint3_trans_pct": {
+          "value": 2780.0,
+          "unit": null
+        },
+        "jm_joint_idx72_gripper_r_inner_joint3_bbox_m": {
+          "value": 0.1078,
+          "unit": null
+        },
+        "jm_joint_idx72_gripper_r_inner_joint3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx73_gripper_r_inner_joint4_rot_deg": {
+          "value": 9.545,
+          "unit": null
+        },
+        "jm_joint_idx73_gripper_r_inner_joint4_trans_pct": {
+          "value": 136.03,
+          "unit": null
+        },
+        "jm_joint_idx73_gripper_r_inner_joint4_bbox_m": {
+          "value": 0.1026,
+          "unit": null
+        },
+        "jm_joint_idx73_gripper_r_inner_joint4_pct_of_travel": {
+          "value": 8.3,
+          "unit": null
+        },
+        "jm_joint_idx79_gripper_r_inner_joint0_rot_deg": {
+          "value": 52.073,
+          "unit": null
+        },
+        "jm_joint_idx79_gripper_r_inner_joint0_trans_pct": {
+          "value": 1143.51,
+          "unit": null
+        },
+        "jm_joint_idx79_gripper_r_inner_joint0_bbox_m": {
+          "value": 0.0691,
+          "unit": null
+        },
+        "jm_joint_idx79_gripper_r_inner_joint0_pct_of_travel": {
+          "value": 45.4,
+          "unit": null
+        },
+        "jm_joint_idx82_gripper_r_outer_joint3_rot_deg": {
+          "value": 179.642,
+          "unit": null
+        },
+        "jm_joint_idx82_gripper_r_outer_joint3_trans_pct": {
+          "value": 2879.46,
+          "unit": null
+        },
+        "jm_joint_idx82_gripper_r_outer_joint3_bbox_m": {
+          "value": 0.1127,
+          "unit": null
+        },
+        "jm_joint_idx82_gripper_r_outer_joint3_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx83_gripper_r_outer_joint4_rot_deg": {
+          "value": 17.359,
+          "unit": null
+        },
+        "jm_joint_idx83_gripper_r_outer_joint4_trans_pct": {
+          "value": 302.22,
+          "unit": null
+        },
+        "jm_joint_idx83_gripper_r_outer_joint4_bbox_m": {
+          "value": 0.1078,
+          "unit": null
+        },
+        "jm_joint_idx83_gripper_r_outer_joint4_pct_of_travel": {
+          "value": 15.1,
+          "unit": null
+        },
+        "jm_joint_idx89_gripper_r_outer_joint0_rot_deg": {
+          "value": 29.089,
+          "unit": null
+        },
+        "jm_joint_idx89_gripper_r_outer_joint0_trans_pct": {
+          "value": 733.25,
+          "unit": null
+        },
+        "jm_joint_idx89_gripper_r_outer_joint0_bbox_m": {
+          "value": 0.0691,
+          "unit": null
+        },
+        "jm_joint_idx89_gripper_r_outer_joint0_pct_of_travel": {
+          "value": 25.4,
+          "unit": null
+        },
+        "jm_joint_idx111_chassis_lwheel_front_joint1_rot_deg": {
+          "value": 170.18,
+          "unit": null
+        },
+        "jm_joint_idx111_chassis_lwheel_front_joint1_trans_pct": {
+          "value": 0.05,
+          "unit": null
+        },
+        "jm_joint_idx111_chassis_lwheel_front_joint1_bbox_m": {
+          "value": 0.2709,
+          "unit": null
+        },
+        "jm_joint_idx111_chassis_lwheel_front_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx131_chassis_rwheel_front_joint1_rot_deg": {
+          "value": 170.196,
+          "unit": null
+        },
+        "jm_joint_idx131_chassis_rwheel_front_joint1_trans_pct": {
+          "value": 0.03,
+          "unit": null
+        },
+        "jm_joint_idx131_chassis_rwheel_front_joint1_bbox_m": {
+          "value": 0.2709,
+          "unit": null
+        },
+        "jm_joint_idx131_chassis_rwheel_front_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx141_chassis_rwheel_rear_joint1_rot_deg": {
+          "value": 170.196,
+          "unit": null
+        },
+        "jm_joint_idx141_chassis_rwheel_rear_joint1_trans_pct": {
+          "value": 0.03,
+          "unit": null
+        },
+        "jm_joint_idx141_chassis_rwheel_rear_joint1_bbox_m": {
+          "value": 0.2709,
+          "unit": null
+        },
+        "jm_joint_idx141_chassis_rwheel_rear_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx121_chassis_lwheel_rear_joint1_rot_deg": {
+          "value": 170.18,
+          "unit": null
+        },
+        "jm_joint_idx121_chassis_lwheel_rear_joint1_trans_pct": {
+          "value": 0.05,
+          "unit": null
+        },
+        "jm_joint_idx121_chassis_lwheel_rear_joint1_bbox_m": {
+          "value": 0.2709,
+          "unit": null
+        },
+        "jm_joint_idx121_chassis_lwheel_rear_joint1_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx112_chassis_lwheel_front_joint2_rot_deg": {
+          "value": 30.036,
+          "unit": null
+        },
+        "jm_joint_idx112_chassis_lwheel_front_joint2_trans_pct": {
+          "value": 100.34,
+          "unit": null
+        },
+        "jm_joint_idx112_chassis_lwheel_front_joint2_bbox_m": {
+          "value": 0.2133,
+          "unit": null
+        },
+        "jm_joint_idx112_chassis_lwheel_front_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx132_chassis_rwheel_front_joint2_rot_deg": {
+          "value": 30.001,
+          "unit": null
+        },
+        "jm_joint_idx132_chassis_rwheel_front_joint2_trans_pct": {
+          "value": 100.55,
+          "unit": null
+        },
+        "jm_joint_idx132_chassis_rwheel_front_joint2_bbox_m": {
+          "value": 0.2133,
+          "unit": null
+        },
+        "jm_joint_idx132_chassis_rwheel_front_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx142_chassis_rwheel_rear_joint2_rot_deg": {
+          "value": 30.001,
+          "unit": null
+        },
+        "jm_joint_idx142_chassis_rwheel_rear_joint2_trans_pct": {
+          "value": 100.4,
+          "unit": null
+        },
+        "jm_joint_idx142_chassis_rwheel_rear_joint2_bbox_m": {
+          "value": 0.2133,
+          "unit": null
+        },
+        "jm_joint_idx142_chassis_rwheel_rear_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joint_idx122_chassis_lwheel_rear_joint2_rot_deg": {
+          "value": 30.036,
+          "unit": null
+        },
+        "jm_joint_idx122_chassis_lwheel_rear_joint2_trans_pct": {
+          "value": 100.64,
+          "unit": null
+        },
+        "jm_joint_idx122_chassis_lwheel_rear_joint2_bbox_m": {
+          "value": 0.2133,
+          "unit": null
+        },
+        "jm_joint_idx122_chassis_lwheel_rear_joint2_pct_of_travel": {
+          "value": 100.0,
+          "unit": null
+        },
+        "jm_joints_total": {
+          "value": 46,
+          "unit": null
+        },
+        "jm_joints_passed": {
+          "value": 46,
+          "unit": null
+        },
+        "jm_joints_failed": {
+          "value": 0,
+          "unit": null
+        },
+        "jm_joint_idx01_body_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx02_body_joint2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx03_body_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx04_body_joint4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx05_body_joint5_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx11_head_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx12_head_joint2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx13_head_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx21_arm_l_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx61_arm_r_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx22_arm_l_joint2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx23_arm_l_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx24_arm_l_joint4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx25_arm_l_joint5_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx26_arm_l_joint6_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx27_arm_l_joint7_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx31_gripper_l_inner_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx41_gripper_l_outer_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx32_gripper_l_inner_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx33_gripper_l_inner_joint4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx39_gripper_l_inner_joint0_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx42_gripper_l_outer_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx43_gripper_l_outer_joint4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx49_gripper_l_outer_joint0_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx62_arm_r_joint2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx63_arm_r_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx64_arm_r_joint4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx65_arm_r_joint5_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx66_arm_r_joint6_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx67_arm_r_joint7_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx71_gripper_r_inner_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx81_gripper_r_outer_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx72_gripper_r_inner_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx73_gripper_r_inner_joint4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx79_gripper_r_inner_joint0_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx82_gripper_r_outer_joint3_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx83_gripper_r_outer_joint4_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx89_gripper_r_outer_joint0_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx111_chassis_lwheel_front_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx131_chassis_rwheel_front_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx141_chassis_rwheel_rear_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx121_chassis_lwheel_rear_joint1_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx112_chassis_lwheel_front_joint2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx132_chassis_rwheel_front_joint2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx142_chassis_rwheel_rear_joint2_status": {
+          "value": "passed",
+          "unit": null
+        },
+        "jm_joint_idx122_chassis_lwheel_rear_joint2_status": {
+          "value": "passed",
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "light_response",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 9.039,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.813,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 30,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 93.78,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.724,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_variation_ratio": {
+          "value": 0.482759,
+          "unit": null
+        },
+        "light_response_blank_ratio": {
+          "value": 0.0,
+          "unit": null
+        },
+        "light_response_blank_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "light_response_total_frames": {
+          "value": 30,
+          "unit": null
+        },
+        "light_response_total_pairs": {
+          "value": 29,
+          "unit": null
+        },
+        "light_response_different_pairs": {
+          "value": 14,
+          "unit": null
+        },
+        "light_response_passed": {
+          "value": 1,
+          "unit": null
+        },
+        "light_response_max_pair_change": {
+          "value": 0.776777,
+          "unit": null
+        },
+        "light_response_min_pair_change": {
+          "value": 0.014483,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "normals_xz",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 3.377,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.636,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 8,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 79.51,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.296,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 1,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_avg_dark": {
+          "value": 0.005447,
+          "unit": null
+        },
+        "normals_xz_max_dark": {
+          "value": 0.008943,
+          "unit": null
+        },
+        "normals_xz_problem_frames": {
+          "value": 0,
+          "unit": null
+        },
+        "normals_xz_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "pivot",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 7.215,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 2.141,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 20,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 107.04,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.704,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_score": {
+          "value": 0.9,
+          "unit": null
+        },
+        "pivot_pivot_height_pct": {
+          "value": 2.3,
+          "unit": null
+        },
+        "pivot_pivot_at_base": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_pivot_centered_xy": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_ground_penetration": {
+          "value": 1,
+          "unit": null
+        },
+        "pivot_orbital_motion": {
+          "value": 0,
+          "unit": null
+        },
+        "pivot_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "presence",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 1.716,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.144,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 2,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 72.08,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "presence_diff_ratio": {
+          "value": 0.060658,
+          "unit": null
+        },
+        "presence_passed": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    },
+    {
+      "test_name": "preview_surface_renders",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "pass",
+      "passed": true,
+      "duration": 2.447,
+      "message": "",
+      "metrics": {
+        "_timing_capture_frame_total_s": {
+          "value": 0.674,
+          "unit": null
+        },
+        "_timing_capture_frame_count": {
+          "value": 4,
+          "unit": null
+        },
+        "_timing_capture_frame_avg_ms": {
+          "value": 168.55,
+          "unit": null
+        },
+        "_timing_encode_video_total_s": {
+          "value": 0.0,
+          "unit": null
+        },
+        "_timing_encode_video_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_count": {
+          "value": 0,
+          "unit": null
+        },
+        "_render_blank_retry_unrecovered": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_universal": {
+          "value": 69,
+          "unit": null
+        },
+        "universal_surface_materials_with_mdl": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_with_mtlx": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_materials_total": {
+          "value": 69,
+          "unit": null
+        },
+        "universal_surface_asset_root": {
+          "value": "/World/AssetRoot/Asset",
+          "unit": null
+        },
+        "universal_surface_contexts_present": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_render_context_order": {
+          "value": "universal",
+          "unit": null
+        },
+        "universal_surface_silhouette_pixels": {
+          "value": 61378,
+          "unit": null
+        },
+        "universal_surface_uncovered_pixels": {
+          "value": 0,
+          "unit": null
+        },
+        "universal_surface_coverage": {
+          "value": 1.0,
+          "unit": null
+        }
+      },
+      "kit_logs": [
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: Traceback (most recent call last):"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/impl/texture.py\", line 377, in on_drawable_changed"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__drawable_changed_fn(texture[\"rp_resource\"], presentation_key)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/widget.py\", line 516, in __set_image_data"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     vp_api._sync_viewport_api(camera, canvas_size, vp_api.time, view, projection, force_update=True)  # noqa PLW0212"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/api.py\", line 546, in _sync_viewport_api"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     self.__projection = self._conform_projection(policy, camera, image_aspect, canvas_aspect, projection)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:   File \"<omni.kit.widget.viewport>/omni/kit/widget/viewport/api.py\", line 476, in _conform_projection"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:     gf_camera = camera.GetCamera(self.__time)"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]:                 ^^^^^^^^^^^^^^^^"
+        },
+        {
+          "level": "error",
+          "channel": "omni.kit.app._impl",
+          "message": "[py stderr]: AttributeError: 'NoneType' object has no attribute 'GetCamera'"
+        }
+      ]
+    },
+    {
+      "test_name": "slope_drop",
+      "engine": "isaac_sim",
+      "engine_version": "6.0.1",
+      "status": "skipped",
+      "passed": false,
+      "duration": 0.096,
+      "message": "Asset is world-anchored (FixedJoint to world) -- test not applicable. World-anchored assets cannot fall or slide.",
+      "metrics": {
+        "slope_drop_skipped": {
+          "value": 1,
+          "unit": null
+        }
+      },
+      "kit_logs": []
+    }
+  ]
+}

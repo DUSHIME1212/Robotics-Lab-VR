@@ -1,0 +1,351 @@
+#usda 1.0
+(
+    defaultPrim = "fr3_duo"
+    doc = "Newton overrides for fr3_duo.usda"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "fr3_duo"
+{
+    over "Geometry"
+    {
+        over "base" (
+            prepend apiSchemas = ["NewtonArticulationRootAPI"]
+        )
+        {
+            bool newton:selfCollisionEnabled = 0
+
+            over "fr3_duo_mount_mounting_point"
+            {
+                over "fr3_duo_mount_origin"
+                {
+                    over "fr3_duo_mount_left"
+                    {
+                        over "left_base"
+                        {
+                            over "left_fr3v2_1_link0"
+                            {
+                                over "left_fr3v2_1_link1"
+                                {
+                                    over "left_fr3v2_1_link2"
+                                    {
+                                        over "left_fr3v2_1_link3"
+                                        {
+                                            over "left_fr3v2_1_link4"
+                                            {
+                                                over "left_fr3v2_1_link5"
+                                                {
+                                                    over "left_fr3v2_1_link6"
+                                                    {
+                                                        over "left_fr3v2_1_link7"
+                                                        {
+                                                            over "left_fr3v2_1_link7_collision"
+                                                            {
+                                                                over "left_fr3v2_1_link7_collision" (
+                                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                )
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+
+                                                        over "left_fr3v2_1_link6_collision"
+                                                        {
+                                                            over "left_fr3v2_1_link6_collision" (
+                                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                            )
+                                                            {
+                                                            }
+                                                        }
+                                                    }
+
+                                                    over "left_fr3v2_1_link5_collision"
+                                                    {
+                                                        over "left_fr3v2_1_link5_collision" (
+                                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                        )
+                                                        {
+                                                        }
+                                                    }
+                                                }
+
+                                                over "left_fr3v2_1_link4_collision"
+                                                {
+                                                    over "left_fr3v2_1_link4_collision" (
+                                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+                                            }
+
+                                            over "left_fr3v2_1_link3_collision"
+                                            {
+                                                over "left_fr3v2_1_link3_collision" (
+                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                )
+                                                {
+                                                }
+                                            }
+                                        }
+
+                                        over "left_fr3v2_1_link2_collision"
+                                        {
+                                            over "left_fr3v2_1_link2_collision" (
+                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                            )
+                                            {
+                                            }
+                                        }
+                                    }
+
+                                    over "left_fr3v2_1_link1_collision"
+                                    {
+                                        over "left_fr3v2_1_link1_collision" (
+                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                        )
+                                        {
+                                        }
+                                    }
+                                }
+
+                                over "left_fr3v2_1_link0_collision"
+                                {
+                                    over "left_fr3v2_1_link0_collision" (
+                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                    )
+                                    {
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    over "fr3_duo_mount_right"
+                    {
+                        over "right_base"
+                        {
+                            over "right_fr3v2_1_link0"
+                            {
+                                over "right_fr3v2_1_link1"
+                                {
+                                    over "right_fr3v2_1_link2"
+                                    {
+                                        over "right_fr3v2_1_link3"
+                                        {
+                                            over "right_fr3v2_1_link4"
+                                            {
+                                                over "right_fr3v2_1_link5"
+                                                {
+                                                    over "right_fr3v2_1_link6"
+                                                    {
+                                                        over "right_fr3v2_1_link7"
+                                                        {
+                                                            over "right_fr3v2_1_link7_collision"
+                                                            {
+                                                                over "left_fr3v2_1_link7_collision" (
+                                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                                )
+                                                                {
+                                                                }
+                                                            }
+                                                        }
+
+                                                        over "right_fr3v2_1_link6_collision"
+                                                        {
+                                                            over "left_fr3v2_1_link6_collision" (
+                                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                            )
+                                                            {
+                                                            }
+                                                        }
+                                                    }
+
+                                                    over "right_fr3v2_1_link5_collision"
+                                                    {
+                                                        over "left_fr3v2_1_link5_collision" (
+                                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                        )
+                                                        {
+                                                        }
+                                                    }
+                                                }
+
+                                                over "right_fr3v2_1_link4_collision"
+                                                {
+                                                    over "left_fr3v2_1_link4_collision" (
+                                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                    )
+                                                    {
+                                                    }
+                                                }
+                                            }
+
+                                            over "right_fr3v2_1_link3_collision"
+                                            {
+                                                over "left_fr3v2_1_link3_collision" (
+                                                    prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                                )
+                                                {
+                                                }
+                                            }
+                                        }
+
+                                        over "right_fr3v2_1_link2_collision"
+                                        {
+                                            over "left_fr3v2_1_link2_collision" (
+                                                prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                            )
+                                            {
+                                            }
+                                        }
+                                    }
+
+                                    over "right_fr3v2_1_link1_collision"
+                                    {
+                                        over "left_fr3v2_1_link1_collision" (
+                                            prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                        )
+                                        {
+                                        }
+                                    }
+                                }
+
+                                over "right_fr3v2_1_link0_collision"
+                                {
+                                    over "left_fr3v2_1_link0_collision" (
+                                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                                    )
+                                    {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                over "fr3_duo_mount_1"
+                {
+                    over "fr3_duo_mount_1" (
+                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                    )
+                    {
+                    }
+                }
+
+                over "fr3_duo_cover_1"
+                {
+                    over "fr3_duo_cover_1" (
+                        prepend apiSchemas = ["NewtonCollisionAPI", "NewtonMeshCollisionAPI"]
+                    )
+                    {
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        over "left_fr3v2_1_joint1" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint2" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint3" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint4" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint5" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint6" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "left_fr3v2_1_joint7" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint1" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint2" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint3" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint4" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint5" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint6" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+
+        over "right_fr3v2_1_joint7" (
+            prepend apiSchemas = ["NewtonJointAPI"]
+        )
+        {
+            float newton:armature = 0.195
+        }
+    }
+}
+

@@ -1,0 +1,122 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.3.2"
+    }
+    defaultPrim = "S18_17"
+    endTimeCode = 1000000
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    startTimeCode = 0
+    upAxis = "Z"
+)
+
+over "S18_17" (
+    prepend apiSchemas = ["IsaacRobotAPI"]
+)
+{
+    prepend rel isaac:physics:robotJoints = [
+        </S18_17/Physics/root_joint>,
+        </S18_17/Physics/joint_1>,
+        </S18_17/Physics/joint_2>,
+        </S18_17/Physics/joint_3>,
+        </S18_17/Physics/joint_4>,
+        </S18_17/Physics/joint_5>,
+        </S18_17/Physics/joint_6>,
+    ]
+    prepend rel isaac:physics:robotLinks = [
+        </S18_17/Geometry/base_link>,
+        </S18_17/Geometry/base_link/link_1>,
+        </S18_17/Geometry/base_link/link_1/link_2>,
+        </S18_17/Geometry/base_link/link_1/link_2/link_3>,
+        </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4>,
+        </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4/link_5>,
+        </S18_17/Geometry/base_link/link_1/link_2/link_3/link_4/link_5/link_6>,
+    ]
+    token isaac:robotType = "Manipulator"
+
+    over "Geometry"
+    {
+        over "base_link" (
+            prepend apiSchemas = ["IsaacLinkAPI"]
+        )
+        {
+            over "link_1" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "link_2" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "link_3" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "link_4" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                            over "link_5" (
+                                prepend apiSchemas = ["IsaacLinkAPI"]
+                            )
+                            {
+                                over "link_6" (
+                                    prepend apiSchemas = ["IsaacLinkAPI"]
+                                )
+                                {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        over "root_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "joint_1" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "joint_2" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "joint_3" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "joint_4" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "joint_5" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "joint_6" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+    }
+}
+

@@ -1,0 +1,11 @@
+#usda 1.0
+(
+    defaultPrim = "n_220_27"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "n_220_27"
+{
+}
+

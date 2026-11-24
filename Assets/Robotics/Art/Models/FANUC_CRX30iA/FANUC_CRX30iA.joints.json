@@ -1,0 +1,54 @@
+{
+  "robot": "FANUC_CRX30iA",
+  "source": "crx30ia.usd",
+  "joints": [
+    {
+      "name": "J1",
+      "type": "revolute",
+      "lower": -179.89999389648438,
+      "upper": 179.89999389648438,
+      "parent": "root",
+      "childLink": "J1_link"
+    },
+    {
+      "name": "J2",
+      "type": "revolute",
+      "lower": -179.89999389648438,
+      "upper": 179.89999389648438,
+      "parent": "J1",
+      "childLink": "J2_link"
+    },
+    {
+      "name": "J3",
+      "type": "revolute",
+      "lower": -270.0,
+      "upper": 270.0,
+      "parent": "J2",
+      "childLink": "J3_link"
+    },
+    {
+      "name": "J4",
+      "type": "revolute",
+      "lower": -190.0,
+      "upper": 190.0,
+      "parent": "J3",
+      "childLink": "J4_link"
+    },
+    {
+      "name": "J5",
+      "type": "revolute",
+      "lower": -179.89999389648438,
+      "upper": 179.89999389648438,
+      "parent": "J4",
+      "childLink": "J5_link"
+    },
+    {
+      "name": "J6",
+      "type": "revolute",
+      "lower": -224.99998474121094,
+      "upper": 224.99998474121094,
+      "parent": "J5",
+      "childLink": "J6_link"
+    }
+  ]
+}
